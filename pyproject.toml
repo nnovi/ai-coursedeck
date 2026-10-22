@@ -4,7 +4,11 @@ version = "0.1.0"
 description = "Teacher assistant: lecture-notes PDF -> structured lecture card -> Visme presentation draft"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "httpx>=0.28",
+    "pydantic>=2.9",
+    "pymupdf>=1.26",
+]
 
 [project.optional-dependencies]
 dev = ["pytest", "ruff"]

@@ -11,10 +11,13 @@ Stages:
 ## Layout
 
 ```
-src/coursedeck/   package code
-data/raw/         source PDFs (Creative Commons licensed, committed)
-data/golden/      hand-labelled golden set
-scripts/          dataset collection and utilities
+src/coursedeck/       package code
+  dataset/            manifests, PDF inspection, fetching by manifest
+data/manifests/       dataset manifests (CSV) and the golden-set list
+data/pdfs/            core documents (tier 50, committed)
+data/pdfs_extra/      larger tiers, fetched by manifest (not committed)
+data/golden/          hand-labelled golden set
+scripts/              dataset collection and selection
 tests/
 ```
 
@@ -25,3 +28,52 @@ python -m venv .venv
 .venv/Scripts/activate        # Windows; use .venv/bin/activate elsewhere
 pip install -e ".[dev]"
 ```
+
+## Dataset
+
+Lecture notes in English (MIT OpenCourseWare, CC BY-NC-SA 4.0) and Ukrainian
+(university course books on Zenodo, CC BY 4.0 / CC BY-SA 4.0). Ukrainian books cover a
+whole course, so each document is one lecture cut out of a book by page range.
+
+Manifests are nested: every tier contains the previous one.
+
+| Manifest | Docs | EN | UK | Stored |
+|---|---|---|---|---|
+| `dataset_050.csv` | 50 | 38 | 12 | in the repo (`data/pdfs/`) |
+| `dataset_100.csv` | 100 | 80 | 20 | +50 fetched |
+| `dataset_200.csv` | 200 | 165 | 35 | +150 fetched |
+| `dataset_500.csv` | 500 | 440 | 60 | +450 fetched |
+| `golden.csv` | 20 | 14 | 6 | subset of tier 50 |
+
+English documents are stratified into scans (no text layer), slides and regular notes;
+departments are sampled round-robin so even small tiers cover many fields.
+
+Fetch a larger tier (downloads source PDFs, verifies SHA-256, cuts the page range):
+
+```bash
+python -m coursedeck.dataset.fetch data/manifests/dataset_200.csv
+```
+
+Rebuild the dataset from scratch (indexes the sources, downloads ~1 GB of candidates into
+`data/cache/`, selects documents, rewrites manifests and `data/pdfs/`):
+
+```bash
+python scripts/collect_sources.py
+python scripts/build_dataset.py candidates
+python scripts/build_dataset.py download
+python scripts/build_dataset.py inspect
+python scripts/build_dataset.py select
+```
+
+Selection rules: 2–30 pages; documents with MIT's "excluded from our Creative Commons
+license" notice (third-party material) are dropped; Zenodo records under NoDerivatives
+licenses are skipped because cutting out a lecture is an adaptation; duplicates are removed
+by text fingerprint and lecture heading. Manual decisions live in
+`scripts/manual_segments.json` (page ranges for scanned books) and `scripts/exclude.json`.
+
+## Attribution
+
+Each manifest row carries the source landing page (`source_url`) and license. MIT
+OpenCourseWare materials are © MIT, licensed CC BY-NC-SA 4.0. Zenodo documents are
+licensed by their authors as listed on the record page; Ukrainian documents are excerpts
+(single lectures) of the original works.
