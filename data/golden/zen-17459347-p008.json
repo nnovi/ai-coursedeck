@@ -1,0 +1,97 @@
+{
+  "doc_id": "zen-17459347-p008",
+  "status": "reviewed",
+  "notes": "Excerpt: cover (p1), epigraph page with К. І. Скрябін quote (p2), title page (p3); no reverse page. Lecturers copied with initials only, as written. topics: the plan has 3 items; the 1.1 heading 'Зміст паразитології, її завдання. Структура паразитології' was split into two topics. The document ends mid-list ('Терміни та поняття, які необхідно запам'ятати' cut off after 'загальна паразитоло-'); key_terms combine that partial list with bold-italic terms; 'інвазійні та інфекційні захворювання' split into two terms. No literature list, so references []. Verification: no changes. Facts re-checked on cover p1 and title page p3 (authors with initials as written, no titles; university without ННЦ and the society; 'Київ – 2017'), heading 'Тема № 1' p4; all 20 key terms are bold-italic in the text or in the end-of-topic list p14; no literature list (works only named inline in the history section). Remaining doubts: the 1.1 heading split into two topics; 'Історія паразитології' (pp. 10-14, world and Ukrainian history) kept as one topic as in the plan.",
+  "card": {
+    "course_title": "Загальна паразитологія",
+    "course_code": null,
+    "institution": "Київський національний університет імені Тараса Шевченка",
+    "lecturers": [
+      "В. В. Корнюшин",
+      "П.Я. Кілочицький",
+      "П.Г. Балан",
+      "Н.П. Кілочицька"
+    ],
+    "lecture_number": 1,
+    "lecture_title": "Паразитологія, її зміст та завдання",
+    "year": 2017,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Зміст паразитології, її завдання",
+      "Структура паразитології",
+      "Зв’язки паразитології з іншими дисциплінами",
+      "Історія паразитології"
+    ],
+    "key_terms": [
+      "паразитологія",
+      "зоопаразитологія",
+      "інвазійні захворювання",
+      "інфекційні захворювання",
+      "убіквітарні інвазії",
+      "загальна паразитологія",
+      "протозоопаразитологія",
+      "гельмінтологія",
+      "медична та ветеринарна арахноентомологія",
+      "медична паразитологія",
+      "ветеринарна паразитологія",
+      "агрономічна паразитологія",
+      "екологічна паразитологія",
+      "паразитоценологія",
+      "паразитоценоз",
+      "зоонози",
+      "дегельмінтизація",
+      "профілактична дегельмінтизація",
+      "девастація",
+      "фітопатологія"
+    ],
+    "references": []
+  },
+  "draft": {
+    "course_title": "Загальна паразитологія",
+    "course_code": null,
+    "institution": "Київський національний університет імені Тараса Шевченка",
+    "lecturers": [
+      "В. В. Корнюшин",
+      "П.Я. Кілочицький",
+      "П.Г. Балан",
+      "Н.П. Кілочицька"
+    ],
+    "lecture_number": 1,
+    "lecture_title": "Паразитологія, її зміст та завдання",
+    "year": 2017,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Зміст паразитології, її завдання",
+      "Структура паразитології",
+      "Зв’язки паразитології з іншими дисциплінами",
+      "Історія паразитології"
+    ],
+    "key_terms": [
+      "паразитологія",
+      "зоопаразитологія",
+      "інвазійні захворювання",
+      "інфекційні захворювання",
+      "убіквітарні інвазії",
+      "загальна паразитологія",
+      "протозоопаразитологія",
+      "гельмінтологія",
+      "медична та ветеринарна арахноентомологія",
+      "медична паразитологія",
+      "ветеринарна паразитологія",
+      "агрономічна паразитологія",
+      "екологічна паразитологія",
+      "паразитоценологія",
+      "паразитоценоз",
+      "зоонози",
+      "дегельмінтизація",
+      "профілактична дегельмінтизація",
+      "девастація",
+      "фітопатологія"
+    ],
+    "references": []
+  }
+}

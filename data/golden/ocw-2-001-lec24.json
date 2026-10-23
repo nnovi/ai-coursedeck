@@ -1,0 +1,95 @@
+{
+  "doc_id": "ocw-2-001-lec24",
+  "status": "reviewed",
+  "notes": "lecture_number 26 from the page image 'Lecture #26' (text layer splits the '26'; file name says lec24 and is ignored). Lecturer written as 'Prof. Carol Livermore': title 'Prof.' dropped. term null: only the date 12/11/2006 is given, no term stated. institution null: no university or OCW mention. course_title de-capitalized from 'MECHANICS AND MATERIALS I'. Verification: no changes. All 8 page images re-checked; 'Lecture #26' confirmed in a 300-dpi crop of the p1 header; facts, classification, 9 topics, key_terms and empty references confirmed.",
+  "card": {
+    "course_title": "Mechanics and Materials I",
+    "course_code": "2.001",
+    "institution": null,
+    "lecturers": [
+      "Carol Livermore"
+    ],
+    "lecture_number": 26,
+    "lecture_title": "Energy Methods",
+    "year": 2006,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Basic ingredients of mechanics",
+      "Work and conservative forces",
+      "Stored energy of a spring",
+      "Complementary energy",
+      "Castigliano's theorem",
+      "Springs in series example",
+      "Truss example",
+      "Strain energy density",
+      "Stored energy in a beam"
+    ],
+    "key_terms": [
+      "Castigliano's theorem",
+      "energy methods",
+      "complementary energy",
+      "strain energy density",
+      "stored energy",
+      "potential energy",
+      "conservative force",
+      "equilibrium",
+      "constitutive relations",
+      "compatibility",
+      "stress-strain",
+      "force-deformation",
+      "linear elastic material",
+      "plastic deformation",
+      "springs in series",
+      "truss",
+      "beam bending"
+    ],
+    "references": []
+  },
+  "draft": {
+    "course_title": "Mechanics and Materials I",
+    "course_code": "2.001",
+    "institution": null,
+    "lecturers": [
+      "Carol Livermore"
+    ],
+    "lecture_number": 26,
+    "lecture_title": "Energy Methods",
+    "year": 2006,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Basic ingredients of mechanics",
+      "Work and conservative forces",
+      "Stored energy of a spring",
+      "Complementary energy",
+      "Castigliano's theorem",
+      "Springs in series example",
+      "Truss example",
+      "Strain energy density",
+      "Stored energy in a beam"
+    ],
+    "key_terms": [
+      "Castigliano's theorem",
+      "energy methods",
+      "complementary energy",
+      "strain energy density",
+      "stored energy",
+      "potential energy",
+      "conservative force",
+      "equilibrium",
+      "constitutive relations",
+      "compatibility",
+      "stress-strain",
+      "force-deformation",
+      "linear elastic material",
+      "plastic deformation",
+      "springs in series",
+      "truss",
+      "beam bending"
+    ],
+    "references": []
+  }
+}

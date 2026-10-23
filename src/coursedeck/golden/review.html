@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Golden Review</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --panel: #fff; --text: #1d2330; --muted: #6b7280; --line: #dde1e7;
+    --accent: #2f6fde; --changed: #fff4d6; --changed-line: #e0a400; --ok: #1f8a4c;
+    --draft: #b26b00; --missing: #b42318; --error-bg: #fdecea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15181e; --panel: #1d2129; --text: #e6e8ec; --muted: #9aa3b2; --line: #2e3440;
+      --accent: #6a9bff; --changed: #3a3214; --changed-line: #d9a514; --ok: #4cc382;
+      --draft: #f0a43a; --missing: #ff7b72; --error-bg: #3b1d1b;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.4 system-ui, sans-serif; background: var(--bg); color: var(--text);
+         height: 100vh; display: grid; grid-template-columns: 230px 1fr 440px; }
+  aside, main, section { min-height: 0; }
+  aside { border-right: 1px solid var(--line); overflow: auto; background: var(--panel); }
+  aside h1 { font-size: 15px; margin: 12px; }
+  .progress { margin: 0 12px 8px; color: var(--muted); font-size: 12px; }
+  .doc { padding: 6px 12px; cursor: pointer; border-left: 3px solid transparent; font-size: 12px; }
+  .doc:hover { background: var(--bg); }
+  .doc.active { border-left-color: var(--accent); background: var(--bg); }
+  .doc .id { font-family: ui-monospace, monospace; word-break: break-all; }
+  .doc .meta { color: var(--muted); }
+  .badge { font-size: 11px; font-weight: 600; }
+  .badge.reviewed { color: var(--ok); } .badge.draft { color: var(--draft); }
+  .badge.missing { color: var(--missing); }
+  main { display: flex; flex-direction: column; }
+  .tabs { display: flex; gap: 4px; padding: 6px 8px; border-bottom: 1px solid var(--line); background: var(--panel); }
+  .tabs button { border: 1px solid var(--line); background: none; color: var(--text); padding: 4px 10px; border-radius: 6px; cursor: pointer; }
+  .tabs button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .tabs .info { margin-left: auto; color: var(--muted); font-size: 12px; align-self: center; }
+  iframe { flex: 1; border: 0; width: 100%; background: #888; }
+  #text { flex: 1; overflow: auto; padding: 12px; display: none; }
+  #text pre { white-space: pre-wrap; background: var(--panel); border: 1px solid var(--line); padding: 10px; border-radius: 6px; margin: 0 0 12px; font-size: 12px; }
+  #text h3 { font-size: 12px; color: var(--muted); margin: 0 0 4px; }
+  section { border-left: 1px solid var(--line); overflow: auto; background: var(--panel); padding: 12px 14px 80px; }
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 16px 0 6px; }
+  .field { padding: 6px 8px; margin: 0 -8px 4px; border-left: 3px solid transparent; border-radius: 4px; }
+  .field.changed { background: var(--changed); border-left-color: var(--changed-line); }
+  .field.error { background: var(--error-bg); }
+  label { display: block; font-size: 12px; font-weight: 600; margin-bottom: 3px; }
+  label .hint { font-weight: 400; color: var(--muted); }
+  input, select, textarea { width: 100%; font: inherit; color: var(--text); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 5px; padding: 5px 7px; }
+  textarea { resize: vertical; min-height: 60px; }
+  .was { font-size: 11px; color: var(--muted); margin-top: 3px; white-space: pre-wrap; }
+  .bar { position: sticky; bottom: -80px; display: flex; gap: 6px; flex-wrap: wrap; padding: 10px 0; background: var(--panel); border-top: 1px solid var(--line); margin-top: 12px; }
+  .bar button { padding: 7px 12px; border-radius: 6px; border: 1px solid var(--line); background: var(--bg); color: var(--text); cursor: pointer; }
+  .bar button.primary { background: var(--ok); border-color: var(--ok); color: #fff; }
+  #msg { font-size: 12px; margin-top: 6px; white-space: pre-wrap; }
+  #msg.err { color: var(--missing); } #msg.ok { color: var(--ok); }
+  .status-line { font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+<aside>
+  <h1>Golden set</h1>
+  <div class="progress" id="progress"></div>
+  <div id="docs"></div>
+</aside>
+<main>
+  <div class="tabs">
+    <button id="tab-pdf" class="on">PDF</button>
+    <button id="tab-text">Text layer</button>
+    <span class="info" id="docinfo"></span>
+  </div>
+  <iframe id="pdf" title="PDF"></iframe>
+  <div id="text"></div>
+</main>
+<section>
+  <div class="status-line" id="statusline"></div>
+  <form id="form" autocomplete="off"></form>
+  <h2>Notes</h2>
+  <textarea id="notes" rows="3"></textarea>
+  <div class="bar">
+    <button type="button" id="save">Save (Ctrl+S)</button>
+    <button type="button" id="reviewed" class="primary">Mark reviewed</button>
+    <button type="button" id="todraft">Back to draft</button>
+    <button type="button" id="revert">Reset to draft values</button>
+    <button type="button" id="next">Next →</button>
+  </div>
+  <div id="msg"></div>
+</section>
+<script>
+const FIELDS = {
+  course_title: "text", course_code: "text", institution: "text", lecturers: "list",
+  lecture_number: "int", lecture_title: "text", year: "int", term: "enum?",
+  discipline: "enum", doc_type: "enum", topics: "list", key_terms: "list", references: "list",
+};
+let meta, current = null, record = null, draft = null, textLoaded = null;
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+
+function toForm(kind, v) {
+  if (kind === "list") return (v || []).join("\n");
+  return v === null || v === undefined ? "" : String(v);
+}
+function fromForm(kind, s) {
+  s = s.trim();
+  if (kind === "list") return s ? s.split("\n").map((x) => x.trim()).filter(Boolean) : [];
+  if (kind === "int") return s ? Number(s) : null;
+  if (kind === "enum") return s || null;
+  return s || null;
+}
+const same = (a, b) => JSON.stringify(a ?? null) === JSON.stringify(b ?? null);
+
+function buildForm() {
+  const form = $("form");
+  form.innerHTML = "";
+  for (const [group, names] of Object.entries(meta.groups)) {
+    form.insertAdjacentHTML("beforeend", `<h2>${group}</h2>`);
+    for (const name of names) {
+      const kind = FIELDS[name];
+      const hint = kind === "list" ? " <span class='hint'>(one per line)</span>" : "";
+      let input;
+      if (kind.startsWith("enum")) {
+        const opts = (kind === "enum?" ? [""] : [""]).concat(meta.enums[name]);
+        input = `<select id="f-${name}">${opts.map((o) => `<option value="${o}">${o || "— null —"}</option>`).join("")}</select>`;
+      } else if (kind === "list") {
+        input = `<textarea id="f-${name}" rows="${name === "references" ? 4 : 5}"></textarea>`;
+      } else {
+        input = `<input id="f-${name}" ${kind === "int" ? 'type="number"' : ""} placeholder="null">`;
+      }
+      form.insertAdjacentHTML("beforeend",
+        `<div class="field" id="w-${name}"><label for="f-${name}">${name}${hint}</label>${input}<div class="was" id="was-${name}"></div></div>`);
+      $(`f-${name}`).addEventListener("input", markChanges);
+    }
+  }
+}
+
+function readCard() {
+  const card = {};
+  for (const [name, kind] of Object.entries(FIELDS)) card[name] = fromForm(kind.replace("?", ""), $(`f-${name}`).value);
+  return card;
+}
+function fillCard(card) {
+  for (const [name, kind] of Object.entries(FIELDS)) $(`f-${name}`).value = toForm(kind, card ? card[name] : null);
+  markChanges();
+}
+function markChanges() {
+  if (!draft) return;
+  const card = readCard();
+  for (const name of Object.keys(FIELDS)) {
+    const changed = !same(card[name], draft[name]);
+    $(`w-${name}`).classList.toggle("changed", changed);
+    $(`w-${name}`).classList.remove("error");
+    const was = draft[name];
+    $(`was-${name}`).textContent = changed
+      ? "draft: " + (Array.isArray(was) ? (was.length ? was.join(" | ") : "[]") : (was ?? "null")) : "";
+  }
+}
+
+function renderList() {
+  const reviewed = meta.docs.filter((d) => d.status === "reviewed").length;
+  $("progress").textContent = `${reviewed} / ${meta.docs.length} reviewed`;
+  $("docs").innerHTML = meta.docs.map((d) => `
+    <div class="doc ${d.doc_id === current ? "active" : ""}" data-id="${esc(d.doc_id)}">
+      <div class="id">${esc(d.doc_id)}</div>
+      <div class="meta">${d.lang} · ${d.n_pages}p · ${d.text_layer} · ${d.layout}
+        · <span class="badge ${d.status}">${d.status}</span></div>
+    </div>`).join("");
+  for (const el of document.querySelectorAll(".doc")) el.onclick = () => openDoc(el.dataset.id);
+}
+
+async function openDoc(id) {
+  current = id;
+  textLoaded = null;
+  const res = await (await fetch(`/api/doc/${encodeURIComponent(id)}`)).json();
+  record = res.record;
+  draft = record ? (record.draft || record.card) : null;
+  fillCard(record ? record.card : null);
+  $("notes").value = record ? record.notes || "" : "";
+  const m = res.manifest;
+  $("docinfo").textContent = `${m.course_title} — ${m.lecture_title}`.slice(0, 140);
+  $("statusline").textContent = `${id} · status: ${record ? record.status : "missing"}`;
+  $("pdf").src = `/pdf/${encodeURIComponent(id)}.pdf`;
+  if ($("tab-text").classList.contains("on")) loadText();
+  $("msg").textContent = "";
+  renderList();
+  try { localStorage.setItem("golden-review-last", id); } catch (e) {}
+}
+
+async function loadText() {
+  if (textLoaded === current) return;
+  const pages = await (await fetch(`/api/text/${encodeURIComponent(current)}`)).json();
+  $("text").innerHTML = pages.map((t, i) =>
+    `<h3>Page ${i + 1}</h3><pre>${esc(t.trim() || "[no text layer]")}</pre>`).join("");
+  textLoaded = current;
+}
+
+async function save(status) {
+  const body = { card: readCard(), notes: $("notes").value, status: status || (record ? record.status : "draft") };
+  const r = await fetch(`/api/doc/${encodeURIComponent(current)}`, { method: "POST", body: JSON.stringify(body) });
+  const res = await r.json();
+  if (!r.ok) {
+    $("msg").className = "err";
+    $("msg").textContent = res.errors.map((e) => `${e.field}: ${e.msg}`).join("\n");
+    for (const e of res.errors) { const w = $(`w-${e.field.split(".")[0]}`); if (w) w.classList.add("error"); }
+    return false;
+  }
+  record = res.record;
+  draft = record.draft || record.card;
+  const i = meta.docs.findIndex((d) => d.doc_id === current);
+  meta.docs[i] = res.summary;
+  $("statusline").textContent = `${current} · status: ${record.status}`;
+  $("msg").className = "ok";
+  $("msg").textContent = `Saved (${record.status}).`;
+  markChanges();
+  renderList();
+  return true;
+}
+
+function next() {
+  const i = meta.docs.findIndex((d) => d.doc_id === current);
+  const rest = meta.docs.slice(i + 1).concat(meta.docs.slice(0, i));
+  const target = rest.find((d) => d.status !== "reviewed") || meta.docs[(i + 1) % meta.docs.length];
+  openDoc(target.doc_id);
+}
+
+function showTab(which) {
+  $("tab-pdf").classList.toggle("on", which === "pdf");
+  $("tab-text").classList.toggle("on", which === "text");
+  $("pdf").style.display = which === "pdf" ? "" : "none";
+  $("text").style.display = which === "text" ? "block" : "none";
+  if (which === "text") loadText();
+}
+
+$("tab-pdf").onclick = () => showTab("pdf");
+$("tab-text").onclick = () => showTab("text");
+$("save").onclick = () => save();
+$("reviewed").onclick = async () => { if (await save("reviewed")) next(); };
+$("todraft").onclick = () => save("draft");
+$("revert").onclick = () => { fillCard(draft); };
+$("next").onclick = next;
+document.addEventListener("keydown", (e) => {
+  if ((e.ctrlKey || e.metaKey) && e.key === "s") { e.preventDefault(); save(); }
+});
+
+(async () => {
+  meta = await (await fetch("/api/meta")).json();
+  buildForm();
+  let last = null;
+  try { last = localStorage.getItem("golden-review-last"); } catch (e) {}
+  const start = meta.docs.find((d) => d.doc_id === last) || meta.docs[0];
+  openDoc(start.doc_id);
+})();
+</script>
+</body>
+</html>

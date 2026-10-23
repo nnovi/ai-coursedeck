@@ -1,0 +1,65 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "status": "reviewed",
+  "notes": "Book section 4.6 (pages 247–250) with running header 'CHAPTER 4 THE TIME-DEPENDENT INVERSE PROBLEM: STATE ESTIMATION'; no OCW citation page, author, institution, course or date, so all of these are null. '4.6' is a section number, not a lecture number; lecture_title is the section heading without the number. Discipline: engineering (control theory: controllability/observability); mathematics or earth_environmental_sciences (fluid state estimation, last paragraph only) are alternatives. 'controllable'/'observable' folded into 'controllability'/'observability' in key_terms. Footnotes 134–136 not included; no literature list. Text layer garbles math symbols (t_f -> 'wi', N -> 'Q'). Verification: no changes. 'nullspace' is borderline: it is used in the controllability argument (p2, 'solutions for u(t) with nullspaces present', 'there is a nullspace of the desired output') with a reference back to Chapter 2 rather than introduced here; kept.",
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Existence of matrix operations and inverses",
+      "Controllability of a linear model",
+      "Observability and the observability matrix",
+      "Mathematical versus practical observability in fluids"
+    ],
+    "key_terms": [
+      "controllability",
+      "observability",
+      "observability matrix",
+      "stabilizability",
+      "reachability",
+      "reconstructability",
+      "detectability",
+      "algebraic Riccati equations",
+      "nullspace"
+    ],
+    "references": []
+  },
+  "draft": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Existence of matrix operations and inverses",
+      "Controllability of a linear model",
+      "Observability and the observability matrix",
+      "Mathematical versus practical observability in fluids"
+    ],
+    "key_terms": [
+      "controllability",
+      "observability",
+      "observability matrix",
+      "stabilizability",
+      "reachability",
+      "reconstructability",
+      "detectability",
+      "algebraic Riccati equations",
+      "nullspace"
+    ],
+    "references": []
+  }
+}

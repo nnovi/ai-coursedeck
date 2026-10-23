@@ -1,0 +1,101 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "status": "reviewed",
+  "notes": "Scribe notes; no OCW citation page in the document. course_code = first number of the header '18.435/2.111' (no 'J' written). institution 'MIT' from 'Department of Mathematics, MIT' (department dropped; no fuller form). lecturers: 'P. Shor' from the running header; scribe 'Vitaly Feldman' excluded per guide. year 2003 from 'September 9, 2003'; term null (the date states no term). discipline physics: lecture content is the postulates of quantum mechanics, although the course is Quantum Computation (computer_science) offered by the Department of Mathematics. Topic 5 uses the standard spelling 'Schrödinger'; key term keeps the document's misspelling 'Srödinger equation'. No references. Verification: no changes. All 3 page images re-checked (scribe excluded, 'P. Shor' is the fullest form, only 'MIT' is shown). Remaining doubts: discipline physics vs computer_science; topic 'Projective measurements' is a paraphrase (the notes describe measurements in an orthonormal basis and with projectors {Pi} without the word 'projective').",
+  "card": {
+    "course_title": "Quantum Computation",
+    "course_code": "18.435",
+    "institution": "MIT",
+    "lecturers": [
+      "P. Shor"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "State space of an isolated physical system",
+      "Ket and bra notation",
+      "Unitary evolution of closed quantum systems",
+      "Pauli matrices and Hadamard transform",
+      "Schrödinger equation and the Hamiltonian",
+      "Quantum measurements and the completeness equation",
+      "Projective measurements",
+      "Tensor product of composite systems",
+      "Entangled states"
+    ],
+    "key_terms": [
+      "state space",
+      "Hilbert space",
+      "unitary operator",
+      "Hermitian operator",
+      "quantum measurement",
+      "measurement operators",
+      "completeness equation",
+      "projector",
+      "tensor product",
+      "entangled",
+      "ket",
+      "bra",
+      "qubit",
+      "unitary transformation",
+      "adjoint operator",
+      "Pauli matrices",
+      "Hadamard transform",
+      "Hamiltonian",
+      "Srödinger equation",
+      "Kronecker product"
+    ],
+    "references": []
+  },
+  "draft": {
+    "course_title": "Quantum Computation",
+    "course_code": "18.435",
+    "institution": "MIT",
+    "lecturers": [
+      "P. Shor"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "State space of an isolated physical system",
+      "Ket and bra notation",
+      "Unitary evolution of closed quantum systems",
+      "Pauli matrices and Hadamard transform",
+      "Schrödinger equation and the Hamiltonian",
+      "Quantum measurements and the completeness equation",
+      "Projective measurements",
+      "Tensor product of composite systems",
+      "Entangled states"
+    ],
+    "key_terms": [
+      "state space",
+      "Hilbert space",
+      "unitary operator",
+      "Hermitian operator",
+      "quantum measurement",
+      "measurement operators",
+      "completeness equation",
+      "projector",
+      "tensor product",
+      "entangled",
+      "ket",
+      "bra",
+      "qubit",
+      "unitary transformation",
+      "adjoint operator",
+      "Pauli matrices",
+      "Hadamard transform",
+      "Hamiltonian",
+      "Srödinger equation",
+      "Kronecker product"
+    ],
+    "references": []
+  }
+}

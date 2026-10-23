@@ -1,0 +1,99 @@
+{
+  "doc_id": "ocw-10-37-lec10_03092007_w",
+  "status": "reviewed",
+  "notes": "year/term from header 'Spring 2007' (the date 03092007 is only in the file name). Lecturer written as 'Prof. K. Dane Wittrup': title 'Prof.' dropped. institution is the fullest form in the 'Cite as' footer. The 'Cite as' notice is not a reference. Verification: no changes. All 7 page images re-checked; header/footer facts, engineering/lecture_notes, 9 topics following the section headings, 19 key_terms and empty references ('Cite as' excluded) confirmed.",
+  "card": {
+    "course_title": "Chemical and Biological Reaction Engineering",
+    "course_code": "10.37",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "K. Dane Wittrup"
+    ],
+    "lecture_number": 10,
+    "lecture_title": "Non-ideal Reactor Mixing Patterns",
+    "year": 2007,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Non-ideal mixing",
+      "Residence time distribution",
+      "Experimental determination of E(t)",
+      "Ideal PFR",
+      "Ideal CSTR",
+      "CSTR with non-ideal mixing: bypassing and dead volumes",
+      "Non-ideal PFR: channeling and axial dispersion",
+      "Tanks in series model",
+      "Compartmental combinations of ideal reactors"
+    ],
+    "key_terms": [
+      "residence time distribution",
+      "residence time",
+      "non-ideal mixing",
+      "tanks in series model",
+      "pulse input",
+      "step input",
+      "mean residence time",
+      "variance",
+      "CSTR",
+      "PFR",
+      "bypassing",
+      "dead volume",
+      "channeling",
+      "axial dispersion",
+      "back-mixing",
+      "recirculation eddies",
+      "Taylor dispersion model",
+      "Peclet number",
+      "packed bed reactor"
+    ],
+    "references": []
+  },
+  "draft": {
+    "course_title": "Chemical and Biological Reaction Engineering",
+    "course_code": "10.37",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "K. Dane Wittrup"
+    ],
+    "lecture_number": 10,
+    "lecture_title": "Non-ideal Reactor Mixing Patterns",
+    "year": 2007,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Non-ideal mixing",
+      "Residence time distribution",
+      "Experimental determination of E(t)",
+      "Ideal PFR",
+      "Ideal CSTR",
+      "CSTR with non-ideal mixing: bypassing and dead volumes",
+      "Non-ideal PFR: channeling and axial dispersion",
+      "Tanks in series model",
+      "Compartmental combinations of ideal reactors"
+    ],
+    "key_terms": [
+      "residence time distribution",
+      "residence time",
+      "non-ideal mixing",
+      "tanks in series model",
+      "pulse input",
+      "step input",
+      "mean residence time",
+      "variance",
+      "CSTR",
+      "PFR",
+      "bypassing",
+      "dead volume",
+      "channeling",
+      "axial dispersion",
+      "back-mixing",
+      "recirculation eddies",
+      "Taylor dispersion model",
+      "Peclet number",
+      "packed bed reactor"
+    ],
+    "references": []
+  }
+}

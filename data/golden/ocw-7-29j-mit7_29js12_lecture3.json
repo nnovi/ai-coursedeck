@@ -1,0 +1,99 @@
+{
+  "doc_id": "ocw-7-29j-mit7_29js12_lecture3",
+  "status": "reviewed",
+  "notes": "year 2004 from the handwritten date '2/11/04' on p1 (rule 1), not the header 'Spring 2005' or OCW 'Spring 2012' (header year and note date disagree); term null because the date states no term. lecture_number null ('lecture3' only in the file name). lecture_title null (notes have no heading). course_code '9.09J' = first in the header (OCW page lists 7.29J first). Note-taker Wyan-Ching Mimi Lee excluded from lecturers. Topics are annotator phrases: the handwritten notes have only one heading ('cloning membrane proteins'); toxins and Xenopus oocyte expression merged into it. Verification: key_terms: removed 'action potential' (only a passing mention on p2, 'causes action potentials to disappear by blocking Na+ channels'; not introduced, defined or emphasized) and added 'digitalis' (p2 'ouabain, digitalis toxins that block this pump', same status as 'ouabain'). All other fields confirmed against the page images (year 2004 from the content-page date '2/11/04', which is the guide's own rule-1 example). 'waters of hydration' and 'shell of hydration' are near-synonyms, both written on p1; both kept.",
+  "card": {
+    "course_title": "Cellular Neurobiology",
+    "course_code": "9.09J",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "William Quinn",
+      "Troy Littleton"
+    ],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": 2004,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Acetylcholine receptor structure",
+      "Voltage-gated Na+ channel structure",
+      "Ion channel selectivity and shells of hydration",
+      "Cloning membrane proteins",
+      "Ionic balance and osmotic pressure in cells",
+      "Na+/K+ ATPase and ion gradients",
+      "Nernst equilibrium and Nernst equation",
+      "Membrane voltage from K+ gradient"
+    ],
+    "key_terms": [
+      "Nernst equilibrium",
+      "Nernst equation",
+      "acetylcholine receptor",
+      "voltage-gated Na+ channel",
+      "shell of hydration",
+      "electroplaques",
+      "α-bungarotoxin",
+      "tetrodotoxin",
+      "Xenopus oocytes",
+      "Na+ K+ ATPase",
+      "ouabain",
+      "digitalis",
+      "Gibbs free energy",
+      "Faraday constant",
+      "osmotic pressure",
+      "cobra toxin",
+      "Edman degradation",
+      "patch clamp",
+      "waters of hydration"
+    ],
+    "references": []
+  },
+  "draft": {
+    "course_title": "Cellular Neurobiology",
+    "course_code": "9.09J",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "William Quinn",
+      "Troy Littleton"
+    ],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": 2004,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Acetylcholine receptor structure",
+      "Voltage-gated Na+ channel structure",
+      "Ion channel selectivity and shells of hydration",
+      "Cloning membrane proteins",
+      "Ionic balance and osmotic pressure in cells",
+      "Na+/K+ ATPase and ion gradients",
+      "Nernst equilibrium and Nernst equation",
+      "Membrane voltage from K+ gradient"
+    ],
+    "key_terms": [
+      "Nernst equilibrium",
+      "Nernst equation",
+      "acetylcholine receptor",
+      "voltage-gated Na+ channel",
+      "shell of hydration",
+      "electroplaques",
+      "α-bungarotoxin",
+      "tetrodotoxin",
+      "Xenopus oocytes",
+      "Na+ K+ ATPase",
+      "ouabain",
+      "digitalis",
+      "Gibbs free energy",
+      "Faraday constant",
+      "osmotic pressure",
+      "cobra toxin",
+      "Edman degradation",
+      "patch clamp",
+      "waters of hydration"
+    ],
+    "references": []
+  }
+}
