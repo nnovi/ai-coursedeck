@@ -33,7 +33,9 @@ pip install -e ".[dev]"
 
 Lecture notes in English (MIT OpenCourseWare, CC BY-NC-SA 4.0) and Ukrainian
 (university course books on Zenodo, CC BY 4.0 / CC BY-SA 4.0). Ukrainian books cover a
-whole course, so each document is one lecture cut out of a book by page range.
+whole course, so each document is one lecture cut out of a book, preceded by the book's title
+pages (cover, title page and its reverse) that carry the course name, authors, institution
+and year. The manifest's `pages` column lists the source pages, e.g. `1-3,30-37`.
 
 Manifests are nested: every tier contains the previous one.
 
@@ -48,7 +50,7 @@ Manifests are nested: every tier contains the previous one.
 English documents are stratified into scans (no text layer), slides and regular notes;
 departments are sampled round-robin so even small tiers cover many fields.
 
-Fetch a larger tier (downloads source PDFs, verifies SHA-256, cuts the page range):
+Fetch a larger tier (downloads source PDFs, verifies SHA-256, cuts the page ranges):
 
 ```bash
 python -m coursedeck.dataset.fetch data/manifests/dataset_200.csv
@@ -69,7 +71,8 @@ Selection rules: 2–30 pages; documents with MIT's "excluded from our Creative 
 license" notice (third-party material) are dropped; Zenodo records under NoDerivatives
 licenses are skipped because cutting out a lecture is an adaptation; duplicates are removed
 by text fingerprint and lecture heading. Manual decisions live in
-`scripts/manual_segments.json` (page ranges for scanned books) and `scripts/exclude.json`.
+`scripts/manual_segments.json` (title pages and lecture ranges for scanned books) and
+`scripts/exclude.json`.
 
 ## Attribution
 

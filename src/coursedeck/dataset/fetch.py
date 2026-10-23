@@ -2,8 +2,8 @@
 
     python -m coursedeck.dataset.fetch data/manifests/dataset_200.csv
 
-Each source PDF is downloaded, checked against `source_sha256`, and the lecture page range
-is written to data/pdfs_extra/<doc_id>.pdf. Already present files are skipped.
+Each source PDF is downloaded, checked against `source_sha256`, and the manifest's page
+ranges are written to data/pdfs_extra/<doc_id>.pdf. Already present files are skipped.
 """
 
 import argparse
@@ -38,7 +38,7 @@ def fetch_row(client: httpx.Client, row: ManifestRow) -> None:
     with tempfile.TemporaryDirectory() as tmp:
         src = Path(tmp) / "source.pdf"
         src.write_bytes(data)
-        extract_pages(src, row.path, row.page_start, row.page_end)
+        extract_pages(src, row.path, row.page_ranges)
 
 
 def main() -> None:

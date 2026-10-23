@@ -23,7 +23,7 @@ import httpx
 import pymupdf
 
 from coursedeck.dataset.manifest import PDF_DIR, ManifestRow, write_manifest
-from coursedeck.dataset.pdf import extract_pages, inspect_pdf
+from coursedeck.dataset.pdf import extract_pages, format_pages, inspect_pdf, to_ranges
 
 CACHE = Path("data/cache")
 SRC_DIR = CACHE / "src"
@@ -38,9 +38,14 @@ EN_SLIDES_SHARE = 0.15
 MIN_PAGES, MAX_PAGES = 2, 30
 GOLDEN_MIN_PAGES = 3
 MAX_SOURCE_MB = 60
-# Hand-picked lecture page ranges for scanned books that have no text to segment on:
-# {"cand_id": [[start, end, "heading"], ...]}
+# Hand-picked pages for scanned books that have no text to segment on:
+# {"cand_id": {"front": [title pages], "lectures": [[start, end, "heading"], ...]}}
 MANUAL_SEGMENTS = Path("scripts/manual_segments.json")
+MAX_FRONT_PAGES = 3  # cover, title page, reverse of the title page
+FRONT_STOP_RE = re.compile(
+    r"^\s*(?:ЗМІСТ|ЗМIСТ|Зміст|ПЕРЕДМОВА|Передмова|ВСТУП|Вступ|ПЕРЕЛІК\s+УМОВНИХ|СПИСОК\s+СКОРОЧЕНЬ)",
+    re.MULTILINE,
+)
 # Documents rejected on manual review: {"cand_id": "reason"}
 EXCLUDE = Path("scripts/exclude.json")
 
@@ -281,6 +286,21 @@ def _toc_starts(doc: pymupdf.Document) -> list[tuple[int, str]]:
     return starts
 
 
+def front_matter_pages(doc: pymupdf.Document, lecture_start: int) -> list[int]:
+    """Leading title pages of a book (cover, title page, its reverse), up to MAX_FRONT_PAGES.
+
+    They carry the course name, authors, institution and year, which a lecture cut out of
+    the middle of the book would otherwise lose.
+    """
+    pages = []
+    for i in range(min(MAX_FRONT_PAGES, lecture_start - 1)):
+        head = doc[i].get_text().strip()[:HEAD_CHARS]
+        if FRONT_STOP_RE.search(head) or LECTURE_START_RE.search(head):
+            break
+        pages.append(i + 1)
+    return pages
+
+
 def _back_matter_page(doc: pymupdf.Document) -> int:
     n = doc.page_count
     for i in range(n // 2, n):
@@ -322,6 +342,21 @@ def spread(items: list, k: int) -> list:
     return [items[round(i * step)] for i in range(k)]
 
 
+def book_units(path: Path, manual: dict | None, per_book: int) -> list[tuple[list[int], int, int, str]]:
+    """[(front_pages, start, end, heading)] for the lectures taken from one course book."""
+    if manual:
+        segs = [tuple(s) for s in manual["lectures"]]
+    else:
+        segs = lecture_segments(path)
+    out = []
+    with pymupdf.open(path) as doc:
+        for s, e, title in spread(segs, per_book):
+            front = ([p for p in manual["front"] if p < s] if manual
+                     else front_matter_pages(doc, s))
+            out.append((front, s, e, title))
+    return out
+
+
 def cmd_inspect(args: argparse.Namespace) -> None:
     manual = json.loads(MANUAL_SEGMENTS.read_text("utf-8")) if MANUAL_SEGMENTS.exists() else {}
     units = []
@@ -335,18 +370,17 @@ def cmd_inspect(args: argparse.Namespace) -> None:
                 units.append({**d, "page_start": 1, "page_end": info.n_pages,
                               "lecture_title": d["title"], **info.to_dict()})
                 continue
-            segs = ([tuple(s) for s in manual[d["cand_id"]]] if d["cand_id"] in manual
-                    else lecture_segments(path))
-            if not segs:
+            lectures = book_units(path, manual.get(d["cand_id"]), args.per_book)
+            if not lectures:
                 info = inspect_pdf(path)
                 units.append({**d, "page_start": 1, "page_end": info.n_pages,
                               "lecture_title": "", "unsegmented": True, **info.to_dict()})
                 continue
-            for rank, (s, e, title) in enumerate(spread(segs, args.per_book)):
-                info = inspect_pdf(path, s, e)
+            for rank, (front, s, e, title) in enumerate(lectures):
+                info = inspect_pdf(path, s, e)  # stats describe the lecture, not the title pages
                 units.append({**d, "cand_id": f"zen-{d['course_id']}-p{s:03d}", "rank": rank,
-                              "page_start": s, "page_end": e, "lecture_title": title,
-                              **info.to_dict()})
+                              "front_pages": front, "page_start": s, "page_end": e,
+                              "lecture_title": title, **info.to_dict()})
         except Exception as ex:  # noqa: BLE001
             print("  inspect failed", d["cand_id"], ex)
     write_jsonl(CACHE / "units.jsonl", units)
@@ -439,7 +473,7 @@ def cmd_select(_: argparse.Namespace) -> None:
             if u["source"] == "ocw":
                 shutil.copyfile(u["file"], r.path)
             else:
-                extract_pages(Path(u["file"]), r.path, r.page_start, r.page_end)
+                extract_pages(Path(u["file"]), r.path, r.page_ranges)
     for tier in TIERS:
         write_manifest(MANIFEST_DIR / f"dataset_{tier:03d}.csv", [r for r in rows if r.tier <= tier])
     write_manifest(MANIFEST_DIR / "golden.csv", [r for r in rows if r.golden])
@@ -471,6 +505,7 @@ def pick_golden(core: list[dict]) -> set[str]:
 
 
 def to_row(u: dict, golden: bool) -> ManifestRow:
+    ranges = to_ranges(u.get("front_pages", []) + list(range(u["page_start"], u["page_end"] + 1)))
     return ManifestRow(
         doc_id=u["cand_id"],
         lang=u["lang"],
@@ -483,9 +518,8 @@ def to_row(u: dict, golden: bool) -> ManifestRow:
         source_url=u["page_url"],
         pdf_url=u["pdf_url"],
         source_sha256=u["source_sha256"],
-        page_start=u["page_start"],
-        page_end=u["page_end"],
-        n_pages=u["n_pages"],
+        pages=format_pages(ranges),
+        n_pages=sum(e - s + 1 for s, e in ranges),
         text_layer=u["text_layer"],
         layout="slides" if u["landscape_ratio"] >= 0.8 else "notes",
         math_heavy=u["math_symbols"] >= 30,

@@ -1,13 +1,16 @@
 """Dataset manifest: one CSV row per lecture document.
 
-A row points to a source PDF (`pdf_url`) and a 1-based inclusive page range inside it.
-`source_sha256` is the hash of the downloaded source file, so fetching is verifiable even
-when the lecture is a page range cut out of a larger course book.
+A row points to a source PDF (`pdf_url`) and the pages taken from it (`pages`, 1-based
+inclusive ranges). A lecture cut out of a course book keeps the book's title pages in front,
+e.g. "1-3,30-37", so the document still shows its course, authors, institution and year.
+`source_sha256` is the hash of the downloaded source file, so fetching is verifiable.
 """
 
 import csv
 from dataclasses import asdict, dataclass, fields
 from pathlib import Path
+
+from coursedeck.dataset.pdf import PageRanges, parse_pages
 
 PDF_DIR = Path("data/pdfs")  # committed core set
 EXTRA_PDF_DIR = Path("data/pdfs_extra")  # fetched by manifest, not committed
@@ -26,9 +29,8 @@ class ManifestRow:
     source_url: str  # human-readable landing page (attribution)
     pdf_url: str
     source_sha256: str
-    page_start: int
-    page_end: int
-    n_pages: int
+    pages: str  # page ranges taken from the source PDF, e.g. "1-3,30-37"
+    n_pages: int  # pages in the resulting document
     text_layer: str  # full | partial | none
     layout: str  # notes | slides
     math_heavy: bool
@@ -40,9 +42,13 @@ class ManifestRow:
     def path(self) -> Path:
         return (PDF_DIR if self.in_repo else EXTRA_PDF_DIR) / f"{self.doc_id}.pdf"
 
+    @property
+    def page_ranges(self) -> PageRanges:
+        return parse_pages(self.pages)
+
 
 FIELDS = [f.name for f in fields(ManifestRow)]
-_INT = {"page_start", "page_end", "n_pages", "tier"}
+_INT = {"n_pages", "tier"}
 _BOOL = {"math_heavy", "in_repo", "golden"}
 
 

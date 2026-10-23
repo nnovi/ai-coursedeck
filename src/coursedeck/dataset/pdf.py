@@ -79,9 +79,37 @@ def fingerprint(text: str, n_chars: int = 2000) -> str:
     return hashlib.sha1(norm.encode()).hexdigest() if norm else ""
 
 
-def extract_pages(src: Path, dst: Path, start: int, end: int) -> None:
-    """Write pages [start, end] (1-based, inclusive) of `src` into a new PDF `dst`."""
+PageRanges = list[tuple[int, int]]  # 1-based, inclusive
+
+
+def parse_pages(spec: str) -> PageRanges:
+    """'1-3,6-29' -> [(1, 3), (6, 29)]; '5' -> [(5, 5)]."""
+    ranges = []
+    for part in spec.split(","):
+        start, _, end = part.strip().partition("-")
+        ranges.append((int(start), int(end or start)))
+    return ranges
+
+
+def format_pages(ranges: PageRanges) -> str:
+    return ",".join(f"{s}-{e}" if e != s else str(s) for s, e in ranges)
+
+
+def to_ranges(pages: list[int]) -> PageRanges:
+    """[1, 2, 3, 7] -> [(1, 3), (7, 7)]."""
+    ranges: PageRanges = []
+    for p in sorted(pages):
+        if ranges and p == ranges[-1][1] + 1:
+            ranges[-1] = (ranges[-1][0], p)
+        else:
+            ranges.append((p, p))
+    return ranges
+
+
+def extract_pages(src: Path, dst: Path, ranges: PageRanges) -> None:
+    """Write the given page ranges of `src`, in order, into a new PDF `dst`."""
     dst.parent.mkdir(parents=True, exist_ok=True)
     with pymupdf.open(src) as doc, pymupdf.open() as out:
-        out.insert_pdf(doc, from_page=start - 1, to_page=end - 1)
+        for start, end in ranges:
+            out.insert_pdf(doc, from_page=start - 1, to_page=end - 1)
         out.save(dst, garbage=4, deflate=True)
