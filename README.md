@@ -13,6 +13,8 @@ Stages:
 Requires Python 3.11+. Optional: [Ollama](https://ollama.com) for the local model.
 
 ```bash
+git clone https://github.com/nnovi/ai-coursedeck.git
+cd ai-coursedeck
 python -m venv .venv
 .venv/Scripts/activate            # Windows; use `source .venv/bin/activate` elsewhere
 pip install -e ".[dev]"
