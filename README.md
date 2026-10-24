@@ -74,6 +74,44 @@ by text fingerprint and lecture heading. Manual decisions live in
 `scripts/manual_segments.json` (title pages and lecture ranges for scanned books) and
 `scripts/exclude.json`.
 
+## Extraction
+
+Copy `.env.example` to `.env` and set `ANTHROPIC_API_KEY` for Claude models; local models
+run through [Ollama](https://ollama.com) (`ollama pull qwen3-vl:8b-instruct`).
+
+```bash
+python -m coursedeck.extract.run --model haiku --mode text --prompt v2 --effort medium
+python -m coursedeck.extract.run --model qwen3-vl-8b --mode image --prompt v2 --temperature 0
+```
+
+- Models (`coursedeck/llm/models.py`): `haiku`, `sonnet` (Anthropic API), `qwen3-vl-8b`,
+  `qwen3-vl-4b` (Ollama). Current Claude models reject non-default temperature, so their
+  sampling axis is `--effort`; local models use `--temperature`.
+- Input modes: `text` (text layer), `image` (page images), `text+image`, `pdf` (native PDF
+  input, Claude only). Page images are scaled so the smallest text on the page is ~14 px
+  tall, capped at 1568 px on the long edge; scans get the full budget.
+- Prompts are versioned in `src/coursedeck/prompts/extract/` (see its `CHANGELOG.md`).
+- Every reply is validated against `LectureCard`; an invalid reply gets one retry with the
+  validation error. Results go to `runs/<run_id>/` (card, attempts, tokens, cost, latency).
+
+## Evaluation
+
+```bash
+python -m coursedeck.eval.score runs/<run_a> runs/<run_b> [--include-drafts]
+```
+
+Scores each run against the reviewed golden cards (`--include-drafts` also uses unreviewed
+ones), per field group:
+
+- facts: exact match for code, lecture number, year and term; fuzzy match for course title,
+  institution (with MIT aliases) and lecture title; lecturers by surname. Also the
+  hallucination rate (filled although the golden value is empty) and omission rate;
+- classification: accuracy, with the confusions listed;
+- content: fuzzy F1 of topics, key terms and references (greedy one-to-one matching).
+
+Results are also broken down by stratum (Ukrainian, English scans, slides, notes) to show
+where page images help.
+
 ## Attribution
 
 Each manifest row carries the source landing page (`source_url`) and license. MIT

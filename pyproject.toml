@@ -5,8 +5,11 @@ description = "Teacher assistant: lecture-notes PDF -> structured lecture card -
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "anthropic>=2.3",
     "httpx>=0.28",
     "pydantic>=2.9",
+    "python-dotenv>=1.0",
+    "rapidfuzz>=3.9",
     "pymupdf>=1.26",
 ]
 

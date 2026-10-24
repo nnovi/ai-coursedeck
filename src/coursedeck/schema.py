@@ -86,6 +86,11 @@ class LectureCard(BaseModel):
     )
 
 
+# Upper bounds from the annotation guide. Not part of the JSON schema (Anthropic structured
+# output does not support maxItems); grammar-based local backends enforce them to stop
+# repetition loops.
+LIST_LIMITS: dict[str, int] = {"topics": 10, "key_terms": 20, "references": 40}
+
 FIELD_GROUPS: dict[str, list[str]] = {
     "fact": [
         "course_title", "course_code", "institution", "lecturers",
