@@ -1,0 +1,94 @@
+{
+  "doc_id": "ocw-12-480-lecture_16",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": "12.480",
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 16,
+    "lecture_title": "Silicate melt – mineral equilibria",
+    "year": null,
+    "term": null,
+    "discipline": "earth_environmental_sciences",
+    "doc_type": "handout",
+    "topics": [
+      "Liquidus phase equilibria prediction methods",
+      "Direct approach using solution calorimetry",
+      "Olivine–liquid models",
+      "Pyroxene–liquid models",
+      "Plagioclase–liquid models",
+      "Multiply-saturated liquids and MELTS"
+    ],
+    "key_terms": [
+      "liquidus",
+      "mineral/melt partition coefficient",
+      "activity coefficient",
+      "standard state free energy",
+      "Temkin-like model",
+      "Margules-like binary excess function",
+      "network former",
+      "network modifier",
+      "empirical thermometer",
+      "Bottinga-Weill components",
+      "solution calorimetry",
+      "multiply-saturated liquid",
+      "line of descent",
+      "forsterite",
+      "fayalite",
+      "plagioclase",
+      "augite",
+      "olivine"
+    ],
+    "references": [
+      "Ghiorso and Sack (1995) Contrib. Mineral. Petrol. 119: 197-212.",
+      "Grove et al. (1992) Amer. Geophys U Mono. 71: 281-310.",
+      "Langmuir et al. (1992) Amer. Geophys U Mono. 71: 183-280.",
+      "Ariskin et al. (1993) Comp. Geosci 19: 1155 – 1170.",
+      "Yang et al. (1996) Contrib. Mineral. Petrol. 124: 1 – 18.",
+      "Panjasawatwong et al. (1995) Contrib. Mineral. Petrol. 118: 420-432.",
+      "Housh and Luhr (1991) Amer. Mineral. 76: 477 – 492.",
+      "Weill, Hon and Navrotsky in Hargraves, ed. \"Physics of magmatic processes\" p.49-89.",
+      "Langmuir and Hanson (1981) In Newton et al., eds. \"Thermo of minerals and melts\"",
+      "Glazner (1984) Contrib Mineral Petrol 88:260-268.",
+      "Burnham and Nekvasil (1986) Amer. Mineral. 71:239-263.",
+      "Nielsen and Dungan (1983) Contrib Mineral Petrol 84:310-326.",
+      "Russel and Nichols (1985) Canad. Mineral. 23:479-488.",
+      "Nielsen (1988) Geochim. Cosmochim. Acta 52:27-39.",
+      "Weaver and Langmuir (1990) Computers and Geosciences 16:1-19.",
+      "Reviews in Mineralogy, v. 17, Thermodynamic modeling of geological materials: Minerals, fluids and melts (1987)",
+      "Reviews in Mineralogy, v. 24, Modern methods of igneous petrology: Understanding magmatic processes (1990)"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 12427,
+    "output_tokens": 2987,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00277415,
+  "billed_cost_usd": null,
+  "latency_s": 12.44704759994056,
+  "n_pages": 5,
+  "image_pixels": 9517760,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":\"12.480\",\"institution\":null,\"lecturers\":[],\"lecture_number\":16,\"lecture_title\":\"Silicate melt – mineral equilibria\",\"year\":null,\"term\":null,\"discipline\":\"earth_environmental_sciences\",\"doc_type\":\"handout\",\"topics\":[\"Liquidus phase equilibria prediction methods\",\"Direct approach using solution calorimetry\",\"Olivine–liquid models\",\"Pyroxene–liquid models\",\"Plagioclase–liquid models\",\"Multiply-saturated liquids and MELTS\"],\"key_terms\":[\"liquidus\",\"mineral/melt partition coefficient\",\"activity coefficient\",\"standard state free energy\",\"Temkin-like model\",\"Margules-like binary excess function\",\"network former\",\"network modifier\",\"empirical thermometer\",\"Bottinga-Weill components\",\"solution calorimetry\",\"multiply-saturated liquid\",\"line of descent\",\"forsterite\",\"fayalite\",\"plagioclase\",\"augite\",\"olivine\"],\"references\":[\"Ghiorso and Sack (1995) Contrib. Mineral. Petrol. 119: 197-212.\",\"Grove et al. (1992) Amer. Geophys U Mono. 71: 281-310.\",\"Langmuir et al. (1992) Amer. Geophys U Mono. 71: 183-280.\",\"Ariskin et al. (1993) Comp. Geosci 19: 1155 – 1170.\",\"Yang et al. (1996) Contrib. Mineral. Petrol. 124: 1 – 18.\",\"Panjasawatwong et al. (1995) Contrib. Mineral. Petrol. 118: 420-432.\",\"Housh and Luhr (1991) Amer. Mineral. 76: 477 – 492.\",\"Weill, Hon and Navrotsky in Hargraves, ed. \\\"Physics of magmatic processes\\\" p.49-89.\",\"Langmuir and Hanson (1981) In Newton et al., eds. \\\"Thermo of minerals and melts\\\"\",\"Glazner (1984) Contrib Mineral Petrol 88:260-268.\",\"Burnham and Nekvasil (1986) Amer. Mineral. 71:239-263.\",\"Nielsen and Dungan (1983) Contrib Mineral Petrol 84:310-326.\",\"Russel and Nichols (1985) Canad. Mineral. 23:479-488.\",\"Nielsen (1988) Geochim. Cosmochim. Acta 52:27-39.\",\"Weaver and Langmuir (1990) Computers and Geosciences 16:1-19.\",\"Reviews in Mineralogy, v. 17, Thermodynamic modeling of geological materials: Minerals, fluids and melts (1987)\",\"Reviews in Mineralogy, v. 24, Modern methods of igneous petrology: Understanding magmatic processes (1990)\"]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 12427,
+        "output_tokens": 2987,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 12.44704759994056,
+      "error": null,
+      "request_id": "req_011CgMTcXAPVPcfeKWtF7mDH",
+      "billed_cost_usd": null
+    }
+  ]
+}

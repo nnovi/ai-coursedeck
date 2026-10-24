@@ -1,0 +1,62 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "The Time-Dependent Inverse Problem: State Estimation",
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Existence of matrix operations and inverses",
+      "Controllability of systems",
+      "Observability of systems",
+      "Relationship between controllability and observability",
+      "Practical limitations of observability"
+    ],
+    "key_terms": [
+      "controllability",
+      "observability",
+      "observability matrix",
+      "stabilizability",
+      "reachability",
+      "reconstructability",
+      "detectability",
+      "algebraic Riccati equations"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 7166,
+    "output_tokens": 208,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 4.0434475999791175,
+  "n_pages": 4,
+  "image_pixels": 3452020,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"The Time-Dependent Inverse Problem: State Estimation\",\n  \"course_code\": null,\n  \"institution\": null,\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Controllability and Observability\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"textbook_chapter\",\n  \"topics\": [\n    \"Existence of matrix operations and inverses\",\n    \"Controllability of systems\",\n    \"Observability of systems\",\n    \"Relationship between controllability and observability\",\n    \"Practical limitations of observability\"\n  ],\n  \"key_terms\": [\n    \"controllability\",\n    \"observability\",\n    \"observability matrix\",\n    \"stabilizability\",\n    \"reachability\",\n    \"reconstructability\",\n    \"detectability\",\n    \"algebraic Riccati equations\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 7166,
+        "output_tokens": 208,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.0434475999791175,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

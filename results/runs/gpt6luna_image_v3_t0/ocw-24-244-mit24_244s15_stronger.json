@@ -1,0 +1,70 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Modal Logic",
+    "course_code": "24.244",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 5,
+    "lecture_title": "Stronger Systems",
+    "year": 2015,
+    "term": "spring",
+    "discipline": "humanities",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities",
+      "Modalities in S4",
+      "Validity for S4",
+      "System S5",
+      "Validity in S5",
+      "System B",
+      "Basic Facts about B",
+      "Stronger systems than S5"
+    ],
+    "key_terms": [
+      "modalities",
+      "reduction law",
+      "standard form",
+      "iterated modality",
+      "S4-frame",
+      "S4-valid",
+      "S5-frame",
+      "equivalence relation",
+      "B-frame",
+      "B-valid"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 8380,
+    "output_tokens": 420,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00106842,
+  "billed_cost_usd": 0.001277845,
+  "latency_s": 8.79993400000967,
+  "n_pages": 5,
+  "image_pixels": 6943548,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Modal Logic\",\"course_code\":\"24.244\",\"institution\":\"MIT OpenCourseWare\",\"lecturers\":[],\"lecture_number\":5,\"lecture_title\":\"Stronger Systems\",\"year\":2015,\"term\":\"spring\",\"discipline\":\"humanities\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Modalities\",\"Modalities in S4\",\"Validity for S4\",\"System S5\",\"Validity in S5\",\"System B\",\"Basic Facts about B\",\"Stronger systems than S5\"],\"key_terms\":[\"modalities\",\"reduction law\",\"standard form\",\"iterated modality\",\"S4-frame\",\"S4-valid\",\"S5-frame\",\"equivalence relation\",\"B-frame\",\"B-valid\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 8380,
+        "output_tokens": 420,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.79993400000967,
+      "error": null,
+      "request_id": "gen-1792863156-DFNslvaPATJWIRo6uN7Y",
+      "billed_cost_usd": 0.001277845
+    }
+  ]
+}

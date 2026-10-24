@@ -91,6 +91,29 @@ def test_ollama_schema_gets_list_limits_without_touching_the_original():
     assert "maxItems" not in schema["properties"]["references"]
 
 
+def test_openrouter_schema_has_no_refs():
+    import json as _json
+
+    from coursedeck.llm.openrouter_adapter import inline_refs
+    from coursedeck.schema import LectureCard
+
+    schema = inline_refs(LectureCard.model_json_schema())
+    text = _json.dumps(schema)
+    assert "$ref" not in text and "$defs" not in text
+    assert "enum" in schema["properties"]["discipline"]
+    assert schema["properties"]["discipline"]["description"]
+
+
+def test_source_file_strips_ocw_hash():
+    from pathlib import Path
+
+    from coursedeck.dataset.manifest import read_manifest
+
+    rows = {r.doc_id: r for r in read_manifest(Path("data/manifests/golden.csv"))}
+    assert rows["ocw-12-480-lecture_16"].source_file == "lecture_16.pdf"
+    assert rows["zen-14978718-p006"].source_file.endswith(".pdf")
+
+
 def test_cost_uses_long_prompt_pricing():
     haiku = MODELS["haiku"]
     assert haiku.cost(Usage(1_000_000, 0)) == pytest.approx(0.50)  # > 100K prompt tier

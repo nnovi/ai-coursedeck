@@ -34,6 +34,8 @@ MODELS: dict[str, ModelSpec] = {
         ModelSpec("haiku", "anthropic", "claude-haiku-5-5", 0.10, 0.50,
                   long_prompt=(100_000, 0.50, 2.50)),
         ModelSpec("sonnet", "anthropic", "claude-sonnet-5-5", 2.00, 10.00),
+        # Cheap current GPT tier via OpenRouter (prices as listed by OpenRouter, Oct 2026).
+        ModelSpec("gpt-6-luna", "openrouter", "openai/gpt-6-luna", 0.10, 0.50),
         # Local models: no per-token price (hardware and electricity are not counted).
         ModelSpec("qwen3-vl-8b", "ollama", "qwen3-vl:8b-instruct"),
         ModelSpec("qwen3-vl-4b", "ollama", "qwen3-vl:4b-instruct"),
@@ -41,19 +43,47 @@ MODELS: dict[str, ModelSpec] = {
 }
 
 
-def make_adapter(spec: ModelSpec, effort: str | None = None,
-                 temperature: float | None = None) -> Adapter:
+@dataclass(frozen=True)
+class Sampling:
+    """Generation settings. None = provider default.
+
+    Current Claude models reject non-default temperature/top_p, so their knob is effort;
+    temperature/top_p apply to Ollama and OpenRouter models.
+    """
+
+    effort: str | None = None
+    temperature: float | None = None
+    top_p: float | None = None
+
+    def label(self) -> str:
+        parts = [f"{k}={v}" for k, v in vars(self).items() if v is not None]
+        return ", ".join(parts) or "default"
+
+
+def make_adapter(spec: ModelSpec, sampling: Sampling | None = None, timeout_s: float = 120.0,
+                 max_retries: int = 2) -> Adapter:
+    sampling = sampling or Sampling()
     if spec.provider == "anthropic":
-        if temperature is not None:
-            raise ValueError("current Claude models reject non-default temperature; use effort")
+        if sampling.temperature is not None or sampling.top_p is not None:
+            raise ValueError("current Claude models reject non-default temperature/top_p; "
+                             "use effort")
         from coursedeck.llm.anthropic_adapter import AnthropicAdapter
 
-        return AnthropicAdapter(spec.model_id, effort=effort)
+        return AnthropicAdapter(spec.model_id, effort=sampling.effort, timeout_s=timeout_s,
+                                max_retries=max_retries)
+    if sampling.effort is not None:
+        raise ValueError("effort is an Anthropic setting; use temperature/top_p")
     if spec.provider == "ollama":
-        if effort is not None:
-            raise ValueError("effort is an Anthropic setting; use temperature for Ollama models")
         from coursedeck.llm.ollama_adapter import OllamaAdapter
         from coursedeck.schema import LIST_LIMITS
 
-        return OllamaAdapter(spec.model_id, temperature=temperature, max_items=LIST_LIMITS)
+        # local generation of a long document can take minutes on a laptop
+        return OllamaAdapter(spec.model_id, temperature=sampling.temperature,
+                             top_p=sampling.top_p, timeout_s=max(timeout_s, 600),
+                             max_items=LIST_LIMITS)
+    if spec.provider == "openrouter":
+        from coursedeck.llm.openrouter_adapter import OpenRouterAdapter
+
+        return OpenRouterAdapter(spec.model_id, temperature=sampling.temperature,
+                                 top_p=sampling.top_p, timeout_s=timeout_s, retries=max_retries)
     raise ValueError(f"unknown provider {spec.provider}")

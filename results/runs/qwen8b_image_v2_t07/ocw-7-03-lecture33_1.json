@@ -1,0 +1,73 @@
+{
+  "doc_id": "ocw-7-03-lecture33_1",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": "MIT OCW",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": null,
+    "term": null,
+    "discipline": "medicine_health",
+    "doc_type": "slides",
+    "topics": [
+      "Most environmental causes of cancer are mutagens",
+      "Cancer tends to arise in actively dividing cells",
+      "Cancer is a genetic disease of somatic cells",
+      "Incidence of stomach cancer as a function of age",
+      "Major complications in understanding the genetic basis of cancer",
+      "Isolation of the Ras oncogene from human tumor cells",
+      "Synergistic effect of oncogenic forms of myc and ras"
+    ],
+    "key_terms": [
+      "mutagens",
+      "Aflatoxin B",
+      "3,4-benzpyrene",
+      "carcinoma",
+      "lukemia",
+      "myeloma",
+      "lymphoma",
+      "sarcoma",
+      "somatic cells",
+      "mutations",
+      "uncontrolled growth",
+      "tumor cell",
+      "metastasis",
+      "angiogenesis",
+      "Ras oncogene",
+      "myc",
+      "ras D"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 10459,
+    "output_tokens": 288,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 6.533178900019266,
+  "n_pages": 8,
+  "image_pixels": 4381555,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": null,\n  \"course_code\": null,\n  \"institution\": \"MIT OCW\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": null,\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"medicine_health\",\n  \"doc_type\": \"slides\",\n  \"topics\": [\n    \"Most environmental causes of cancer are mutagens\",\n    \"Cancer tends to arise in actively dividing cells\",\n    \"Cancer is a genetic disease of somatic cells\",\n    \"Incidence of stomach cancer as a function of age\",\n    \"Major complications in understanding the genetic basis of cancer\",\n    \"Isolation of the Ras oncogene from human tumor cells\",\n    \"Synergistic effect of oncogenic forms of myc and ras\"\n  ],\n  \"key_terms\": [\n    \"mutagens\",\n    \"Aflatoxin B\",\n    \"3,4-benzpyrene\",\n    \"carcinoma\",\n    \"lukemia\",\n    \"myeloma\",\n    \"lymphoma\",\n    \"sarcoma\",\n    \"somatic cells\",\n    \"mutations\",\n    \"uncontrolled growth\",\n    \"tumor cell\",\n    \"metastasis\",\n    \"angiogenesis\",\n    \"Ras oncogene\",\n    \"myc\",\n    \"ras D\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 10459,
+        "output_tokens": 288,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.533178900019266,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

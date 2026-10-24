@@ -1,0 +1,80 @@
+{
+  "doc_id": "ocw-10-37-lec10_03092007_w",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "10.37 Chemical and Biological Reaction Engineering",
+    "course_code": "10.37",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Prof. K. Dane Wittrup"
+    ],
+    "lecture_number": 10,
+    "lecture_title": "Non-ideal Reactor Mixing Patterns",
+    "year": 2007,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Residence time distribution (RTD)",
+      "Tanks in series model",
+      "Combinations of ideal reactors",
+      "Non-ideal mixing",
+      "Experimental determination of E(t)",
+      "PFR (Ideal and Non-ideal)",
+      "CSTR (Ideal and Non-ideal mixing)",
+      "Axial dispersion",
+      "Channeling",
+      "Dead volumes",
+      "Bypassing",
+      "Recirculation",
+      "Partially dead volumes"
+    ],
+    "key_terms": [
+      "RTD",
+      "PFR",
+      "CSTR",
+      "E(t)",
+      "τ",
+      "σ",
+      "Axial dispersion",
+      "Channeling",
+      "Dead volumes",
+      "Bypassing",
+      "Recirculation",
+      "Tanks in series model",
+      "Taylor dispersion model",
+      "Peclet number"
+    ],
+    "references": [
+      "K. Dane Wittrup, course materials for 10.37 Chemical and Biological Reaction Engineering, Spring 2007. MIT OpenCourseWare (http://ocw.mit.edu), Massachusetts Institute of Technology."
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 13560,
+    "output_tokens": 370,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 9.32662830001209,
+  "n_pages": 7,
+  "image_pixels": 11168467,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"10.37 Chemical and Biological Reaction Engineering\",\n  \"course_code\": \"10.37\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"Prof. K. Dane Wittrup\"\n  ],\n  \"lecture_number\": 10,\n  \"lecture_title\": \"Non-ideal Reactor Mixing Patterns\",\n  \"year\": 2007,\n  \"term\": \"spring\",\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Residence time distribution (RTD)\",\n    \"Tanks in series model\",\n    \"Combinations of ideal reactors\",\n    \"Non-ideal mixing\",\n    \"Experimental determination of E(t)\",\n    \"PFR (Ideal and Non-ideal)\",\n    \"CSTR (Ideal and Non-ideal mixing)\",\n    \"Axial dispersion\",\n    \"Channeling\",\n    \"Dead volumes\",\n    \"Bypassing\",\n    \"Recirculation\",\n    \"Partially dead volumes\"\n  ],\n  \"key_terms\": [\n    \"RTD\",\n    \"PFR\",\n    \"CSTR\",\n    \"E(t)\",\n    \"τ\",\n    \"σ\",\n    \"Axial dispersion\",\n    \"Channeling\",\n    \"Dead volumes\",\n    \"Bypassing\",\n    \"Recirculation\",\n    \"Tanks in series model\",\n    \"Taylor dispersion model\",\n    \"Peclet number\"\n  ],\n  \"references\": [\n    \"K. Dane Wittrup, course materials for 10.37 Chemical and Biological Reaction Engineering, Spring 2007. MIT OpenCourseWare (http://ocw.mit.edu), Massachusetts Institute of Technology.\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 13560,
+        "output_tokens": 370,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 9.32662830001209,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

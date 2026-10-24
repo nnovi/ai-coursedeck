@@ -1,0 +1,47 @@
+{
+  "doc_id": "ocw-12-480-lecture_16",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Silicate melt – mineral equilibria",
+    "course_code": "12.480",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": null,
+    "term": null,
+    "discipline": "earth_environmental_sciences",
+    "doc_type": "lecture_notes",
+    "topics": [],
+    "key_terms": [],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 10890,
+    "output_tokens": 112,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.789084400050342,
+  "n_pages": 5,
+  "image_pixels": 9517760,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Silicate melt – mineral equilibria\",\n  \"course_code\": \"12.480\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": null,\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"earth_environmental_sciences\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [],\n  \"key_terms\": [],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 10890,
+        "output_tokens": 112,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.789084400050342,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

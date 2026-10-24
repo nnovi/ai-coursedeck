@@ -1,0 +1,79 @@
+{
+  "doc_id": "ocw-10-37-lec10_03092007_w",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Chemical and Biological Reaction Engineering",
+    "course_code": "10.37",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "K. Dane Wittrup"
+    ],
+    "lecture_number": 10,
+    "lecture_title": "Non-ideal Reactor Mixing Patterns",
+    "year": 2007,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Non-ideal mixing",
+      "Residence time distribution",
+      "Experimental determination of E(t)",
+      "Ideal PFR and CSTR",
+      "Non-ideal CSTR: bypassing and dead volumes",
+      "Non-ideal PFR: channeling and axial dispersion",
+      "Tanks in series model",
+      "Combinations of ideal reactors"
+    ],
+    "key_terms": [
+      "residence time distribution",
+      "E(t)",
+      "mean residence time",
+      "variance",
+      "pulse input",
+      "step input",
+      "tracer",
+      "bypassing",
+      "dead volume",
+      "channeling",
+      "axial dispersion",
+      "tanks in series",
+      "Taylor dispersion model",
+      "Peclet number",
+      "back-mixing",
+      "recirculation eddies",
+      "stagnant volumes",
+      "compartmental model"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 14815,
+    "output_tokens": 370,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.034089,
+  "billed_cost_usd": null,
+  "latency_s": 4.889267300022766,
+  "n_pages": 7,
+  "image_pixels": 11168467,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Chemical and Biological Reaction Engineering\",\"course_code\":\"10.37\",\"institution\":\"Massachusetts Institute of Technology\",\"lecturers\":[\"K. Dane Wittrup\"],\"lecture_number\":10,\"lecture_title\":\"Non-ideal Reactor Mixing Patterns\",\"year\":2007,\"term\":\"spring\",\"discipline\":\"engineering\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Non-ideal mixing\",\"Residence time distribution\",\"Experimental determination of E(t)\",\"Ideal PFR and CSTR\",\"Non-ideal CSTR: bypassing and dead volumes\",\"Non-ideal PFR: channeling and axial dispersion\",\"Tanks in series model\",\"Combinations of ideal reactors\"],\"key_terms\":[\"residence time distribution\",\"E(t)\",\"mean residence time\",\"variance\",\"pulse input\",\"step input\",\"tracer\",\"bypassing\",\"dead volume\",\"channeling\",\"axial dispersion\",\"tanks in series\",\"Taylor dispersion model\",\"Peclet number\",\"back-mixing\",\"recirculation eddies\",\"stagnant volumes\",\"compartmental model\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 14815,
+        "output_tokens": 370,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.889267300022766,
+      "error": null,
+      "request_id": "req_011CgMA4uNFJocG2c9LnrAyZ",
+      "billed_cost_usd": null
+    }
+  ]
+}

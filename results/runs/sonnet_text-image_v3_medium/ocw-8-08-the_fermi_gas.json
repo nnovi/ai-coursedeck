@@ -1,0 +1,76 @@
+{
+  "doc_id": "ocw-8-08-the_fermi_gas",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "The Fermi gas",
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Free fermions and grand partition function",
+      "Equation of state",
+      "High temperature classical limit",
+      "Zero-temperature quantum limit",
+      "High temperature expansion and virial correction",
+      "Density of states and low temperature properties",
+      "Compressibility and spin susceptibility of a metal",
+      "Low temperature specific heat",
+      "White dwarf and neutron star",
+      "Band theory, semiconductors and diode"
+    ],
+    "key_terms": [
+      "Fermi gas",
+      "grand partition function",
+      "thermopotential",
+      "Fermi-Dirac distribution",
+      "Fermi pressure",
+      "Fermi energy",
+      "density of states",
+      "virial expansion",
+      "compressibility",
+      "spin susceptibility",
+      "specific heat",
+      "Brillouin zone",
+      "Fermi surface",
+      "band structure",
+      "p-n junction"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 44973,
+    "output_tokens": 324,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.093945,
+  "billed_cost_usd": null,
+  "latency_s": 7.540008200099692,
+  "n_pages": 18,
+  "image_pixels": 34263936,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"The Fermi gas\",\"year\":null,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Free fermions and grand partition function\",\"Equation of state\",\"High temperature classical limit\",\"Zero-temperature quantum limit\",\"High temperature expansion and virial correction\",\"Density of states and low temperature properties\",\"Compressibility and spin susceptibility of a metal\",\"Low temperature specific heat\",\"White dwarf and neutron star\",\"Band theory, semiconductors and diode\"],\"key_terms\":[\"Fermi gas\",\"grand partition function\",\"thermopotential\",\"Fermi-Dirac distribution\",\"Fermi pressure\",\"Fermi energy\",\"density of states\",\"virial expansion\",\"compressibility\",\"spin susceptibility\",\"specific heat\",\"Brillouin zone\",\"Fermi surface\",\"band structure\",\"p-n junction\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 44973,
+        "output_tokens": 324,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 7.540008200099692,
+      "error": null,
+      "request_id": "req_011CgMA6SiB95E3kuYNh19Ys",
+      "billed_cost_usd": null
+    }
+  ]
+}

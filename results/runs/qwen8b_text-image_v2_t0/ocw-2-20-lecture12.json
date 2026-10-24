@@ -1,0 +1,79 @@
+{
+  "doc_id": "ocw-2-20-lecture12",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Marine Hydrodynamics",
+    "course_code": "2.20",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [],
+    "lecture_number": 12,
+    "lecture_title": "Lifting Surfaces",
+    "year": 2005,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "2D Symmetric Streamlined Body",
+      "Asymmetric Body",
+      "Potential Flow and Kutta Condition",
+      "Why Kutta condition?",
+      "How much ΓS?",
+      "Thin Wing, Small Angle of Attack",
+      "Definitions",
+      "Lift due to circulation",
+      "Moment, with respect to mid-chord, due to circulation",
+      "Simple Closed-Form Solutions for ∫γ(x)dx from Linear Theory"
+    ],
+    "key_terms": [
+      "Kutta condition",
+      "circulatory flow",
+      "starting vortex",
+      "circulation Γ",
+      "circulation γ(x)",
+      "lift coefficient CL",
+      "moment coefficient CM",
+      "center of pressure xcp",
+      "angle of attack α",
+      "camber η(x)",
+      "linearized Bernoulli equation",
+      "Kutta-Joukowski law",
+      "potential flow",
+      "viscous effects",
+      "separation",
+      "stall",
+      "circulation distribution",
+      "superposition",
+      "linearized theory",
+      "thin wing"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 20643,
+    "output_tokens": 338,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 11.006416200078093,
+  "n_pages": 14,
+  "image_pixels": 11718707,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Marine Hydrodynamics\",\n  \"course_code\": \"2.20\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [],\n  \"lecture_number\": 12,\n  \"lecture_title\": \"Lifting Surfaces\",\n  \"year\": 2005,\n  \"term\": \"spring\",\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"2D Symmetric Streamlined Body\",\n    \"Asymmetric Body\",\n    \"Potential Flow and Kutta Condition\",\n    \"Why Kutta condition?\",\n    \"How much ΓS?\",\n    \"Thin Wing, Small Angle of Attack\",\n    \"Definitions\",\n    \"Lift due to circulation\",\n    \"Moment, with respect to mid-chord, due to circulation\",\n    \"Simple Closed-Form Solutions for ∫γ(x)dx from Linear Theory\"\n  ],\n  \"key_terms\": [\n    \"Kutta condition\",\n    \"circulatory flow\",\n    \"starting vortex\",\n    \"circulation Γ\",\n    \"circulation γ(x)\",\n    \"lift coefficient CL\",\n    \"moment coefficient CM\",\n    \"center of pressure xcp\",\n    \"angle of attack α\",\n    \"camber η(x)\",\n    \"linearized Bernoulli equation\",\n    \"Kutta-Joukowski law\",\n    \"potential flow\",\n    \"viscous effects\",\n    \"separation\",\n    \"stall\",\n    \"circulation distribution\",\n    \"superposition\",\n    \"linearized theory\",\n    \"thin wing\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 20643,
+        "output_tokens": 338,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 11.006416200078093,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

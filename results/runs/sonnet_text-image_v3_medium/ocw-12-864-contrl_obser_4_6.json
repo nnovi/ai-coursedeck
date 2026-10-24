@@ -1,0 +1,68 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Need to examine existence of matrix operations",
+      "Controllability",
+      "Controllability test via the matrix C",
+      "Observability",
+      "Observability matrix and related concepts",
+      "Mathematical versus practical observability in fluids"
+    ],
+    "key_terms": [
+      "controllable",
+      "controllability",
+      "observability",
+      "observable",
+      "observability matrix",
+      "nullspace",
+      "stabilizability",
+      "reachability",
+      "reconstructability",
+      "detectability",
+      "algebraic Riccati equations"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 6567,
+    "output_tokens": 228,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.016173,
+  "billed_cost_usd": null,
+  "latency_s": 2.7080171999987215,
+  "n_pages": 4,
+  "image_pixels": 3452020,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Controllability and Observability\",\"year\":null,\"term\":null,\"discipline\":\"engineering\",\"doc_type\":\"textbook_chapter\",\"topics\":[\"Need to examine existence of matrix operations\",\"Controllability\",\"Controllability test via the matrix C\",\"Observability\",\"Observability matrix and related concepts\",\"Mathematical versus practical observability in fluids\"],\"key_terms\":[\"controllable\",\"controllability\",\"observability\",\"observable\",\"observability matrix\",\"nullspace\",\"stabilizability\",\"reachability\",\"reconstructability\",\"detectability\",\"algebraic Riccati equations\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 6567,
+        "output_tokens": 228,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.7080171999987215,
+      "error": null,
+      "request_id": "req_011CgMA7VvgpAgdYhET3yJEC",
+      "billed_cost_usd": null
+    }
+  ]
+}

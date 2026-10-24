@@ -1,0 +1,83 @@
+{
+  "doc_id": "ocw-10-37-lec10_03092007_w",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Chemical and Biological Reaction Engineering",
+    "course_code": "10.37",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "K. Dane Wittrup"
+    ],
+    "lecture_number": 10,
+    "lecture_title": "Non­ideal Reactor Mixing Patterns",
+    "year": 2007,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Residence time distribution (RTD)",
+      "Tanks in series model",
+      "Combinations of ideal reactors",
+      "Non­ideal mixing",
+      "PFR (Plug Flow Reactor)",
+      "CSTR (Continuous Stirred Tank Reactor)",
+      "Experimental determination of E(t)",
+      "Axial dispersion",
+      "Channeling",
+      "Bypassing",
+      "Dead volumes",
+      "Recirculation",
+      "Partial dead volumes",
+      "Modeling non­ideal reactors as compartmental combinations"
+    ],
+    "key_terms": [
+      "Residence time distribution (RTD)",
+      "Tanks in series",
+      "Taylor dispersion model",
+      "Peclet number",
+      "Pulse input",
+      "Step input",
+      "E(t) probability density function",
+      "Mean residence time (τ)",
+      "Variance (σ²)",
+      "Backmixing",
+      "Axial dispersion",
+      "Channeling",
+      "Bypassing",
+      "Dead volumes",
+      "Recirculation",
+      "Compartmental modeling"
+    ],
+    "references": [
+      "K. Dane Wittrup, course materials for 10.37 Chemical and Biological Reaction Engineering, Spring 2007. MIT OpenCourseWare (http://ocw.mit.edu), Massachusetts Institute of Technology."
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2671,
+    "output_tokens": 405,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 4.158260899945162,
+  "n_pages": 7,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Chemical and Biological Reaction Engineering\",\n  \"course_code\": \"10.37\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"K. Dane Wittrup\"\n  ],\n  \"lecture_number\": 10,\n  \"lecture_title\": \"Non­ideal Reactor Mixing Patterns\",\n  \"year\": 2007,\n  \"term\": \"spring\",\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Residence time distribution (RTD)\",\n    \"Tanks in series model\",\n    \"Combinations of ideal reactors\",\n    \"Non­ideal mixing\",\n    \"PFR (Plug Flow Reactor)\",\n    \"CSTR (Continuous Stirred Tank Reactor)\",\n    \"Experimental determination of E(t)\",\n    \"Axial dispersion\",\n    \"Channeling\",\n    \"Bypassing\",\n    \"Dead volumes\",\n    \"Recirculation\",\n    \"Partial dead volumes\",\n    \"Modeling non­ideal reactors as compartmental combinations\"\n  ],\n  \"key_terms\": [\n    \"Residence time distribution (RTD)\",\n    \"Tanks in series\",\n    \"Taylor dispersion model\",\n    \"Peclet number\",\n    \"Pulse input\",\n    \"Step input\",\n    \"E(t) probability density function\",\n    \"Mean residence time (τ)\",\n    \"Variance (σ²)\",\n    \"Backmixing\",\n    \"Axial dispersion\",\n    \"Channeling\",\n    \"Bypassing\",\n    \"Dead volumes\",\n    \"Recirculation\",\n    \"Compartmental modeling\"\n  ],\n  \"references\": [\n    \"K. Dane Wittrup, course materials for 10.37 Chemical and Biological Reaction Engineering, Spring 2007. MIT OpenCourseWare (http://ocw.mit.edu), Massachusetts Institute of Technology.\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2671,
+        "output_tokens": 405,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.158260899945162,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

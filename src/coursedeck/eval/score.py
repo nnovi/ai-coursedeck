@@ -1,8 +1,8 @@
 """Score extraction runs against the golden set and compare them.
 
-    python -m coursedeck.eval.score runs/<run_a> runs/<run_b> ... [--include-drafts]
+    python -m coursedeck.eval.score results/runs/<run_a> results/runs/<run_b> ...
 
-Writes runs/<run>/scores.json and prints a comparison table (markdown), overall and by
+Writes results/runs/<run>/scores.json and prints a comparison table (markdown), overall and by
 document stratum (Ukrainian, English scans, slides, notes).
 """
 
@@ -50,7 +50,7 @@ def score_run(run_dir: Path, golden: dict[str, dict], rows: dict[str, ManifestRo
     scores = {"config": config, "summary": summary, "overall": aggregate(per_doc),
               "by_stratum": by_stratum, "per_doc": per_doc}
     (run_dir / "scores.json").write_text(json.dumps(scores, ensure_ascii=False, indent=2),
-                                         "utf-8")
+                                         "utf-8", newline="\n")
     return scores
 
 
@@ -59,21 +59,23 @@ def fmt(x, digits: int = 2) -> str:
 
 
 def label(cfg: dict) -> str:
-    sampling = (f"effort={cfg['effort']}" if cfg.get("effort") else
-                f"t={cfg['temperature']}" if cfg.get("temperature") is not None else "default")
+    keys = {"effort": "effort", "temperature": "t", "top_p": "top_p"}
+    sampling = ", ".join(f"{short}={cfg[k]}" for k, short in keys.items()
+                         if cfg.get(k) is not None) or "default"
     return f"{cfg['model']} | {cfg['mode']} | {cfg['prompt']} | {sampling}"
 
 
 def table(all_scores: list[dict]) -> str:
     lines = [
-        ("| model | mode | prompt | sampling | valid | facts | halluc. | omitted | class. "
-         "| content F1 | overall | p50 s | p95 s | $/1000 docs |"),
-        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+        ("| run | model | mode | prompt | sampling | docs | valid | facts | halluc. | omitted "
+         "| class. | content F1 | overall | p50 s | p95 s | $/1000 docs |"),
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     for s in all_scores:
         o, sm = s["overall"], s["summary"]
         lines.append(
-            f"| {label(s['config'])} | {fmt(sm['valid_rate'])} | {fmt(o['groups']['fact'])} "
+            f"| {s['config']['run_id']} | {label(s['config'])} | {sm['n_docs']} "
+            f"| {fmt(sm['valid_rate'])} | {fmt(o['groups']['fact'])} "
             f"| {fmt(o['hallucination_rate'])} | {fmt(o['omission_rate'])} "
             f"| {fmt(o['groups']['classification'])} | {fmt(o['groups']['content'])} "
             f"| {fmt(o['overall'])} | {fmt(sm['latency_p50_s'], 1)} | {fmt(sm['latency_p95_s'], 1)} "
@@ -81,11 +83,11 @@ def table(all_scores: list[dict]) -> str:
         )
     strata = sorted({k for s in all_scores for k in s["by_stratum"]})
     lines += ["", "Overall score by stratum:", "",
-              "| model | mode | prompt | sampling | " + " | ".join(strata) + " |",
-              "|---|---|---|---|" + "---|" * len(strata)]
+              "| run | " + " | ".join(strata) + " |",
+              "|---|" + "---|" * len(strata)]
     for s in all_scores:
         cells = [fmt(s["by_stratum"].get(k, {}).get("overall")) for k in strata]
-        lines.append(f"| {label(s['config'])} | " + " | ".join(cells) + " |")
+        lines.append(f"| {s['config']['run_id']} | " + " | ".join(cells) + " |")
     return "\n".join(lines)
 
 
@@ -109,7 +111,7 @@ def main() -> None:
     print(md)
     if args.out:
         args.out.parent.mkdir(parents=True, exist_ok=True)
-        args.out.write_text(md + "\n", "utf-8")
+        args.out.write_text(md + "\n", "utf-8", newline="\n")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,76 @@
+{
+  "doc_id": "ocw-8-08-the_fermi_gas",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 8,
+    "lecture_title": "The Fermi gas",
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Free fermions and multi-particle states",
+      "Grand partition function and thermopotential",
+      "Total number of particles and Fermi-Dirac distribution",
+      "Equation of state of the Fermi gas",
+      "High temperature classical limit",
+      "Zero temperature quantum limit and Fermi pressure",
+      "High temperature expansion and virial coefficients",
+      "Low temperature density of states",
+      "Ground state energy and compressibility of a metal",
+      "Spin susceptibility of a metal",
+      "Low temperature specific heat",
+      "White dwarf and neutron star"
+    ],
+    "key_terms": [
+      "Fermi gas",
+      "Fermi-Dirac distribution",
+      "grand partition function",
+      "thermopotential",
+      "Fermi energy",
+      "Fermi pressure",
+      "density of states",
+      "chemical potential",
+      "virial expansion",
+      "compressibility",
+      "spin susceptibility",
+      "specific heat",
+      "fugacity"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 44973,
+    "output_tokens": 355,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00471275,
+  "billed_cost_usd": null,
+  "latency_s": 5.0089824999449775,
+  "n_pages": 18,
+  "image_pixels": 34263936,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":8,\"lecture_title\":\"The Fermi gas\",\"year\":null,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Free fermions and multi-particle states\",\"Grand partition function and thermopotential\",\"Total number of particles and Fermi-Dirac distribution\",\"Equation of state of the Fermi gas\",\"High temperature classical limit\",\"Zero temperature quantum limit and Fermi pressure\",\"High temperature expansion and virial coefficients\",\"Low temperature density of states\",\"Ground state energy and compressibility of a metal\",\"Spin susceptibility of a metal\",\"Low temperature specific heat\",\"White dwarf and neutron star\"],\"key_terms\":[\"Fermi gas\",\"Fermi-Dirac distribution\",\"grand partition function\",\"thermopotential\",\"Fermi energy\",\"Fermi pressure\",\"density of states\",\"chemical potential\",\"virial expansion\",\"compressibility\",\"spin susceptibility\",\"specific heat\",\"fugacity\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 44973,
+        "output_tokens": 355,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.0089824999449775,
+      "error": null,
+      "request_id": "req_011CgM9wEbfSA2rW4FK2pSzd",
+      "billed_cost_usd": null
+    }
+  ]
+}

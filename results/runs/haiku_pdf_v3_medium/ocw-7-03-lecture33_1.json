@@ -1,0 +1,73 @@
+{
+  "doc_id": "ocw-7-03-lecture33_1",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 33,
+    "lecture_title": null,
+    "year": null,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "slides",
+    "topics": [
+      "Environmental mutagens and cancer",
+      "Cancer arises in actively dividing cells",
+      "Cancer as a genetic disease of somatic cells",
+      "Complications in understanding the genetic basis of cancer",
+      "Incidence of stomach cancer by age",
+      "Transformed 3T3 cells",
+      "Isolation of the Ras oncogene from human tumor cells",
+      "Synergistic effect of myc and ras"
+    ],
+    "key_terms": [
+      "mutagen",
+      "carcinoma",
+      "sarcoma",
+      "lymphoma",
+      "somatic cells",
+      "mutation",
+      "oncogene",
+      "Ras",
+      "myc",
+      "metastasis",
+      "angiogenesis",
+      "epoxide",
+      "guanosine",
+      "transformed 3T3 cells"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 13346,
+    "output_tokens": 1204,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0019745500000000003,
+  "billed_cost_usd": null,
+  "latency_s": 7.497607599943876,
+  "n_pages": 8,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":\"MIT OpenCourseWare\",\"lecturers\":[],\"lecture_number\":33,\"lecture_title\":null,\"year\":null,\"term\":null,\"discipline\":\"biology\",\"doc_type\":\"slides\",\"topics\":[\"Environmental mutagens and cancer\",\"Cancer arises in actively dividing cells\",\"Cancer as a genetic disease of somatic cells\",\"Complications in understanding the genetic basis of cancer\",\"Incidence of stomach cancer by age\",\"Transformed 3T3 cells\",\"Isolation of the Ras oncogene from human tumor cells\",\"Synergistic effect of myc and ras\"],\"key_terms\":[\"mutagen\",\"carcinoma\",\"sarcoma\",\"lymphoma\",\"somatic cells\",\"mutation\",\"oncogene\",\"Ras\",\"myc\",\"metastasis\",\"angiogenesis\",\"epoxide\",\"guanosine\",\"transformed 3T3 cells\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 13346,
+        "output_tokens": 1204,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 7.497607599943876,
+      "error": null,
+      "request_id": "req_011CgM9z9MEDtUxeoWPvDejN",
+      "billed_cost_usd": null
+    }
+  ]
+}

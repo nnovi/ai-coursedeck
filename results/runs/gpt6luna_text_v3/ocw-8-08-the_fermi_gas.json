@@ -1,0 +1,49 @@
+{
+  "doc_id": "ocw-8-08-the_fermi_gas",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "The Fermi Gas",
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [],
+    "key_terms": [],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 268,
+    "output_tokens": 677,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00038572000000000004,
+  "billed_cost_usd": 0.000392345,
+  "latency_s": 7.140577899990603,
+  "n_pages": 18,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"The Fermi Gas\",\"year\":null,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[],\"key_terms\":[],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 268,
+        "output_tokens": 677,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 7.140577899990603,
+      "error": null,
+      "request_id": "gen-1792849378-Wcfqw3ASVmUhgKHEXUsG",
+      "billed_cost_usd": 0.000392345
+    }
+  ]
+}

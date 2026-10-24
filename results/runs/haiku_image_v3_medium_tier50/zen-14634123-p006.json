@@ -1,0 +1,80 @@
+{
+  "doc_id": "zen-14634123-p006",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Технології DevOps",
+    "course_code": null,
+    "institution": "Донецький національний технічний університет",
+    "lecturers": [
+      "Я. Ю. Дорогий"
+    ],
+    "lecture_number": 1,
+    "lecture_title": "Вступ до дисципліни",
+    "year": 2024,
+    "term": null,
+    "discipline": "computer_science",
+    "doc_type": "slides",
+    "topics": [
+      "Мета та структура курсу",
+      "Вступ в DevOps",
+      "Continuous Integration",
+      "Середовища",
+      "Continuous Delivery та Deployment",
+      "Continuous Testing",
+      "Метрики"
+    ],
+    "key_terms": [
+      "DevOps",
+      "безперервна інтеграція",
+      "безперервна доставка",
+      "безперервне розгортання",
+      "Continuous Testing",
+      "DevOps інженер",
+      "DevOps Toolchain",
+      "T2M",
+      "модульне тестування",
+      "інфраструктура як код",
+      "динамічна інфраструктура",
+      "Culture",
+      "Automation",
+      "Measurement",
+      "Sharing",
+      "інструменти DevOps",
+      "Continuous Integration",
+      "Continuous Delivery",
+      "Continuous Deployment"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 22921,
+    "output_tokens": 1809,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0032345499999999997,
+  "billed_cost_usd": null,
+  "latency_s": 9.282609599991702,
+  "n_pages": 22,
+  "image_pixels": 17323004,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Технології DevOps\",\"course_code\":null,\"institution\":\"Донецький національний технічний університет\",\"lecturers\":[\"Я. Ю. Дорогий\"],\"lecture_number\":1,\"lecture_title\":\"Вступ до дисципліни\",\"year\":2024,\"term\":null,\"discipline\":\"computer_science\",\"doc_type\":\"slides\",\"topics\":[\"Мета та структура курсу\",\"Вступ в DevOps\",\"Continuous Integration\",\"Середовища\",\"Continuous Delivery та Deployment\",\"Continuous Testing\",\"Метрики\"],\"key_terms\":[\"DevOps\",\"безперервна інтеграція\",\"безперервна доставка\",\"безперервне розгортання\",\"Continuous Testing\",\"DevOps інженер\",\"DevOps Toolchain\",\"T2M\",\"модульне тестування\",\"інфраструктура як код\",\"динамічна інфраструктура\",\"Culture\",\"Automation\",\"Measurement\",\"Sharing\",\"інструменти DevOps\",\"Continuous Integration\",\"Continuous Delivery\",\"Continuous Deployment\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 22921,
+        "output_tokens": 1809,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 9.282609599991702,
+      "error": null,
+      "request_id": "req_011CgMTbN9dbFA9KXiRnuNfr",
+      "billed_cost_usd": null
+    }
+  ]
+}

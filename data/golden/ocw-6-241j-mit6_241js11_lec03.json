@@ -1,7 +1,7 @@
 {
   "doc_id": "ocw-6-241j-mit6_241js11_lec03",
   "status": "reviewed",
-  "notes": "course_code '6.241' from the title-slide header (the OCW citation page has '6.241J / 16.338J', used only when the header has no code). year 2011 from the lecture date 'February 9, 2011'; term null because that source states no term ('Spring 2011' is only on the OCW citation page). Institution: department 'Aeronautics and Astronautics' dropped. Discipline engineering (lecture framed as 'Least Squares Control' in a control course), although the content is mostly linear algebra (minimum-norm solutions, null space, projection) - mathematics is a plausible alternative. 'Readings: DDV, Chapter 3' on the title slide treated as a one-entry reading list. Verification: no changes (all 6 page images checked; term null kept by the same-source rule, since the chosen year comes from the lecture date, not from 'Spring 2011' on the citation page).",
+  "notes": "course_code '6.241' from the title-slide header (the OCW citation page has '6.241J / 16.338J', used only when the header has no code). year 2011 from the lecture date 'February 9, 2011'; term null because that source states no term ('Spring 2011' is only on the OCW citation page). Institution: department 'Aeronautics and Astronautics' dropped. Discipline engineering (lecture framed as 'Least Squares Control' in a control course), although the content is mostly linear algebra (minimum-norm solutions, null space, projection) - mathematics is a plausible alternative. 'Readings: DDV, Chapter 3' on the title slide treated as a one-entry reading list. Verification: no changes (all 6 page images checked; term null kept by the same-source rule, since the chosen year comes from the lecture date, not from 'Spring 2011' on the citation page). Rule update 2026-10-24: term from the OCW citation page (Spring 2011, same year as the lecture date).",
   "card": {
     "course_title": "Dynamic Systems and Control",
     "course_code": "6.241",
@@ -12,7 +12,7 @@
     "lecture_number": 3,
     "lecture_title": "Least Square Solutions of Linear Problems",
     "year": 2011,
-    "term": null,
+    "term": "spring",
     "discipline": "engineering",
     "doc_type": "slides",
     "topics": [

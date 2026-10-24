@@ -1,13 +1,13 @@
 {
   "doc_id": "ocw-7-03-lecture33_1",
   "status": "reviewed",
-  "notes": "No header, title slide or OCW citation page: all facts null. institution null because the only mention is the image credit 'Figure by MIT OCW.' (alternative: 'MIT OpenCourseWare'). Years 1975/1992 on p4 are figure data, not a document date. discipline biology (cancer genetics, oncogenes) rather than medicine_health. key_terms 'lukemia', 'meyloma' kept as misspelled in the document. Verification: no changes. All 8 slide images re-checked; null facts, biology/slides, the 8 slide-title topics, key_terms (bold terms on p1, p2, p5) and empty references confirmed. institution null kept as the annotator's choice (genuinely ambiguous: 'Figure by MIT OCW.' is an image credit, not the OCW footer/citation page the guide names).",
+  "notes": "No header, title slide or OCW citation page: all facts null. institution null because the only mention is the image credit 'Figure by MIT OCW.' (alternative: 'MIT OpenCourseWare'). Years 1975/1992 on p4 are figure data, not a document date. discipline biology (cancer genetics, oncogenes) rather than medicine_health. key_terms 'lukemia', 'meyloma' kept as misspelled in the document. Verification: no changes. All 8 slide images re-checked; null facts, biology/slides, the 8 slide-title topics, key_terms (bold terms on p1, p2, p5) and empty references confirmed. institution null kept as the annotator's choice (genuinely ambiguous: 'Figure by MIT OCW.' is an image credit, not the OCW footer/citation page the guide names). Rule update 2026-10-24: lecture_number from the file name lecture33_1.pdf (absent in the content).",
   "card": {
     "course_title": null,
     "course_code": null,
     "institution": null,
     "lecturers": [],
-    "lecture_number": null,
+    "lecture_number": 33,
     "lecture_title": null,
     "year": null,
     "term": null,

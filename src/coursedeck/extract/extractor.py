@@ -41,15 +41,17 @@ class DocInput:
     image_pixels: int = 0  # total pixels of page images sent
 
 
-def build_input(pdf: Path, mode: str) -> DocInput:
+def build_input(pdf: Path, mode: str, file_name: str | None = None) -> DocInput:
+    """file_name: the published name of the source file, a fallback source for facts."""
     if mode not in MODES:
         raise ValueError(f"mode must be one of {MODES}")
+    header = f"Source file name: {file_name}\n" if file_name else ""
     if mode == "pdf":
         pages = load_pages(pdf, with_images=False)
-        return DocInput([PdfPart(pdf.read_bytes()), TextPart(TASK)], len(pages))
+        return DocInput([PdfPart(pdf.read_bytes()), TextPart(header + TASK)], len(pages))
 
     pages = load_pages(pdf, with_images=mode != "text")
-    parts: list = [TextPart(f"The document has {len(pages)} pages.")]
+    parts: list = [TextPart(f"{header}The document has {len(pages)} pages.")]
     for p in pages:
         if mode == "text":
             parts.append(TextPart(f"--- Page {p.number} ---\n{p.text or NO_TEXT}"))
@@ -70,6 +72,7 @@ class Attempt:
     latency_s: float
     error: str | None = None
     request_id: str | None = None
+    billed_cost_usd: float | None = None  # when the provider reports it (OpenRouter)
 
 
 @dataclass
@@ -118,7 +121,8 @@ def extract(adapter: Adapter, system: str, doc: DocInput, max_tokens: int = 1600
         if resp.stop_reason == "refusal":
             error = "the model refused"
         result.attempts.append(Attempt(resp.text, resp.stop_reason, resp.usage, resp.latency_s,
-                                       error, resp.request_id))
+                                       error, resp.request_id,
+                                       resp.extra.get("billed_cost_usd")))
         if card or resp.stop_reason == "refusal" or attempt == MAX_RETRIES:
             result.card = card
             return result

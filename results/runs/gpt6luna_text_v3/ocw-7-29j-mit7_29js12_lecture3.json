@@ -1,0 +1,52 @@
+{
+  "doc_id": "ocw-7-29j-mit7_29js12_lecture3",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Cellular Neurobiology",
+    "course_code": "9.09J",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "William Quinn",
+      "Troy Littleton"
+    ],
+    "lecture_number": 3,
+    "lecture_title": null,
+    "year": 2005,
+    "term": "spring",
+    "discipline": "biology",
+    "doc_type": "lecture_notes",
+    "topics": [],
+    "key_terms": [],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 287,
+    "output_tokens": 401,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00024962,
+  "billed_cost_usd": 0.00025672,
+  "latency_s": 4.240247200010344,
+  "n_pages": 5,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Cellular Neurobiology\",\n  \"course_code\": \"9.09J\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"William Quinn\",\n    \"Troy Littleton\"\n  ],\n  \"lecture_number\": 3,\n  \"lecture_title\": null,\n  \"year\": 2005,\n  \"term\": \"spring\",\n  \"discipline\": \"biology\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [],\n  \"key_terms\": [],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 287,
+        "output_tokens": 401,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.240247200010344,
+      "error": null,
+      "request_id": "gen-1792849391-mHUlNlr74wO4HCAB6ZaJ",
+      "billed_cost_usd": 0.00025672
+    }
+  ]
+}

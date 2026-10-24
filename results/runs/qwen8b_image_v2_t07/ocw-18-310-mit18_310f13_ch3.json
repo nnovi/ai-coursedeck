@@ -1,0 +1,63 @@
+{
+  "doc_id": "ocw-18-310-mit18_310f13_ch3",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Principles of Discrete Applied Mathematics",
+    "course_code": "18.310",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Michel Goemans"
+    ],
+    "lecture_number": null,
+    "lecture_title": "Van der Waerden's Theorem",
+    "year": 2013,
+    "term": "fall",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Van der Waerden's Theorem",
+      "Arithmetic progressions",
+      "Coloring of subsets",
+      "Probabilistic method",
+      "Lower bound for Van der Waerden numbers"
+    ],
+    "key_terms": [
+      "arithmetic progression",
+      "coloring",
+      "Van der Waerden's Theorem",
+      "probabilistic method",
+      "monochromatic",
+      "Van der Waerden numbers",
+      "lower bound"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 5789,
+    "output_tokens": 228,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.9101759999757633,
+  "n_pages": 4,
+  "image_pixels": 3350466,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Principles of Discrete Applied Mathematics\",\n  \"course_code\": \"18.310\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"Michel Goemans\"\n  ],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Van der Waerden's Theorem\",\n  \"year\": 2013,\n  \"term\": \"fall\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Van der Waerden's Theorem\",\n    \"Arithmetic progressions\",\n    \"Coloring of subsets\",\n    \"Probabilistic method\",\n    \"Lower bound for Van der Waerden numbers\"\n  ],\n  \"key_terms\": [\n    \"arithmetic progression\",\n    \"coloring\",\n    \"Van der Waerden's Theorem\",\n    \"probabilistic method\",\n    \"monochromatic\",\n    \"Van der Waerden numbers\",\n    \"lower bound\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 5789,
+        "output_tokens": 228,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.9101759999757633,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

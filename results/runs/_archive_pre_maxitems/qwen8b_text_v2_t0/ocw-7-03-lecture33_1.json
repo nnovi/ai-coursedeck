@@ -1,0 +1,71 @@
+{
+  "doc_id": "ocw-7-03-lecture33_1",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Cancer Biology",
+    "course_code": null,
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": null,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Environmental mutagens and cancer",
+      "Cell types and cancer classification",
+      "Cancer as a genetic disease",
+      "Key mutated genes in cancer",
+      "Incidence of stomach cancer by age",
+      "Complications in understanding cancer genetics",
+      "3T3 cell transformation",
+      "Isolation of Ras oncogene",
+      "Synergistic effect of Myc and Ras oncogenes"
+    ],
+    "key_terms": [
+      "mutagens",
+      "epoxide",
+      "Aflatoxin B",
+      "3,4-benzpyrene",
+      "carcinoma",
+      "leukemia",
+      "lymphoma",
+      "sarcoma",
+      "somatic cells",
+      "mutations",
+      "tumor cells",
+      "Ras oncogene",
+      "Myc oncogene"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2122,
+    "output_tokens": 265,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 2.3614857000065967,
+  "n_pages": 8,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Cancer Biology\",\n  \"course_code\": null,\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": null,\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"biology\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Environmental mutagens and cancer\",\n    \"Cell types and cancer classification\",\n    \"Cancer as a genetic disease\",\n    \"Key mutated genes in cancer\",\n    \"Incidence of stomach cancer by age\",\n    \"Complications in understanding cancer genetics\",\n    \"3T3 cell transformation\",\n    \"Isolation of Ras oncogene\",\n    \"Synergistic effect of Myc and Ras oncogenes\"\n  ],\n  \"key_terms\": [\n    \"mutagens\",\n    \"epoxide\",\n    \"Aflatoxin B\",\n    \"3,4-benzpyrene\",\n    \"carcinoma\",\n    \"leukemia\",\n    \"lymphoma\",\n    \"sarcoma\",\n    \"somatic cells\",\n    \"mutations\",\n    \"tumor cells\",\n    \"Ras oncogene\",\n    \"Myc oncogene\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2122,
+        "output_tokens": 265,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.3614857000065967,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

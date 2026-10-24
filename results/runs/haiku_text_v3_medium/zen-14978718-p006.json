@@ -1,0 +1,52 @@
+{
+  "doc_id": "zen-14978718-p006",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Основи варіаційного числення",
+    "course_code": null,
+    "institution": null,
+    "lecturers": [
+      "Наталія Кугай",
+      "Микола Калініченко"
+    ],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": null,
+    "term": null,
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [],
+    "key_terms": [],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 656,
+    "output_tokens": 574,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00039055000000000003,
+  "billed_cost_usd": null,
+  "latency_s": 3.9880288999993354,
+  "n_pages": 27,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Основи варіаційного числення\",\"course_code\":null,\"institution\":null,\"lecturers\":[\"Наталія Кугай\",\"Микола Калініченко\"],\"lecture_number\":null,\"lecture_title\":null,\"year\":null,\"term\":null,\"discipline\":\"mathematics\",\"doc_type\":\"lecture_notes\",\"topics\":[],\"key_terms\":[],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 656,
+        "output_tokens": 574,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.9880288999993354,
+      "error": null,
+      "request_id": "req_011CgM9qZwq6wqXMVPKBvTbe",
+      "billed_cost_usd": null
+    }
+  ]
+}

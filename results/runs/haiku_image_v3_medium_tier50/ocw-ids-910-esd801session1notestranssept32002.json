@@ -1,0 +1,78 @@
+{
+  "doc_id": "ocw-ids-910-esd801session1notestranssept32002",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 1,
+    "lecture_title": "Leadership Development",
+    "year": 2002,
+    "term": null,
+    "discipline": "economics_business",
+    "doc_type": "outline",
+    "topics": [
+      "Elements of a shared vision",
+      "Technical depth",
+      "Social implications",
+      "Critical thinking",
+      "Interactive skills",
+      "Inspiring others",
+      "Humility and patience",
+      "Information and time management",
+      "Systems perspective",
+      "Analysis of potential disconnects"
+    ],
+    "key_terms": [
+      "shared vision",
+      "technology policy leader",
+      "technical depth",
+      "social implications",
+      "critical thinking",
+      "objectivity",
+      "impartiality",
+      "interactive skills",
+      "inspiring",
+      "humility",
+      "patience",
+      "information management",
+      "time management",
+      "systems perspective",
+      "personal and professional balance",
+      "potential disconnects"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2148,
+    "output_tokens": 1385,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00094525,
+  "billed_cost_usd": null,
+  "latency_s": 6.751948300050572,
+  "n_pages": 2,
+  "image_pixels": 1577620,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":1,\"lecture_title\":\"Leadership Development\",\"year\":2002,\"term\":null,\"discipline\":\"economics_business\",\"doc_type\":\"outline\",\"topics\":[\"Elements of a shared vision\",\"Technical depth\",\"Social implications\",\"Critical thinking\",\"Interactive skills\",\"Inspiring others\",\"Humility and patience\",\"Information and time management\",\"Systems perspective\",\"Analysis of potential disconnects\"],\"key_terms\":[\"shared vision\",\"technology policy leader\",\"technical depth\",\"social implications\",\"critical thinking\",\"objectivity\",\"impartiality\",\"interactive skills\",\"inspiring\",\"humility\",\"patience\",\"information management\",\"time management\",\"systems perspective\",\"personal and professional balance\",\"potential disconnects\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2148,
+        "output_tokens": 1385,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.751948300050572,
+      "error": null,
+      "request_id": "req_011CgMTgYi23kSqqvSs9gG65",
+      "billed_cost_usd": null
+    }
+  ]
+}

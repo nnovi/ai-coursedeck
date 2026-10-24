@@ -1,0 +1,70 @@
+{
+  "doc_id": "ocw-18-310-mit18_310f13_ch3",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Principles of Discrete Applied Mathematics",
+    "course_code": "18.310",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [
+      "Michel Goemans"
+    ],
+    "lecture_number": null,
+    "lecture_title": "Van der Waerden’s Theorem",
+    "year": 2013,
+    "term": "fall",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Arithmetic progressions",
+      "Colorings and monochromatic progressions",
+      "Van der Waerden’s Theorem",
+      "Van der Waerden numbers",
+      "Random coloring and expected progressions",
+      "Indicator variables and linearity of expectation",
+      "Counting arithmetic progressions"
+    ],
+    "key_terms": [
+      "arithmetic progression",
+      "2-coloring",
+      "monochromatic",
+      "Van der Waerden’s Theorem",
+      "Ramsey Theory",
+      "Van der Waerden numbers",
+      "probabilistic method",
+      "random variable",
+      "indicator random variable",
+      "linearity of expectation"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2007,
+    "output_tokens": 611,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00052662,
+  "billed_cost_usd": 0.00057672,
+  "latency_s": 6.281038300017826,
+  "n_pages": 4,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Principles of Discrete Applied Mathematics\",\n  \"course_code\": \"18.310\",\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [\n    \"Michel Goemans\"\n  ],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Van der Waerden’s Theorem\",\n  \"year\": 2013,\n  \"term\": \"fall\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Arithmetic progressions\",\n    \"Colorings and monochromatic progressions\",\n    \"Van der Waerden’s Theorem\",\n    \"Van der Waerden numbers\",\n    \"Random coloring and expected progressions\",\n    \"Indicator variables and linearity of expectation\",\n    \"Counting arithmetic progressions\"\n  ],\n  \"key_terms\": [\n    \"arithmetic progression\",\n    \"2-coloring\",\n    \"monochromatic\",\n    \"Van der Waerden’s Theorem\",\n    \"Ramsey Theory\",\n    \"Van der Waerden numbers\",\n    \"probabilistic method\",\n    \"random variable\",\n    \"indicator random variable\",\n    \"linearity of expectation\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2007,
+        "output_tokens": 611,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.281038300017826,
+      "error": null,
+      "request_id": "gen-1792849424-SDrvEADyd5lNYnsP8C0f",
+      "billed_cost_usd": 0.00057672
+    }
+  ]
+}

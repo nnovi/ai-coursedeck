@@ -1,0 +1,88 @@
+{
+  "doc_id": "ocw-ec-721-mitec_721s09_lec01_part2",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Wheelchair Design in Developing Countries",
+    "course_code": "EC.721",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [],
+    "lecture_number": 1,
+    "lecture_title": "2009 Proposed Projects",
+    "year": 2009,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "slides",
+    "topics": [
+      "Donor network connecting funds to local workshops",
+      "Low-cost tricycle attachment",
+      "Small businesses run from wheelchairs",
+      "Power-assisted tricycle",
+      "Adjustable gear ratio for tricycles",
+      "Flat-pack tricycle frame",
+      "Marketing and funding guide",
+      "Electrically powered wheelchair or scooter",
+      "Sports wheelchairs and tricycles",
+      "Folding three-wheeler",
+      "Wheelchair modifications for women",
+      "Small business assessment plan",
+      "Curriculum to teach wheelchair prescription",
+      "Testing methods and instruments",
+      "Welding jig and symmetric frame design",
+      "Tricycle frame jig and production manual",
+      "Brake design"
+    ],
+    "key_terms": [
+      "wheelchair",
+      "tricycle",
+      "gear ratio",
+      "flat-pack frame",
+      "power-assisted tricycle",
+      "micro loans",
+      "welding jig",
+      "lean manufacturing",
+      "tolerance stack-up",
+      "bending errors",
+      "double drum tester",
+      "component optimization",
+      "wheelchair prescription",
+      "workshop manual",
+      "brake design"
+    ],
+    "references": [
+      "International Society of Prosthetics and Orthotics (ISPO): “Wheelchair” article",
+      "Whirlwind Wheelchair International: “Proposal to develop standards for wheelchair provision services” article",
+      "A. Winter: “Assessment of wheelchair technology in Tanzania”"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 20041,
+    "output_tokens": 1719,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00290155,
+  "billed_cost_usd": null,
+  "latency_s": 8.70199010008946,
+  "n_pages": 25,
+  "image_pixels": 15092872,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Wheelchair Design in Developing Countries\",\"course_code\":\"EC.721\",\"institution\":\"Massachusetts Institute of Technology\",\"lecturers\":[],\"lecture_number\":1,\"lecture_title\":\"2009 Proposed Projects\",\"year\":2009,\"term\":\"spring\",\"discipline\":\"engineering\",\"doc_type\":\"slides\",\"topics\":[\"Donor network connecting funds to local workshops\",\"Low-cost tricycle attachment\",\"Small businesses run from wheelchairs\",\"Power-assisted tricycle\",\"Adjustable gear ratio for tricycles\",\"Flat-pack tricycle frame\",\"Marketing and funding guide\",\"Electrically powered wheelchair or scooter\",\"Sports wheelchairs and tricycles\",\"Folding three-wheeler\",\"Wheelchair modifications for women\",\"Small business assessment plan\",\"Curriculum to teach wheelchair prescription\",\"Testing methods and instruments\",\"Welding jig and symmetric frame design\",\"Tricycle frame jig and production manual\",\"Brake design\"],\"key_terms\":[\"wheelchair\",\"tricycle\",\"gear ratio\",\"flat-pack frame\",\"power-assisted tricycle\",\"micro loans\",\"welding jig\",\"lean manufacturing\",\"tolerance stack-up\",\"bending errors\",\"double drum tester\",\"component optimization\",\"wheelchair prescription\",\"workshop manual\",\"brake design\"],\"references\":[\"International Society of Prosthetics and Orthotics (ISPO): “Wheelchair” article\",\"Whirlwind Wheelchair International: “Proposal to develop standards for wheelchair provision services” article\",\"A. Winter: “Assessment of wheelchair technology in Tanzania”\"]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 20041,
+        "output_tokens": 1719,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.70199010008946,
+      "error": null,
+      "request_id": "req_011CgMTdop353zLTRyCkZmrH",
+      "billed_cost_usd": null
+    }
+  ]
+}

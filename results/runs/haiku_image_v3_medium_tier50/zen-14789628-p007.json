@@ -1,0 +1,87 @@
+{
+  "doc_id": "zen-14789628-p007",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Ентомологія",
+    "course_code": null,
+    "institution": "Київський національний університет імені Тараса Шевченка",
+    "lecturers": [
+      "Н.О. Матушкіна"
+    ],
+    "lecture_number": 1,
+    "lecture_title": "Макросистема комах та їхнє місце в типі Членистоногої",
+    "year": 2019,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Місце комах у системі типу Членистоногі",
+      "Поділ класу на підкласи, надряди та групи рядів",
+      "Підклас Шестиногі та його склад",
+      "Первиннобезкрилі та Крилаті комахи",
+      "Давньокрилі та Новокрилі комахи",
+      "Екзоптеріготи та Ендоптеріготи",
+      "Макросистема комах як предмет досліджень"
+    ],
+    "key_terms": [
+      "Членистоногі",
+      "комахи",
+      "Insecta",
+      "Шестиногі",
+      "Hexapoda",
+      "Ектогнатні",
+      "Ентогнатні",
+      "Первиннобезкрилі",
+      "Крилаті",
+      "Давньокрилі",
+      "Новокрилі",
+      "Екзоптеріготи",
+      "Ендоптеріготи",
+      "Полінеоптери",
+      "Паранеоптери",
+      "Pancrustacea",
+      "Tracheata",
+      "Remipedia",
+      "Щетинкохвості",
+      "Архаогнатні"
+    ],
+    "references": [
+      "Misof B. et al. Phylogenomics resolves the timing and pattern of insect evolution // Science. – 2014. – Vol. 346, № 6210. – P. 763-767.",
+      "Kjer K.M. et al. Progress, pitfalls and parallel universes: a history of insect phylogenetics // J. R. Soc. Interface. – 2016. – Vol. 13. – P. 20160363.",
+      "Grimaldi D., Engel M. Evolution of the insects. – Cambridge: Cambridge University Press, 2005. – 755 p.",
+      "Strausfeld N.J. et al. Evolution, discovery, and interpretations of arthropod mushroom bodies // Learning & Memory. – 1998. – Vol. 5, № 1–2. – P. 11–37.",
+      "Friedrich F. et al. Insect morphology in the age of phylogenomics // Entomological Science. – 2014. – Vol. 17, № 1. – P. 1-24."
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4291,
+    "output_tokens": 2044,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00148905,
+  "billed_cost_usd": null,
+  "latency_s": 8.759878600016236,
+  "n_pages": 5,
+  "image_pixels": 3170630,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Ентомологія\",\"course_code\":null,\"institution\":\"Київський національний університет імені Тараса Шевченка\",\"lecturers\":[\"Н.О. Матушкіна\"],\"lecture_number\":1,\"lecture_title\":\"Макросистема комах та їхнє місце в типі Членистоногої\",\"year\":2019,\"term\":null,\"discipline\":\"biology\",\"doc_type\":\"textbook_chapter\",\"topics\":[\"Місце комах у системі типу Членистоногі\",\"Поділ класу на підкласи, надряди та групи рядів\",\"Підклас Шестиногі та його склад\",\"Первиннобезкрилі та Крилаті комахи\",\"Давньокрилі та Новокрилі комахи\",\"Екзоптеріготи та Ендоптеріготи\",\"Макросистема комах як предмет досліджень\"],\"key_terms\":[\"Членистоногі\",\"комахи\",\"Insecta\",\"Шестиногі\",\"Hexapoda\",\"Ектогнатні\",\"Ентогнатні\",\"Первиннобезкрилі\",\"Крилаті\",\"Давньокрилі\",\"Новокрилі\",\"Екзоптеріготи\",\"Ендоптеріготи\",\"Полінеоптери\",\"Паранеоптери\",\"Pancrustacea\",\"Tracheata\",\"Remipedia\",\"Щетинкохвості\",\"Архаогнатні\"],\"references\":[\"Misof B. et al. Phylogenomics resolves the timing and pattern of insect evolution // Science. – 2014. – Vol. 346, № 6210. – P. 763-767.\",\"Kjer K.M. et al. Progress, pitfalls and parallel universes: a history of insect phylogenetics // J. R. Soc. Interface. – 2016. – Vol. 13. – P. 20160363.\",\"Grimaldi D., Engel M. Evolution of the insects. – Cambridge: Cambridge University Press, 2005. – 755 p.\",\"Strausfeld N.J. et al. Evolution, discovery, and interpretations of arthropod mushroom bodies // Learning & Memory. – 1998. – Vol. 5, № 1–2. – P. 11–37.\",\"Friedrich F. et al. Insect morphology in the age of phylogenomics // Entomological Science. – 2014. – Vol. 17, № 1. – P. 1-24.\"]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4291,
+        "output_tokens": 2044,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.759878600016236,
+      "error": null,
+      "request_id": "req_011CgMTbyoF3SAEabAa2xKu5",
+      "billed_cost_usd": null
+    }
+  ]
+}

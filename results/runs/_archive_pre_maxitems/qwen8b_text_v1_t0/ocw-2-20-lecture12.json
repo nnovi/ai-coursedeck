@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-2-20-lecture12",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Marine Hydrodynamics",
+    "course_code": "2.20",
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 12,
+    "lecture_title": "Marine Hydrodynamics",
+    "year": 2005,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "3.14 Lifting Surfaces",
+      "3.14.1 2D Symmetric Streamlined Body",
+      "3.14.2 Asymmetric Body",
+      "3.15 Potential Flow and Kutta Condition",
+      "3.15.1 Why Kutta condition?",
+      "3.15.2 How much ΓS?",
+      "3.16 Thin Wing, Small Angle of Attack",
+      "3.17 Simple Closed-Form Solutions for γ(x) from Linear Theory"
+    ],
+    "key_terms": [
+      "Lifting Surfaces",
+      "2D Symmetric Streamlined Body",
+      "Asymmetric Body",
+      "Potential Flow",
+      "Kutta Condition",
+      "Circulation",
+      "Thin Wing",
+      "Small Angle of Attack",
+      "Camber Line",
+      "Lift Coefficient (CL)",
+      "Moment Coefficient (CM)",
+      "Center of Pressure (xcp)",
+      "Starting Vortex",
+      "Stall",
+      "Linearized Theory",
+      "Kutta-Joukowski Law"
+    ],
+    "references": [
+      "2.20 - Marine Hydrodynamics, Spring 2005"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3393,
+    "output_tokens": 360,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.8224329999648035,
+  "n_pages": 14,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Marine Hydrodynamics\",\n  \"course_code\": \"2.20\",\n  \"institution\": null,\n  \"lecturers\": [],\n  \"lecture_number\": 12,\n  \"lecture_title\": \"Marine Hydrodynamics\",\n  \"year\": 2005,\n  \"term\": \"spring\",\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"3.14 Lifting Surfaces\",\n    \"3.14.1 2D Symmetric Streamlined Body\",\n    \"3.14.2 Asymmetric Body\",\n    \"3.15 Potential Flow and Kutta Condition\",\n    \"3.15.1 Why Kutta condition?\",\n    \"3.15.2 How much ΓS?\",\n    \"3.16 Thin Wing, Small Angle of Attack\",\n    \"3.17 Simple Closed-Form Solutions for γ(x) from Linear Theory\"\n  ],\n  \"key_terms\": [\n    \"Lifting Surfaces\",\n    \"2D Symmetric Streamlined Body\",\n    \"Asymmetric Body\",\n    \"Potential Flow\",\n    \"Kutta Condition\",\n    \"Circulation\",\n    \"Thin Wing\",\n    \"Small Angle of Attack\",\n    \"Camber Line\",\n    \"Lift Coefficient (CL)\",\n    \"Moment Coefficient (CM)\",\n    \"Center of Pressure (xcp)\",\n    \"Starting Vortex\",\n    \"Stall\",\n    \"Linearized Theory\",\n    \"Kutta-Joukowski Law\"\n  ],\n  \"references\": [\n    \"2.20 - Marine Hydrodynamics, Spring 2005\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3393,
+        "output_tokens": 360,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.8224329999648035,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

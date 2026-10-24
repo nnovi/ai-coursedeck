@@ -1,0 +1,71 @@
+{
+  "doc_id": "ocw-21l-315-lect6",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Prizewinners",
+    "course_code": "21L.315",
+    "institution": null,
+    "lecturers": [
+      "Mary Fuller"
+    ],
+    "lecture_number": 6,
+    "lecture_title": "Seamus Heaney, The Spirit Level",
+    "year": null,
+    "term": null,
+    "discipline": "humanities",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "General thoughts on Heaney",
+      "Language of Flight Path",
+      "Mechanism and George Herbert's The Pulley",
+      "Flight Path",
+      "Two Lorries",
+      "Sestina structure",
+      "Coming to terms with death"
+    ],
+    "key_terms": [
+      "sestina",
+      "Romantic poets",
+      "elevated language",
+      "self-consciousness",
+      "mechanism",
+      "stanza",
+      "Flight Path",
+      "Two Lorries",
+      "sectarian violence",
+      "Weighing In"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3256,
+    "output_tokens": 876,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0008015499999999999,
+  "billed_cost_usd": null,
+  "latency_s": 4.406816800008528,
+  "n_pages": 2,
+  "image_pixels": 2440452,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Prizewinners\",\"course_code\":\"21L.315\",\"institution\":null,\"lecturers\":[\"Mary Fuller\"],\"lecture_number\":6,\"lecture_title\":\"Seamus Heaney, The Spirit Level\",\"year\":null,\"term\":null,\"discipline\":\"humanities\",\"doc_type\":\"lecture_notes\",\"topics\":[\"General thoughts on Heaney\",\"Language of Flight Path\",\"Mechanism and George Herbert's The Pulley\",\"Flight Path\",\"Two Lorries\",\"Sestina structure\",\"Coming to terms with death\"],\"key_terms\":[\"sestina\",\"Romantic poets\",\"elevated language\",\"self-consciousness\",\"mechanism\",\"stanza\",\"Flight Path\",\"Two Lorries\",\"sectarian violence\",\"Weighing In\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3256,
+        "output_tokens": 876,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.406816800008528,
+      "error": null,
+      "request_id": "req_011CgMTguCoQ7jA3A7Mpokkr",
+      "billed_cost_usd": null
+    }
+  ]
+}

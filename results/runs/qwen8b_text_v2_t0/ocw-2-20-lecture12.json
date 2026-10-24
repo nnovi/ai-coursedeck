@@ -1,0 +1,79 @@
+{
+  "doc_id": "ocw-2-20-lecture12",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Marine Hydrodynamics",
+    "course_code": "2.20",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [],
+    "lecture_number": 12,
+    "lecture_title": "Marine Hydrodynamics",
+    "year": 2005,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "2D Symmetric Streamlined Body",
+      "Asymmetric Body",
+      "Potential Flow and Kutta Condition",
+      "Why Kutta Condition?",
+      "How Much Circulation?",
+      "Thin Wing, Small Angle of Attack",
+      "Lift Due to Circulation",
+      "Moment Due to Circulation",
+      "Simple Closed-Form Solutions",
+      "Flat Plate at Angle of Attack"
+    ],
+    "key_terms": [
+      "Kutta condition",
+      "circulation",
+      "potential flow",
+      "starting vortex",
+      "stall",
+      "camber line",
+      "lift coefficient",
+      "moment coefficient",
+      "center of pressure",
+      "angle of attack",
+      "circulatory flow",
+      "viscous effects",
+      "boundary layer",
+      "skin friction",
+      "lift",
+      "drag",
+      "superposition",
+      "linearized theory",
+      "thin wing",
+      "Bernoulli equation"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4695,
+    "output_tokens": 309,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.3536260999972,
+  "n_pages": 14,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Marine Hydrodynamics\",\n  \"course_code\": \"2.20\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [],\n  \"lecture_number\": 12,\n  \"lecture_title\": \"Marine Hydrodynamics\",\n  \"year\": 2005,\n  \"term\": \"spring\",\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"2D Symmetric Streamlined Body\",\n    \"Asymmetric Body\",\n    \"Potential Flow and Kutta Condition\",\n    \"Why Kutta Condition?\",\n    \"How Much Circulation?\",\n    \"Thin Wing, Small Angle of Attack\",\n    \"Lift Due to Circulation\",\n    \"Moment Due to Circulation\",\n    \"Simple Closed-Form Solutions\",\n    \"Flat Plate at Angle of Attack\"\n  ],\n  \"key_terms\": [\n    \"Kutta condition\",\n    \"circulation\",\n    \"potential flow\",\n    \"starting vortex\",\n    \"stall\",\n    \"camber line\",\n    \"lift coefficient\",\n    \"moment coefficient\",\n    \"center of pressure\",\n    \"angle of attack\",\n    \"circulatory flow\",\n    \"viscous effects\",\n    \"boundary layer\",\n    \"skin friction\",\n    \"lift\",\n    \"drag\",\n    \"superposition\",\n    \"linearized theory\",\n    \"thin wing\",\n    \"Bernoulli equation\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4695,
+        "output_tokens": 309,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.3536260999972,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

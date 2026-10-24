@@ -1,0 +1,78 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Quantum Computation",
+    "course_code": "18.435",
+    "institution": "MIT",
+    "lecturers": [
+      "P. Shor"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Quantum states and qubits",
+      "Unitary transformations",
+      "Quantum measurement",
+      "Measurement operators and projectors",
+      "Composite quantum systems",
+      "Tensor products and entanglement"
+    ],
+    "key_terms": [
+      "state space",
+      "qubit",
+      "ket",
+      "bra",
+      "unitary transformation",
+      "unitary operator",
+      "adjoint operator",
+      "Hermitian operator",
+      "Pauli matrices",
+      "Hadamard transform",
+      "Hamiltonian",
+      "quantum measurement",
+      "measurement operator",
+      "completeness equation",
+      "projector",
+      "tensor product",
+      "Kronecker product",
+      "entangled"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3,
+    "output_tokens": 651,
+    "cache_read_tokens": 5026,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00037606,
+  "billed_cost_usd": 0.00037606,
+  "latency_s": 6.9778201000299305,
+  "n_pages": 3,
+  "image_pixels": 2477652,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Quantum Computation\",\n  \"course_code\": \"18.435\",\n  \"institution\": \"MIT\",\n  \"lecturers\": [\"P. Shor\"],\n  \"lecture_number\": 2,\n  \"lecture_title\": \"Basics of Quantum Mechanics\",\n  \"year\": 2003,\n  \"term\": null,\n  \"discipline\": \"physics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Quantum states and qubits\",\n    \"Unitary transformations\",\n    \"Quantum measurement\",\n    \"Measurement operators and projectors\",\n    \"Composite quantum systems\",\n    \"Tensor products and entanglement\"\n  ],\n  \"key_terms\": [\n    \"state space\",\n    \"qubit\",\n    \"ket\",\n    \"bra\",\n    \"unitary transformation\",\n    \"unitary operator\",\n    \"adjoint operator\",\n    \"Hermitian operator\",\n    \"Pauli matrices\",\n    \"Hadamard transform\",\n    \"Hamiltonian\",\n    \"quantum measurement\",\n    \"measurement operator\",\n    \"completeness equation\",\n    \"projector\",\n    \"tensor product\",\n    \"Kronecker product\",\n    \"entangled\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3,
+        "output_tokens": 651,
+        "cache_read_tokens": 5026,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.9778201000299305,
+      "error": null,
+      "request_id": "gen-1792863244-Up9kpDffZjVaVj5PUtvT",
+      "billed_cost_usd": 0.00037606
+    }
+  ]
+}

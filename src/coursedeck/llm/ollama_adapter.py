@@ -45,11 +45,13 @@ def _message(m: Message) -> dict:
 class OllamaAdapter:
     supports_pdf = False
 
-    def __init__(self, model_id: str, temperature: float | None = None, num_ctx: int = 65536,
-                 host: str | None = None, timeout_s: float = 1800,
+    def __init__(self, model_id: str, temperature: float | None = None,
+                 top_p: float | None = None, num_ctx: int = 65536,
+                 host: str | None = None, timeout_s: float = 600,
                  max_items: dict[str, int] | None = None):
         self.model_id = model_id
         self.temperature = temperature
+        self.top_p = top_p
         # maxItems per top-level list field; the JSON grammar then forces lists to end
         self.max_items = max_items or {}
         self.num_ctx = num_ctx  # page images take many tokens; the default 4K context is too small
@@ -70,6 +72,8 @@ class OllamaAdapter:
                          "num_predict": min(request.max_tokens, MAX_OUTPUT_TOKENS)}
         if self.temperature is not None:
             options["temperature"] = self.temperature
+        if self.top_p is not None:
+            options["top_p"] = self.top_p
         payload = {
             "model": self.model_id,
             "messages": [{"role": "system", "content": request.system}]

@@ -1,0 +1,76 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Basics of Quantum Mechanics",
+    "course_code": "18.435/2.111",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "P. Shor"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Postulate 1: Hilbert Space and State Vectors",
+      "Postulate 2: Unitary Evolution",
+      "Postulate 3: Quantum Measurements",
+      "Postulate 4: Composite Systems and Tensor Product",
+      "Pauli Matrices and Hadamard Transform",
+      "Entangled States"
+    ],
+    "key_terms": [
+      "Hilbert Space",
+      "Unit Vector",
+      "Unitary Operator",
+      "Hermitian Operator",
+      "Measurement Operators",
+      "Tensor Product",
+      "Entangled State",
+      "Pauli Matrices",
+      "Hadamard Transform",
+      "Kronecker Product",
+      "Adjoint Operator",
+      "Hamiltonian",
+      "Probability",
+      "Completeness Equation",
+      "State Vector",
+      "Bra-Ket Notation",
+      "Orthogonal Subspaces",
+      "Projector",
+      "Eigenvectors"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4648,
+    "output_tokens": 316,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 2.8506532999454066,
+  "n_pages": 3,
+  "image_pixels": 2477652,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Basics of Quantum Mechanics\",\n  \"course_code\": \"18.435/2.111\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"P. Shor\"\n  ],\n  \"lecture_number\": 2,\n  \"lecture_title\": \"Basics of Quantum Mechanics\",\n  \"year\": 2003,\n  \"term\": null,\n  \"discipline\": \"physics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Postulate 1: Hilbert Space and State Vectors\",\n    \"Postulate 2: Unitary Evolution\",\n    \"Postulate 3: Quantum Measurements\",\n    \"Postulate 4: Composite Systems and Tensor Product\",\n    \"Pauli Matrices and Hadamard Transform\",\n    \"Entangled States\"\n  ],\n  \"key_terms\": [\n    \"Hilbert Space\",\n    \"Unit Vector\",\n    \"Unitary Operator\",\n    \"Hermitian Operator\",\n    \"Measurement Operators\",\n    \"Tensor Product\",\n    \"Entangled State\",\n    \"Pauli Matrices\",\n    \"Hadamard Transform\",\n    \"Kronecker Product\",\n    \"Adjoint Operator\",\n    \"Hamiltonian\",\n    \"Probability\",\n    \"Completeness Equation\",\n    \"State Vector\",\n    \"Bra-Ket Notation\",\n    \"Orthogonal Subspaces\",\n    \"Projector\",\n    \"Eigenvectors\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4648,
+        "output_tokens": 316,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.8506532999454066,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

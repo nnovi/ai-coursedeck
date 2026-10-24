@@ -1,0 +1,72 @@
+{
+  "doc_id": "ocw-18-310-mit18_310f13_ch3",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Principles of Discrete Applied Mathematics",
+    "course_code": "18.310",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [
+      "Michel Goemans"
+    ],
+    "lecture_number": null,
+    "lecture_title": "Van der Waerden’s Theorem",
+    "year": 2013,
+    "term": "fall",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Arithmetic progressions and colorings",
+      "Van der Waerden’s theorem",
+      "Van der Waerden numbers",
+      "Random colorings",
+      "Expected number of monochromatic progressions",
+      "Indicator random variables",
+      "Linearity of expectation",
+      "Probabilistic existence proof"
+    ],
+    "key_terms": [
+      "arithmetic progression",
+      "k-term arithmetic progression",
+      "coloring",
+      "Van der Waerden’s Theorem",
+      "Ramsey Theory",
+      "Van der Waerden numbers",
+      "probabilistic method",
+      "monochromatic",
+      "random variable",
+      "indicator random variable",
+      "linearity of expectation"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 6053,
+    "output_tokens": 543,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00089722,
+  "billed_cost_usd": 0.00104847,
+  "latency_s": 9.68082550005056,
+  "n_pages": 4,
+  "image_pixels": 3350466,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Principles of Discrete Applied Mathematics\",\n  \"course_code\": \"18.310\",\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [\"Michel Goemans\"],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Van der Waerden’s Theorem\",\n  \"year\": 2013,\n  \"term\": \"fall\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Arithmetic progressions and colorings\",\n    \"Van der Waerden’s theorem\",\n    \"Van der Waerden numbers\",\n    \"Random colorings\",\n    \"Expected number of monochromatic progressions\",\n    \"Indicator random variables\",\n    \"Linearity of expectation\",\n    \"Probabilistic existence proof\"\n  ],\n  \"key_terms\": [\n    \"arithmetic progression\",\n    \"k-term arithmetic progression\",\n    \"coloring\",\n    \"Van der Waerden’s Theorem\",\n    \"Ramsey Theory\",\n    \"Van der Waerden numbers\",\n    \"probabilistic method\",\n    \"monochromatic\",\n    \"random variable\",\n    \"indicator random variable\",\n    \"linearity of expectation\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 6053,
+        "output_tokens": 543,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 9.68082550005056,
+      "error": null,
+      "request_id": "gen-1792849950-XrCrXvKnlzgbDwLVK0Kt",
+      "billed_cost_usd": 0.00104847
+    }
+  ]
+}

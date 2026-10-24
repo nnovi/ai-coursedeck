@@ -1,0 +1,74 @@
+{
+  "doc_id": "ocw-7-03-lecture33_1",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 33,
+    "lecture_title": "Cancer is a genetic disease of somatic cells",
+    "year": null,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "slides",
+    "topics": [
+      "Environmental causes of cancer as mutagens",
+      "Cancer in actively dividing cells",
+      "Cancer as a genetic disease of somatic cells",
+      "Incidence of stomach cancer by age",
+      "Complications in understanding the genetic basis of cancer",
+      "Transformed 3T3 cells",
+      "Isolation of the Ras oncogene from human tumor cells",
+      "Synergy of myc and ras oncogenes"
+    ],
+    "key_terms": [
+      "mutagen",
+      "carcinoma",
+      "lukemia",
+      "meyloma",
+      "lymphoma",
+      "sarcoma",
+      "somatic cells",
+      "oncogene",
+      "Ras",
+      "myc",
+      "angiogenesis",
+      "metastasis",
+      "3T3 cells",
+      "aflatoxin B",
+      "3,4-benzpyrene"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 5971,
+    "output_tokens": 339,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.016091,
+  "billed_cost_usd": null,
+  "latency_s": 3.841847600066103,
+  "n_pages": 8,
+  "image_pixels": 4381555,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":\"MIT OpenCourseWare\",\"lecturers\":[],\"lecture_number\":33,\"lecture_title\":\"Cancer is a genetic disease of somatic cells\",\"year\":null,\"term\":null,\"discipline\":\"biology\",\"doc_type\":\"slides\",\"topics\":[\"Environmental causes of cancer as mutagens\",\"Cancer in actively dividing cells\",\"Cancer as a genetic disease of somatic cells\",\"Incidence of stomach cancer by age\",\"Complications in understanding the genetic basis of cancer\",\"Transformed 3T3 cells\",\"Isolation of the Ras oncogene from human tumor cells\",\"Synergy of myc and ras oncogenes\"],\"key_terms\":[\"mutagen\",\"carcinoma\",\"lukemia\",\"meyloma\",\"lymphoma\",\"sarcoma\",\"somatic cells\",\"oncogene\",\"Ras\",\"myc\",\"angiogenesis\",\"metastasis\",\"3T3 cells\",\"aflatoxin B\",\"3,4-benzpyrene\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 5971,
+        "output_tokens": 339,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.841847600066103,
+      "error": null,
+      "request_id": "req_011CgMA4S8ew3GKsEUKUs2Xx",
+      "billed_cost_usd": null
+    }
+  ]
+}

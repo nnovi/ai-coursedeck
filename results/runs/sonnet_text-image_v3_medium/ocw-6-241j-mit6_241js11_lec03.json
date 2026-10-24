@@ -1,0 +1,64 @@
+{
+  "doc_id": "ocw-6-241j-mit6_241js11_lec03",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Dynamic Systems and Control",
+    "course_code": "6.241",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Emilio Frazzoli"
+    ],
+    "lecture_number": 3,
+    "lecture_title": "Least Square Solutions of Linear Problems",
+    "year": 2011,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "slides",
+    "topics": [
+      "Least squares control",
+      "Minimum norm solution of underdetermined systems",
+      "Constructing all possible solutions",
+      "General formulation with Gram product"
+    ],
+    "key_terms": [
+      "minimum Euclidean norm",
+      "null space",
+      "homogeneous equation",
+      "Gram product",
+      "orthogonal component",
+      "projection onto R(A)",
+      "tall matrix"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 7369,
+    "output_tokens": 241,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.017907,
+  "billed_cost_usd": null,
+  "latency_s": 3.227746000047773,
+  "n_pages": 6,
+  "image_pixels": 4439345,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Dynamic Systems and Control\",\"course_code\":\"6.241\",\"institution\":\"Massachusetts Institute of Technology\",\"lecturers\":[\"Emilio Frazzoli\"],\"lecture_number\":3,\"lecture_title\":\"Least Square Solutions of Linear Problems\",\"year\":2011,\"term\":\"spring\",\"discipline\":\"engineering\",\"doc_type\":\"slides\",\"topics\":[\"Least squares control\",\"Minimum norm solution of underdetermined systems\",\"Constructing all possible solutions\",\"General formulation with Gram product\"],\"key_terms\":[\"minimum Euclidean norm\",\"null space\",\"homogeneous equation\",\"Gram product\",\"orthogonal component\",\"projection onto R(A)\",\"tall matrix\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 7369,
+        "output_tokens": 241,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.227746000047773,
+      "error": null,
+      "request_id": "req_011CgMA71GGCEvPnK8x1CaAR",
+      "billed_cost_usd": null
+    }
+  ]
+}

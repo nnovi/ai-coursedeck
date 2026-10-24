@@ -1,0 +1,71 @@
+{
+  "doc_id": "ocw-2-20-lecture12",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Marine Hydrodynamics",
+    "course_code": "2.20",
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 12,
+    "lecture_title": "Lifting Surfaces",
+    "year": 2005,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "slides",
+    "topics": [
+      "Two-dimensional symmetric streamlined body",
+      "Asymmetric lifting bodies",
+      "Potential flow and Kutta condition",
+      "Starting vortex and Kelvin’s theorem",
+      "Circulation and stall",
+      "Thin-wing small-angle assumptions",
+      "Lift and moment from circulation",
+      "Closed-form thin-wing solutions"
+    ],
+    "key_terms": [
+      "Kutta condition",
+      "starting vortex",
+      "Kelvin’s theorem",
+      "circulation",
+      "stall",
+      "thin wing",
+      "camber line",
+      "half-thickness",
+      "angle of attack",
+      "lift coefficient",
+      "center of pressure",
+      "circulation distribution"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3205,
+    "output_tokens": 762,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00072192,
+  "billed_cost_usd": 0.00080197,
+  "latency_s": 8.113696000073105,
+  "n_pages": 14,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Marine Hydrodynamics\",\n  \"course_code\": \"2.20\",\n  \"institution\": null,\n  \"lecturers\": [],\n  \"lecture_number\": 12,\n  \"lecture_title\": \"Lifting Surfaces\",\n  \"year\": 2005,\n  \"term\": \"spring\",\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"slides\",\n  \"topics\": [\n    \"Two-dimensional symmetric streamlined body\",\n    \"Asymmetric lifting bodies\",\n    \"Potential flow and Kutta condition\",\n    \"Starting vortex and Kelvin’s theorem\",\n    \"Circulation and stall\",\n    \"Thin-wing small-angle assumptions\",\n    \"Lift and moment from circulation\",\n    \"Closed-form thin-wing solutions\"\n  ],\n  \"key_terms\": [\n    \"Kutta condition\",\n    \"starting vortex\",\n    \"Kelvin’s theorem\",\n    \"circulation\",\n    \"stall\",\n    \"thin wing\",\n    \"camber line\",\n    \"half-thickness\",\n    \"angle of attack\",\n    \"lift coefficient\",\n    \"center of pressure\",\n    \"circulation distribution\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 762,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.113696000073105,
+      "error": null,
+      "request_id": "gen-1792849464-8hhgKeZdoUgujsIkpYzl",
+      "billed_cost_usd": 0.00080197
+    }
+  ]
+}

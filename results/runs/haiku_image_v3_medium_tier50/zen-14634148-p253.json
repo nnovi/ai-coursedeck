@@ -1,0 +1,79 @@
+{
+  "doc_id": "zen-14634148-p253",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Захист інформації в розподілених системах",
+    "course_code": null,
+    "institution": "Донецький національний технічний університет",
+    "lecturers": [
+      "Я. Ю. Дорогий"
+    ],
+    "lecture_number": 5,
+    "lecture_title": "Управління доступом",
+    "year": 2024,
+    "term": null,
+    "discipline": "computer_science",
+    "doc_type": "slides",
+    "topics": [
+      "Системні повноваження",
+      "Створення користувачів",
+      "Надання системних повноважень",
+      "Створення ролі",
+      "Створення і надання повноважень для ролі",
+      "Зміна пароля",
+      "Об'єктні повноваження",
+      "Підтвердження наданих повноважень",
+      "Скасування об'єктних повноважень"
+    ],
+    "key_terms": [
+      "системні повноваження",
+      "об'єктні повноваження",
+      "роль",
+      "схема",
+      "безпека бази даних",
+      "безпека системи",
+      "безпека даних",
+      "CREATE USER",
+      "GRANT",
+      "REVOKE",
+      "WITH GRANT OPTION",
+      "PUBLIC",
+      "CREATE ROLE",
+      "ALTER USER",
+      "CASCADE CONSTRAINTS",
+      "адміністратор бази даних"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 13972,
+    "output_tokens": 1143,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00200665,
+  "billed_cost_usd": null,
+  "latency_s": 7.278643800062127,
+  "n_pages": 25,
+  "image_pixels": 10330494,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Захист інформації в розподілених системах\",\"course_code\":null,\"institution\":\"Донецький національний технічний університет\",\"lecturers\":[\"Я. Ю. Дорогий\"],\"lecture_number\":5,\"lecture_title\":\"Управління доступом\",\"year\":2024,\"term\":null,\"discipline\":\"computer_science\",\"doc_type\":\"slides\",\"topics\":[\"Системні повноваження\",\"Створення користувачів\",\"Надання системних повноважень\",\"Створення ролі\",\"Створення і надання повноважень для ролі\",\"Зміна пароля\",\"Об'єктні повноваження\",\"Підтвердження наданих повноважень\",\"Скасування об'єктних повноважень\"],\"key_terms\":[\"системні повноваження\",\"об'єктні повноваження\",\"роль\",\"схема\",\"безпека бази даних\",\"безпека системи\",\"безпека даних\",\"CREATE USER\",\"GRANT\",\"REVOKE\",\"WITH GRANT OPTION\",\"PUBLIC\",\"CREATE ROLE\",\"ALTER USER\",\"CASCADE CONSTRAINTS\",\"адміністратор бази даних\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 13972,
+        "output_tokens": 1143,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 7.278643800062127,
+      "error": null,
+      "request_id": "req_011CgMTbEzmdpdgjFEmnJta2",
+      "billed_cost_usd": null
+    }
+  ]
+}

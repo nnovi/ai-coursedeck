@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-2-20-lecture12",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Marine Hydrodynamics",
+    "course_code": "2.20",
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 12,
+    "lecture_title": "Lifting Surfaces",
+    "year": 2005,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Lifting surfaces and symmetric streamlined bodies",
+      "Asymmetric body: angle of attack and camber",
+      "Potential flow and Kutta condition",
+      "Starting vortex and Kelvin's theorem",
+      "Lift coefficient and stall",
+      "Thin wing at small angle of attack",
+      "Lift and moment due to circulation",
+      "Closed-form solutions from linear theory"
+    ],
+    "key_terms": [
+      "angle of attack",
+      "camber",
+      "chord line",
+      "mean camber line",
+      "Kutta condition",
+      "circulation",
+      "starting vortex",
+      "Kelvin's theorem",
+      "stall",
+      "lift coefficient",
+      "linearized Bernoulli equation",
+      "Kutta-Joukowski law",
+      "center of pressure",
+      "moment coefficient",
+      "camber ratio",
+      "thin wing"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4765,
+    "output_tokens": 345,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.013739,
+  "billed_cost_usd": null,
+  "latency_s": 2.6614440999692306,
+  "n_pages": 14,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Marine Hydrodynamics\",\"course_code\":\"2.20\",\"institution\":null,\"lecturers\":[],\"lecture_number\":12,\"lecture_title\":\"Lifting Surfaces\",\"year\":2005,\"term\":\"spring\",\"discipline\":\"engineering\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Lifting surfaces and symmetric streamlined bodies\",\"Asymmetric body: angle of attack and camber\",\"Potential flow and Kutta condition\",\"Starting vortex and Kelvin's theorem\",\"Lift coefficient and stall\",\"Thin wing at small angle of attack\",\"Lift and moment due to circulation\",\"Closed-form solutions from linear theory\"],\"key_terms\":[\"angle of attack\",\"camber\",\"chord line\",\"mean camber line\",\"Kutta condition\",\"circulation\",\"starting vortex\",\"Kelvin's theorem\",\"stall\",\"lift coefficient\",\"linearized Bernoulli equation\",\"Kutta-Joukowski law\",\"center of pressure\",\"moment coefficient\",\"camber ratio\",\"thin wing\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4765,
+        "output_tokens": 345,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.6614440999692306,
+      "error": null,
+      "request_id": "req_011CgMA2iboEpwt2WLgus8RK",
+      "billed_cost_usd": null
+    }
+  ]
+}

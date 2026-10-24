@@ -1,0 +1,1864 @@
+{
+  "config": {
+    "run_id": "qwen8b_text_v1_t0",
+    "model": "qwen3-vl-8b",
+    "model_id": "qwen3-vl:8b-instruct",
+    "provider": "ollama",
+    "mode": "text",
+    "prompt": "v1",
+    "prompt_sha": "b60375874472",
+    "effort": null,
+    "temperature": 0.0,
+    "manifest": "data\\manifests\\golden.csv",
+    "doc_ids": [
+      "zen-14978718-p006",
+      "zen-17459347-p008",
+      "zen-6124599-p005",
+      "zen-13324134-p009",
+      "zen-17442931-p006",
+      "zen-23470007-p002",
+      "ocw-8-08-the_fermi_gas",
+      "ocw-12-480-lecture_16",
+      "ocw-7-29j-mit7_29js12_lecture3",
+      "ocw-6-241j-mit6_241js11_lec03",
+      "ocw-7-03-lecture33_1",
+      "ocw-5-069-symm_handout2",
+      "ocw-24-244-mit24_244s15_stronger",
+      "ocw-18-310-mit18_310f13_ch3",
+      "ocw-2-001-lec24",
+      "ocw-22-105-lecture4",
+      "ocw-10-37-lec10_03092007_w",
+      "ocw-12-864-contrl_obser_4_6",
+      "ocw-18-435j-qc_lec02",
+      "ocw-2-20-lecture12"
+    ],
+    "git_commit": "7ae47bd",
+    "started_at": "2026-10-24T12:57:42"
+  },
+  "summary": {
+    "n_docs": 20,
+    "valid": 20,
+    "valid_rate": 1.0,
+    "first_attempt_valid_rate": 1.0,
+    "retried": 0,
+    "errors": {},
+    "latency_p50_s": 3.80712560005486,
+    "latency_p95_s": 15.532819150062277,
+    "cost_usd": 0.0,
+    "cost_per_1000_docs_usd": 0.0,
+    "input_tokens": 106062,
+    "output_tokens": 8570
+  },
+  "overall": {
+    "n_docs": 20,
+    "fields": {
+      "course_title": 0.75,
+      "course_code": 0.55,
+      "institution": 0.95,
+      "lecturers": 0.85,
+      "lecture_number": 0.65,
+      "lecture_title": 0.8,
+      "year": 0.9,
+      "term": 0.65,
+      "discipline": 0.35,
+      "doc_type": 0.45,
+      "topics": 0.553482532689189,
+      "key_terms": 0.4967391058619661,
+      "references": 0.22857142857142856
+    },
+    "groups": {
+      "fact": 0.7625,
+      "classification": 0.4,
+      "content": 0.4262643557075279
+    },
+    "overall": 0.529588118569176,
+    "hallucination_rate": 0.27586206896551724,
+    "omission_rate": 0.08823529411764706,
+    "confusions": [
+      "discipline: biology -> arts_architecture",
+      "discipline: biology -> computer_science",
+      "discipline: biology -> economics_business",
+      "discipline: chemistry -> physics",
+      "discipline: earth_environmental_sciences -> computer_science",
+      "discipline: engineering -> arts_architecture",
+      "discipline: engineering -> mathematics",
+      "discipline: engineering -> medicine_health",
+      "discipline: humanities -> physics",
+      "discipline: humanities -> social_sciences",
+      "discipline: mathematics -> computer_science",
+      "discipline: physics -> computer_science",
+      "discipline: physics -> mathematics",
+      "doc_type: handout -> lecture_notes",
+      "doc_type: slides -> lecture_notes",
+      "doc_type: slides -> lecture_notes",
+      "doc_type: slides -> lecture_notes",
+      "doc_type: textbook_chapter -> lecture_notes",
+      "doc_type: textbook_chapter -> lecture_notes",
+      "doc_type: textbook_chapter -> lecture_notes",
+      "doc_type: textbook_chapter -> lecture_notes",
+      "doc_type: textbook_chapter -> lecture_notes",
+      "doc_type: textbook_chapter -> lecture_notes",
+      "doc_type: textbook_chapter -> lecture_notes"
+    ]
+  },
+  "by_stratum": {
+    "en-notes": {
+      "n_docs": 8,
+      "fields": {
+        "course_title": 0.625,
+        "course_code": 0.625,
+        "institution": 1.0,
+        "lecturers": 0.875,
+        "lecture_number": 0.625,
+        "lecture_title": 0.875,
+        "year": 1.0,
+        "term": 0.75,
+        "discipline": 0.375,
+        "doc_type": 0.875,
+        "topics": 0.5740866943943569,
+        "key_terms": 0.680816658664132,
+        "references": 0.125
+      },
+      "groups": {
+        "fact": 0.796875,
+        "classification": 0.625,
+        "content": 0.4599677843528296
+      },
+      "overall": 0.6272809281176098,
+      "hallucination_rate": 0.2857142857142857,
+      "omission_rate": 0.0,
+      "confusions": [
+        "discipline: engineering -> mathematics",
+        "discipline: engineering -> medicine_health",
+        "discipline: humanities -> physics",
+        "discipline: mathematics -> computer_science",
+        "discipline: physics -> mathematics",
+        "doc_type: textbook_chapter -> lecture_notes"
+      ]
+    },
+    "en-scan": {
+      "n_docs": 3,
+      "fields": {
+        "course_title": 0.6666666666666666,
+        "course_code": 0.3333333333333333,
+        "institution": 1.0,
+        "lecturers": 0.6666666666666666,
+        "lecture_number": 0.3333333333333333,
+        "lecture_title": 0.6666666666666666,
+        "year": 0.6666666666666666,
+        "term": 0.6666666666666666,
+        "discipline": 0.3333333333333333,
+        "doc_type": 0.6666666666666666,
+        "topics": 0.0,
+        "key_terms": 0.0,
+        "references": 0.6666666666666666
+      },
+      "groups": {
+        "fact": 0.625,
+        "classification": 0.5,
+        "content": 0.2222222222222222
+      },
+      "overall": 0.4490740740740741,
+      "hallucination_rate": 0.06666666666666667,
+      "omission_rate": 0.4444444444444444,
+      "confusions": [
+        "discipline: earth_environmental_sciences -> computer_science",
+        "discipline: physics -> computer_science",
+        "doc_type: handout -> lecture_notes"
+      ]
+    },
+    "en-slides": {
+      "n_docs": 3,
+      "fields": {
+        "course_title": 0.6666666666666666,
+        "course_code": 1.0,
+        "institution": 1.0,
+        "lecturers": 1.0,
+        "lecture_number": 0.6666666666666666,
+        "lecture_title": 0.6666666666666666,
+        "year": 1.0,
+        "term": 1.0,
+        "discipline": 0.0,
+        "doc_type": 0.0,
+        "topics": 0.739938080495356,
+        "key_terms": 0.7317972350230414,
+        "references": 0.3333333333333333
+      },
+      "groups": {
+        "fact": 0.875,
+        "classification": 0.0,
+        "content": 0.6016895496172435
+      },
+      "overall": 0.4922298498724145,
+      "hallucination_rate": 0.1,
+      "omission_rate": 0.07142857142857142,
+      "confusions": [
+        "discipline: biology -> computer_science",
+        "discipline: chemistry -> physics",
+        "discipline: engineering -> arts_architecture",
+        "doc_type: slides -> lecture_notes",
+        "doc_type: slides -> lecture_notes",
+        "doc_type: slides -> lecture_notes"
+      ]
+    },
+    "uk": {
+      "n_docs": 6,
+      "fields": {
+        "course_title": 1.0,
+        "course_code": 0.3333333333333333,
+        "institution": 0.8333333333333334,
+        "lecturers": 0.8333333333333334,
+        "lecture_number": 0.8333333333333334,
+        "lecture_title": 0.8333333333333334,
+        "year": 0.8333333333333334,
+        "term": 0.3333333333333333,
+        "discipline": 0.5,
+        "doc_type": 0.0,
+        "topics": 0.7095238095238096,
+        "key_terms": 0.3821428571428572,
+        "references": 0.09523809523809525
+      },
+      "groups": {
+        "fact": 0.7291666666666667,
+        "classification": 0.25,
+        "content": 0.3956349206349206
+      },
+      "overall": 0.45826719576719577,
+      "hallucination_rate": 0.6666666666666666,
+      "omission_rate": 0.1111111111111111,
+      "confusions": [
+        "discipline: biology -> arts_architecture",
+        "discipline: biology -> economics_business",
+        "discipline: humanities -> social_sciences",
+        "doc_type: textbook_chapter -> lecture_notes",
+        "doc_type: textbook_chapter -> lecture_notes",
+        "doc_type: textbook_chapter -> lecture_notes",
+        "doc_type: textbook_chapter -> lecture_notes",
+        "doc_type: textbook_chapter -> lecture_notes",
+        "doc_type: textbook_chapter -> lecture_notes"
+      ]
+    }
+  },
+  "per_doc": {
+    "zen-14978718-p006": {
+      "fact": {
+        "course_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "course_code": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "institution": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": true,
+          "gold_empty": false
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_number": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": true,
+          "gold_empty": false
+        },
+        "lecture_title": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": true,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": true,
+          "gold_empty": false
+        },
+        "term": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": true,
+          "gold": "mathematics",
+          "pred": "mathematics"
+        },
+        "doc_type": {
+          "correct": false,
+          "gold": "textbook_chapter",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "key_terms": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "references": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "zen-17459347-p008": {
+      "fact": {
+        "course_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "course_code": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_number": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "term": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": false,
+          "gold": "biology",
+          "pred": "arts_architecture"
+        },
+        "doc_type": {
+          "correct": false,
+          "gold": "textbook_chapter",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571
+        },
+        "key_terms": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "references": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "zen-6124599-p005": {
+      "fact": {
+        "course_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "course_code": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_number": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "term": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": true,
+          "gold": "social_sciences",
+          "pred": "social_sciences"
+        },
+        "doc_type": {
+          "correct": false,
+          "gold": "textbook_chapter",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "key_terms": {
+          "precision": 0.55,
+          "recall": 0.55,
+          "f1": 0.55
+        },
+        "references": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "zen-13324134-p009": {
+      "fact": {
+        "course_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "course_code": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_number": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "term": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": true,
+          "gold": "education",
+          "pred": "education"
+        },
+        "doc_type": {
+          "correct": false,
+          "gold": "textbook_chapter",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "key_terms": {
+          "precision": 0.21428571428571427,
+          "recall": 0.1875,
+          "f1": 0.19999999999999998
+        },
+        "references": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "zen-17442931-p006": {
+      "fact": {
+        "course_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "course_code": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecturers": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_number": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "term": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": false,
+          "gold": "biology",
+          "pred": "economics_business"
+        },
+        "doc_type": {
+          "correct": false,
+          "gold": "textbook_chapter",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 0.6,
+          "recall": 0.3,
+          "f1": 0.4
+        },
+        "key_terms": {
+          "precision": 0.6666666666666666,
+          "recall": 0.5,
+          "f1": 0.5714285714285715
+        },
+        "references": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "zen-23470007-p002": {
+      "fact": {
+        "course_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "course_code": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_number": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "term": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": false,
+          "gold": "humanities",
+          "pred": "social_sciences"
+        },
+        "doc_type": {
+          "correct": false,
+          "gold": "textbook_chapter",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "key_terms": {
+          "precision": 0.8888888888888888,
+          "recall": 0.42105263157894735,
+          "f1": 0.5714285714285714
+        },
+        "references": {
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.5714285714285715
+        }
+      }
+    },
+    "ocw-8-08-the_fermi_gas": {
+      "fact": {
+        "course_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "course_code": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecture_number": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecture_title": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": true,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "term": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": false,
+          "gold": "physics",
+          "pred": "computer_science"
+        },
+        "doc_type": {
+          "correct": true,
+          "gold": "lecture_notes",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "key_terms": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "references": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "ocw-12-480-lecture_16": {
+      "fact": {
+        "course_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "course_code": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": true,
+          "gold_empty": false
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecture_number": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": true,
+          "gold_empty": false
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "term": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": false,
+          "gold": "earth_environmental_sciences",
+          "pred": "computer_science"
+        },
+        "doc_type": {
+          "correct": false,
+          "gold": "handout",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "key_terms": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "references": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "ocw-7-29j-mit7_29js12_lecture3": {
+      "fact": {
+        "course_title": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "course_code": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecturers": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_number": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": true,
+          "gold_empty": false
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "year": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "term": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": true,
+          "gold": "biology",
+          "pred": "biology"
+        },
+        "doc_type": {
+          "correct": true,
+          "gold": "lecture_notes",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "key_terms": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "references": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "ocw-6-241j-mit6_241js11_lec03": {
+      "fact": {
+        "course_title": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "course_code": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_number": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "term": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": false,
+          "gold": "engineering",
+          "pred": "arts_architecture"
+        },
+        "doc_type": {
+          "correct": false,
+          "gold": "slides",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "key_terms": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "references": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "ocw-7-03-lecture33_1": {
+      "fact": {
+        "course_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "course_code": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecture_number": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": true,
+          "gold_empty": false
+        },
+        "lecture_title": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "term": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": false,
+          "gold": "biology",
+          "pred": "computer_science"
+        },
+        "doc_type": {
+          "correct": false,
+          "gold": "slides",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 0.5555555555555556,
+          "recall": 0.625,
+          "f1": 0.5882352941176471
+        },
+        "key_terms": {
+          "precision": 0.7333333333333333,
+          "recall": 0.6875,
+          "f1": 0.7096774193548386
+        },
+        "references": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "ocw-5-069-symm_handout2": {
+      "fact": {
+        "course_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "course_code": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecture_number": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "term": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": false,
+          "gold": "chemistry",
+          "pred": "physics"
+        },
+        "doc_type": {
+          "correct": false,
+          "gold": "slides",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 0.6,
+          "recall": 0.6666666666666666,
+          "f1": 0.631578947368421
+        },
+        "key_terms": {
+          "precision": 0.8,
+          "recall": 0.6,
+          "f1": 0.6857142857142857
+        },
+        "references": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "ocw-24-244-mit24_244s15_stronger": {
+      "fact": {
+        "course_title": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "course_code": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecture_number": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "term": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": false,
+          "gold": "humanities",
+          "pred": "physics"
+        },
+        "doc_type": {
+          "correct": true,
+          "gold": "lecture_notes",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 0.5555555555555556,
+          "recall": 0.625,
+          "f1": 0.5882352941176471
+        },
+        "key_terms": {
+          "precision": 0.6,
+          "recall": 0.47368421052631576,
+          "f1": 0.5294117647058824
+        },
+        "references": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "ocw-18-310-mit18_310f13_ch3": {
+      "fact": {
+        "course_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "course_code": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_number": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "term": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": false,
+          "gold": "mathematics",
+          "pred": "computer_science"
+        },
+        "doc_type": {
+          "correct": true,
+          "gold": "lecture_notes",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 0.6,
+          "recall": 0.75,
+          "f1": 0.6666666666666665
+        },
+        "key_terms": {
+          "precision": 0.9,
+          "recall": 0.6923076923076923,
+          "f1": 0.7826086956521738
+        },
+        "references": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "ocw-2-001-lec24": {
+      "fact": {
+        "course_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "course_code": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_number": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "term": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": false,
+          "gold": "engineering",
+          "pred": "medicine_health"
+        },
+        "doc_type": {
+          "correct": true,
+          "gold": "lecture_notes",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 0.5,
+          "recall": 0.5555555555555556,
+          "f1": 0.5263157894736842
+        },
+        "key_terms": {
+          "precision": 0.8181818181818182,
+          "recall": 0.5294117647058824,
+          "f1": 0.6428571428571428
+        },
+        "references": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "ocw-22-105-lecture4": {
+      "fact": {
+        "course_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "course_code": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecture_number": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "term": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": true,
+          "gold": "physics",
+          "pred": "physics"
+        },
+        "doc_type": {
+          "correct": true,
+          "gold": "lecture_notes",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 0.75,
+          "recall": 0.3333333333333333,
+          "f1": 0.46153846153846156
+        },
+        "key_terms": {
+          "precision": 1.0,
+          "recall": 0.42105263157894735,
+          "f1": 0.5925925925925926
+        },
+        "references": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "ocw-10-37-lec10_03092007_w": {
+      "fact": {
+        "course_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "course_code": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_number": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "term": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": true,
+          "gold": "engineering",
+          "pred": "engineering"
+        },
+        "doc_type": {
+          "correct": true,
+          "gold": "lecture_notes",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 0.7,
+          "recall": 0.7777777777777778,
+          "f1": 0.7368421052631577
+        },
+        "key_terms": {
+          "precision": 0.9333333333333333,
+          "recall": 0.7368421052631579,
+          "f1": 0.8235294117647058
+        },
+        "references": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "ocw-12-864-contrl_obser_4_6": {
+      "fact": {
+        "course_title": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "course_code": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecture_number": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "term": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": false,
+          "gold": "engineering",
+          "pred": "mathematics"
+        },
+        "doc_type": {
+          "correct": false,
+          "gold": "textbook_chapter",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 0.6,
+          "recall": 0.75,
+          "f1": 0.6666666666666665
+        },
+        "key_terms": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "references": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "ocw-18-435j-qc_lec02": {
+      "fact": {
+        "course_title": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "course_code": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecturers": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_number": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "term": {
+          "correct": false,
+          "hallucinated": true,
+          "omitted": false,
+          "gold_empty": true
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": false,
+          "gold": "physics",
+          "pred": "mathematics"
+        },
+        "doc_type": {
+          "correct": true,
+          "gold": "lecture_notes",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 0.8,
+          "recall": 0.4444444444444444,
+          "f1": 0.5714285714285714
+        },
+        "key_terms": {
+          "precision": 0.8888888888888888,
+          "recall": 0.4,
+          "f1": 0.5517241379310346
+        },
+        "references": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "ocw-2-20-lecture12": {
+      "fact": {
+        "course_title": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "course_code": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "institution": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecturers": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": true
+        },
+        "lecture_number": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "lecture_title": {
+          "correct": false,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "year": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        },
+        "term": {
+          "correct": true,
+          "hallucinated": false,
+          "omitted": false,
+          "gold_empty": false
+        }
+      },
+      "classification": {
+        "discipline": {
+          "correct": true,
+          "gold": "engineering",
+          "pred": "engineering"
+        },
+        "doc_type": {
+          "correct": true,
+          "gold": "lecture_notes",
+          "pred": "lecture_notes"
+        }
+      },
+      "content": {
+        "topics": {
+          "precision": 0.375,
+          "recall": 0.375,
+          "f1": 0.375
+        },
+        "key_terms": {
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666665
+        },
+        "references": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    }
+  }
+}

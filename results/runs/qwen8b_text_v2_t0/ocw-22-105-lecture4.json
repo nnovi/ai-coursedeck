@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-22-105-lecture4",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Conformal Mapping and Green’s Theorem",
+    "course_code": "Lecture 4",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 4,
+    "lecture_title": "Conformal Mapping and Green’s Theorem",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Solving electrostatic problems – continued",
+      "Why separation of variables doesn’t always work",
+      "Conformal mapping",
+      "Green’s theorem",
+      "The failure of separation of variables",
+      "Conformal mapping procedure",
+      "Review of complex variables",
+      "The mapping function",
+      "The solution",
+      "Green’s theorem derivation and application"
+    ],
+    "key_terms": [
+      "separation of variables",
+      "conformal mapping",
+      "Green’s theorem",
+      "Laplace’s equation",
+      "Cauchy-Riemann equations",
+      "mapping function",
+      "Green’s function",
+      "Poisson’s equation",
+      "delta function",
+      "divergence theorem",
+      "boundary conditions",
+      "numerical inversion",
+      "concentric circles",
+      "free space Green’s function",
+      "spherical Green’s function",
+      "cylindrical Green’s function"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 8346,
+    "output_tokens": 309,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.9983396000461653,
+  "n_pages": 14,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Conformal Mapping and Green’s Theorem\",\n  \"course_code\": \"Lecture 4\",\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [],\n  \"lecture_number\": 4,\n  \"lecture_title\": \"Conformal Mapping and Green’s Theorem\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Solving electrostatic problems – continued\",\n    \"Why separation of variables doesn’t always work\",\n    \"Conformal mapping\",\n    \"Green’s theorem\",\n    \"The failure of separation of variables\",\n    \"Conformal mapping procedure\",\n    \"Review of complex variables\",\n    \"The mapping function\",\n    \"The solution\",\n    \"Green’s theorem derivation and application\"\n  ],\n  \"key_terms\": [\n    \"separation of variables\",\n    \"conformal mapping\",\n    \"Green’s theorem\",\n    \"Laplace’s equation\",\n    \"Cauchy-Riemann equations\",\n    \"mapping function\",\n    \"Green’s function\",\n    \"Poisson’s equation\",\n    \"delta function\",\n    \"divergence theorem\",\n    \"boundary conditions\",\n    \"numerical inversion\",\n    \"concentric circles\",\n    \"free space Green’s function\",\n    \"spherical Green’s function\",\n    \"cylindrical Green’s function\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 8346,
+        "output_tokens": 309,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.9983396000461653,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

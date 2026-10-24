@@ -1,0 +1,71 @@
+{
+  "doc_id": "ocw-22-105-lecture4",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 4,
+    "lecture_title": "Conformal Mapping and Green’s Theorem",
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Solving electrostatic problems",
+      "Failure of separation of variables",
+      "Conformal mapping",
+      "Review of complex variables",
+      "The mapping function",
+      "Solution in transformed coordinates",
+      "Derivation of Green’s theorem",
+      "Free-space Green’s functions",
+      "Green’s theorem for infinite-space problems"
+    ],
+    "key_terms": [
+      "separation of variables",
+      "conformal mapping",
+      "Cauchy-Riemann equations",
+      "Laplace’s equation",
+      "Green’s theorem",
+      "Green’s function",
+      "Poisson’s equation",
+      "mapping function",
+      "spherical Green’s function",
+      "cylindrical Green’s function"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 11314,
+    "output_tokens": 579,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00144132,
+  "billed_cost_usd": 0.001724095,
+  "latency_s": 10.796768500003964,
+  "n_pages": 14,
+  "image_pixels": 9190231,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": null,\n  \"course_code\": null,\n  \"institution\": null,\n  \"lecturers\": [],\n  \"lecture_number\": 4,\n  \"lecture_title\": \"Conformal Mapping and Green’s Theorem\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"physics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Solving electrostatic problems\",\n    \"Failure of separation of variables\",\n    \"Conformal mapping\",\n    \"Review of complex variables\",\n    \"The mapping function\",\n    \"Solution in transformed coordinates\",\n    \"Derivation of Green’s theorem\",\n    \"Free-space Green’s functions\",\n    \"Green’s theorem for infinite-space problems\"\n  ],\n  \"key_terms\": [\n    \"separation of variables\",\n    \"conformal mapping\",\n    \"Cauchy-Riemann equations\",\n    \"Laplace’s equation\",\n    \"Green’s theorem\",\n    \"Green’s function\",\n    \"Poisson’s equation\",\n    \"mapping function\",\n    \"spherical Green’s function\",\n    \"cylindrical Green’s function\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 11314,
+        "output_tokens": 579,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 10.796768500003964,
+      "error": null,
+      "request_id": "gen-1792863165-tHW2EChXeF0oDa2iVzAE",
+      "billed_cost_usd": 0.001724095
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "doc_id": "ocw-18-310-mit18_310f13_ch3",
   "status": "reviewed",
-  "notes": "course_title from the OCW citation page (header '18.310 lecture notes' gives no name). lecture_number null: no lecture label (page labels VdW-1..3; 'ch3' only in the file name). lecture_title = main heading of p1 (no labelled lecture heading). year 2013 from the content-page date 'September 2, 2013' (step 1); term null because that source states no term — 'Fall 2013' appears only on the OCW page, which is not the chosen year source (would be 'fall' if month-to-term inference were allowed). institution 'MIT OpenCourseWare' since the OCW page is the only mention. topics have no section headings to follow; derived from the flow (merged counting of progressions into the linearity-of-expectation topic). Blue hyperlink on p1 is not a reference. Verification: no changes. All 4 page images re-checked. Remaining doubts: term null under the same-source rule although p4 says 'Fall 2013'; topics 6–8 are steps of the Theorem 2 proof and could alternatively be merged into 'Lower bound for W(k)'; 'random variable' is a fairly generic key term (kept).",
+  "notes": "course_title from the OCW citation page (header '18.310 lecture notes' gives no name). lecture_number null: no lecture label (page labels VdW-1..3; 'ch3' only in the file name). lecture_title = main heading of p1 (no labelled lecture heading). year 2013 from the content-page date 'September 2, 2013' (step 1); term null because that source states no term — 'Fall 2013' appears only on the OCW page, which is not the chosen year source (would be 'fall' if month-to-term inference were allowed). institution 'MIT OpenCourseWare' since the OCW page is the only mention. topics have no section headings to follow; derived from the flow (merged counting of progressions into the linearity-of-expectation topic). Blue hyperlink on p1 is not a reference. Verification: no changes. All 4 page images re-checked. Remaining doubts: term null under the same-source rule although p4 says 'Fall 2013'; topics 6–8 are steps of the Theorem 2 proof and could alternatively be merged into 'Lower bound for W(k)'; 'random variable' is a fairly generic key term (kept). Rule update 2026-10-24: term from the OCW citation page (Fall 2013, same year as the lecture date).",
   "card": {
     "course_title": "Principles of Discrete Applied Mathematics",
     "course_code": "18.310",
@@ -12,7 +12,7 @@
     "lecture_number": null,
     "lecture_title": "Van der Waerden’s Theorem",
     "year": 2013,
-    "term": null,
+    "term": "fall",
     "discipline": "mathematics",
     "doc_type": "lecture_notes",
     "topics": [

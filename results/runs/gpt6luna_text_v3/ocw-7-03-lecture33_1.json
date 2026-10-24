@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-7-03-lecture33_1",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": "MIT OCW",
+    "lecturers": [],
+    "lecture_number": 33,
+    "lecture_title": null,
+    "year": null,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "slides",
+    "topics": [
+      "Environmental causes of cancer",
+      "Cancer cell types",
+      "Mutations in somatic cells",
+      "Stomach cancer incidence by age",
+      "Complications in cancer genetics",
+      "Transformed 3T3 cells",
+      "Isolation of the Ras oncogene",
+      "Synergy between myc and ras"
+    ],
+    "key_terms": [
+      "mutagen",
+      "Aflatoxin B",
+      "3,4-benzpyrene",
+      "carcinoma",
+      "lukemia",
+      "meyloma",
+      "lymphoma",
+      "sarcoma",
+      "somatic cells",
+      "mutations",
+      "tumor cell",
+      "Ras oncogene",
+      "myc",
+      "ras",
+      "metastasis",
+      "angiogenesis"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 621,
+    "output_tokens": 992,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00057852,
+  "billed_cost_usd": 0.00059397,
+  "latency_s": 10.648946200031787,
+  "n_pages": 8,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": null,\n  \"course_code\": null,\n  \"institution\": \"MIT OCW\",\n  \"lecturers\": [],\n  \"lecture_number\": 33,\n  \"lecture_title\": null,\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"biology\",\n  \"doc_type\": \"slides\",\n  \"topics\": [\n    \"Environmental causes of cancer\",\n    \"Cancer cell types\",\n    \"Mutations in somatic cells\",\n    \"Stomach cancer incidence by age\",\n    \"Complications in cancer genetics\",\n    \"Transformed 3T3 cells\",\n    \"Isolation of the Ras oncogene\",\n    \"Synergy between myc and ras\"\n  ],\n  \"key_terms\": [\n    \"mutagen\",\n    \"Aflatoxin B\",\n    \"3,4-benzpyrene\",\n    \"carcinoma\",\n    \"lukemia\",\n    \"meyloma\",\n    \"lymphoma\",\n    \"sarcoma\",\n    \"somatic cells\",\n    \"mutations\",\n    \"tumor cell\",\n    \"Ras oncogene\",\n    \"myc\",\n    \"ras\",\n    \"metastasis\",\n    \"angiogenesis\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 621,
+        "output_tokens": 992,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 10.648946200031787,
+      "error": null,
+      "request_id": "gen-1792849401-g340jda7hxVQO4rpqqZq",
+      "billed_cost_usd": 0.00059397
+    }
+  ]
+}

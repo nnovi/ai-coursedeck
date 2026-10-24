@@ -1,0 +1,69 @@
+{
+  "doc_id": "ocw-2-001-lec24",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Mechanics and Materials I",
+    "course_code": "2.001",
+    "institution": null,
+    "lecturers": [
+      "Carol Livermore"
+    ],
+    "lecture_number": 26,
+    "lecture_title": "Energy Methods",
+    "year": 2006,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Basic ingredients of mechanics",
+      "Conservative forces and potential energy",
+      "Elastic spring energy",
+      "Complementary energy",
+      "Castigliano’s Theorem",
+      "Springs in series",
+      "Truss energy analysis",
+      "Strain energy in beams"
+    ],
+    "key_terms": [
+      "Equilibrium",
+      "Constitutive Relations",
+      "Compatibility",
+      "Conservative Forces",
+      "Potential Energy",
+      "Complementary Energy",
+      "Castigliano’s Theorem",
+      "Strain Energy Density"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 10250,
+    "output_tokens": 443,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0012669200000000002,
+  "billed_cost_usd": 0.001523095,
+  "latency_s": 6.649219600018114,
+  "n_pages": 8,
+  "image_pixels": 8614494,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Mechanics and Materials I\",\n  \"course_code\": \"2.001\",\n  \"institution\": null,\n  \"lecturers\": [\"Carol Livermore\"],\n  \"lecture_number\": 26,\n  \"lecture_title\": \"Energy Methods\",\n  \"year\": 2006,\n  \"term\": null,\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Basic ingredients of mechanics\",\n    \"Conservative forces and potential energy\",\n    \"Elastic spring energy\",\n    \"Complementary energy\",\n    \"Castigliano’s Theorem\",\n    \"Springs in series\",\n    \"Truss energy analysis\",\n    \"Strain energy in beams\"\n  ],\n  \"key_terms\": [\n    \"Equilibrium\",\n    \"Constitutive Relations\",\n    \"Compatibility\",\n    \"Conservative Forces\",\n    \"Potential Energy\",\n    \"Complementary Energy\",\n    \"Castigliano’s Theorem\",\n    \"Strain Energy Density\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 10250,
+        "output_tokens": 443,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.649219600018114,
+      "error": null,
+      "request_id": "gen-1792849681-UaJXTCZsEdoLdzu5gRJp",
+      "billed_cost_usd": 0.001523095
+    }
+  ]
+}

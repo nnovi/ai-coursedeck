@@ -1,0 +1,64 @@
+{
+  "doc_id": "ocw-18-310-mit18_310f13_ch3",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Principles of Discrete Applied Mathematics",
+    "course_code": "18.310",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Michel Goemans"
+    ],
+    "lecture_number": 1,
+    "lecture_title": "Van der Waerden's Theorem",
+    "year": 2013,
+    "term": "fall",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Van der Waerden's Theorem",
+      "Arithmetic Progression",
+      "Coloring of a Set",
+      "Probabilistic Method",
+      "Lower Bound for Van der Waerden Numbers"
+    ],
+    "key_terms": [
+      "Van der Waerden's Theorem",
+      "Arithmetic Progression",
+      "Coloring",
+      "Probabilistic Method",
+      "Van der Waerden Numbers",
+      "Linearity of Expectation",
+      "Indicator Random Variable",
+      "Monochromatic"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 7800,
+    "output_tokens": 240,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.065669500036165,
+  "n_pages": 4,
+  "image_pixels": 3350466,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Principles of Discrete Applied Mathematics\",\n  \"course_code\": \"18.310\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"Michel Goemans\"\n  ],\n  \"lecture_number\": 1,\n  \"lecture_title\": \"Van der Waerden's Theorem\",\n  \"year\": 2013,\n  \"term\": \"fall\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Van der Waerden's Theorem\",\n    \"Arithmetic Progression\",\n    \"Coloring of a Set\",\n    \"Probabilistic Method\",\n    \"Lower Bound for Van der Waerden Numbers\"\n  ],\n  \"key_terms\": [\n    \"Van der Waerden's Theorem\",\n    \"Arithmetic Progression\",\n    \"Coloring\",\n    \"Probabilistic Method\",\n    \"Van der Waerden Numbers\",\n    \"Linearity of Expectation\",\n    \"Indicator Random Variable\",\n    \"Monochromatic\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 7800,
+        "output_tokens": 240,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.065669500036165,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

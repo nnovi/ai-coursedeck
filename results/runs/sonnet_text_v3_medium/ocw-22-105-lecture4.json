@@ -1,0 +1,73 @@
+{
+  "doc_id": "ocw-22-105-lecture4",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 4,
+    "lecture_title": "Conformal Mapping and Green’s Theorem",
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Solving electrostatic problems",
+      "Failure of separation of variables",
+      "Conformal mapping",
+      "Review of complex variables",
+      "Mapping function for the shifted circle problem",
+      "Derivation of Green’s theorem",
+      "Free space Green’s functions",
+      "Green’s theorem for infinite space problems"
+    ],
+    "key_terms": [
+      "separation of variables",
+      "conformal mapping",
+      "mapping function",
+      "Cauchy-Riemann equations",
+      "Laplace’s equation",
+      "Green’s theorem",
+      "Green’s function",
+      "free space spherical Green’s function",
+      "free space cylindrical Green’s function",
+      "divergence theorem",
+      "Poisson’s equation",
+      "delta function",
+      "expansion functions",
+      "shifted circle problem"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 10058,
+    "output_tokens": 318,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.024055,
+  "billed_cost_usd": null,
+  "latency_s": 3.125593400094658,
+  "n_pages": 14,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":4,\"lecture_title\":\"Conformal Mapping and Green’s Theorem\",\"year\":null,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Solving electrostatic problems\",\"Failure of separation of variables\",\"Conformal mapping\",\"Review of complex variables\",\"Mapping function for the shifted circle problem\",\"Derivation of Green’s theorem\",\"Free space Green’s functions\",\"Green’s theorem for infinite space problems\"],\"key_terms\":[\"separation of variables\",\"conformal mapping\",\"mapping function\",\"Cauchy-Riemann equations\",\"Laplace’s equation\",\"Green’s theorem\",\"Green’s function\",\"free space spherical Green’s function\",\"free space cylindrical Green’s function\",\"divergence theorem\",\"Poisson’s equation\",\"delta function\",\"expansion functions\",\"shifted circle problem\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 10058,
+        "output_tokens": 318,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.125593400094658,
+      "error": null,
+      "request_id": "req_011CgMA2VBu19WFUQypgYFN5",
+      "billed_cost_usd": null
+    }
+  ]
+}

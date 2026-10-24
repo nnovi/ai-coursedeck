@@ -1,0 +1,68 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Quantum Computation",
+    "course_code": "18.435/2.111",
+    "institution": "MIT",
+    "lecturers": [
+      "Vitaly Feldman"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": "fall",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Postulate 1: State space of a quantum system",
+      "Postulate 2: Evolution of a closed quantum system",
+      "Postulate 3: Quantum measurements",
+      "Postulate 4: State space of a composite quantum system",
+      "Tensor product of Hilbert spaces",
+      "Entangled states"
+    ],
+    "key_terms": [
+      "Hilbert space",
+      "unit vector",
+      "unitary transformation",
+      "Hermitian operator",
+      "measurement operators",
+      "tensor product",
+      "entangled state"
+    ],
+    "references": [
+      "Schrödinger equation",
+      "Pauli matrices",
+      "Hadamard transform"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 5301,
+    "output_tokens": 269,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 4.187236599973403,
+  "n_pages": 3,
+  "image_pixels": 2477652,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Quantum Computation\",\n  \"course_code\": \"18.435/2.111\",\n  \"institution\": \"MIT\",\n  \"lecturers\": [\n    \"Vitaly Feldman\"\n  ],\n  \"lecture_number\": 2,\n  \"lecture_title\": \"Basics of Quantum Mechanics\",\n  \"year\": 2003,\n  \"term\": \"fall\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Postulate 1: State space of a quantum system\",\n    \"Postulate 2: Evolution of a closed quantum system\",\n    \"Postulate 3: Quantum measurements\",\n    \"Postulate 4: State space of a composite quantum system\",\n    \"Tensor product of Hilbert spaces\",\n    \"Entangled states\"\n  ],\n  \"key_terms\": [\n    \"Hilbert space\",\n    \"unit vector\",\n    \"unitary transformation\",\n    \"Hermitian operator\",\n    \"measurement operators\",\n    \"tensor product\",\n    \"entangled state\"\n  ],\n  \"references\": [\n    \"Schrödinger equation\",\n    \"Pauli matrices\",\n    \"Hadamard transform\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 5301,
+        "output_tokens": 269,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.187236599973403,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

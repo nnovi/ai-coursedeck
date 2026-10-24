@@ -1,0 +1,73 @@
+{
+  "doc_id": "ocw-22-105-lecture4",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Conformal Mapping and Green's Theorem",
+    "course_code": "Lecture 4",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 4,
+    "lecture_title": "Conformal Mapping and Green's Theorem",
+    "year": null,
+    "term": null,
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Solving electrostatic problems – continued",
+      "Why separation of variables doesn't always work",
+      "Conformal mapping",
+      "Green's theorem"
+    ],
+    "key_terms": [
+      "Conformal mapping",
+      "Green's theorem",
+      "Separation of variables",
+      "Laplace's equation",
+      "Cauchy-Riemann equations",
+      "Mapping function",
+      "Conformal transformation",
+      "Green's function",
+      "Poisson's equation",
+      "Conformal coordinates",
+      "Complex variables",
+      "Conformal mapping procedure",
+      "Conformal mapping technique",
+      "Conformal mapping function",
+      "Conformal mapping geometry",
+      "Conformal mapping solution",
+      "Conformal mapping example",
+      "Conformal mapping problem",
+      "Conformal mapping solution",
+      "Conformal mapping geometry"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 23513,
+    "output_tokens": 302,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 7.78835839999374,
+  "n_pages": 14,
+  "image_pixels": 9190231,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Conformal Mapping and Green's Theorem\",\n  \"course_code\": \"Lecture 4\",\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [],\n  \"lecture_number\": 4,\n  \"lecture_title\": \"Conformal Mapping and Green's Theorem\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Solving electrostatic problems – continued\",\n    \"Why separation of variables doesn't always work\",\n    \"Conformal mapping\",\n    \"Green's theorem\"\n  ],\n  \"key_terms\": [\n    \"Conformal mapping\",\n    \"Green's theorem\",\n    \"Separation of variables\",\n    \"Laplace's equation\",\n    \"Cauchy-Riemann equations\",\n    \"Mapping function\",\n    \"Conformal transformation\",\n    \"Green's function\",\n    \"Poisson's equation\",\n    \"Conformal coordinates\",\n    \"Complex variables\",\n    \"Conformal mapping procedure\",\n    \"Conformal mapping technique\",\n    \"Conformal mapping function\",\n    \"Conformal mapping geometry\",\n    \"Conformal mapping solution\",\n    \"Conformal mapping example\",\n    \"Conformal mapping problem\",\n    \"Conformal mapping solution\",\n    \"Conformal mapping geometry\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 23513,
+        "output_tokens": 302,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 7.78835839999374,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "doc_id": "ocw-7-02ci-methods_nl_sp05",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "SciComm",
+    "course_code": "7.02",
+    "institution": "MIT",
+    "lecturers": [],
+    "lecture_number": 2,
+    "lecture_title": "Materials & Methods",
+    "year": null,
+    "term": null,
+    "discipline": "humanities",
+    "doc_type": "slides",
+    "topics": [
+      "Modeling the writing process",
+      "Self-monitoring composing strategies",
+      "Rhetoric of scientific writing",
+      "Rhetorical triangles",
+      "Research and writing processes",
+      "Goal of scientific writing: courting the audience",
+      "Experienced scientific writers: feedback and revision",
+      "Goals of a methods section",
+      "Pitfalls of a methods section",
+      "Protocol versus methods section",
+      "Section headings and hierarchies",
+      "Methods sections for long-term projects",
+      "Peer review examples"
+    ],
+    "key_terms": [
+      "Declarative Knowledge",
+      "Procedural Knowledge",
+      "Conditional Knowledge",
+      "rhetorical triangle",
+      "context",
+      "writer's block",
+      "methods section",
+      "protocol",
+      "passive voice",
+      "dangling modifier",
+      "chronological order",
+      "section hierarchy",
+      "peer-edit",
+      "self-edit",
+      "expert-edit",
+      "revise",
+      "rhetoric",
+      "audience",
+      "purpose",
+      "content"
+    ],
+    "references": [
+      "Alley, Michael. The Craft of Scientific Writing. 3rd ed. New York, NY: Springer, 1997. ISBN: 0387947663.",
+      "Day, Robert A. How to Write and Publish a Scientific Paper. 5th ed. Westport, CT: Greenwood, 1998. ISBN: 1573561657.",
+      "Paradis, James G., and Muriel Zimmerman. The MIT Guide to Science and Engineering Communication. Cambridge, MA: MIT Press, 2002. ISBN: 0262661276.",
+      "Perelman, Leslie C., James Paradis, and Edward Barret. The Mayfield Handbook of Technical and Scientific Writing. New York, NY: McGraw Hill Higher Education, 1997. ISBN: 1559346477.",
+      "Matthews, Janice R. et al. Successful Scientific Writing Full Canadian Binding: A Step-by-Step Guide for the BioloPressgical and Medical Sciences. Cambridge, UK: Cambridge University, 2000. ISBN: 0521789621."
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 17694,
+    "output_tokens": 2163,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0028888500000000005,
+  "billed_cost_usd": null,
+  "latency_s": 9.313943499932066,
+  "n_pages": 14,
+  "image_pixels": 13371245,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"SciComm\",\"course_code\":\"7.02\",\"institution\":\"MIT\",\"lecturers\":[],\"lecture_number\":2,\"lecture_title\":\"Materials & Methods\",\"year\":null,\"term\":null,\"discipline\":\"humanities\",\"doc_type\":\"slides\",\"topics\":[\"Modeling the writing process\",\"Self-monitoring composing strategies\",\"Rhetoric of scientific writing\",\"Rhetorical triangles\",\"Research and writing processes\",\"Goal of scientific writing: courting the audience\",\"Experienced scientific writers: feedback and revision\",\"Goals of a methods section\",\"Pitfalls of a methods section\",\"Protocol versus methods section\",\"Section headings and hierarchies\",\"Methods sections for long-term projects\",\"Peer review examples\"],\"key_terms\":[\"Declarative Knowledge\",\"Procedural Knowledge\",\"Conditional Knowledge\",\"rhetorical triangle\",\"context\",\"writer's block\",\"methods section\",\"protocol\",\"passive voice\",\"dangling modifier\",\"chronological order\",\"section hierarchy\",\"peer-edit\",\"self-edit\",\"expert-edit\",\"revise\",\"rhetoric\",\"audience\",\"purpose\",\"content\"],\"references\":[\"Alley, Michael. The Craft of Scientific Writing. 3rd ed. New York, NY: Springer, 1997. ISBN: 0387947663.\",\"Day, Robert A. How to Write and Publish a Scientific Paper. 5th ed. Westport, CT: Greenwood, 1998. ISBN: 1573561657.\",\"Paradis, James G., and Muriel Zimmerman. The MIT Guide to Science and Engineering Communication. Cambridge, MA: MIT Press, 2002. ISBN: 0262661276.\",\"Perelman, Leslie C., James Paradis, and Edward Barret. The Mayfield Handbook of Technical and Scientific Writing. New York, NY: McGraw Hill Higher Education, 1997. ISBN: 1559346477.\",\"Matthews, Janice R. et al. Successful Scientific Writing Full Canadian Binding: A Step-by-Step Guide for the BioloPressgical and Medical Sciences. Cambridge, UK: Cambridge University, 2000. ISBN: 0521789621.\"]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 17694,
+        "output_tokens": 2163,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 9.313943499932066,
+      "error": null,
+      "request_id": "req_011CgMTfpeSCm6p6h3qeA4c7",
+      "billed_cost_usd": null
+    }
+  ]
+}

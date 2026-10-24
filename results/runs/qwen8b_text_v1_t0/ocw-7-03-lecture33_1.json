@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-7-03-lecture33_1",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Environmental Causes of Cancer and Genetic Basis of Tumorigenesis",
+    "year": null,
+    "term": null,
+    "discipline": "computer_science",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Environmental mutagens and their role in cancer (e.g., mutagenic compounds, X-rays, UV)",
+      "Enzymatic conversion and spontaneous reactions with DNA (e.g., N7 of guanosine)",
+      "Cancer arises in actively dividing cells (carcinoma, leukemia, lymphoma, sarcoma)",
+      "Cancer as a genetic disease of somatic cells due to mutations releasing growth constraints",
+      "Incidence of stomach cancer by age and gender (data from 1975 and 1992)",
+      "Multiple mutations required for tumor formation; different tumors have different mutated genes",
+      "Early initiating events are rare and hard to detect; often lead to increased mutation rates",
+      "Synergistic effect of oncogenic myc and ras in tumor formation (shown in graph)",
+      "Isolation of the Ras oncogene from human tumor cells"
+    ],
+    "key_terms": [
+      "mutagens",
+      "epoxide",
+      "Aflatoxin B",
+      "3,4-benzpyrene",
+      "carcinoma",
+      "leukemia",
+      "lymphoma",
+      "sarcoma",
+      "somatic cells",
+      "mutations",
+      "tumor suppressor genes",
+      "oncogenes",
+      "Ras oncogene",
+      "myc oncogene",
+      "synergistic effect"
+    ],
+    "references": [
+      "Figure by MIT OCW (pages 4, 5, 7, 8)"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 820,
+    "output_tokens": 417,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.8354718999471515,
+  "n_pages": 8,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": null,\n  \"course_code\": null,\n  \"institution\": null,\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Environmental Causes of Cancer and Genetic Basis of Tumorigenesis\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"computer_science\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Environmental mutagens and their role in cancer (e.g., mutagenic compounds, X-rays, UV)\",\n    \"Enzymatic conversion and spontaneous reactions with DNA (e.g., N7 of guanosine)\",\n    \"Cancer arises in actively dividing cells (carcinoma, leukemia, lymphoma, sarcoma)\",\n    \"Cancer as a genetic disease of somatic cells due to mutations releasing growth constraints\",\n    \"Incidence of stomach cancer by age and gender (data from 1975 and 1992)\",\n    \"Multiple mutations required for tumor formation; different tumors have different mutated genes\",\n    \"Early initiating events are rare and hard to detect; often lead to increased mutation rates\",\n    \"Synergistic effect of oncogenic myc and ras in tumor formation (shown in graph)\",\n    \"Isolation of the Ras oncogene from human tumor cells\"\n  ],\n  \"key_terms\": [\n    \"mutagens\",\n    \"epoxide\",\n    \"Aflatoxin B\",\n    \"3,4-benzpyrene\",\n    \"carcinoma\",\n    \"leukemia\",\n    \"lymphoma\",\n    \"sarcoma\",\n    \"somatic cells\",\n    \"mutations\",\n    \"tumor suppressor genes\",\n    \"oncogenes\",\n    \"Ras oncogene\",\n    \"myc oncogene\",\n    \"synergistic effect\"\n  ],\n  \"references\": [\n    \"Figure by MIT OCW (pages 4, 5, 7, 8)\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 820,
+        "output_tokens": 417,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.8354718999471515,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

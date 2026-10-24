@@ -1,0 +1,65 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Modal Logic",
+    "course_code": "24.244",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": 2015,
+    "term": "spring",
+    "discipline": "humanities",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities",
+      "Modalities in S4",
+      "Validity for S4",
+      "System S5",
+      "Validity in S5",
+      "System B",
+      "Basic Facts about B",
+      "Upward and onward?"
+    ],
+    "key_terms": [
+      "modalities",
+      "iterated modalities",
+      "reduction law",
+      "S4",
+      "S5",
+      "B",
+      "G",
+      "PA"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 12624,
+    "output_tokens": 202,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 5.753576599992812,
+  "n_pages": 5,
+  "image_pixels": 6943548,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Modal Logic\",\n  \"course_code\": \"24.244\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": null,\n  \"year\": 2015,\n  \"term\": \"spring\",\n  \"discipline\": \"humanities\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Modalities\",\n    \"Modalities in S4\",\n    \"Validity for S4\",\n    \"System S5\",\n    \"Validity in S5\",\n    \"System B\",\n    \"Basic Facts about B\",\n    \"Upward and onward?\"\n  ],\n  \"key_terms\": [\n    \"modalities\",\n    \"iterated modalities\",\n    \"reduction law\",\n    \"S4\",\n    \"S5\",\n    \"B\",\n    \"G\",\n    \"PA\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 12624,
+        "output_tokens": 202,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.753576599992812,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

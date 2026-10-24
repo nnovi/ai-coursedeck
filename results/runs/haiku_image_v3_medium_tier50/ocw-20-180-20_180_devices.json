@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-20-180-20_180_devices",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Devices",
+    "course_code": "20.180",
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Devices",
+    "year": null,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Genetic devices and gene-expression based devices",
+      "Device modeling with transfer function and latency",
+      "Protein generator modeling",
+      "PoPS regulator modeling",
+      "Combining models of the inverter"
+    ],
+    "key_terms": [
+      "transfer function",
+      "latency",
+      "protein generator",
+      "PoPS regulator",
+      "half-life",
+      "first-order decay rate",
+      "steady state",
+      "copy number",
+      "repressor protein",
+      "operator site",
+      "second order binding",
+      "dissociation constant",
+      "genetic inverter",
+      "ribosome binding site",
+      "terminator",
+      "PoPS signal",
+      "RNA polymerase",
+      "degradation"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 9625,
+    "output_tokens": 1389,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00169495,
+  "billed_cost_usd": null,
+  "latency_s": 7.751497799996287,
+  "n_pages": 11,
+  "image_pixels": 7257096,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Devices\",\"course_code\":\"20.180\",\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Devices\",\"year\":null,\"term\":null,\"discipline\":\"biology\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Genetic devices and gene-expression based devices\",\"Device modeling with transfer function and latency\",\"Protein generator modeling\",\"PoPS regulator modeling\",\"Combining models of the inverter\"],\"key_terms\":[\"transfer function\",\"latency\",\"protein generator\",\"PoPS regulator\",\"half-life\",\"first-order decay rate\",\"steady state\",\"copy number\",\"repressor protein\",\"operator site\",\"second order binding\",\"dissociation constant\",\"genetic inverter\",\"ribosome binding site\",\"terminator\",\"PoPS signal\",\"RNA polymerase\",\"degradation\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 9625,
+        "output_tokens": 1389,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 7.751497799996287,
+      "error": null,
+      "request_id": "req_011CgMTeBfvbdzWAoJhkYTjf",
+      "billed_cost_usd": null
+    }
+  ]
+}

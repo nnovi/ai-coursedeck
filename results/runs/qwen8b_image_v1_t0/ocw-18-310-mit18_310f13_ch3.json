@@ -1,0 +1,65 @@
+{
+  "doc_id": "ocw-18-310-mit18_310f13_ch3",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "18.310 Principles of Discrete Applied Mathematics",
+    "course_code": "18.310",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [
+      "Michel Goemans"
+    ],
+    "lecture_number": null,
+    "lecture_title": "Van der Waerden's Theorem",
+    "year": 2013,
+    "term": "fall",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Van der Waerden's Theorem",
+      "Probabilistic method",
+      "Arithmetic progression",
+      "Coloring of subsets",
+      "Lower bound for Van der Waerden numbers"
+    ],
+    "key_terms": [
+      "Van der Waerden's Theorem",
+      "probabilistic method",
+      "arithmetic progression",
+      "coloring",
+      "Van der Waerden numbers",
+      "lower bound"
+    ],
+    "references": [
+      "MIT OpenCourseWare http://ocw.mit.edu",
+      "http://ocw.mit.edu/terms"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4487,
+    "output_tokens": 254,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 4.245639199973084,
+  "n_pages": 4,
+  "image_pixels": 3350466,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"18.310 Principles of Discrete Applied Mathematics\",\n  \"course_code\": \"18.310\",\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [\n    \"Michel Goemans\"\n  ],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Van der Waerden's Theorem\",\n  \"year\": 2013,\n  \"term\": \"fall\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Van der Waerden's Theorem\",\n    \"Probabilistic method\",\n    \"Arithmetic progression\",\n    \"Coloring of subsets\",\n    \"Lower bound for Van der Waerden numbers\"\n  ],\n  \"key_terms\": [\n    \"Van der Waerden's Theorem\",\n    \"probabilistic method\",\n    \"arithmetic progression\",\n    \"coloring\",\n    \"Van der Waerden numbers\",\n    \"lower bound\"\n  ],\n  \"references\": [\n    \"MIT OpenCourseWare http://ocw.mit.edu\",\n    \"http://ocw.mit.edu/terms\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4487,
+        "output_tokens": 254,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.245639199973084,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

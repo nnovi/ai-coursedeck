@@ -1,0 +1,79 @@
+{
+  "doc_id": "ocw-2-20-lecture12",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "2.20 - Marine Hydrodynamics",
+    "course_code": "2.20",
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 12,
+    "lecture_title": "Lifting Surfaces",
+    "year": 2005,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "2D Symmetric Streamlined Body",
+      "Asymmetric Body",
+      "Potential Flow and Kutta Condition",
+      "Why Kutta condition?",
+      "How much ΓS?",
+      "Thin Wing, Small Angle of Attack",
+      "Lift due to circulation",
+      "Moment, with respect to mid-chord, due to circulation",
+      "Simple Closed-Form Solutions for ∫γ(x)dx from Linear Theory"
+    ],
+    "key_terms": [
+      "Reynolds numbers",
+      "Viscous effects",
+      "Drag",
+      "Lift",
+      "Kutta condition",
+      "Circulation",
+      "Stall",
+      "Camber",
+      "Angle of attack",
+      "Linearized theory",
+      "Circulation distribution γ(x)",
+      "Total circulation Γ",
+      "Lift coefficient CL",
+      "Moment coefficient CM",
+      "Center of pressure xcp"
+    ],
+    "references": [
+      "P-Flow solution",
+      "Kelvin’s theorem",
+      "Kutta-Joukowski law",
+      "Linearized Bernoulli equation",
+      "Linear lifting theory"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 19341,
+    "output_tokens": 344,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 11.048024800023995,
+  "n_pages": 14,
+  "image_pixels": 11718707,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"2.20 - Marine Hydrodynamics\",\n  \"course_code\": \"2.20\",\n  \"institution\": null,\n  \"lecturers\": [],\n  \"lecture_number\": 12,\n  \"lecture_title\": \"Lifting Surfaces\",\n  \"year\": 2005,\n  \"term\": \"spring\",\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"2D Symmetric Streamlined Body\",\n    \"Asymmetric Body\",\n    \"Potential Flow and Kutta Condition\",\n    \"Why Kutta condition?\",\n    \"How much ΓS?\",\n    \"Thin Wing, Small Angle of Attack\",\n    \"Lift due to circulation\",\n    \"Moment, with respect to mid-chord, due to circulation\",\n    \"Simple Closed-Form Solutions for ∫γ(x)dx from Linear Theory\"\n  ],\n  \"key_terms\": [\n    \"Reynolds numbers\",\n    \"Viscous effects\",\n    \"Drag\",\n    \"Lift\",\n    \"Kutta condition\",\n    \"Circulation\",\n    \"Stall\",\n    \"Camber\",\n    \"Angle of attack\",\n    \"Linearized theory\",\n    \"Circulation distribution γ(x)\",\n    \"Total circulation Γ\",\n    \"Lift coefficient CL\",\n    \"Moment coefficient CM\",\n    \"Center of pressure xcp\"\n  ],\n  \"references\": [\n    \"P-Flow solution\",\n    \"Kelvin’s theorem\",\n    \"Kutta-Joukowski law\",\n    \"Linearized Bernoulli equation\",\n    \"Linear lifting theory\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 19341,
+        "output_tokens": 344,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 11.048024800023995,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

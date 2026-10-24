@@ -1,0 +1,79 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": "18.435/2.111",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Vitaly Feldman"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": "fall",
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Postulate 1: state space and unit vectors",
+      "Notation: kets, bras and inner product",
+      "Postulate 2: unitary evolution",
+      "Unitary and Hermitian operators",
+      "Pauli matrices and Hadamard transform",
+      "Schrödinger equation and Hamiltonian",
+      "Postulate 3: quantum measurements",
+      "Projectors and orthogonal subspace measurements",
+      "Postulate 4: tensor product of state spaces",
+      "Entangled states"
+    ],
+    "key_terms": [
+      "state space",
+      "unit vector",
+      "qubit",
+      "ket",
+      "bra",
+      "unitary operator",
+      "Hermitian operator",
+      "Hamiltonian",
+      "measurement operator",
+      "projector",
+      "tensor product",
+      "entangled",
+      "Hadamard transform",
+      "Pauli matrices",
+      "completeness equation",
+      "Kronecker product"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2840,
+    "output_tokens": 373,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00050845,
+  "billed_cost_usd": null,
+  "latency_s": 2.0411565999966115,
+  "n_pages": 3,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":\"18.435/2.111\",\"institution\":\"Massachusetts Institute of Technology\",\"lecturers\":[\"Vitaly Feldman\"],\"lecture_number\":2,\"lecture_title\":\"Basics of Quantum Mechanics\",\"year\":2003,\"term\":\"fall\",\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Postulate 1: state space and unit vectors\",\"Notation: kets, bras and inner product\",\"Postulate 2: unitary evolution\",\"Unitary and Hermitian operators\",\"Pauli matrices and Hadamard transform\",\"Schrödinger equation and Hamiltonian\",\"Postulate 3: quantum measurements\",\"Projectors and orthogonal subspace measurements\",\"Postulate 4: tensor product of state spaces\",\"Entangled states\"],\"key_terms\":[\"state space\",\"unit vector\",\"qubit\",\"ket\",\"bra\",\"unitary operator\",\"Hermitian operator\",\"Hamiltonian\",\"measurement operator\",\"projector\",\"tensor product\",\"entangled\",\"Hadamard transform\",\"Pauli matrices\",\"completeness equation\",\"Kronecker product\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2840,
+        "output_tokens": 373,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.0411565999966115,
+      "error": null,
+      "request_id": "req_011CgM9rwG2CFrmpuyxE8Nsn",
+      "billed_cost_usd": null
+    }
+  ]
+}

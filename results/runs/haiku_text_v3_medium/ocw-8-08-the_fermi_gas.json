@@ -1,0 +1,49 @@
+{
+  "doc_id": "ocw-8-08-the_fermi_gas",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [],
+    "key_terms": [],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 387,
+    "output_tokens": 679,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00041614999999999995,
+  "billed_cost_usd": null,
+  "latency_s": 4.852828499977477,
+  "n_pages": 18,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":null,\"year\":null,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[],\"key_terms\":[],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 387,
+        "output_tokens": 679,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.852828499977477,
+      "error": null,
+      "request_id": "req_011CgM9r5LfNyNsBH9JrZ5k7",
+      "billed_cost_usd": null
+    }
+  ]
+}

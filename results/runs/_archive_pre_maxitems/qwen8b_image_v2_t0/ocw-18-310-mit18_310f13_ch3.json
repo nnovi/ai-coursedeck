@@ -1,0 +1,69 @@
+{
+  "doc_id": "ocw-18-310-mit18_310f13_ch3",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Principles of Discrete Applied Mathematics",
+    "course_code": "18.310",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Michel Goemans"
+    ],
+    "lecture_number": null,
+    "lecture_title": "Van der Waerden's Theorem",
+    "year": 2013,
+    "term": "fall",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Van der Waerden's Theorem",
+      "Arithmetic progression",
+      "Coloring of a subset",
+      "Probabilistic method",
+      "Lower bound for Van der Waerden numbers",
+      "Random coloring",
+      "Expected value of monochromatic progressions",
+      "Linearity of expectation"
+    ],
+    "key_terms": [
+      "Van der Waerden's Theorem",
+      "arithmetic progression",
+      "coloring",
+      "probabilistic method",
+      "monochromatic",
+      "Van der Waerden numbers",
+      "random coloring",
+      "expected value",
+      "linearity of expectation",
+      "indicator random variable"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 5789,
+    "output_tokens": 269,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 4.278224100009538,
+  "n_pages": 4,
+  "image_pixels": 3350466,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Principles of Discrete Applied Mathematics\",\n  \"course_code\": \"18.310\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"Michel Goemans\"\n  ],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Van der Waerden's Theorem\",\n  \"year\": 2013,\n  \"term\": \"fall\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Van der Waerden's Theorem\",\n    \"Arithmetic progression\",\n    \"Coloring of a subset\",\n    \"Probabilistic method\",\n    \"Lower bound for Van der Waerden numbers\",\n    \"Random coloring\",\n    \"Expected value of monochromatic progressions\",\n    \"Linearity of expectation\"\n  ],\n  \"key_terms\": [\n    \"Van der Waerden's Theorem\",\n    \"arithmetic progression\",\n    \"coloring\",\n    \"probabilistic method\",\n    \"monochromatic\",\n    \"Van der Waerden numbers\",\n    \"random coloring\",\n    \"expected value\",\n    \"linearity of expectation\",\n    \"indicator random variable\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 5789,
+        "output_tokens": 269,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.278224100009538,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

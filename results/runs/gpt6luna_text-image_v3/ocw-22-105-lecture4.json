@@ -1,0 +1,74 @@
+{
+  "doc_id": "ocw-22-105-lecture4",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 4,
+    "lecture_title": "Conformal Mapping and Green’s Theorem",
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Electrostatic boundary-value problem",
+      "Failure of separation of variables",
+      "Conformal mapping",
+      "Cauchy-Riemann equations",
+      "Shifted-circle mapping solution",
+      "Derivation of Green’s theorem",
+      "Free-space Green’s functions",
+      "Green’s theorem in infinite space"
+    ],
+    "key_terms": [
+      "separation of variables",
+      "conformal mapping",
+      "Green’s theorem",
+      "Green’s function",
+      "Laplace’s equation",
+      "Cauchy-Riemann equations",
+      "Poisson’s equation",
+      "boundary value problem",
+      "mapping function",
+      "complex variables",
+      "Fourier analysis",
+      "radius of convergence",
+      "divergence theorem",
+      "spherical Green’s function",
+      "cylindrical Green’s function"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 18625,
+    "output_tokens": 535,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00215042,
+  "billed_cost_usd": 0.00261597,
+  "latency_s": 8.364892599987797,
+  "n_pages": 14,
+  "image_pixels": 9190231,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":4,\"lecture_title\":\"Conformal Mapping and Green’s Theorem\",\"year\":null,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Electrostatic boundary-value problem\",\"Failure of separation of variables\",\"Conformal mapping\",\"Cauchy-Riemann equations\",\"Shifted-circle mapping solution\",\"Derivation of Green’s theorem\",\"Free-space Green’s functions\",\"Green’s theorem in infinite space\"],\"key_terms\":[\"separation of variables\",\"conformal mapping\",\"Green’s theorem\",\"Green’s function\",\"Laplace’s equation\",\"Cauchy-Riemann equations\",\"Poisson’s equation\",\"boundary value problem\",\"mapping function\",\"complex variables\",\"Fourier analysis\",\"radius of convergence\",\"divergence theorem\",\"spherical Green’s function\",\"cylindrical Green’s function\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 18625,
+        "output_tokens": 535,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.364892599987797,
+      "error": null,
+      "request_id": "gen-1792849966-JmyC7Yh0TaVfWCJ23B0H",
+      "billed_cost_usd": 0.00261597
+    }
+  ]
+}

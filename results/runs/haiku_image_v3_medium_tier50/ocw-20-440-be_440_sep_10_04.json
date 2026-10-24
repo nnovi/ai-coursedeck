@@ -1,0 +1,84 @@
+{
+  "doc_id": "ocw-20-440-be_440_sep_10_04",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": "BE.440",
+    "institution": null,
+    "lecturers": [
+      "Essigmann"
+    ],
+    "lecture_number": null,
+    "lecture_title": "Evolution",
+    "year": 2004,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Signaling pathways and conventional biochemical pathways",
+      "Evolution: replication, recombination, transcription, translation",
+      "Storage, replication, evolution and transmission of biological information",
+      "Definitions of chemistry, engineering and biology",
+      "Definition of life",
+      "Central dogma",
+      "DNA and RNA as biopolymers",
+      "DNA double helix and base pairing",
+      "Two ways to get evolution",
+      "Examples of mutagenesis: tautomerism, alkylation, oxidative damage"
+    ],
+    "key_terms": [
+      "central dogma",
+      "replication",
+      "transcription",
+      "translation",
+      "reverse transcription",
+      "prions",
+      "biopolymers",
+      "beta anomer",
+      "base pairing",
+      "purine",
+      "pyrimidine",
+      "H-bonding",
+      "natural tautomerism",
+      "transposon-like mutation",
+      "mismatch repair",
+      "alkylation",
+      "free radicals",
+      "8-oxo-G",
+      "anti",
+      "syn"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 12432,
+    "output_tokens": 1435,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0019986500000000003,
+  "billed_cost_usd": null,
+  "latency_s": 6.9859116999432445,
+  "n_pages": 5,
+  "image_pixels": 9472288,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":\"BE.440\",\"institution\":null,\"lecturers\":[\"Essigmann\"],\"lecture_number\":null,\"lecture_title\":\"Evolution\",\"year\":2004,\"term\":null,\"discipline\":\"biology\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Signaling pathways and conventional biochemical pathways\",\"Evolution: replication, recombination, transcription, translation\",\"Storage, replication, evolution and transmission of biological information\",\"Definitions of chemistry, engineering and biology\",\"Definition of life\",\"Central dogma\",\"DNA and RNA as biopolymers\",\"DNA double helix and base pairing\",\"Two ways to get evolution\",\"Examples of mutagenesis: tautomerism, alkylation, oxidative damage\"],\"key_terms\":[\"central dogma\",\"replication\",\"transcription\",\"translation\",\"reverse transcription\",\"prions\",\"biopolymers\",\"beta anomer\",\"base pairing\",\"purine\",\"pyrimidine\",\"H-bonding\",\"natural tautomerism\",\"transposon-like mutation\",\"mismatch repair\",\"alkylation\",\"free radicals\",\"8-oxo-G\",\"anti\",\"syn\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 12432,
+        "output_tokens": 1435,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.9859116999432445,
+      "error": null,
+      "request_id": "req_011CgMTcdE21gbYziCTXvYbE",
+      "billed_cost_usd": null
+    }
+  ]
+}

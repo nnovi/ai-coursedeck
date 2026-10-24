@@ -1,0 +1,94 @@
+{
+  "doc_id": "ocw-2-001-lec24",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "2.001 - MECHANICS AND MATERIALS I",
+    "course_code": "2.001",
+    "institution": null,
+    "lecturers": [
+      "Prof. Carol Livermore"
+    ],
+    "lecture_number": 26,
+    "lecture_title": "Energy Methods",
+    "year": 2006,
+    "term": "fall",
+    "discipline": "medicine_health",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "3 Basic Ingredients of Mechanics",
+      "Castigliano's Theorem",
+      "Conservative Forces",
+      "Springs",
+      "Complementary Energy (U*)",
+      "Linear Elastic Material",
+      "Strain Energy Density",
+      "Stored Energy in A Beam (σxx, ϵxx)",
+      "Beam Bending"
+    ],
+    "key_terms": [
+      "Equilibrium",
+      "Constitutive Relations",
+      "Stress-Strain",
+      "Force-Deformation",
+      "Compatibility",
+      "Castigliano's Theorem",
+      "Conservative Forces",
+      "Potential Energy",
+      "Elastic systems",
+      "Plastic deformation",
+      "Complementary Energy",
+      "Strain Energy Density",
+      "Beam Bending"
+    ],
+    "references": [
+      "u = mgh ⇒ Potential Energy, Path Independent",
+      "W = ∫ F⃗· d⃗s = ∫₀^h mgdz = mgh",
+      "Energy = 1/2kδ²",
+      "U = W",
+      "dU = Pdδ",
+      "P = dU/dδ",
+      "U* = ∫ δdP",
+      "U = U* due to linearity",
+      "U ≠ U* if this is non-linear",
+      "W = ∫ Fdδ",
+      "u = ∫ σdϵ",
+      "U = ∫_V dV ∫_0^ϵ σxx dϵxx",
+      "σxx = Eϵxx",
+      "σxx = -My/I",
+      "U = ∫_V dV ∫_ϵ σxx dϵxx",
+      "U = ∫_V dV σxx² / 2E",
+      "U = ∫_V M(x)² / 2EI² y² dV",
+      "U = 1/(2EI) ∫_a^L M(x)² dx",
+      "M(x) = -P(L - x)",
+      "δtip = PL³ / 3EI"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 10824,
+    "output_tokens": 570,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 9.88583139993716,
+  "n_pages": 8,
+  "image_pixels": 8614494,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"2.001 - MECHANICS AND MATERIALS I\",\n  \"course_code\": \"2.001\",\n  \"institution\": null,\n  \"lecturers\": [\n    \"Prof. Carol Livermore\"\n  ],\n  \"lecture_number\": 26,\n  \"lecture_title\": \"Energy Methods\",\n  \"year\": 2006,\n  \"term\": \"fall\",\n  \"discipline\": \"medicine_health\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"3 Basic Ingredients of Mechanics\",\n    \"Castigliano's Theorem\",\n    \"Conservative Forces\",\n    \"Springs\",\n    \"Complementary Energy (U*)\",\n    \"Linear Elastic Material\",\n    \"Strain Energy Density\",\n    \"Stored Energy in A Beam (σxx, ϵxx)\",\n    \"Beam Bending\"\n  ],\n  \"key_terms\": [\n    \"Equilibrium\",\n    \"Constitutive Relations\",\n    \"Stress-Strain\",\n    \"Force-Deformation\",\n    \"Compatibility\",\n    \"Castigliano's Theorem\",\n    \"Conservative Forces\",\n    \"Potential Energy\",\n    \"Elastic systems\",\n    \"Plastic deformation\",\n    \"Complementary Energy\",\n    \"Strain Energy Density\",\n    \"Beam Bending\"\n  ],\n  \"references\": [\n    \"u = mgh ⇒ Potential Energy, Path Independent\",\n    \"W = ∫ F⃗· d⃗s = ∫₀^h mgdz = mgh\",\n    \"Energy = 1/2kδ²\",\n    \"U = W\",\n    \"dU = Pdδ\",\n    \"P = dU/dδ\",\n    \"U* = ∫ δdP\",\n    \"U = U* due to linearity\",\n    \"U ≠ U* if this is non-linear\",\n    \"W = ∫ Fdδ\",\n    \"u = ∫ σdϵ\",\n    \"U = ∫_V dV ∫_0^ϵ σxx dϵxx\",\n    \"σxx = Eϵxx\",\n    \"σxx = -My/I\",\n    \"U = ∫_V dV ∫_ϵ σxx dϵxx\",\n    \"U = ∫_V dV σxx² / 2E\",\n    \"U = ∫_V M(x)² / 2EI² y² dV\",\n    \"U = 1/(2EI) ∫_a^L M(x)² dx\",\n    \"M(x) = -P(L - x)\",\n    \"δtip = PL³ / 3EI\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 10824,
+        "output_tokens": 570,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 9.88583139993716,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

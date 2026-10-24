@@ -1,0 +1,70 @@
+{
+  "doc_id": "ocw-18-310-mit18_310f13_ch3",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Principles of Discrete Applied Mathematics",
+    "course_code": "18.310",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Michel Goemans"
+    ],
+    "lecture_number": null,
+    "lecture_title": "Van der Waerden’s Theorem",
+    "year": 2013,
+    "term": "fall",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Introduction to Van der Waerden’s Theorem",
+      "Definition of k-term arithmetic progression",
+      "2-coloring of subsets of natural numbers",
+      "Statement and significance of Van der Waerden numbers",
+      "Proof of lower bound for W(k) using probabilistic method",
+      "Use of expectation and linearity of expectation",
+      "Bounding the number of k-term arithmetic progressions",
+      "Application of Lemma 1 to show existence of good coloring"
+    ],
+    "key_terms": [
+      "Van der Waerden’s Theorem",
+      "k-term arithmetic progression",
+      "2-coloring",
+      "Van der Waerden numbers",
+      "probabilistic method",
+      "expectation",
+      "linearity of expectation",
+      "monochromatic",
+      "random variable",
+      "indicator random variable",
+      "Lemma 1"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3468,
+    "output_tokens": 308,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.0955849000019953,
+  "n_pages": 4,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Principles of Discrete Applied Mathematics\",\n  \"course_code\": \"18.310\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"Michel Goemans\"\n  ],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Van der Waerden’s Theorem\",\n  \"year\": 2013,\n  \"term\": \"fall\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Introduction to Van der Waerden’s Theorem\",\n    \"Definition of k-term arithmetic progression\",\n    \"2-coloring of subsets of natural numbers\",\n    \"Statement and significance of Van der Waerden numbers\",\n    \"Proof of lower bound for W(k) using probabilistic method\",\n    \"Use of expectation and linearity of expectation\",\n    \"Bounding the number of k-term arithmetic progressions\",\n    \"Application of Lemma 1 to show existence of good coloring\"\n  ],\n  \"key_terms\": [\n    \"Van der Waerden’s Theorem\",\n    \"k-term arithmetic progression\",\n    \"2-coloring\",\n    \"Van der Waerden numbers\",\n    \"probabilistic method\",\n    \"expectation\",\n    \"linearity of expectation\",\n    \"monochromatic\",\n    \"random variable\",\n    \"indicator random variable\",\n    \"Lemma 1\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3468,
+        "output_tokens": 308,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.0955849000019953,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

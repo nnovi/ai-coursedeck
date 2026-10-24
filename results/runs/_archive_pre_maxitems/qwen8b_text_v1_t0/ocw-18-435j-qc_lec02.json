@@ -1,0 +1,70 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "18.435/2.111 Quantum Computation",
+    "course_code": "18.435/2.111",
+    "institution": "MIT",
+    "lecturers": [
+      "Vitaly Feldman"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": "fall",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Quantum state space and unit vectors",
+      "Unitary evolution",
+      "Quantum measurements and measurement operators",
+      "Tensor product of state spaces",
+      "Entangled states"
+    ],
+    "key_terms": [
+      "Hilbert space",
+      "unit vector",
+      "unitary operator",
+      "Hermitian operator",
+      "Pauli matrices",
+      "Hadamard transform",
+      "projector",
+      "tensor product",
+      "entangled state"
+    ],
+    "references": [
+      "Postulate 1: State space and quantum state representation",
+      "Postulate 2: Unitary evolution and Schrödinger equation",
+      "Postulate 3: Quantum measurements and completeness equation",
+      "Postulate 4: Tensor product for composite systems"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2112,
+    "output_tokens": 300,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.070261799963191,
+  "n_pages": 3,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"18.435/2.111 Quantum Computation\",\n  \"course_code\": \"18.435/2.111\",\n  \"institution\": \"MIT\",\n  \"lecturers\": [\n    \"Vitaly Feldman\"\n  ],\n  \"lecture_number\": 2,\n  \"lecture_title\": \"Basics of Quantum Mechanics\",\n  \"year\": 2003,\n  \"term\": \"fall\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Quantum state space and unit vectors\",\n    \"Unitary evolution\",\n    \"Quantum measurements and measurement operators\",\n    \"Tensor product of state spaces\",\n    \"Entangled states\"\n  ],\n  \"key_terms\": [\n    \"Hilbert space\",\n    \"unit vector\",\n    \"unitary operator\",\n    \"Hermitian operator\",\n    \"Pauli matrices\",\n    \"Hadamard transform\",\n    \"projector\",\n    \"tensor product\",\n    \"entangled state\"\n  ],\n  \"references\": [\n    \"Postulate 1: State space and quantum state representation\",\n    \"Postulate 2: Unitary evolution and Schrödinger equation\",\n    \"Postulate 3: Quantum measurements and completeness equation\",\n    \"Postulate 4: Tensor product for composite systems\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2112,
+        "output_tokens": 300,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.070261799963191,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

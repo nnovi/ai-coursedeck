@@ -1,0 +1,66 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Basics of Quantum Mechanics",
+    "course_code": "18.435/2.111",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "P. Shor"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Postulate 1: Hilbert space and state vector",
+      "Postulate 2: Unitary evolution",
+      "Postulate 3: Quantum measurements",
+      "Postulate 4: Tensor product states"
+    ],
+    "key_terms": [
+      "Hilbert space",
+      "Unit vector",
+      "Quantum state",
+      "Unitary operator",
+      "Hermitian operator",
+      "Pauli matrices",
+      "Hadamard transform",
+      "Measurement operators",
+      "Projector",
+      "Tensor product",
+      "Entangled state"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 6603,
+    "output_tokens": 244,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 2.6663097999989986,
+  "n_pages": 3,
+  "image_pixels": 2477652,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Basics of Quantum Mechanics\",\n  \"course_code\": \"18.435/2.111\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"P. Shor\"\n  ],\n  \"lecture_number\": 2,\n  \"lecture_title\": \"Basics of Quantum Mechanics\",\n  \"year\": 2003,\n  \"term\": null,\n  \"discipline\": \"physics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Postulate 1: Hilbert space and state vector\",\n    \"Postulate 2: Unitary evolution\",\n    \"Postulate 3: Quantum measurements\",\n    \"Postulate 4: Tensor product states\"\n  ],\n  \"key_terms\": [\n    \"Hilbert space\",\n    \"Unit vector\",\n    \"Quantum state\",\n    \"Unitary operator\",\n    \"Hermitian operator\",\n    \"Pauli matrices\",\n    \"Hadamard transform\",\n    \"Measurement operators\",\n    \"Projector\",\n    \"Tensor product\",\n    \"Entangled state\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 6603,
+        "output_tokens": 244,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.6663097999989986,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

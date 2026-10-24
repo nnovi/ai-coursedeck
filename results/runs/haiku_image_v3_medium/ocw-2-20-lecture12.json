@@ -1,0 +1,81 @@
+{
+  "doc_id": "ocw-2-20-lecture12",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Marine Hydrodynamics",
+    "course_code": "2.20",
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 12,
+    "lecture_title": null,
+    "year": 2005,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Symmetric streamlined body",
+      "Asymmetric body: angle of attack and camber",
+      "Potential flow and Kutta condition",
+      "Why the Kutta condition is needed",
+      "How much starting circulation",
+      "Stall and lift coefficient",
+      "Thin wing at small angle of attack",
+      "Lift due to circulation",
+      "Moment and center of pressure",
+      "Closed-form solutions from linear theory"
+    ],
+    "key_terms": [
+      "Kutta condition",
+      "circulation",
+      "starting vortex",
+      "angle of attack",
+      "camber line",
+      "chord line",
+      "lift coefficient",
+      "stall",
+      "separation",
+      "trailing edge",
+      "leading edge",
+      "potential flow",
+      "linearized Bernoulli equation",
+      "center of pressure",
+      "thin wing",
+      "disturbance potential",
+      "Kelvin's theorem",
+      "aspect ratio",
+      "mean camber line",
+      "camber ratio"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 15671,
+    "output_tokens": 1149,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00217955,
+  "billed_cost_usd": null,
+  "latency_s": 6.400612799916416,
+  "n_pages": 14,
+  "image_pixels": 11718707,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Marine Hydrodynamics\",\"course_code\":\"2.20\",\"institution\":null,\"lecturers\":[],\"lecture_number\":12,\"lecture_title\":null,\"year\":2005,\"term\":\"spring\",\"discipline\":\"engineering\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Symmetric streamlined body\",\"Asymmetric body: angle of attack and camber\",\"Potential flow and Kutta condition\",\"Why the Kutta condition is needed\",\"How much starting circulation\",\"Stall and lift coefficient\",\"Thin wing at small angle of attack\",\"Lift due to circulation\",\"Moment and center of pressure\",\"Closed-form solutions from linear theory\"],\"key_terms\":[\"Kutta condition\",\"circulation\",\"starting vortex\",\"angle of attack\",\"camber line\",\"chord line\",\"lift coefficient\",\"stall\",\"separation\",\"trailing edge\",\"leading edge\",\"potential flow\",\"linearized Bernoulli equation\",\"center of pressure\",\"thin wing\",\"disturbance potential\",\"Kelvin's theorem\",\"aspect ratio\",\"mean camber line\",\"camber ratio\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 15671,
+        "output_tokens": 1149,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.400612799916416,
+      "error": null,
+      "request_id": "req_011CgM9unNZoYQbnDmShxEjk",
+      "billed_cost_usd": null
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "doc_id": "ocw-18-310-mit18_310f13_ch3",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Principles of Discrete Applied Mathematics",
+    "course_code": "18.310",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [
+      "Michel Goemans"
+    ],
+    "lecture_number": null,
+    "lecture_title": "Van der Waerden’s Theorem",
+    "year": 2013,
+    "term": "fall",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Probabilistic method",
+      "Arithmetic progressions",
+      "Coloring a subset",
+      "Van der Waerden’s theorem",
+      "Random coloring and probability",
+      "Indicator random variables",
+      "Expected number of progressions",
+      "Lower bound for van der Waerden numbers"
+    ],
+    "key_terms": [
+      "probabilistic method",
+      "arithmetic progression",
+      "k-term arithmetic progression",
+      "coloring",
+      "2-coloring",
+      "Van der Waerden numbers",
+      "Ramsey Theory",
+      "random coloring",
+      "random variable",
+      "indicator random variable",
+      "monochromatic",
+      "linearity of expectation"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4074,
+    "output_tokens": 538,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00069682,
+  "billed_cost_usd": 0.000798595,
+  "latency_s": 7.113732700003311,
+  "n_pages": 4,
+  "image_pixels": 3350466,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Principles of Discrete Applied Mathematics\",\n  \"course_code\": \"18.310\",\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [\n    \"Michel Goemans\"\n  ],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Van der Waerden’s Theorem\",\n  \"year\": 2013,\n  \"term\": \"fall\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Probabilistic method\",\n    \"Arithmetic progressions\",\n    \"Coloring a subset\",\n    \"Van der Waerden’s theorem\",\n    \"Random coloring and probability\",\n    \"Indicator random variables\",\n    \"Expected number of progressions\",\n    \"Lower bound for van der Waerden numbers\"\n  ],\n  \"key_terms\": [\n    \"probabilistic method\",\n    \"arithmetic progression\",\n    \"k-term arithmetic progression\",\n    \"coloring\",\n    \"2-coloring\",\n    \"Van der Waerden numbers\",\n    \"Ramsey Theory\",\n    \"random coloring\",\n    \"random variable\",\n    \"indicator random variable\",\n    \"monochromatic\",\n    \"linearity of expectation\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4074,
+        "output_tokens": 538,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 7.113732700003311,
+      "error": null,
+      "request_id": "gen-1792849674-LNSec2ujkKDIC1VjHeuB",
+      "billed_cost_usd": 0.000798595
+    }
+  ]
+}

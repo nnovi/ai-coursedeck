@@ -1,0 +1,63 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Control Theory",
+    "course_code": "null",
+    "institution": "null",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Controllability",
+      "Observability",
+      "State Estimation",
+      "Algebraic Riccati Equations"
+    ],
+    "key_terms": [
+      "Controllability",
+      "Observability",
+      "State vector",
+      "Observability matrix",
+      "Controllability matrix",
+      "Steady-state solution",
+      "Nullspace",
+      "Rank",
+      "Algebraic Riccati equations",
+      "State estimation"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 7166,
+    "output_tokens": 191,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 2.6884202000219375,
+  "n_pages": 4,
+  "image_pixels": 3452020,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Control Theory\",\n  \"course_code\": \"null\",\n  \"institution\": \"null\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Controllability and Observability\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Controllability\",\n    \"Observability\",\n    \"State Estimation\",\n    \"Algebraic Riccati Equations\"\n  ],\n  \"key_terms\": [\n    \"Controllability\",\n    \"Observability\",\n    \"State vector\",\n    \"Observability matrix\",\n    \"Controllability matrix\",\n    \"Steady-state solution\",\n    \"Nullspace\",\n    \"Rank\",\n    \"Algebraic Riccati equations\",\n    \"State estimation\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 7166,
+        "output_tokens": 191,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.6884202000219375,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

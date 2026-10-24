@@ -1,0 +1,80 @@
+{
+  "doc_id": "ocw-10-37-lec10_03092007_w",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Chemical and Biological Reaction Engineering",
+    "course_code": "10.37",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "K. Dane Wittrup"
+    ],
+    "lecture_number": 10,
+    "lecture_title": "Non-ideal Reactor Mixing Patterns",
+    "year": 2007,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Non-Ideal Mixing",
+      "Residence Time Distribution",
+      "Experimental Determination of E(t)",
+      "PFR (Ideal)",
+      "CSTR (Ideal)",
+      "CSTR (non-ideal mixing)",
+      "PFR (Non-ideal)",
+      "Axial Dispersion",
+      "RTD for diagnosis and modeling"
+    ],
+    "key_terms": [
+      "residence time distribution (RTD)",
+      "tanks in series model",
+      "ideal reactors",
+      "PFR",
+      "CSTR",
+      "bypassing",
+      "recirculation eddies",
+      "stagnant volumes",
+      "channeling",
+      "axial dispersion",
+      "E(t)",
+      "probability density function",
+      "mean residence time",
+      "variance",
+      "pulse input",
+      "step input",
+      "δ(x)",
+      "τ",
+      "V",
+      "V₀"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 12340,
+    "output_tokens": 321,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 8.194259600015357,
+  "n_pages": 7,
+  "image_pixels": 11168467,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Chemical and Biological Reaction Engineering\",\n  \"course_code\": \"10.37\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"K. Dane Wittrup\"\n  ],\n  \"lecture_number\": 10,\n  \"lecture_title\": \"Non-ideal Reactor Mixing Patterns\",\n  \"year\": 2007,\n  \"term\": \"spring\",\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Non-Ideal Mixing\",\n    \"Residence Time Distribution\",\n    \"Experimental Determination of E(t)\",\n    \"PFR (Ideal)\",\n    \"CSTR (Ideal)\",\n    \"CSTR (non-ideal mixing)\",\n    \"PFR (Non-ideal)\",\n    \"Axial Dispersion\",\n    \"RTD for diagnosis and modeling\"\n  ],\n  \"key_terms\": [\n    \"residence time distribution (RTD)\",\n    \"tanks in series model\",\n    \"ideal reactors\",\n    \"PFR\",\n    \"CSTR\",\n    \"bypassing\",\n    \"recirculation eddies\",\n    \"stagnant volumes\",\n    \"channeling\",\n    \"axial dispersion\",\n    \"E(t)\",\n    \"probability density function\",\n    \"mean residence time\",\n    \"variance\",\n    \"pulse input\",\n    \"step input\",\n    \"δ(x)\",\n    \"τ\",\n    \"V\",\n    \"V₀\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 12340,
+        "output_tokens": 321,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.194259600015357,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

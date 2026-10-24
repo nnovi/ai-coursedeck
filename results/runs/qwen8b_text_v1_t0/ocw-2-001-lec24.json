@@ -1,0 +1,81 @@
+{
+  "doc_id": "ocw-2-001-lec24",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "2.001 - MECHANICS AND MATERIALS I",
+    "course_code": "2.001",
+    "institution": null,
+    "lecturers": [
+      "Prof. Carol Livermore"
+    ],
+    "lecture_number": 12,
+    "lecture_title": "Energy Methods",
+    "year": 2006,
+    "term": "fall",
+    "discipline": "medicine_health",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Basic Ingredients of Mechanics: Equilibrium, Constitutive Relations, Compatibility",
+      "Castigliano’s Theorem",
+      "Work and Potential Energy",
+      "Elastic vs Plastic Deformation",
+      "Complementary Energy",
+      "Linear Elastic Systems",
+      "Truss Analysis Using Castigliano’s Theorem",
+      "Beam Bending Energy",
+      "Strain Energy Density",
+      "Energy Stored in Beams"
+    ],
+    "key_terms": [
+      "Equilibrium",
+      "Constitutive Relations",
+      "Compatibility",
+      "Castigliano’s Theorem",
+      "Work",
+      "Potential Energy",
+      "Elastic Systems",
+      "Plastic Deformation",
+      "Complementary Energy",
+      "Strain Energy Density",
+      "Beam Bending"
+    ],
+    "references": [
+      "Gravity as conservative force",
+      "Springs as elastic systems",
+      "Linear elastic material behavior",
+      "Truss structures",
+      "Beam bending with moment M(x)",
+      "Strain energy density u = σdϵ",
+      "Energy stored in beam U = ∫∫∫ σxx dϵxx dV",
+      "For beam: σxx = Eϵxx, U = ∫ M(x)² dx / (2EI)"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 1371,
+    "output_tokens": 393,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.8082103000488132,
+  "n_pages": 8,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"2.001 - MECHANICS AND MATERIALS I\",\n  \"course_code\": \"2.001\",\n  \"institution\": null,\n  \"lecturers\": [\n    \"Prof. Carol Livermore\"\n  ],\n  \"lecture_number\": 12,\n  \"lecture_title\": \"Energy Methods\",\n  \"year\": 2006,\n  \"term\": \"fall\",\n  \"discipline\": \"medicine_health\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Basic Ingredients of Mechanics: Equilibrium, Constitutive Relations, Compatibility\",\n    \"Castigliano’s Theorem\",\n    \"Work and Potential Energy\",\n    \"Elastic vs Plastic Deformation\",\n    \"Complementary Energy\",\n    \"Linear Elastic Systems\",\n    \"Truss Analysis Using Castigliano’s Theorem\",\n    \"Beam Bending Energy\",\n    \"Strain Energy Density\",\n    \"Energy Stored in Beams\"\n  ],\n  \"key_terms\": [\n    \"Equilibrium\",\n    \"Constitutive Relations\",\n    \"Compatibility\",\n    \"Castigliano’s Theorem\",\n    \"Work\",\n    \"Potential Energy\",\n    \"Elastic Systems\",\n    \"Plastic Deformation\",\n    \"Complementary Energy\",\n    \"Strain Energy Density\",\n    \"Beam Bending\"\n  ],\n  \"references\": [\n    \"Gravity as conservative force\",\n    \"Springs as elastic systems\",\n    \"Linear elastic material behavior\",\n    \"Truss structures\",\n    \"Beam bending with moment M(x)\",\n    \"Strain energy density u = σdϵ\",\n    \"Energy stored in beam U = ∫∫∫ σxx dϵxx dV\",\n    \"For beam: σxx = Eϵxx, U = ∫ M(x)² dx / (2EI)\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 1371,
+        "output_tokens": 393,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.8082103000488132,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

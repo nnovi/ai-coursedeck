@@ -1,0 +1,60 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "The Time-Dependent Inverse Problem: State Estimation",
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Controllability of a system",
+      "Observability of a system",
+      "Mathematical observability vs practical limitations",
+      "Connection to steady-state solutions"
+    ],
+    "key_terms": [
+      "Controllability",
+      "Observability",
+      "Observability matrix",
+      "Steady-state solution",
+      "State vector",
+      "Control",
+      "Output"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 5709,
+    "output_tokens": 186,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.5366694999393076,
+  "n_pages": 4,
+  "image_pixels": 3452020,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"The Time-Dependent Inverse Problem: State Estimation\",\n  \"course_code\": null,\n  \"institution\": null,\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Controllability and Observability\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"textbook_chapter\",\n  \"topics\": [\n    \"Controllability of a system\",\n    \"Observability of a system\",\n    \"Mathematical observability vs practical limitations\",\n    \"Connection to steady-state solutions\"\n  ],\n  \"key_terms\": [\n    \"Controllability\",\n    \"Observability\",\n    \"Observability matrix\",\n    \"Steady-state solution\",\n    \"State vector\",\n    \"Control\",\n    \"Output\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 5709,
+        "output_tokens": 186,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.5366694999393076,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

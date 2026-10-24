@@ -1,0 +1,71 @@
+{
+  "doc_id": "ocw-7-29j-mit7_29js12_lecture3",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Cellular Neurobiology",
+    "course_code": "9.09J / 7.29J",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Prof. William Quinn",
+      "Prof. Troy Littleton"
+    ],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": 2005,
+    "term": "spring",
+    "discipline": "biology",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Acetylcholine receptor structure and function",
+      "Voltage-gated Na+ channels",
+      "Ion channel selectivity and hydration",
+      "Cloning membrane proteins",
+      "Toxin binding and channel blocking",
+      "Nernst equilibrium and membrane potential",
+      "Ion gradients and energy",
+      "Na+/K+ ATPase pumps"
+    ],
+    "key_terms": [
+      "Acetylcholine receptor",
+      "Voltage-gated Na+ channel",
+      "Ion selectivity",
+      "Hydration shell",
+      "Cloning",
+      "Toxins",
+      "Nernst equilibrium",
+      "Membrane potential",
+      "Na+/K+ ATPase"
+    ],
+    "references": [
+      "Lecture notes courtesy of Wyan-Ching Mimi Lee. Used with permission."
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 8217,
+    "output_tokens": 295,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 6.48931440000888,
+  "n_pages": 5,
+  "image_pixels": 7663560,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Cellular Neurobiology\",\n  \"course_code\": \"9.09J / 7.29J\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"Prof. William Quinn\",\n    \"Prof. Troy Littleton\"\n  ],\n  \"lecture_number\": null,\n  \"lecture_title\": null,\n  \"year\": 2005,\n  \"term\": \"spring\",\n  \"discipline\": \"biology\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Acetylcholine receptor structure and function\",\n    \"Voltage-gated Na+ channels\",\n    \"Ion channel selectivity and hydration\",\n    \"Cloning membrane proteins\",\n    \"Toxin binding and channel blocking\",\n    \"Nernst equilibrium and membrane potential\",\n    \"Ion gradients and energy\",\n    \"Na+/K+ ATPase pumps\"\n  ],\n  \"key_terms\": [\n    \"Acetylcholine receptor\",\n    \"Voltage-gated Na+ channel\",\n    \"Ion selectivity\",\n    \"Hydration shell\",\n    \"Cloning\",\n    \"Toxins\",\n    \"Nernst equilibrium\",\n    \"Membrane potential\",\n    \"Na+/K+ ATPase\"\n  ],\n  \"references\": [\n    \"Lecture notes courtesy of Wyan-Ching Mimi Lee. Used with permission.\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 8217,
+        "output_tokens": 295,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.48931440000888,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

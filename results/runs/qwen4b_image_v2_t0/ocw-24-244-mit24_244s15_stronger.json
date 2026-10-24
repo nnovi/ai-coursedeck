@@ -1,0 +1,71 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Modal Logic",
+    "course_code": "24.244",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [],
+    "lecture_number": 5,
+    "lecture_title": "Stronger Systems",
+    "year": 2015,
+    "term": "spring",
+    "discipline": "humanities",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities",
+      "System S4",
+      "System S5",
+      "System B",
+      "Upward and onward?"
+    ],
+    "key_terms": [
+      "Modalities",
+      "S4",
+      "S5",
+      "System B",
+      "Modal Logic",
+      "Reduction Law",
+      "Validity",
+      "Accessibility Relation",
+      "Reflexive",
+      "Transitive",
+      "Symmetric",
+      "Brouwer",
+      "Intuitionistic Logic",
+      "Gödel",
+      "Provability",
+      "PA",
+      "Second Incompleteness Theorem"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 8562,
+    "output_tokens": 238,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.5104618000332266,
+  "n_pages": 5,
+  "image_pixels": 6943548,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Modal Logic\",\n  \"course_code\": \"24.244\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [],\n  \"lecture_number\": 5,\n  \"lecture_title\": \"Stronger Systems\",\n  \"year\": 2015,\n  \"term\": \"spring\",\n  \"discipline\": \"humanities\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Modalities\",\n    \"System S4\",\n    \"System S5\",\n    \"System B\",\n    \"Upward and onward?\"\n  ],\n  \"key_terms\": [\n    \"Modalities\",\n    \"S4\",\n    \"S5\",\n    \"System B\",\n    \"Modal Logic\",\n    \"Reduction Law\",\n    \"Validity\",\n    \"Accessibility Relation\",\n    \"Reflexive\",\n    \"Transitive\",\n    \"Symmetric\",\n    \"Brouwer\",\n    \"Intuitionistic Logic\",\n    \"Gödel\",\n    \"Provability\",\n    \"PA\",\n    \"Second Incompleteness Theorem\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 8562,
+        "output_tokens": 238,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.5104618000332266,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Quantum Computation",
+    "course_code": "18.435/2.111",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "P. Shor"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": "fall",
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Postulate 1: State of a quantum system",
+      "Notation for quantum states and bras",
+      "Postulate 2: Evolution of a closed quantum system",
+      "Definition of unitary and Hermitian operators",
+      "Postulate 3: Quantum measurements and completeness equation",
+      "Postulate 4: State space of a composite quantum system",
+      "Tensor product of Hilbert spaces",
+      "Entangled states"
+    ],
+    "key_terms": [
+      "Postulate 1",
+      "Postulate 2",
+      "Postulate 3",
+      "Postulate 4",
+      "unitary operator",
+      "Hermitian operator",
+      "quantum measurement",
+      "completeness equation",
+      "tensor product",
+      "entangled states",
+      "Pauli matrices",
+      "Hadamard transform"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4648,
+    "output_tokens": 303,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 4.090346800046973,
+  "n_pages": 3,
+  "image_pixels": 2477652,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Quantum Computation\",\n  \"course_code\": \"18.435/2.111\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"P. Shor\"\n  ],\n  \"lecture_number\": 2,\n  \"lecture_title\": \"Basics of Quantum Mechanics\",\n  \"year\": 2003,\n  \"term\": \"fall\",\n  \"discipline\": \"physics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Postulate 1: State of a quantum system\",\n    \"Notation for quantum states and bras\",\n    \"Postulate 2: Evolution of a closed quantum system\",\n    \"Definition of unitary and Hermitian operators\",\n    \"Postulate 3: Quantum measurements and completeness equation\",\n    \"Postulate 4: State space of a composite quantum system\",\n    \"Tensor product of Hilbert spaces\",\n    \"Entangled states\"\n  ],\n  \"key_terms\": [\n    \"Postulate 1\",\n    \"Postulate 2\",\n    \"Postulate 3\",\n    \"Postulate 4\",\n    \"unitary operator\",\n    \"Hermitian operator\",\n    \"quantum measurement\",\n    \"completeness equation\",\n    \"tensor product\",\n    \"entangled states\",\n    \"Pauli matrices\",\n    \"Hadamard transform\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4648,
+        "output_tokens": 303,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.090346800046973,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

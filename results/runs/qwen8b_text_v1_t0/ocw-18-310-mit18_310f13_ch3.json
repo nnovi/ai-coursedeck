@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-18-310-mit18_310f13_ch3",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "18.310 Principles of Discrete Applied Mathematics",
+    "course_code": "18.310",
+    "institution": "MIT",
+    "lecturers": [
+      "Michel Goemans"
+    ],
+    "lecture_number": null,
+    "lecture_title": "Van der Waerden’s Theorem",
+    "year": 2013,
+    "term": "fall",
+    "discipline": "computer_science",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Van der Waerden’s Theorem",
+      "Probabilistic method",
+      "Ramsey Theory",
+      "Arithmetic progressions",
+      "Colorings of natural numbers",
+      "Van der Waerden numbers",
+      "Lower bound for W(k)",
+      "Expected value and linearity of expectation",
+      "Random colorings",
+      "Existence of monochromatic progressions"
+    ],
+    "key_terms": [
+      "Van der Waerden’s Theorem",
+      "arithmetic progression",
+      "2-coloring",
+      "monochromatic",
+      "Van der Waerden numbers W(k)",
+      "probabilistic method",
+      "expected value E(f)",
+      "linearity of expectation",
+      "indicator random variable Ia,b",
+      "random coloring"
+    ],
+    "references": [
+      "MIT OpenCourseWare, http://ocw.mit.edu",
+      "18.310 Principles of Discrete Applied Mathematics, Fall 2013",
+      "http://ocw.mit.edu/terms"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2166,
+    "output_tokens": 351,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.6396452999906614,
+  "n_pages": 4,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"18.310 Principles of Discrete Applied Mathematics\",\n  \"course_code\": \"18.310\",\n  \"institution\": \"MIT\",\n  \"lecturers\": [\n    \"Michel Goemans\"\n  ],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Van der Waerden’s Theorem\",\n  \"year\": 2013,\n  \"term\": \"fall\",\n  \"discipline\": \"computer_science\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Van der Waerden’s Theorem\",\n    \"Probabilistic method\",\n    \"Ramsey Theory\",\n    \"Arithmetic progressions\",\n    \"Colorings of natural numbers\",\n    \"Van der Waerden numbers\",\n    \"Lower bound for W(k)\",\n    \"Expected value and linearity of expectation\",\n    \"Random colorings\",\n    \"Existence of monochromatic progressions\"\n  ],\n  \"key_terms\": [\n    \"Van der Waerden’s Theorem\",\n    \"arithmetic progression\",\n    \"2-coloring\",\n    \"monochromatic\",\n    \"Van der Waerden numbers W(k)\",\n    \"probabilistic method\",\n    \"expected value E(f)\",\n    \"linearity of expectation\",\n    \"indicator random variable Ia,b\",\n    \"random coloring\"\n  ],\n  \"references\": [\n    \"MIT OpenCourseWare, http://ocw.mit.edu\",\n    \"18.310 Principles of Discrete Applied Mathematics, Fall 2013\",\n    \"http://ocw.mit.edu/terms\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2166,
+        "output_tokens": 351,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.6396452999906614,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

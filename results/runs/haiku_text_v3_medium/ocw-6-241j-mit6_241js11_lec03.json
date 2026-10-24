@@ -1,0 +1,65 @@
+{
+  "doc_id": "ocw-6-241j-mit6_241js11_lec03",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Dynamic Systems and Control",
+    "course_code": "6.241J",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Emilio Frazzoli"
+    ],
+    "lecture_number": 3,
+    "lecture_title": "Least Square Solutions of Linear Problems",
+    "year": 2011,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Least Squares Control",
+      "Constructing all possible solutions",
+      "A general formulation"
+    ],
+    "key_terms": [
+      "minimum norm solution",
+      "null space",
+      "projection",
+      "orthogonal component",
+      "Gram product",
+      "range space",
+      "least squares"
+    ],
+    "references": [
+      "DDV, Chapter 3"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 1398,
+    "output_tokens": 222,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00028875,
+  "billed_cost_usd": null,
+  "latency_s": 2.3699005000526085,
+  "n_pages": 6,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Dynamic Systems and Control\",\"course_code\":\"6.241J\",\"institution\":\"Massachusetts Institute of Technology\",\"lecturers\":[\"Emilio Frazzoli\"],\"lecture_number\":3,\"lecture_title\":\"Least Square Solutions of Linear Problems\",\"year\":2011,\"term\":\"spring\",\"discipline\":\"engineering\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Least Squares Control\",\"Constructing all possible solutions\",\"A general formulation\"],\"key_terms\":[\"minimum norm solution\",\"null space\",\"projection\",\"orthogonal component\",\"Gram product\",\"range space\",\"least squares\"],\"references\":[\"DDV, Chapter 3\"]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 1398,
+        "output_tokens": 222,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.3699005000526085,
+      "error": null,
+      "request_id": "req_011CgM9rHRSa47g9q2d3Y5EL",
+      "billed_cost_usd": null
+    }
+  ]
+}

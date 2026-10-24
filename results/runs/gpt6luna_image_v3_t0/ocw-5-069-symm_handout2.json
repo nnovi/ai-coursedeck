@@ -1,0 +1,71 @@
+{
+  "doc_id": "ocw-5-069-symm_handout2",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Crystal Structure Analysis",
+    "course_code": "5.069",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Going 3D",
+    "year": 2008,
+    "term": "spring",
+    "discipline": "chemistry",
+    "doc_type": "slides",
+    "topics": [
+      "Three-dimensional crystal lattices",
+      "The unit cell",
+      "Crystallographic conventions",
+      "Unconventional lattices",
+      "Screw axes",
+      "Space groups",
+      "Atomic coordinates",
+      "Red modification of PbO",
+      "Symmetry definitions"
+    ],
+    "key_terms": [
+      "unit cell",
+      "lattice",
+      "symmetry operation",
+      "symmetry element",
+      "asymmetric unit",
+      "screw axis",
+      "space group",
+      "inversion center",
+      "Bravais lattice",
+      "atomic coordinates"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4585,
+    "output_tokens": 608,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0007829200000000001,
+  "billed_cost_usd": 0.00089747,
+  "latency_s": 9.918548300047405,
+  "n_pages": 10,
+  "image_pixels": 3660317,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Crystal Structure Analysis\",\n  \"course_code\": \"5.069\",\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Going 3D\",\n  \"year\": 2008,\n  \"term\": \"spring\",\n  \"discipline\": \"chemistry\",\n  \"doc_type\": \"slides\",\n  \"topics\": [\n    \"Three-dimensional crystal lattices\",\n    \"The unit cell\",\n    \"Crystallographic conventions\",\n    \"Unconventional lattices\",\n    \"Screw axes\",\n    \"Space groups\",\n    \"Atomic coordinates\",\n    \"Red modification of PbO\",\n    \"Symmetry definitions\"\n  ],\n  \"key_terms\": [\n    \"unit cell\",\n    \"lattice\",\n    \"symmetry operation\",\n    \"symmetry element\",\n    \"asymmetric unit\",\n    \"screw axis\",\n    \"space group\",\n    \"inversion center\",\n    \"Bravais lattice\",\n    \"atomic coordinates\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4585,
+        "output_tokens": 608,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 9.918548300047405,
+      "error": null,
+      "request_id": "gen-1792863150-LMhkHb82DjwGJ22LCiSg",
+      "billed_cost_usd": 0.00089747
+    }
+  ]
+}

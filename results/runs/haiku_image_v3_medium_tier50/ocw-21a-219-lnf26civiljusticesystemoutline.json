@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-21a-219-lnf26civiljusticesystemoutline",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Civil Justice System",
+    "course_code": "21A. 219",
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Civil Justice System",
+    "year": null,
+    "term": null,
+    "discipline": "social_sciences",
+    "doc_type": "outline",
+    "topics": [
+      "Civil justice system",
+      "Public debate and criticism",
+      "Claims for a system in crisis",
+      "Evidence supporting or challenging claims",
+      "Pyramid of disputing",
+      "Why the haves come out ahead",
+      "Access to civil justice research",
+      "Study combining multiple methods"
+    ],
+    "key_terms": [
+      "civil justice system",
+      "torts",
+      "pyramid of disputing",
+      "one-shotters vs. repeat players",
+      "economies of scale",
+      "deep pocket plaintiffs",
+      "social science inquiry",
+      "Lubeck v. McDonald's",
+      "American Jury Project",
+      "Vidmar study",
+      "economic rationality",
+      "cost benefit analysis",
+      "legal needs",
+      "passive legal system",
+      "sifting of disputes"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 1794,
+    "output_tokens": 1041,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0007378500000000001,
+  "billed_cost_usd": null,
+  "latency_s": 5.355591700063087,
+  "n_pages": 2,
+  "image_pixels": 1319472,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Civil Justice System\",\"course_code\":\"21A. 219\",\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Civil Justice System\",\"year\":null,\"term\":null,\"discipline\":\"social_sciences\",\"doc_type\":\"outline\",\"topics\":[\"Civil justice system\",\"Public debate and criticism\",\"Claims for a system in crisis\",\"Evidence supporting or challenging claims\",\"Pyramid of disputing\",\"Why the haves come out ahead\",\"Access to civil justice research\",\"Study combining multiple methods\"],\"key_terms\":[\"civil justice system\",\"torts\",\"pyramid of disputing\",\"one-shotters vs. repeat players\",\"economies of scale\",\"deep pocket plaintiffs\",\"social science inquiry\",\"Lubeck v. McDonald's\",\"American Jury Project\",\"Vidmar study\",\"economic rationality\",\"cost benefit analysis\",\"legal needs\",\"passive legal system\",\"sifting of disputes\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 1794,
+        "output_tokens": 1041,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.355591700063087,
+      "error": null,
+      "request_id": "req_011CgMTfQbpaFTsrAmx6rRPi",
+      "billed_cost_usd": null
+    }
+  ]
+}

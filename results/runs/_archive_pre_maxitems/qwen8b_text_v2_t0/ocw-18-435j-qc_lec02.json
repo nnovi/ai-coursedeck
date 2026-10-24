@@ -1,0 +1,67 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Quantum Computation",
+    "course_code": "18.435/2.111",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "P. Shor"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": "fall",
+    "discipline": "computer_science",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "State space and unit vectors in Hilbert space",
+      "Unitary transformations and evolution",
+      "Quantum measurements and measurement operators",
+      "Projectors and orthogonal subspaces",
+      "Tensor product of state spaces and entangled states"
+    ],
+    "key_terms": [
+      "Hilbert space",
+      "unit vector",
+      "unitary operator",
+      "Hermitian operator",
+      "Pauli matrices",
+      "Hadamard transform",
+      "Hamiltonian",
+      "measurement operators",
+      "projector",
+      "tensor product",
+      "entangled"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3414,
+    "output_tokens": 248,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 2.4830545999575406,
+  "n_pages": 3,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Quantum Computation\",\n  \"course_code\": \"18.435/2.111\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"P. Shor\"\n  ],\n  \"lecture_number\": 2,\n  \"lecture_title\": \"Basics of Quantum Mechanics\",\n  \"year\": 2003,\n  \"term\": \"fall\",\n  \"discipline\": \"computer_science\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"State space and unit vectors in Hilbert space\",\n    \"Unitary transformations and evolution\",\n    \"Quantum measurements and measurement operators\",\n    \"Projectors and orthogonal subspaces\",\n    \"Tensor product of state spaces and entangled states\"\n  ],\n  \"key_terms\": [\n    \"Hilbert space\",\n    \"unit vector\",\n    \"unitary operator\",\n    \"Hermitian operator\",\n    \"Pauli matrices\",\n    \"Hadamard transform\",\n    \"Hamiltonian\",\n    \"measurement operators\",\n    \"projector\",\n    \"tensor product\",\n    \"entangled\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3414,
+        "output_tokens": 248,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.4830545999575406,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

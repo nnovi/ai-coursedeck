@@ -1,0 +1,76 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": "18.435/2.111",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Vitaly Feldman"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": "fall",
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Postulate 1: state space and unit vectors",
+      "Postulate 2: unitary evolution and Hamiltonian",
+      "Pauli matrices and Hadamard transform",
+      "Postulate 3: quantum measurements",
+      "Projectors and orthogonal subspace measurements",
+      "Postulate 4: tensor product of state spaces",
+      "Entangled states"
+    ],
+    "key_terms": [
+      "Hilbert space",
+      "state space",
+      "unit vector",
+      "qubit",
+      "unitary operator",
+      "Hermitian operator",
+      "Hamiltonian",
+      "measurement operator",
+      "completeness equation",
+      "projector",
+      "tensor product",
+      "entangled state",
+      "Pauli matrices",
+      "Hadamard transform",
+      "ket",
+      "bra"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2840,
+    "output_tokens": 338,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 3795
+  },
+  "cost_usd": 0.000927375,
+  "billed_cost_usd": null,
+  "latency_s": 3.7713751000119373,
+  "n_pages": 3,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":\"18.435/2.111\",\"institution\":\"Massachusetts Institute of Technology\",\"lecturers\":[\"Vitaly Feldman\"],\"lecture_number\":2,\"lecture_title\":\"Basics of Quantum Mechanics\",\"year\":2003,\"term\":\"fall\",\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Postulate 1: state space and unit vectors\",\"Postulate 2: unitary evolution and Hamiltonian\",\"Pauli matrices and Hadamard transform\",\"Postulate 3: quantum measurements\",\"Projectors and orthogonal subspace measurements\",\"Postulate 4: tensor product of state spaces\",\"Entangled states\"],\"key_terms\":[\"Hilbert space\",\"state space\",\"unit vector\",\"qubit\",\"unitary operator\",\"Hermitian operator\",\"Hamiltonian\",\"measurement operator\",\"completeness equation\",\"projector\",\"tensor product\",\"entangled state\",\"Pauli matrices\",\"Hadamard transform\",\"ket\",\"bra\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2840,
+        "output_tokens": 338,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 3795
+      },
+      "latency_s": 3.7713751000119373,
+      "error": null,
+      "request_id": "req_011CgM9SWZo4xbHxie2zRx5j",
+      "billed_cost_usd": null
+    }
+  ]
+}

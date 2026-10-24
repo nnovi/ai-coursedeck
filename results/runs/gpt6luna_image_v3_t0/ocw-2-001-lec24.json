@@ -1,0 +1,70 @@
+{
+  "doc_id": "ocw-2-001-lec24",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Mechanics and Materials I",
+    "course_code": "2.001",
+    "institution": null,
+    "lecturers": [
+      "Carol Livermore"
+    ],
+    "lecture_number": 26,
+    "lecture_title": "Energy Methods",
+    "year": 2006,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Basic ingredients of mechanics",
+      "Conservative forces and elastic systems",
+      "Strain energy and complementary energy",
+      "Castigliano’s theorem",
+      "Springs in series",
+      "Truss displacement example",
+      "Strain energy density",
+      "Stored energy in beams"
+    ],
+    "key_terms": [
+      "Castigliano’s theorem",
+      "Complementary energy",
+      "Strain energy density",
+      "Conservative forces",
+      "Strain energy",
+      "Compatibility",
+      "Constitutive relations",
+      "Equilibrium"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 10250,
+    "output_tokens": 512,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0013014200000000002,
+  "billed_cost_usd": 0.001557595,
+  "latency_s": 8.390381400007755,
+  "n_pages": 8,
+  "image_pixels": 8614494,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Mechanics and Materials I\",\n  \"course_code\": \"2.001\",\n  \"institution\": null,\n  \"lecturers\": [\"Carol Livermore\"],\n  \"lecture_number\": 26,\n  \"lecture_title\": \"Energy Methods\",\n  \"year\": 2006,\n  \"term\": null,\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Basic ingredients of mechanics\",\n    \"Conservative forces and elastic systems\",\n    \"Strain energy and complementary energy\",\n    \"Castigliano’s theorem\",\n    \"Springs in series\",\n    \"Truss displacement example\",\n    \"Strain energy density\",\n    \"Stored energy in beams\"\n  ],\n  \"key_terms\": [\n    \"Castigliano’s theorem\",\n    \"Complementary energy\",\n    \"Strain energy density\",\n    \"Conservative forces\",\n    \"Strain energy\",\n    \"Compatibility\",\n    \"Constitutive relations\",\n    \"Equilibrium\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 10250,
+        "output_tokens": 512,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.390381400007755,
+      "error": null,
+      "request_id": "gen-1792863162-bHt5qsOJGv1Wmuhor2wz",
+      "billed_cost_usd": 0.001557595
+    }
+  ]
+}

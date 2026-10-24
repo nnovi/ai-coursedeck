@@ -1,0 +1,67 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "System controllability",
+      "Controllability matrix and rank",
+      "System observability",
+      "Observability matrix and rank",
+      "Related system properties",
+      "Practical observability in fluid systems"
+    ],
+    "key_terms": [
+      "controllability",
+      "controllable",
+      "observability",
+      "observable",
+      "controllability matrix",
+      "observability matrix",
+      "stabilizability",
+      "reachability",
+      "reconstructability",
+      "detectability"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 5667,
+    "output_tokens": 503,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00083862,
+  "billed_cost_usd": 0.00098022,
+  "latency_s": 6.3965909000253305,
+  "n_pages": 4,
+  "image_pixels": 3452020,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": null,\n  \"course_code\": null,\n  \"institution\": null,\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Controllability and Observability\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"textbook_chapter\",\n  \"topics\": [\n    \"System controllability\",\n    \"Controllability matrix and rank\",\n    \"System observability\",\n    \"Observability matrix and rank\",\n    \"Related system properties\",\n    \"Practical observability in fluid systems\"\n  ],\n  \"key_terms\": [\n    \"controllability\",\n    \"controllable\",\n    \"observability\",\n    \"observable\",\n    \"controllability matrix\",\n    \"observability matrix\",\n    \"stabilizability\",\n    \"reachability\",\n    \"reconstructability\",\n    \"detectability\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 5667,
+        "output_tokens": 503,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.3965909000253305,
+      "error": null,
+      "request_id": "gen-1792849983-dMaYsrY1L2yhfVqXHYsE",
+      "billed_cost_usd": 0.00098022
+    }
+  ]
+}

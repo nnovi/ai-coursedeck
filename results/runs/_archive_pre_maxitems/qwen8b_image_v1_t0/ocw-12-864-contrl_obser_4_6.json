@@ -1,0 +1,66 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "THE TIME-DEPENDENT INVERSE PROBLEM: STATE ESTIMATION",
+    "course_code": "CHAPTER 4",
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "4.6 Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Controllability",
+      "Observability",
+      "Stabilizability",
+      "Reachability",
+      "Reconstructability",
+      "Detectability"
+    ],
+    "key_terms": [
+      "Controllability",
+      "Observability",
+      "Observability matrix",
+      "Stabilizability",
+      "Reachability",
+      "Reconstructability",
+      "Detectability",
+      "Riccati equations"
+    ],
+    "references": [
+      "Chapter 2",
+      "Chapter 5"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4407,
+    "output_tokens": 220,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.929342900053598,
+  "n_pages": 4,
+  "image_pixels": 3452020,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"THE TIME-DEPENDENT INVERSE PROBLEM: STATE ESTIMATION\",\n  \"course_code\": \"CHAPTER 4\",\n  \"institution\": null,\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": \"4.6 Controllability and Observability\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Controllability\",\n    \"Observability\",\n    \"Stabilizability\",\n    \"Reachability\",\n    \"Reconstructability\",\n    \"Detectability\"\n  ],\n  \"key_terms\": [\n    \"Controllability\",\n    \"Observability\",\n    \"Observability matrix\",\n    \"Stabilizability\",\n    \"Reachability\",\n    \"Reconstructability\",\n    \"Detectability\",\n    \"Riccati equations\"\n  ],\n  \"references\": [\n    \"Chapter 2\",\n    \"Chapter 5\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4407,
+        "output_tokens": 220,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.929342900053598,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

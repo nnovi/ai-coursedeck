@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-2-20-lecture12",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Marine Hydrodynamics",
+    "course_code": "2.20",
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 12,
+    "lecture_title": "Lifting Surfaces",
+    "year": 2005,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "2D symmetric streamlined body",
+      "Asymmetric bodies and lift",
+      "Potential flow and Kutta condition",
+      "Physical basis of Kutta condition",
+      "Circulation and lift",
+      "Thin wing at small angle",
+      "Flat plate solutions",
+      "Camber and linear superposition"
+    ],
+    "key_terms": [
+      "Kutta condition",
+      "angle of attack",
+      "chord line",
+      "mean camber line",
+      "starting vortex",
+      "circulation",
+      "lift coefficient",
+      "stall",
+      "thin wing",
+      "circulation distribution",
+      "linearized Bernoulli equation",
+      "Kutta-Joukowski law",
+      "moment coefficient",
+      "center of pressure",
+      "camber ratio"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3,
+    "output_tokens": 712,
+    "cache_read_tokens": 16444,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00052074,
+  "billed_cost_usd": 0.00052074,
+  "latency_s": 8.460861900006421,
+  "n_pages": 14,
+  "image_pixels": 11718707,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Marine Hydrodynamics\",\n  \"course_code\": \"2.20\",\n  \"institution\": null,\n  \"lecturers\": [],\n  \"lecture_number\": 12,\n  \"lecture_title\": \"Lifting Surfaces\",\n  \"year\": 2005,\n  \"term\": \"spring\",\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"2D symmetric streamlined body\",\n    \"Asymmetric bodies and lift\",\n    \"Potential flow and Kutta condition\",\n    \"Physical basis of Kutta condition\",\n    \"Circulation and lift\",\n    \"Thin wing at small angle\",\n    \"Flat plate solutions\",\n    \"Camber and linear superposition\"\n  ],\n  \"key_terms\": [\n    \"Kutta condition\",\n    \"angle of attack\",\n    \"chord line\",\n    \"mean camber line\",\n    \"starting vortex\",\n    \"circulation\",\n    \"lift coefficient\",\n    \"stall\",\n    \"thin wing\",\n    \"circulation distribution\",\n    \"linearized Bernoulli equation\",\n    \"Kutta-Joukowski law\",\n    \"moment coefficient\",\n    \"center of pressure\",\n    \"camber ratio\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3,
+        "output_tokens": 712,
+        "cache_read_tokens": 16444,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.460861900006421,
+      "error": null,
+      "request_id": "gen-1792863246-Y54HTRIxZew5wYwIfVtt",
+      "billed_cost_usd": 0.00052074
+    }
+  ]
+}

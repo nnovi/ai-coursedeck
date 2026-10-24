@@ -1,0 +1,60 @@
+{
+  "doc_id": "ocw-21g-228-mit21g-228s07_sent_variety",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Advanced Workshop in Writing for Social Sciences and Architecture (ELS)",
+    "course_code": "21G.228",
+    "institution": "MIT",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Sentence Variety",
+    "year": 2007,
+    "term": "spring",
+    "discipline": "humanities",
+    "doc_type": "handout",
+    "topics": [
+      "Appositives",
+      "Resumptive Modifiers",
+      "Summative Modifiers",
+      "Writing sentences about employment experience"
+    ],
+    "key_terms": [
+      "appositive",
+      "resumptive modifier",
+      "summative modifier",
+      "sentence variety"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2607,
+    "output_tokens": 1114,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00085565,
+  "billed_cost_usd": null,
+  "latency_s": 5.454567600041628,
+  "n_pages": 3,
+  "image_pixels": 1925824,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Advanced Workshop in Writing for Social Sciences and Architecture (ELS)\",\"course_code\":\"21G.228\",\"institution\":\"MIT\",\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Sentence Variety\",\"year\":2007,\"term\":\"spring\",\"discipline\":\"humanities\",\"doc_type\":\"handout\",\"topics\":[\"Appositives\",\"Resumptive Modifiers\",\"Summative Modifiers\",\"Writing sentences about employment experience\"],\"key_terms\":[\"appositive\",\"resumptive modifier\",\"summative modifier\",\"sentence variety\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2607,
+        "output_tokens": 1114,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.454567600041628,
+      "error": null,
+      "request_id": "req_011CgMTgXUr8PLv4sntrhdtk",
+      "billed_cost_usd": null
+    }
+  ]
+}

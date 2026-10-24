@@ -1,0 +1,67 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "mathematics",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Controllability of a model",
+      "Observability of a model",
+      "Observability matrix and initial conditions",
+      "Practical limitations versus mathematical observability"
+    ],
+    "key_terms": [
+      "controllability",
+      "observability",
+      "observability matrix",
+      "controllable",
+      "observable",
+      "nonsingular matrix",
+      "stabilizability",
+      "reachability",
+      "reconstructability",
+      "detectability",
+      "algebraic Riccati equation",
+      "steady-state solution"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2035,
+    "output_tokens": 220,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00035145,
+  "billed_cost_usd": null,
+  "latency_s": 1.8147693000501022,
+  "n_pages": 4,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Controllability and Observability\",\"year\":null,\"term\":null,\"discipline\":\"mathematics\",\"doc_type\":\"textbook_chapter\",\"topics\":[\"Controllability of a model\",\"Observability of a model\",\"Observability matrix and initial conditions\",\"Practical limitations versus mathematical observability\"],\"key_terms\":[\"controllability\",\"observability\",\"observability matrix\",\"controllable\",\"observable\",\"nonsingular matrix\",\"stabilizability\",\"reachability\",\"reconstructability\",\"detectability\",\"algebraic Riccati equation\",\"steady-state solution\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2035,
+        "output_tokens": 220,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 1.8147693000501022,
+      "error": null,
+      "request_id": "req_011CgM9rsvqi2JdAXUEFjDft",
+      "billed_cost_usd": null
+    }
+  ]
+}

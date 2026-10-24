@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Quantum Computation",
+    "course_code": "18.435/2.111",
+    "institution": "MIT",
+    "lecturers": [
+      "Vitaly Feldman"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": "fall",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Postulate 1: State of a quantum system is described by a unit vector in a complex vector space (Hilbert space)",
+      "Notation: Ket and bra notation for quantum states",
+      "Postulate 2: Evolution of a closed quantum system is described by a unitary transformation",
+      "Definition 1: Unitary operator",
+      "Definition 2: Hermitian operator",
+      "Commonly used operators on qubits: Pauli matrices and Hadamard transform",
+      "Postulate 3: Quantum measurements are described by a collection of measurement operators",
+      "Definition 3: Projector",
+      "Postulate 4: State space of a composite quantum system is the tensor product of the state spaces of the component systems",
+      "Definition 4: Tensor product of Hilbert spaces"
+    ],
+    "key_terms": [
+      "Hilbert space",
+      "unit vector",
+      "ket",
+      "bra",
+      "unitary transformation",
+      "Hermitian operator",
+      "Pauli matrices",
+      "Hadamard transform",
+      "measurement operator",
+      "projector",
+      "tensor product",
+      "entangled"
+    ],
+    "references": [
+      "Postulate 2 stems from Schrödinger equation for physical systems, namely: iħ d|ψ⟩/dt = H |ψ⟩, where H is a fixed Hermitian operator known as the Hamiltonian of a closed system."
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3346,
+    "output_tokens": 426,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 5.115310600027442,
+  "n_pages": 3,
+  "image_pixels": 2477652,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Quantum Computation\",\n  \"course_code\": \"18.435/2.111\",\n  \"institution\": \"MIT\",\n  \"lecturers\": [\n    \"Vitaly Feldman\"\n  ],\n  \"lecture_number\": 2,\n  \"lecture_title\": \"Basics of Quantum Mechanics\",\n  \"year\": 2003,\n  \"term\": \"fall\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Postulate 1: State of a quantum system is described by a unit vector in a complex vector space (Hilbert space)\",\n    \"Notation: Ket and bra notation for quantum states\",\n    \"Postulate 2: Evolution of a closed quantum system is described by a unitary transformation\",\n    \"Definition 1: Unitary operator\",\n    \"Definition 2: Hermitian operator\",\n    \"Commonly used operators on qubits: Pauli matrices and Hadamard transform\",\n    \"Postulate 3: Quantum measurements are described by a collection of measurement operators\",\n    \"Definition 3: Projector\",\n    \"Postulate 4: State space of a composite quantum system is the tensor product of the state spaces of the component systems\",\n    \"Definition 4: Tensor product of Hilbert spaces\"\n  ],\n  \"key_terms\": [\n    \"Hilbert space\",\n    \"unit vector\",\n    \"ket\",\n    \"bra\",\n    \"unitary transformation\",\n    \"Hermitian operator\",\n    \"Pauli matrices\",\n    \"Hadamard transform\",\n    \"measurement operator\",\n    \"projector\",\n    \"tensor product\",\n    \"entangled\"\n  ],\n  \"references\": [\n    \"Postulate 2 stems from Schrödinger equation for physical systems, namely: iħ d|ψ⟩/dt = H |ψ⟩, where H is a fixed Hermitian operator known as the Hamiltonian of a closed system.\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3346,
+        "output_tokens": 426,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.115310600027442,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

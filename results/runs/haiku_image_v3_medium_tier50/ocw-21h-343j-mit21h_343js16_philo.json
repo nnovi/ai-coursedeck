@@ -1,0 +1,67 @@
+{
+  "doc_id": "ocw-21h-343j-mit21h_343js16_philo",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Making Books: The Renaissance and Today",
+    "course_code": "21H.343J",
+    "institution": "MIT",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Natural Philosophy in the Sixteenth and Seventeenth Centuries: Celestial and Earthly Bodies",
+    "year": 2016,
+    "term": "spring",
+    "discipline": "humanities",
+    "doc_type": "slides",
+    "topics": [
+      "Natural and Moral Philosophy, ca. 1680",
+      "Copernicus and the heliocentric system",
+      "Tychonic tables and the Rudolphine Tables",
+      "Galileo's telescopic observations",
+      "Galileo's Dialogo on world systems",
+      "Vesalius and human anatomy",
+      "Gessner's animal illustrations",
+      "Paré on monstrosities and artificial limbs"
+    ],
+    "key_terms": [
+      "natural philosophy",
+      "moral philosophy",
+      "celestial bodies",
+      "earthly bodies",
+      "monstrosities",
+      "heliocentric system",
+      "anatomy"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 25673,
+    "output_tokens": 1527,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00336875,
+  "billed_cost_usd": null,
+  "latency_s": 9.350868099951185,
+  "n_pages": 22,
+  "image_pixels": 19815013,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Making Books: The Renaissance and Today\",\"course_code\":\"21H.343J\",\"institution\":\"MIT\",\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Natural Philosophy in the Sixteenth and Seventeenth Centuries: Celestial and Earthly Bodies\",\"year\":2016,\"term\":\"spring\",\"discipline\":\"humanities\",\"doc_type\":\"slides\",\"topics\":[\"Natural and Moral Philosophy, ca. 1680\",\"Copernicus and the heliocentric system\",\"Tychonic tables and the Rudolphine Tables\",\"Galileo's telescopic observations\",\"Galileo's Dialogo on world systems\",\"Vesalius and human anatomy\",\"Gessner's animal illustrations\",\"Paré on monstrosities and artificial limbs\"],\"key_terms\":[\"natural philosophy\",\"moral philosophy\",\"celestial bodies\",\"earthly bodies\",\"monstrosities\",\"heliocentric system\",\"anatomy\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 25673,
+        "output_tokens": 1527,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 9.350868099951185,
+      "error": null,
+      "request_id": "req_011CgMTdke2RRDwQTnXF2cpw",
+      "billed_cost_usd": null
+    }
+  ]
+}

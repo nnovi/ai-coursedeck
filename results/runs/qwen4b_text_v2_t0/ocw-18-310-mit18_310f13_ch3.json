@@ -1,0 +1,74 @@
+{
+  "doc_id": "ocw-18-310-mit18_310f13_ch3",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Principles of Discrete Applied Mathematics",
+    "course_code": "18.310",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Michel Goemans"
+    ],
+    "lecture_number": 1,
+    "lecture_title": "Van der Waerden’s Theorem",
+    "year": 2013,
+    "term": "fall",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Van der Waerden’s Theorem",
+      "Arithmetic Progressions",
+      "2-coloring of subsets",
+      "Ramsey Theory",
+      "Probabilistic Method",
+      "Expected Value and Linearity of Expectation",
+      "Van der Waerden Numbers"
+    ],
+    "key_terms": [
+      "Van der Waerden’s Theorem",
+      "Arithmetic Progression",
+      "2-coloring",
+      "Ramsey Theory",
+      "Probabilistic Method",
+      "Expected Value",
+      "Linearity of Expectation",
+      "Van der Waerden Numbers",
+      "Monochromatic",
+      "Indicator Random Variable",
+      "Random Coloring",
+      "Probability",
+      "Nonnegative Integer Random Variable",
+      "Lemma 1"
+    ],
+    "references": [
+      "MIT OpenCourseWare 18.310 Principles of Discrete Applied Mathematics, Fall 2013"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3468,
+    "output_tokens": 318,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 2.287016600021161,
+  "n_pages": 4,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Principles of Discrete Applied Mathematics\",\n  \"course_code\": \"18.310\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"Michel Goemans\"\n  ],\n  \"lecture_number\": 1,\n  \"lecture_title\": \"Van der Waerden’s Theorem\",\n  \"year\": 2013,\n  \"term\": \"fall\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Van der Waerden’s Theorem\",\n    \"Arithmetic Progressions\",\n    \"2-coloring of subsets\",\n    \"Ramsey Theory\",\n    \"Probabilistic Method\",\n    \"Expected Value and Linearity of Expectation\",\n    \"Van der Waerden Numbers\"\n  ],\n  \"key_terms\": [\n    \"Van der Waerden’s Theorem\",\n    \"Arithmetic Progression\",\n    \"2-coloring\",\n    \"Ramsey Theory\",\n    \"Probabilistic Method\",\n    \"Expected Value\",\n    \"Linearity of Expectation\",\n    \"Van der Waerden Numbers\",\n    \"Monochromatic\",\n    \"Indicator Random Variable\",\n    \"Random Coloring\",\n    \"Probability\",\n    \"Nonnegative Integer Random Variable\",\n    \"Lemma 1\"\n  ],\n  \"references\": [\n    \"MIT OpenCourseWare 18.310 Principles of Discrete Applied Mathematics, Fall 2013\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3468,
+        "output_tokens": 318,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.287016600021161,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

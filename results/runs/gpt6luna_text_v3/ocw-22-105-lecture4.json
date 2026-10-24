@@ -1,0 +1,76 @@
+{
+  "doc_id": "ocw-22-105-lecture4",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 4,
+    "lecture_title": "Conformal Mapping and Green’s Theorem",
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "slides",
+    "topics": [
+      "Electrostatic problems by separation of variables",
+      "Failure of separation of variables",
+      "Conformal mapping",
+      "Cauchy-Riemann equations",
+      "Mapping the shifted circle",
+      "Solution in mapped coordinates",
+      "Derivation of Green’s theorem",
+      "Free-space spherical Green’s function",
+      "Free-space cylindrical Green’s function",
+      "Green’s theorem for infinite space"
+    ],
+    "key_terms": [
+      "conformal mapping",
+      "Cauchy-Riemann equations",
+      "Green’s theorem",
+      "Green’s function",
+      "Laplace’s equation",
+      "Poisson’s equation",
+      "separation of variables",
+      "mapping function",
+      "boundary value problems",
+      "radius of convergence",
+      "Fourier analysis",
+      "delta function",
+      "spherical Green’s function",
+      "cylindrical Green’s function",
+      "potential surfaces"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 7313,
+    "output_tokens": 761,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00113222,
+  "billed_cost_usd": 0.00131497,
+  "latency_s": 8.780987599981017,
+  "n_pages": 14,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": null,\n  \"course_code\": null,\n  \"institution\": null,\n  \"lecturers\": [],\n  \"lecture_number\": 4,\n  \"lecture_title\": \"Conformal Mapping and Green’s Theorem\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"physics\",\n  \"doc_type\": \"slides\",\n  \"topics\": [\n    \"Electrostatic problems by separation of variables\",\n    \"Failure of separation of variables\",\n    \"Conformal mapping\",\n    \"Cauchy-Riemann equations\",\n    \"Mapping the shifted circle\",\n    \"Solution in mapped coordinates\",\n    \"Derivation of Green’s theorem\",\n    \"Free-space spherical Green’s function\",\n    \"Free-space cylindrical Green’s function\",\n    \"Green’s theorem for infinite space\"\n  ],\n  \"key_terms\": [\n    \"conformal mapping\",\n    \"Cauchy-Riemann equations\",\n    \"Green’s theorem\",\n    \"Green’s function\",\n    \"Laplace’s equation\",\n    \"Poisson’s equation\",\n    \"separation of variables\",\n    \"mapping function\",\n    \"boundary value problems\",\n    \"radius of convergence\",\n    \"Fourier analysis\",\n    \"delta function\",\n    \"spherical Green’s function\",\n    \"cylindrical Green’s function\",\n    \"potential surfaces\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 7313,
+        "output_tokens": 761,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.780987599981017,
+      "error": null,
+      "request_id": "gen-1792849436-4Uqcv5dxZ8ajQcOK2Dem",
+      "billed_cost_usd": 0.00131497
+    }
+  ]
+}

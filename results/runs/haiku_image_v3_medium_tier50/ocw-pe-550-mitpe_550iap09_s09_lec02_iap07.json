@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-pe-550-mitpe_550iap09_s09_lec02_iap07",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Designing Your Life",
+    "course_code": "PE.550",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [
+      "Lauren Zander",
+      "Gabriella Jordan"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "How Your History Relates to Your Issues and Excuses",
+    "year": 2007,
+    "term": "winter",
+    "discipline": "social_sciences",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Goal of the day: connecting parents, issues, excuses and confessions",
+      "Participants' experiences with the homework",
+      "Participants' examples of finding bullshit in the 19 areas",
+      "Disclaimer on humor and excuses",
+      "Hiding secrets"
+    ],
+    "key_terms": [
+      "issues",
+      "excuses",
+      "confessions",
+      "priorities",
+      "theory",
+      "empathy",
+      "double agent",
+      "personal integrity",
+      "accountability",
+      "transparency",
+      "intimacy",
+      "secrets",
+      "bullshit",
+      "choices",
+      "perspective"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 9538,
+    "output_tokens": 1134,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00155875,
+  "billed_cost_usd": null,
+  "latency_s": 6.424265700043179,
+  "n_pages": 7,
+  "image_pixels": 7183200,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Designing Your Life\",\"course_code\":\"PE.550\",\"institution\":\"MIT OpenCourseWare\",\"lecturers\":[\"Lauren Zander\",\"Gabriella Jordan\"],\"lecture_number\":2,\"lecture_title\":\"How Your History Relates to Your Issues and Excuses\",\"year\":2007,\"term\":\"winter\",\"discipline\":\"social_sciences\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Goal of the day: connecting parents, issues, excuses and confessions\",\"Participants' experiences with the homework\",\"Participants' examples of finding bullshit in the 19 areas\",\"Disclaimer on humor and excuses\",\"Hiding secrets\"],\"key_terms\":[\"issues\",\"excuses\",\"confessions\",\"priorities\",\"theory\",\"empathy\",\"double agent\",\"personal integrity\",\"accountability\",\"transparency\",\"intimacy\",\"secrets\",\"bullshit\",\"choices\",\"perspective\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 9538,
+        "output_tokens": 1134,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.424265700043179,
+      "error": null,
+      "request_id": "req_011CgMTfd5R2538KJv5t3466",
+      "billed_cost_usd": null
+    }
+  ]
+}

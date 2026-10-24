@@ -1,0 +1,77 @@
+{
+  "doc_id": "ocw-7-03-lecture33_1",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 33,
+    "lecture_title": "Most environmental causes of cancer are mutagens: mutagenic compounds, X-rays, uv",
+    "year": null,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "slides",
+    "topics": [
+      "Environmental mutagens and DNA damage",
+      "Cancer types by tissue of origin",
+      "Somatic mutations and cancer",
+      "Stomach cancer incidence by age",
+      "Challenges in understanding cancer genetics",
+      "Cell transformation",
+      "Isolation of the Ras oncogene",
+      "Synergistic effects of myc and ras"
+    ],
+    "key_terms": [
+      "mutagens",
+      "Aflatoxin B",
+      "3,4-benzpyrene",
+      "carcinoma",
+      "leukemia",
+      "myeloma",
+      "lymphoma",
+      "sarcoma",
+      "somatic cells",
+      "mutations",
+      "tumor cell",
+      "metastasis",
+      "angiogenesis",
+      "transformed 3T3 cells",
+      "Ras oncogene",
+      "myc",
+      "ras"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3,
+    "output_tokens": 1169,
+    "cache_read_tokens": 7464,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0006594400000000001,
+  "billed_cost_usd": 0.00065944,
+  "latency_s": 14.050958700012416,
+  "n_pages": 8,
+  "image_pixels": 4381555,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": null,\n  \"course_code\": null,\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [],\n  \"lecture_number\": 33,\n  \"lecture_title\": \"Most environmental causes of cancer are mutagens: mutagenic compounds, X-rays, uv\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"biology\",\n  \"doc_type\": \"slides\",\n  \"topics\": [\n    \"Environmental mutagens and DNA damage\",\n    \"Cancer types by tissue of origin\",\n    \"Somatic mutations and cancer\",\n    \"Stomach cancer incidence by age\",\n    \"Challenges in understanding cancer genetics\",\n    \"Cell transformation\",\n    \"Isolation of the Ras oncogene\",\n    \"Synergistic effects of myc and ras\"\n  ],\n  \"key_terms\": [\n    \"mutagens\",\n    \"Aflatoxin B\",\n    \"3,4-benzpyrene\",\n    \"carcinoma\",\n    \"leukemia\",\n    \"myeloma\",\n    \"lymphoma\",\n    \"sarcoma\",\n    \"somatic cells\",\n    \"mutations\",\n    \"tumor cell\",\n    \"metastasis\",\n    \"angiogenesis\",\n    \"transformed 3T3 cells\",\n    \"Ras oncogene\",\n    \"myc\",\n    \"ras\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3,
+        "output_tokens": 1169,
+        "cache_read_tokens": 7464,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 14.050958700012416,
+      "error": null,
+      "request_id": "gen-1792863223-Gf2EGvUo4TaXwNxfzTKf",
+      "billed_cost_usd": 0.00065944
+    }
+  ]
+}

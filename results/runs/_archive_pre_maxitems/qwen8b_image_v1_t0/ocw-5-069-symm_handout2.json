@@ -1,0 +1,80 @@
+{
+  "doc_id": "ocw-5-069-symm_handout2",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "5.069 Crystal Structure Analysis",
+    "course_code": "5.069",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Going 3D",
+    "year": 2008,
+    "term": "spring",
+    "discipline": "chemistry",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Crystal as a three-dimensional periodic discontinuum",
+      "Unit cell definition using axes a, b, c and angles α, β, γ",
+      "Volume of the unit cell formula",
+      "The unit cell as the smallest unit generating the entire crystal structure",
+      "Symmetry-related copies within the unit cell",
+      "Centrosymmetric structures and inversion centers",
+      "Crystallographic conventions for different systems",
+      "Unconventional lattices and Bravais lattice exclusions",
+      "Screw axes (4₁ and 4₃)",
+      "Space groups in 3D (230 space groups)",
+      "Atomic coordinates within a unit cell",
+      "Symmetry operations and elements",
+      "Definitions of unit cell, asymmetric unit, and lattice"
+    ],
+    "key_terms": [
+      "crystal",
+      "unit cell",
+      "lattice",
+      "axes a, b, c",
+      "angles α, β, γ",
+      "volume formula",
+      "symmetry operations",
+      "symmetry elements",
+      "centrosymmetric",
+      "inversion center",
+      "Bravais lattices",
+      "screw axes",
+      "space groups",
+      "atomic coordinates",
+      "asymmetric unit"
+    ],
+    "references": [
+      "Volume A International Tables for Crystallography",
+      "George M. Sheldrick"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 10605,
+    "output_tokens": 400,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 8.353540899930522,
+  "n_pages": 10,
+  "image_pixels": 3660317,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"5.069 Crystal Structure Analysis\",\n  \"course_code\": \"5.069\",\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Going 3D\",\n  \"year\": 2008,\n  \"term\": \"spring\",\n  \"discipline\": \"chemistry\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Crystal as a three-dimensional periodic discontinuum\",\n    \"Unit cell definition using axes a, b, c and angles α, β, γ\",\n    \"Volume of the unit cell formula\",\n    \"The unit cell as the smallest unit generating the entire crystal structure\",\n    \"Symmetry-related copies within the unit cell\",\n    \"Centrosymmetric structures and inversion centers\",\n    \"Crystallographic conventions for different systems\",\n    \"Unconventional lattices and Bravais lattice exclusions\",\n    \"Screw axes (4₁ and 4₃)\",\n    \"Space groups in 3D (230 space groups)\",\n    \"Atomic coordinates within a unit cell\",\n    \"Symmetry operations and elements\",\n    \"Definitions of unit cell, asymmetric unit, and lattice\"\n  ],\n  \"key_terms\": [\n    \"crystal\",\n    \"unit cell\",\n    \"lattice\",\n    \"axes a, b, c\",\n    \"angles α, β, γ\",\n    \"volume formula\",\n    \"symmetry operations\",\n    \"symmetry elements\",\n    \"centrosymmetric\",\n    \"inversion center\",\n    \"Bravais lattices\",\n    \"screw axes\",\n    \"space groups\",\n    \"atomic coordinates\",\n    \"asymmetric unit\"\n  ],\n  \"references\": [\n    \"Volume A International Tables for Crystallography\",\n    \"George M. Sheldrick\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 10605,
+        "output_tokens": 400,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.353540899930522,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

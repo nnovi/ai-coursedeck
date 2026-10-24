@@ -1,0 +1,68 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "24.244 Modal Logic",
+    "course_code": "24.244",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 5,
+    "lecture_title": "Stronger Systems",
+    "year": 2015,
+    "term": "spring",
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities",
+      "Modalities in S4",
+      "Validity for S4",
+      "System S5",
+      "Validity in S5",
+      "System B",
+      "Upward and onward?"
+    ],
+    "key_terms": [
+      "Modalities",
+      "S4",
+      "S5",
+      "System B",
+      "Godel",
+      "PA"
+    ],
+    "references": [
+      "Hughes and Cresswell",
+      "Arthur Pap",
+      "Prop. 2.2",
+      "ETS",
+      "Second Incompleteness Theorem"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 7260,
+    "output_tokens": 238,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 5.386357799987309,
+  "n_pages": 5,
+  "image_pixels": 6943548,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"24.244 Modal Logic\",\n  \"course_code\": \"24.244\",\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [],\n  \"lecture_number\": 5,\n  \"lecture_title\": \"Stronger Systems\",\n  \"year\": 2015,\n  \"term\": \"spring\",\n  \"discipline\": \"physics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Modalities\",\n    \"Modalities in S4\",\n    \"Validity for S4\",\n    \"System S5\",\n    \"Validity in S5\",\n    \"System B\",\n    \"Upward and onward?\"\n  ],\n  \"key_terms\": [\n    \"Modalities\",\n    \"S4\",\n    \"S5\",\n    \"System B\",\n    \"Godel\",\n    \"PA\"\n  ],\n  \"references\": [\n    \"Hughes and Cresswell\",\n    \"Arthur Pap\",\n    \"Prop. 2.2\",\n    \"ETS\",\n    \"Second Incompleteness Theorem\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 7260,
+        "output_tokens": 238,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.386357799987309,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

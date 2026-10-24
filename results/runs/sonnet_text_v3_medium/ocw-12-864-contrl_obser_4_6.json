@@ -1,0 +1,67 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Existence of matrix operations in Riccati equations",
+      "Controllability",
+      "Controllability matrix and rank condition",
+      "Observability",
+      "Observability matrix and initial conditions",
+      "Mathematical versus practical observability in fluids"
+    ],
+    "key_terms": [
+      "controllability",
+      "observability",
+      "observability matrix",
+      "steady-state solution",
+      "Riccati equation",
+      "nullspace",
+      "stabilizability",
+      "reachability",
+      "reconstructability",
+      "detectability"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2035,
+    "output_tokens": 229,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.007119,
+  "billed_cost_usd": null,
+  "latency_s": 2.200946999946609,
+  "n_pages": 4,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Controllability and Observability\",\"year\":null,\"term\":null,\"discipline\":\"engineering\",\"doc_type\":\"textbook_chapter\",\"topics\":[\"Existence of matrix operations in Riccati equations\",\"Controllability\",\"Controllability matrix and rank condition\",\"Observability\",\"Observability matrix and initial conditions\",\"Mathematical versus practical observability in fluids\"],\"key_terms\":[\"controllability\",\"observability\",\"observability matrix\",\"steady-state solution\",\"Riccati equation\",\"nullspace\",\"stabilizability\",\"reachability\",\"reconstructability\",\"detectability\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2035,
+        "output_tokens": 229,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.200946999946609,
+      "error": null,
+      "request_id": "req_011CgMA2Zox53bpYRzASPkrt",
+      "billed_cost_usd": null
+    }
+  ]
+}

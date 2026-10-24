@@ -57,5 +57,4 @@ desktop.ini
 data/pdfs_extra/
 data/cache/
 data/interim/
-runs/
 *.log

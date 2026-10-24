@@ -1,0 +1,194 @@
+# Experiment matrix: model x input mode x prompt version x sampling.
+# `python main.py` runs every experiment that has no results yet (results/runs/<name>/),
+# then scores all of them against the golden set into results/comparison.md.
+#
+# Sampling: current Claude models reject non-default temperature/top_p, so their knob is
+# `effort` (thinking depth); temperature/top_p apply to Ollama and OpenRouter models.
+
+[defaults]
+manifest = "data/manifests/golden.csv"
+prompt = "v3"
+timeout_s = 120      # per request; local models get at least 600
+max_retries = 2      # transport retries (HTTP 429/5xx, timeouts); validation retry is separate
+
+# --- Provider model: Claude Haiku 5.5 (Anthropic API) --------------------------------
+[[experiments]]
+name = "haiku_text_v3_medium"
+model = "haiku"
+mode = "text"
+sampling = { effort = "medium" }
+
+[[experiments]]
+name = "haiku_image_v3_medium"
+model = "haiku"
+mode = "image"
+sampling = { effort = "medium" }
+
+[[experiments]]
+name = "haiku_text-image_v3_medium"
+model = "haiku"
+mode = "text+image"
+sampling = { effort = "medium" }
+
+[[experiments]]
+name = "haiku_pdf_v3_medium"
+model = "haiku"
+mode = "pdf"
+sampling = { effort = "medium" }
+
+# All documents of the core tier (50 texts), production candidate configuration.
+[[experiments]]
+name = "haiku_image_v3_medium_tier50"
+model = "haiku"
+mode = "image"
+manifest = "data/manifests/dataset_050.csv"
+sampling = { effort = "medium" }
+
+# --- Provider model: Claude Sonnet 5.5 (Anthropic API) -------------------------------
+[[experiments]]
+name = "sonnet_text_v3_medium"
+model = "sonnet"
+mode = "text"
+sampling = { effort = "medium" }
+
+[[experiments]]
+name = "sonnet_image_v3_medium"
+model = "sonnet"
+mode = "image"
+sampling = { effort = "medium" }
+
+[[experiments]]
+name = "sonnet_text-image_v3_medium"
+model = "sonnet"
+mode = "text+image"
+sampling = { effort = "medium" }
+
+[[experiments]]
+name = "sonnet_pdf_v3_medium"
+model = "sonnet"
+mode = "pdf"
+sampling = { effort = "medium" }
+
+# --- Cheap provider model: GPT-6 Luna (OpenRouter) ------------------------------------
+[[experiments]]
+name = "gpt6luna_text_v3"
+model = "gpt-6-luna"
+mode = "text"
+
+[[experiments]]
+name = "gpt6luna_image_v3"
+model = "gpt-6-luna"
+mode = "image"
+
+[[experiments]]
+name = "gpt6luna_text-image_v3"
+model = "gpt-6-luna"
+mode = "text+image"
+
+[[experiments]]
+name = "gpt6luna_image_v3_t0"
+model = "gpt-6-luna"
+mode = "image"
+sampling = { temperature = 0.0 }
+
+[[experiments]]
+name = "gpt6luna_image_v3_t07_p09"
+model = "gpt-6-luna"
+mode = "image"
+sampling = { temperature = 0.7, top_p = 0.9 }
+
+# --- Local model: Qwen3-VL (Ollama) ----------------------------------------------------
+[[experiments]]
+name = "qwen8b_text_v1_t0"
+model = "qwen3-vl-8b"
+mode = "text"
+prompt = "v1"
+sampling = { temperature = 0.0 }
+
+[[experiments]]
+name = "qwen8b_image_v1_t0"
+model = "qwen3-vl-8b"
+mode = "image"
+prompt = "v1"
+sampling = { temperature = 0.0 }
+
+[[experiments]]
+name = "qwen8b_text-image_v1_t0"
+model = "qwen3-vl-8b"
+mode = "text+image"
+prompt = "v1"
+sampling = { temperature = 0.0 }
+
+[[experiments]]
+name = "qwen8b_text_v2_t0"
+model = "qwen3-vl-8b"
+mode = "text"
+prompt = "v2"
+sampling = { temperature = 0.0 }
+
+[[experiments]]
+name = "qwen8b_image_v2_t0"
+model = "qwen3-vl-8b"
+mode = "image"
+prompt = "v2"
+sampling = { temperature = 0.0 }
+
+[[experiments]]
+name = "qwen8b_text-image_v2_t0"
+model = "qwen3-vl-8b"
+mode = "text+image"
+prompt = "v2"
+sampling = { temperature = 0.0 }
+
+[[experiments]]
+name = "qwen8b_image_v2_t07"
+model = "qwen3-vl-8b"
+mode = "image"
+prompt = "v2"
+sampling = { temperature = 0.7 }
+
+[[experiments]]
+name = "qwen4b_text_v2_t0"
+model = "qwen3-vl-4b"
+mode = "text"
+prompt = "v2"
+sampling = { temperature = 0.0 }
+
+[[experiments]]
+name = "qwen4b_image_v2_t0"
+model = "qwen3-vl-4b"
+mode = "image"
+prompt = "v2"
+sampling = { temperature = 0.0 }
+
+[[experiments]]
+name = "qwen4b_text-image_v2_t0"
+model = "qwen3-vl-4b"
+mode = "text+image"
+prompt = "v2"
+sampling = { temperature = 0.0 }
+
+# Pending (needs a free GPU): the local model on the current prompt, plus a top_p config.
+[[experiments]]
+name = "qwen8b_image_v3_t0"
+model = "qwen3-vl-8b"
+mode = "image"
+sampling = { temperature = 0.0 }
+
+[[experiments]]
+name = "qwen8b_text_v3_t0"
+model = "qwen3-vl-8b"
+mode = "text"
+sampling = { temperature = 0.0 }
+
+[[experiments]]
+name = "qwen8b_image_v3_t07_p09"
+model = "qwen3-vl-8b"
+mode = "image"
+sampling = { temperature = 0.7, top_p = 0.9 }
+
+[[experiments]]
+name = "qwen4b_image_v3_t0"
+model = "qwen3-vl-4b"
+mode = "image"
+sampling = { temperature = 0.0 }

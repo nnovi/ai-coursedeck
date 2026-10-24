@@ -40,11 +40,12 @@ class AnthropicAdapter:
     supports_pdf = True
 
     def __init__(self, model_id: str, effort: str | None = None,
+                 timeout_s: float = 120.0, max_retries: int = 2,
                  client: anthropic.Anthropic | None = None):
         self.model_id = model_id
         self.effort = effort  # low | medium | high | xhigh | max; None = model default
-        # The SDK retries 408/409/429/5xx and connection errors with backoff.
-        self.client = client or anthropic.Anthropic(max_retries=4)
+        # The SDK retries 408/409/429/5xx, timeouts and connection errors with backoff.
+        self.client = client or anthropic.Anthropic(timeout=timeout_s, max_retries=max_retries)
 
     def complete(self, request: LLMRequest) -> LLMResponse:
         output_config: dict = {"format": {"type": "json_schema", "schema": request.schema}}

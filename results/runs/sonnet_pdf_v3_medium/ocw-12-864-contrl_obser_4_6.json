@@ -1,0 +1,71 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Steady-state Riccati solutions and matrix inverses",
+      "Controllability of a system",
+      "Controllability test via rank of C",
+      "Observability of initial conditions",
+      "Observability matrix and rank",
+      "Related concepts: stabilizability, reachability, detectability",
+      "Practical observability in fluids"
+    ],
+    "key_terms": [
+      "controllable",
+      "controllability",
+      "observability",
+      "observable",
+      "observability matrix",
+      "nullspace",
+      "rank",
+      "nonsingular",
+      "stabilizability",
+      "reachability",
+      "reconstructability",
+      "detectability",
+      "algebraic Riccati equations"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 8206,
+    "output_tokens": 263,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.019801,
+  "billed_cost_usd": null,
+  "latency_s": 3.8274069000035524,
+  "n_pages": 4,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Controllability and Observability\",\"year\":null,\"term\":null,\"discipline\":\"engineering\",\"doc_type\":\"textbook_chapter\",\"topics\":[\"Steady-state Riccati solutions and matrix inverses\",\"Controllability of a system\",\"Controllability test via rank of C\",\"Observability of initial conditions\",\"Observability matrix and rank\",\"Related concepts: stabilizability, reachability, detectability\",\"Practical observability in fluids\"],\"key_terms\":[\"controllable\",\"controllability\",\"observability\",\"observable\",\"observability matrix\",\"nullspace\",\"rank\",\"nonsingular\",\"stabilizability\",\"reachability\",\"reconstructability\",\"detectability\",\"algebraic Riccati equations\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 8206,
+        "output_tokens": 263,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.8274069000035524,
+      "error": null,
+      "request_id": "req_011CgMAA1Ec1N2sSdFdRheo1",
+      "billed_cost_usd": null
+    }
+  ]
+}

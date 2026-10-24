@@ -1,0 +1,79 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Modal Logic",
+    "course_code": "24.244",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Stronger Systems",
+    "year": 2015,
+    "term": "spring",
+    "discipline": "humanities",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities and iterated modalities",
+      "Reduction laws and candidate axioms",
+      "Modalities in S4",
+      "Counting modalities in S4",
+      "Validity for S4",
+      "System S5",
+      "System B",
+      "Upward and onward: system G"
+    ],
+    "key_terms": [
+      "modality",
+      "iterated modality",
+      "reduction law",
+      "S4",
+      "S5",
+      "system B",
+      "system G",
+      "standard form",
+      "affirmative modality",
+      "negative modality",
+      "equivalence of modalities",
+      "equivalence relation",
+      "S4 frame",
+      "S5 frame",
+      "B-frame",
+      "reflexive transitive frame",
+      "soundness",
+      "validity",
+      "accessibility relation",
+      "characteristic axiom"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 5402,
+    "output_tokens": 1727,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00144165,
+  "billed_cost_usd": null,
+  "latency_s": 8.014270800049417,
+  "n_pages": 5,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Modal Logic\",\"course_code\":\"24.244\",\"institution\":\"MIT OpenCourseWare\",\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Stronger Systems\",\"year\":2015,\"term\":\"spring\",\"discipline\":\"humanities\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Modalities and iterated modalities\",\"Reduction laws and candidate axioms\",\"Modalities in S4\",\"Counting modalities in S4\",\"Validity for S4\",\"System S5\",\"System B\",\"Upward and onward: system G\"],\"key_terms\":[\"modality\",\"iterated modality\",\"reduction law\",\"S4\",\"S5\",\"system B\",\"system G\",\"standard form\",\"affirmative modality\",\"negative modality\",\"equivalence of modalities\",\"equivalence relation\",\"S4 frame\",\"S5 frame\",\"B-frame\",\"reflexive transitive frame\",\"soundness\",\"validity\",\"accessibility relation\",\"characteristic axiom\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 5402,
+        "output_tokens": 1727,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.014270800049417,
+      "error": null,
+      "request_id": "req_011CgM9rTjKATszT6krxdQED",
+      "billed_cost_usd": null
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "ocw-8-08-the_fermi_gas",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 8,
+    "lecture_title": "The Fermi gas",
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Free fermions and grand partition function",
+      "Fermi-Dirac distribution and equation of state",
+      "Classical and zero-temperature limits",
+      "High-temperature expansion and virial correction",
+      "Low-temperature properties of metals",
+      "Compressibility and spin susceptibility",
+      "Specific heat of the Fermi gas",
+      "White dwarfs and neutron stars",
+      "Free energy and phase transitions",
+      "Semiconductor bands, carriers, and diodes"
+    ],
+    "key_terms": [
+      "free fermions",
+      "grand partition function",
+      "thermopotential",
+      "Fermi-Dirac distribution",
+      "Fermi energy",
+      "Fermi momentum",
+      "density of states",
+      "Fermi pressure",
+      "virial expansion",
+      "compressibility",
+      "spin susceptibility",
+      "specific heat",
+      "band theory",
+      "Brillouin zone",
+      "Fermi surface",
+      "semiconductor",
+      "electron",
+      "hole",
+      "p-n junction",
+      "potential barrier"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 40354,
+    "output_tokens": 1255,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0046833199999999995,
+  "billed_cost_usd": 0.005692095,
+  "latency_s": 20.68082789995242,
+  "n_pages": 18,
+  "image_pixels": 34263936,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": null,\n  \"course_code\": null,\n  \"institution\": null,\n  \"lecturers\": [],\n  \"lecture_number\": 8,\n  \"lecture_title\": \"The Fermi gas\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"physics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Free fermions and grand partition function\",\n    \"Fermi-Dirac distribution and equation of state\",\n    \"Classical and zero-temperature limits\",\n    \"High-temperature expansion and virial correction\",\n    \"Low-temperature properties of metals\",\n    \"Compressibility and spin susceptibility\",\n    \"Specific heat of the Fermi gas\",\n    \"White dwarfs and neutron stars\",\n    \"Free energy and phase transitions\",\n    \"Semiconductor bands, carriers, and diodes\"\n  ],\n  \"key_terms\": [\n    \"free fermions\",\n    \"grand partition function\",\n    \"thermopotential\",\n    \"Fermi-Dirac distribution\",\n    \"Fermi energy\",\n    \"Fermi momentum\",\n    \"density of states\",\n    \"Fermi pressure\",\n    \"virial expansion\",\n    \"compressibility\",\n    \"spin susceptibility\",\n    \"specific heat\",\n    \"band theory\",\n    \"Brillouin zone\",\n    \"Fermi surface\",\n    \"semiconductor\",\n    \"electron\",\n    \"hole\",\n    \"p-n junction\",\n    \"potential barrier\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 40354,
+        "output_tokens": 1255,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 20.68082789995242,
+      "error": null,
+      "request_id": "gen-1792863129-Q3HoKwwECk22G3EdgcPH",
+      "billed_cost_usd": 0.005692095
+    }
+  ]
+}

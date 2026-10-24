@@ -1,0 +1,66 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Controllability and Observability",
+    "course_code": "4.6",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Controllability: driving system from initial state to arbitrary state",
+      "Matrix inverses and their existence in system computations",
+      "Controllability test using matrix C and rank Q",
+      "Observability: inferring initial conditions from observations",
+      "Observability matrix and its full rank requirement",
+      "Connection between controllability and observability",
+      "Practical vs. mathematical observability in fluid systems"
+    ],
+    "key_terms": [
+      "Controllability",
+      "Observability",
+      "Matrix inverses",
+      "Controllability test",
+      "Observability matrix",
+      "Stabilizability",
+      "Reachability",
+      "Reconstructability",
+      "Detectability",
+      "Algebraic Riccati equations"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2914,
+    "output_tokens": 261,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 2.759547899942845,
+  "n_pages": 4,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Controllability and Observability\",\n  \"course_code\": \"4.6\",\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Controllability and Observability\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Controllability: driving system from initial state to arbitrary state\",\n    \"Matrix inverses and their existence in system computations\",\n    \"Controllability test using matrix C and rank Q\",\n    \"Observability: inferring initial conditions from observations\",\n    \"Observability matrix and its full rank requirement\",\n    \"Connection between controllability and observability\",\n    \"Practical vs. mathematical observability in fluid systems\"\n  ],\n  \"key_terms\": [\n    \"Controllability\",\n    \"Observability\",\n    \"Matrix inverses\",\n    \"Controllability test\",\n    \"Observability matrix\",\n    \"Stabilizability\",\n    \"Reachability\",\n    \"Reconstructability\",\n    \"Detectability\",\n    \"Algebraic Riccati equations\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2914,
+        "output_tokens": 261,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.759547899942845,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

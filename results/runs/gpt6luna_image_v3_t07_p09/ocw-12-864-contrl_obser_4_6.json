@@ -1,0 +1,66 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Controllability",
+      "Discrete-time state propagation",
+      "Controllability matrix and test",
+      "Observability",
+      "Observability matrix and test",
+      "Practical limitations of observability"
+    ],
+    "key_terms": [
+      "controllability",
+      "controllable",
+      "observability",
+      "observability matrix",
+      "stabilizability",
+      "reachability",
+      "reconstructability",
+      "detectability"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3,
+    "output_tokens": 403,
+    "cache_read_tokens": 6299,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00026479000000000004,
+  "billed_cost_usd": 0.00026479,
+  "latency_s": 6.473599300021306,
+  "n_pages": 4,
+  "image_pixels": 3452020,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Controllability and Observability\",\"year\":null,\"term\":null,\"discipline\":\"engineering\",\"doc_type\":\"textbook_chapter\",\"topics\":[\"Controllability\",\"Discrete-time state propagation\",\"Controllability matrix and test\",\"Observability\",\"Observability matrix and test\",\"Practical limitations of observability\"],\"key_terms\":[\"controllability\",\"controllable\",\"observability\",\"observability matrix\",\"stabilizability\",\"reachability\",\"reconstructability\",\"detectability\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3,
+        "output_tokens": 403,
+        "cache_read_tokens": 6299,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.473599300021306,
+      "error": null,
+      "request_id": "gen-1792863240-GSCZZunT1vGIj03lP33N",
+      "billed_cost_usd": 0.00026479
+    }
+  ]
+}

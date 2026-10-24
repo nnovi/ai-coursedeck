@@ -1,0 +1,69 @@
+{
+  "doc_id": "ocw-7-03-lecture33_1",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": "MIT",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": null,
+    "term": null,
+    "discipline": "medicine_health",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Environmental causes of cancer",
+      "Cancer cell origins",
+      "Genetic basis of cancer",
+      "Stomach cancer incidence",
+      "Complications in cancer genetics",
+      "Key mutated genes",
+      "Ras oncogene isolation",
+      "Synergistic effects of oncogenes"
+    ],
+    "key_terms": [
+      "mutagens",
+      "Aflatoxin B",
+      "3,4-benzpyrene",
+      "carcinoma",
+      "lukemia",
+      "sarcoma",
+      "mutations",
+      "oncogene",
+      "myc",
+      "ras",
+      "metastasis",
+      "angiogenesis"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 11132,
+    "output_tokens": 227,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 4.093891500029713,
+  "n_pages": 8,
+  "image_pixels": 4381555,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": null,\n  \"course_code\": null,\n  \"institution\": \"MIT\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": null,\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"medicine_health\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Environmental causes of cancer\",\n    \"Cancer cell origins\",\n    \"Genetic basis of cancer\",\n    \"Stomach cancer incidence\",\n    \"Complications in cancer genetics\",\n    \"Key mutated genes\",\n    \"Ras oncogene isolation\",\n    \"Synergistic effects of oncogenes\"\n  ],\n  \"key_terms\": [\n    \"mutagens\",\n    \"Aflatoxin B\",\n    \"3,4-benzpyrene\",\n    \"carcinoma\",\n    \"lukemia\",\n    \"sarcoma\",\n    \"mutations\",\n    \"oncogene\",\n    \"myc\",\n    \"ras\",\n    \"metastasis\",\n    \"angiogenesis\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 11132,
+        "output_tokens": 227,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.093891500029713,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

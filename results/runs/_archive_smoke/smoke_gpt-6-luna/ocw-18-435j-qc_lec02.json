@@ -1,0 +1,76 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Quantum Computation",
+    "course_code": "18.435",
+    "institution": "MIT",
+    "lecturers": [
+      "P. Shor"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Quantum states and Hilbert spaces",
+      "Unitary evolution and operators",
+      "Pauli matrices and Hadamard transform",
+      "Quantum measurements and projectors",
+      "Composite systems and tensor products",
+      "Entangled states"
+    ],
+    "key_terms": [
+      "Hilbert space",
+      "state space",
+      "quantum state",
+      "ket",
+      "bra",
+      "unitary operator",
+      "Hermitian operator",
+      "Pauli matrices",
+      "Hadamard transform",
+      "Hamiltonian",
+      "measurement operators",
+      "completeness equation",
+      "orthonormal basis",
+      "projector",
+      "tensor product",
+      "Kronecker product",
+      "entangled"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4002,
+    "output_tokens": 774,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0007872,
+  "billed_cost_usd": 0.000887175,
+  "latency_s": 8.128021099953912,
+  "n_pages": 3,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Quantum Computation\",\n  \"course_code\": \"18.435\",\n  \"institution\": \"MIT\",\n  \"lecturers\": [\"P. Shor\"],\n  \"lecture_number\": 2,\n  \"lecture_title\": \"Basics of Quantum Mechanics\",\n  \"year\": 2003,\n  \"term\": null,\n  \"discipline\": \"physics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Quantum states and Hilbert spaces\",\n    \"Unitary evolution and operators\",\n    \"Pauli matrices and Hadamard transform\",\n    \"Quantum measurements and projectors\",\n    \"Composite systems and tensor products\",\n    \"Entangled states\"\n  ],\n  \"key_terms\": [\n    \"Hilbert space\",\n    \"state space\",\n    \"quantum state\",\n    \"ket\",\n    \"bra\",\n    \"unitary operator\",\n    \"Hermitian operator\",\n    \"Pauli matrices\",\n    \"Hadamard transform\",\n    \"Hamiltonian\",\n    \"measurement operators\",\n    \"completeness equation\",\n    \"orthonormal basis\",\n    \"projector\",\n    \"tensor product\",\n    \"Kronecker product\",\n    \"entangled\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4002,
+        "output_tokens": 774,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.128021099953912,
+      "error": null,
+      "request_id": "gen-1792848785-lNLozaMQGyYzd1ne1evj",
+      "billed_cost_usd": 0.000887175
+    }
+  ]
+}

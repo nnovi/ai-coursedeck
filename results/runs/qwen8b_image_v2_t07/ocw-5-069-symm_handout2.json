@@ -1,0 +1,73 @@
+{
+  "doc_id": "ocw-5-069-symm_handout2",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Crystal Structure Analysis",
+    "course_code": "5.069",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": 2008,
+    "term": "spring",
+    "discipline": "chemistry",
+    "doc_type": "slides",
+    "topics": [
+      "Going 3D",
+      "The Unit Cell",
+      "Crystallographic Conventions",
+      "Unconventional Lattices",
+      "4₁ and 4₃ screw axes",
+      "Space Groups",
+      "Atomic Coordinates",
+      "Red Modification of PbO",
+      "Some Definitions"
+    ],
+    "key_terms": [
+      "crystal",
+      "unit cell",
+      "lattice",
+      "axes",
+      "angles",
+      "volume",
+      "symmetry",
+      "centro-symmetric",
+      "inversion center",
+      "Bravais lattices",
+      "screw axes",
+      "space groups",
+      "atomic coordinates",
+      "symmetry operations",
+      "asymmetric unit"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 11907,
+    "output_tokens": 256,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 6.733074399991892,
+  "n_pages": 10,
+  "image_pixels": 3660317,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Crystal Structure Analysis\",\n  \"course_code\": \"5.069\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": null,\n  \"year\": 2008,\n  \"term\": \"spring\",\n  \"discipline\": \"chemistry\",\n  \"doc_type\": \"slides\",\n  \"topics\": [\n    \"Going 3D\",\n    \"The Unit Cell\",\n    \"Crystallographic Conventions\",\n    \"Unconventional Lattices\",\n    \"4₁ and 4₃ screw axes\",\n    \"Space Groups\",\n    \"Atomic Coordinates\",\n    \"Red Modification of PbO\",\n    \"Some Definitions\"\n  ],\n  \"key_terms\": [\n    \"crystal\",\n    \"unit cell\",\n    \"lattice\",\n    \"axes\",\n    \"angles\",\n    \"volume\",\n    \"symmetry\",\n    \"centro-symmetric\",\n    \"inversion center\",\n    \"Bravais lattices\",\n    \"screw axes\",\n    \"space groups\",\n    \"atomic coordinates\",\n    \"symmetry operations\",\n    \"asymmetric unit\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 11907,
+        "output_tokens": 256,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.733074399991892,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

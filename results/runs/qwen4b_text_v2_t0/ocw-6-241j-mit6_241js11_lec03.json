@@ -1,0 +1,64 @@
+{
+  "doc_id": "ocw-6-241j-mit6_241js11_lec03",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Dynamic Systems and Control",
+    "course_code": "6.241J",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Emilio Frazzoli"
+    ],
+    "lecture_number": 3,
+    "lecture_title": "Least Squares Solutions of Linear Problems",
+    "year": 2011,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Least Squares Control",
+      "Constructing Solutions",
+      "Gram Product Formulation",
+      "Projection onto Subspace"
+    ],
+    "key_terms": [
+      "Least Squares",
+      "Euclidean Norm",
+      "Null Space",
+      "Gram Product",
+      "Projection",
+      "Orthogonal Component",
+      "Minimum Norm Solution"
+    ],
+    "references": [
+      "DDV, Chapter 3"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2448,
+    "output_tokens": 207,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 1.2898013999219984,
+  "n_pages": 6,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Dynamic Systems and Control\",\n  \"course_code\": \"6.241J\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"Emilio Frazzoli\"\n  ],\n  \"lecture_number\": 3,\n  \"lecture_title\": \"Least Squares Solutions of Linear Problems\",\n  \"year\": 2011,\n  \"term\": \"spring\",\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Least Squares Control\",\n    \"Constructing Solutions\",\n    \"Gram Product Formulation\",\n    \"Projection onto Subspace\"\n  ],\n  \"key_terms\": [\n    \"Least Squares\",\n    \"Euclidean Norm\",\n    \"Null Space\",\n    \"Gram Product\",\n    \"Projection\",\n    \"Orthogonal Component\",\n    \"Minimum Norm Solution\"\n  ],\n  \"references\": [\n    \"DDV, Chapter 3\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2448,
+        "output_tokens": 207,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 1.2898013999219984,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "doc_id": "zen-23470007-p002",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Філософія освіти",
+    "course_code": null,
+    "institution": "Український державний університет імені Михайла Драгоманова",
+    "lecturers": [
+      "Сергій Терепищий"
+    ],
+    "lecture_number": 1,
+    "lecture_title": "Філософія освіти як галузь філософії та навчальна дисципліна",
+    "year": 2026,
+    "term": null,
+    "discipline": "humanities",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Дволикий Янус: що таке філософія освіти",
+      "П’ять запитань до будь-якого уроку",
+      "Учитель і учень: хто кого вчить",
+      "Освіта як «дух епохи»",
+      "Голос сучасності: Герт Бієста і три функції освіти",
+      "Карта курсу: десять тем"
+    ],
+    "key_terms": [
+      "філософія освіти",
+      "об’єкт",
+      "предмет",
+      "виміри освіти",
+      "суб’єкт-суб’єктна взаємодія",
+      "дух епохи",
+      "людиноцентризм",
+      "суб’єктифікація",
+      "лерніфікація",
+      "освітній ландшафт",
+      "понтифік",
+      "кваліфікація",
+      "соціалізація",
+      "антропологічні орієнтири",
+      "соціальні запити",
+      "резонанс"
+    ],
+    "references": [
+      "Філософія освіти : навч. посіб. / за наук. ред. В. П. Андрущенка. 2-ге вид. Київ : Вид-во НПУ імені М. П. Драгоманова, 2021. 348 с.",
+      "Терепищий С. Філософія освіти: переосмислення освітнього ландшафту : монографія. Київ : Видавництво Людмила, 2026. 504 с.",
+      "Biesta G. Beyond Learning: Democratic Education for a Human Future. Boulder : Paradigm Publishers, 2006.",
+      "Biesta G. Good education in an age of measurement: on the need to reconnect with the question of purpose in education // Educational Assessment, Evaluation and Accountability. 2009. Vol. 21, № 1. P. 33–46.",
+      "Biesta G. The Beautiful Risk of Education. Boulder : Paradigm Publishers, 2013.",
+      "Дьюї Дж. Демократія і освіта / пер. з англ. Львів : Літопис, 2003.",
+      "Phillips D., Siegel H. Philosophy of Education // The Stanford Encyclopedia of Philosophy (Autumn 2013 Edition) / ed. E. N. Zalta. URL: https://plato.stanford.edu/entries/education-philosophy/",
+      "Robinson K., Aronica L. Creative Schools: The Grassroots Revolution That’s Transforming Education. New York : Viking, 2015.",
+      "Sandel M. J. What Money Can’t Buy: The Moral Limits of Markets. New York : Farrar, Straus and Giroux, 2012.",
+      "Сковорода Г. Повна академічна збірка творів / за ред. Л. Ушкалова. Харків ; Едмонтон ; Торонто : Майдан ; Вид-во Канад. ін-ту укр. студій, 2011."
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 42634,
+    "output_tokens": 2058,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00533035,
+  "billed_cost_usd": null,
+  "latency_s": 11.145168900024146,
+  "n_pages": 20,
+  "image_pixels": 32682398,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Філософія освіти\",\"course_code\":null,\"institution\":\"Український державний університет імені Михайла Драгоманова\",\"lecturers\":[\"Сергій Терепищий\"],\"lecture_number\":1,\"lecture_title\":\"Філософія освіти як галузь філософії та навчальна дисципліна\",\"year\":2026,\"term\":null,\"discipline\":\"humanities\",\"doc_type\":\"textbook_chapter\",\"topics\":[\"Дволикий Янус: що таке філософія освіти\",\"П’ять запитань до будь-якого уроку\",\"Учитель і учень: хто кого вчить\",\"Освіта як «дух епохи»\",\"Голос сучасності: Герт Бієста і три функції освіти\",\"Карта курсу: десять тем\"],\"key_terms\":[\"філософія освіти\",\"об’єкт\",\"предмет\",\"виміри освіти\",\"суб’єкт-суб’єктна взаємодія\",\"дух епохи\",\"людиноцентризм\",\"суб’єктифікація\",\"лерніфікація\",\"освітній ландшафт\",\"понтифік\",\"кваліфікація\",\"соціалізація\",\"антропологічні орієнтири\",\"соціальні запити\",\"резонанс\"],\"references\":[\"Філософія освіти : навч. посіб. / за наук. ред. В. П. Андрущенка. 2-ге вид. Київ : Вид-во НПУ імені М. П. Драгоманова, 2021. 348 с.\",\"Терепищий С. Філософія освіти: переосмислення освітнього ландшафту : монографія. Київ : Видавництво Людмила, 2026. 504 с.\",\"Biesta G. Beyond Learning: Democratic Education for a Human Future. Boulder : Paradigm Publishers, 2006.\",\"Biesta G. Good education in an age of measurement: on the need to reconnect with the question of purpose in education // Educational Assessment, Evaluation and Accountability. 2009. Vol. 21, № 1. P. 33–46.\",\"Biesta G. The Beautiful Risk of Education. Boulder : Paradigm Publishers, 2013.\",\"Дьюї Дж. Демократія і освіта / пер. з англ. Львів : Літопис, 2003.\",\"Phillips D., Siegel H. Philosophy of Education // The Stanford Encyclopedia of Philosophy (Autumn 2013 Edition) / ed. E. N. Zalta. URL: https://plato.stanford.edu/entries/education-philosophy/\",\"Robinson K., Aronica L. Creative Schools: The Grassroots Revolution That’s Transforming Education. New York : Viking, 2015.\",\"Sandel M. J. What Money Can’t Buy: The Moral Limits of Markets. New York : Farrar, Straus and Giroux, 2012.\",\"Сковорода Г. Повна академічна збірка творів / за ред. Л. Ушкалова. Харків ; Едмонтон ; Торонто : Майдан ; Вид-во Канад. ін-ту укр. студій, 2011.\"]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 42634,
+        "output_tokens": 2058,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 11.145168900024146,
+      "error": null,
+      "request_id": "req_011CgMTc7g1cMDWJUN5dwzwP",
+      "billed_cost_usd": null
+    }
+  ]
+}

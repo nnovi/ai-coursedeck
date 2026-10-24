@@ -1,0 +1,71 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Modal Logic",
+    "course_code": "24.244",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 5,
+    "lecture_title": "Stronger Systems",
+    "year": 2015,
+    "term": "spring",
+    "discipline": "humanities",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities and reduction laws",
+      "Modalities in S4",
+      "Validity for S4",
+      "System S5",
+      "Validity in S5",
+      "System B",
+      "Basic facts about B",
+      "Stronger systems than S5"
+    ],
+    "key_terms": [
+      "modality",
+      "standard form",
+      "iterated modality",
+      "reduction law",
+      "S4",
+      "S5",
+      "S4-frame",
+      "S5-frame",
+      "B-frame",
+      "accessibility relation",
+      "equivalence relation"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3,
+    "output_tokens": 730,
+    "cache_read_tokens": 10419,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00046949000000000003,
+  "billed_cost_usd": 0.00046949,
+  "latency_s": 10.547086200094782,
+  "n_pages": 5,
+  "image_pixels": 6943548,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Modal Logic\",\n  \"course_code\": \"24.244\",\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [],\n  \"lecture_number\": 5,\n  \"lecture_title\": \"Stronger Systems\",\n  \"year\": 2015,\n  \"term\": \"spring\",\n  \"discipline\": \"humanities\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Modalities and reduction laws\",\n    \"Modalities in S4\",\n    \"Validity for S4\",\n    \"System S5\",\n    \"Validity in S5\",\n    \"System B\",\n    \"Basic facts about B\",\n    \"Stronger systems than S5\"\n  ],\n  \"key_terms\": [\n    \"modality\",\n    \"standard form\",\n    \"iterated modality\",\n    \"reduction law\",\n    \"S4\",\n    \"S5\",\n    \"S4-frame\",\n    \"S5-frame\",\n    \"B-frame\",\n    \"accessibility relation\",\n    \"equivalence relation\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3,
+        "output_tokens": 730,
+        "cache_read_tokens": 10419,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 10.547086200094782,
+      "error": null,
+      "request_id": "gen-1792863226-ni3VmODzx0pVIijad8Qw",
+      "billed_cost_usd": 0.00046949
+    }
+  ]
+}

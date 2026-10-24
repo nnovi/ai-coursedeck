@@ -1,0 +1,71 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Existence of matrix inverses in Riccati solutions",
+      "Controllability of a discrete linear model",
+      "Controllability test and nullspace of the desired output",
+      "Observability and recovery of initial conditions",
+      "Observability matrix and the observability test",
+      "Practical limits of observability in fluid flows"
+    ],
+    "key_terms": [
+      "controllable",
+      "controllability",
+      "observable",
+      "observability",
+      "observability matrix",
+      "steady-state solution",
+      "Riccati equations",
+      "state vector",
+      "stabilizability",
+      "reachability",
+      "reconstructability",
+      "detectability",
+      "nullspace",
+      "rank"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4579,
+    "output_tokens": 773,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0008823500000000001,
+  "billed_cost_usd": null,
+  "latency_s": 4.708994499989785,
+  "n_pages": 4,
+  "image_pixels": 3452020,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Controllability and Observability\",\"year\":null,\"term\":null,\"discipline\":\"engineering\",\"doc_type\":\"textbook_chapter\",\"topics\":[\"Existence of matrix inverses in Riccati solutions\",\"Controllability of a discrete linear model\",\"Controllability test and nullspace of the desired output\",\"Observability and recovery of initial conditions\",\"Observability matrix and the observability test\",\"Practical limits of observability in fluid flows\"],\"key_terms\":[\"controllable\",\"controllability\",\"observable\",\"observability\",\"observability matrix\",\"steady-state solution\",\"Riccati equations\",\"state vector\",\"stabilizability\",\"reachability\",\"reconstructability\",\"detectability\",\"nullspace\",\"rank\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4579,
+        "output_tokens": 773,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.708994499989785,
+      "error": null,
+      "request_id": "req_011CgM9uavjNZVadsL5LwoGr",
+      "billed_cost_usd": null
+    }
+  ]
+}

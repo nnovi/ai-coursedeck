@@ -1,0 +1,81 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Quantum Computation",
+    "course_code": "18.435",
+    "institution": "MIT",
+    "lecturers": [
+      "P. Shor"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Postulate 1: state space of a physical system",
+      "Qubits and photon polarization",
+      "Kets, bras and unit vectors",
+      "Postulate 2: unitary evolution",
+      "Pauli matrices and Hadamard transform",
+      "Schrödinger equation and Hamiltonian",
+      "Postulate 3: quantum measurements",
+      "Projectors and orthogonal subspaces",
+      "Postulate 4: composite systems and tensor products",
+      "Entangled states"
+    ],
+    "key_terms": [
+      "state space",
+      "unit vector",
+      "qubit",
+      "ket",
+      "bra",
+      "unitary operator",
+      "Hermitian operator",
+      "adjoint operator",
+      "Hamiltonian",
+      "Pauli matrices",
+      "Hadamard transform",
+      "measurement operators",
+      "completeness equation",
+      "projector",
+      "orthonormal basis",
+      "tensor product",
+      "Kronecker product",
+      "entangled"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 7308,
+    "output_tokens": 1184,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00136075,
+  "billed_cost_usd": null,
+  "latency_s": 6.531665700022131,
+  "n_pages": 3,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Quantum Computation\",\"course_code\":\"18.435\",\"institution\":\"MIT\",\"lecturers\":[\"P. Shor\"],\"lecture_number\":2,\"lecture_title\":\"Basics of Quantum Mechanics\",\"year\":2003,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Postulate 1: state space of a physical system\",\"Qubits and photon polarization\",\"Kets, bras and unit vectors\",\"Postulate 2: unitary evolution\",\"Pauli matrices and Hadamard transform\",\"Schrödinger equation and Hamiltonian\",\"Postulate 3: quantum measurements\",\"Projectors and orthogonal subspaces\",\"Postulate 4: composite systems and tensor products\",\"Entangled states\"],\"key_terms\":[\"state space\",\"unit vector\",\"qubit\",\"ket\",\"bra\",\"unitary operator\",\"Hermitian operator\",\"adjoint operator\",\"Hamiltonian\",\"Pauli matrices\",\"Hadamard transform\",\"measurement operators\",\"completeness equation\",\"projector\",\"orthonormal basis\",\"tensor product\",\"Kronecker product\",\"entangled\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 7308,
+        "output_tokens": 1184,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.531665700022131,
+      "error": null,
+      "request_id": "req_011CgMA15KBaHDUbK3e2JQhj",
+      "billed_cost_usd": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Modal Logic",
+    "course_code": "Philosophy 244",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 5,
+    "lecture_title": "Stronger Systems",
+    "year": 2015,
+    "term": "spring",
+    "discipline": "humanities",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities and reduction laws",
+      "Modalities in S4",
+      "Validity for S4",
+      "System S5",
+      "Validity in S5",
+      "System B",
+      "Basic facts about B",
+      "Stronger systems than S5"
+    ],
+    "key_terms": [
+      "modality",
+      "iterated modality",
+      "reduction law",
+      "S4",
+      "S5",
+      "pure modality",
+      "standard form",
+      "affirmative modality",
+      "equivalent modalities",
+      "S4 frame",
+      "S5 frame",
+      "equivalence relation",
+      "System B",
+      "B-frame",
+      "System G",
+      "soundness"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 13327,
+    "output_tokens": 266,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.030073,
+  "billed_cost_usd": null,
+  "latency_s": 5.0875001000240445,
+  "n_pages": 5,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Modal Logic\",\"course_code\":\"Philosophy 244\",\"institution\":\"MIT OpenCourseWare\",\"lecturers\":[],\"lecture_number\":5,\"lecture_title\":\"Stronger Systems\",\"year\":2015,\"term\":\"spring\",\"discipline\":\"humanities\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Modalities and reduction laws\",\"Modalities in S4\",\"Validity for S4\",\"System S5\",\"Validity in S5\",\"System B\",\"Basic facts about B\",\"Stronger systems than S5\"],\"key_terms\":[\"modality\",\"iterated modality\",\"reduction law\",\"S4\",\"S5\",\"pure modality\",\"standard form\",\"affirmative modality\",\"equivalent modalities\",\"S4 frame\",\"S5 frame\",\"equivalence relation\",\"System B\",\"B-frame\",\"System G\",\"soundness\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 13327,
+        "output_tokens": 266,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.0875001000240445,
+      "error": null,
+      "request_id": "req_011CgMA9hM5XMZvbJpjm2eo1",
+      "billed_cost_usd": null
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Modal Logic",
+    "course_code": "Philosophy 244",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Stronger Systems",
+    "year": 2015,
+    "term": "spring",
+    "discipline": "humanities",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities and iterated modalities",
+      "Reduction laws R1 to R4",
+      "Candidate axioms and system S4",
+      "Modalities in S4 and the fourteen modalities",
+      "Validity for S4 frames",
+      "System S5 and its theorems",
+      "Validity in S5 frames",
+      "System B and its basic facts",
+      "Upward and onward: system G"
+    ],
+    "key_terms": [
+      "modality",
+      "iterated modality",
+      "reduction law",
+      "S4",
+      "S5",
+      "system B",
+      "system G",
+      "equivalence of modalities",
+      "standard form",
+      "affirmative modality",
+      "pure modality",
+      "reflexive and transitive frame",
+      "S4-valid",
+      "equivalence relation",
+      "B-frame",
+      "provability",
+      "characteristic S4 axiom",
+      "soundness",
+      "valid in all frames",
+      "intuitionistic logic"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 14507,
+    "output_tokens": 1706,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0023416500000000002,
+  "billed_cost_usd": null,
+  "latency_s": 8.726365000009537,
+  "n_pages": 5,
+  "image_pixels": 6943548,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Modal Logic\",\"course_code\":\"Philosophy 244\",\"institution\":\"MIT OpenCourseWare\",\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Stronger Systems\",\"year\":2015,\"term\":\"spring\",\"discipline\":\"humanities\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Modalities and iterated modalities\",\"Reduction laws R1 to R4\",\"Candidate axioms and system S4\",\"Modalities in S4 and the fourteen modalities\",\"Validity for S4 frames\",\"System S5 and its theorems\",\"Validity in S5 frames\",\"System B and its basic facts\",\"Upward and onward: system G\"],\"key_terms\":[\"modality\",\"iterated modality\",\"reduction law\",\"S4\",\"S5\",\"system B\",\"system G\",\"equivalence of modalities\",\"standard form\",\"affirmative modality\",\"pure modality\",\"reflexive and transitive frame\",\"S4-valid\",\"equivalence relation\",\"B-frame\",\"provability\",\"characteristic S4 axiom\",\"soundness\",\"valid in all frames\",\"intuitionistic logic\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 14507,
+        "output_tokens": 1706,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.726365000009537,
+      "error": null,
+      "request_id": "req_011CgM9wvkPrdfo493AB2nRj",
+      "billed_cost_usd": null
+    }
+  ]
+}

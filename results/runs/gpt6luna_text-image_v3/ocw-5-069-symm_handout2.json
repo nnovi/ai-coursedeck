@@ -1,0 +1,72 @@
+{
+  "doc_id": "ocw-5-069-symm_handout2",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Crystal Structure Analysis",
+    "course_code": "5.069",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Going 3D",
+    "year": 2008,
+    "term": "spring",
+    "discipline": "chemistry",
+    "doc_type": "slides",
+    "topics": [
+      "Three-dimensional crystal lattices",
+      "Unit cells and asymmetric units",
+      "Crystallographic conventions",
+      "Unconventional lattices",
+      "Screw axes",
+      "Space groups",
+      "Atomic coordinates and symmetry operations",
+      "Red modification of PbO",
+      "Crystallographic definitions"
+    ],
+    "key_terms": [
+      "unit cell",
+      "lattice",
+      "asymmetric unit",
+      "symmetry operation",
+      "symmetry element",
+      "inversion center",
+      "triclinic system",
+      "monoclinic system",
+      "Bravais lattices",
+      "screw axes",
+      "space groups",
+      "atomic coordinates"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 5844,
+    "output_tokens": 688,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00094882,
+  "billed_cost_usd": 0.001094845,
+  "latency_s": 8.724350900040008,
+  "n_pages": 10,
+  "image_pixels": 3660317,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Crystal Structure Analysis\",\n  \"course_code\": \"5.069\",\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Going 3D\",\n  \"year\": 2008,\n  \"term\": \"spring\",\n  \"discipline\": \"chemistry\",\n  \"doc_type\": \"slides\",\n  \"topics\": [\n    \"Three-dimensional crystal lattices\",\n    \"Unit cells and asymmetric units\",\n    \"Crystallographic conventions\",\n    \"Unconventional lattices\",\n    \"Screw axes\",\n    \"Space groups\",\n    \"Atomic coordinates and symmetry operations\",\n    \"Red modification of PbO\",\n    \"Crystallographic definitions\"\n  ],\n  \"key_terms\": [\n    \"unit cell\",\n    \"lattice\",\n    \"asymmetric unit\",\n    \"symmetry operation\",\n    \"symmetry element\",\n    \"inversion center\",\n    \"triclinic system\",\n    \"monoclinic system\",\n    \"Bravais lattices\",\n    \"screw axes\",\n    \"space groups\",\n    \"atomic coordinates\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 5844,
+        "output_tokens": 688,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.724350900040008,
+      "error": null,
+      "request_id": "gen-1792849933-i5qL7ic1pVKZJvEFB9Q7",
+      "billed_cost_usd": 0.001094845
+    }
+  ]
+}

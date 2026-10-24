@@ -1,0 +1,78 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Quantum Computation",
+    "course_code": "18.435/2.111",
+    "institution": "MIT",
+    "lecturers": [
+      "P. Shor"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "State space postulate",
+      "Notation for kets and bras",
+      "Unitary evolution",
+      "Pauli matrices and Hadamard transform",
+      "Quantum measurements",
+      "Projective measurements",
+      "Composite systems and tensor product",
+      "Entanglement"
+    ],
+    "key_terms": [
+      "Hilbert space",
+      "state space",
+      "qubit",
+      "ket",
+      "bra",
+      "unitary operator",
+      "adjoint operator",
+      "Hermitian operator",
+      "Pauli matrices",
+      "Hadamard transform",
+      "Hamiltonian",
+      "measurement operators",
+      "completeness equation",
+      "projector",
+      "tensor product",
+      "Kronecker product",
+      "entangled"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3358,
+    "output_tokens": 301,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.010485,
+  "billed_cost_usd": null,
+  "latency_s": 5.635954500059597,
+  "n_pages": 3,
+  "image_pixels": 2477652,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Quantum Computation\",\"course_code\":\"18.435/2.111\",\"institution\":\"MIT\",\"lecturers\":[\"P. Shor\"],\"lecture_number\":2,\"lecture_title\":\"Basics of Quantum Mechanics\",\"year\":2003,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[\"State space postulate\",\"Notation for kets and bras\",\"Unitary evolution\",\"Pauli matrices and Hadamard transform\",\"Quantum measurements\",\"Projective measurements\",\"Composite systems and tensor product\",\"Entanglement\"],\"key_terms\":[\"Hilbert space\",\"state space\",\"qubit\",\"ket\",\"bra\",\"unitary operator\",\"adjoint operator\",\"Hermitian operator\",\"Pauli matrices\",\"Hadamard transform\",\"Hamiltonian\",\"measurement operators\",\"completeness equation\",\"projector\",\"tensor product\",\"Kronecker product\",\"entangled\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3358,
+        "output_tokens": 301,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.635954500059597,
+      "error": null,
+      "request_id": "req_011CgMA4zkhJMWUuFQsepjXb",
+      "billed_cost_usd": null
+    }
+  ]
+}

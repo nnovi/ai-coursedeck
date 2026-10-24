@@ -1,0 +1,71 @@
+{
+  "doc_id": "ocw-7-29j-mit7_29js12_lecture3",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Cellular Neurobiology",
+    "course_code": "9.09J / 7.29J",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Prof. William Quinn",
+      "Prof. Troy Littleton"
+    ],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": null,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Acetylcholine receptor structure and function",
+      "Voltage-gated Na+ channels",
+      "Ion channel selectivity",
+      "Cloning membrane proteins",
+      "Nernst equilibrium and membrane potential",
+      "Ion gradients and energy",
+      "Na+/K+ ATPase pumps"
+    ],
+    "key_terms": [
+      "Acetylcholine receptor",
+      "Voltage-gated Na+ channel",
+      "Ion channel selectivity",
+      "Cloning membrane proteins",
+      "Nernst equilibrium",
+      "Membrane potential",
+      "Ion gradients",
+      "Na+/K+ ATPase pump"
+    ],
+    "references": [
+      "MIT OpenCourseWare",
+      "http://ocw.mit.edu",
+      "http://ocw.mit.edu/terms"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 7935,
+    "output_tokens": 283,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 6.329608700005338,
+  "n_pages": 5,
+  "image_pixels": 7663560,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Cellular Neurobiology\",\n  \"course_code\": \"9.09J / 7.29J\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"Prof. William Quinn\",\n    \"Prof. Troy Littleton\"\n  ],\n  \"lecture_number\": null,\n  \"lecture_title\": null,\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"biology\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Acetylcholine receptor structure and function\",\n    \"Voltage-gated Na+ channels\",\n    \"Ion channel selectivity\",\n    \"Cloning membrane proteins\",\n    \"Nernst equilibrium and membrane potential\",\n    \"Ion gradients and energy\",\n    \"Na+/K+ ATPase pumps\"\n  ],\n  \"key_terms\": [\n    \"Acetylcholine receptor\",\n    \"Voltage-gated Na+ channel\",\n    \"Ion channel selectivity\",\n    \"Cloning membrane proteins\",\n    \"Nernst equilibrium\",\n    \"Membrane potential\",\n    \"Ion gradients\",\n    \"Na+/K+ ATPase pump\"\n  ],\n  \"references\": [\n    \"MIT OpenCourseWare\",\n    \"http://ocw.mit.edu\",\n    \"http://ocw.mit.edu/terms\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 7935,
+        "output_tokens": 283,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.329608700005338,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

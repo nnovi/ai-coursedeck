@@ -1,0 +1,78 @@
+{
+  "doc_id": "ocw-21l-995-questions_5_10",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Special Topics in Literature: Milton's \"Paradise Lost\"",
+    "course_code": "21L.995",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Mary Fuller"
+    ],
+    "lecture_number": null,
+    "lecture_title": "Study questions for Paradise Lost, Books V-X",
+    "year": 2008,
+    "term": "winter",
+    "discipline": "humanities",
+    "doc_type": "handout",
+    "topics": [
+      "Milton's modern recovery of ancient liberties",
+      "Satan's massiveness and epic heroism",
+      "God's voice and language in Book III",
+      "Eve's dream and Adam's theory of agency",
+      "Raphael's account and the question of angels eating",
+      "Abdiel's new model heroism",
+      "Urania's invocation and Bellerophon and Orpheus",
+      "Cosmic order and geocentric versus heliocentric debate",
+      "Adam's marriage and the temptation to sin",
+      "Eve and Adam's work in Paradise and Satan's temptation",
+      "Knowledge and food in the forbidden fruit",
+      "Changed knowledge after the Fall in Book X"
+    ],
+    "key_terms": [
+      "epic hero",
+      "heroism",
+      "agency",
+      "psychology",
+      "geocentric",
+      "heliocentric",
+      "soliloquy",
+      "forbidden fruit",
+      "knowledge",
+      "due diligence",
+      "the Verse",
+      "free love"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4570,
+    "output_tokens": 1315,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00115245,
+  "billed_cost_usd": null,
+  "latency_s": 6.482949600089341,
+  "n_pages": 3,
+  "image_pixels": 3518592,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Special Topics in Literature: Milton's \\\"Paradise Lost\\\"\",\"course_code\":\"21L.995\",\"institution\":\"Massachusetts Institute of Technology\",\"lecturers\":[\"Mary Fuller\"],\"lecture_number\":null,\"lecture_title\":\"Study questions for Paradise Lost, Books V-X\",\"year\":2008,\"term\":\"winter\",\"discipline\":\"humanities\",\"doc_type\":\"handout\",\"topics\":[\"Milton's modern recovery of ancient liberties\",\"Satan's massiveness and epic heroism\",\"God's voice and language in Book III\",\"Eve's dream and Adam's theory of agency\",\"Raphael's account and the question of angels eating\",\"Abdiel's new model heroism\",\"Urania's invocation and Bellerophon and Orpheus\",\"Cosmic order and geocentric versus heliocentric debate\",\"Adam's marriage and the temptation to sin\",\"Eve and Adam's work in Paradise and Satan's temptation\",\"Knowledge and food in the forbidden fruit\",\"Changed knowledge after the Fall in Book X\"],\"key_terms\":[\"epic hero\",\"heroism\",\"agency\",\"psychology\",\"geocentric\",\"heliocentric\",\"soliloquy\",\"forbidden fruit\",\"knowledge\",\"due diligence\",\"the Verse\",\"free love\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4570,
+        "output_tokens": 1315,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.482949600089341,
+      "error": null,
+      "request_id": "req_011CgMTea8XhuBmNWu2dvjNK",
+      "billed_cost_usd": null
+    }
+  ]
+}

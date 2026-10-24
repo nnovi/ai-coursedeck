@@ -1,0 +1,18 @@
+{
+  "run_id": "smoke_haiku",
+  "model": "haiku",
+  "model_id": "claude-haiku-5-5",
+  "provider": "anthropic",
+  "mode": "text",
+  "prompt": "v3",
+  "prompt_sha": "aeef5684a879",
+  "effort": null,
+  "temperature": null,
+  "file_name_hint": true,
+  "manifest": "data\\manifests\\golden.csv",
+  "doc_ids": [
+    "ocw-18-435j-qc_lec02"
+  ],
+  "git_commit": "65f3988",
+  "started_at": "2026-10-24T16:32:26"
+}

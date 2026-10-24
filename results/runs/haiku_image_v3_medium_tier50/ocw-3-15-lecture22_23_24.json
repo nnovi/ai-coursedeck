@@ -1,0 +1,81 @@
+{
+  "doc_id": "ocw-3-15-lecture22_23_24",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": "3.15",
+    "institution": "MIT",
+    "lecturers": [
+      "C.A. Ross"
+    ],
+    "lecture_number": null,
+    "lecture_title": "Data Storage",
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "handout",
+    "topics": [
+      "Magnetic recording: tape and hard disk systems",
+      "Writing and reading by induction",
+      "Head materials",
+      "Hard disk media",
+      "Tape media",
+      "Magnetoresistive readback",
+      "Giant magnetoresistance spin valves",
+      "Magnetooptical media",
+      "Optical media: CDs and DVDs"
+    ],
+    "key_terms": [
+      "magnetoresistance",
+      "giant magnetoresistance (GMR)",
+      "anisotropic magnetoresistance (AMR)",
+      "spin-valve",
+      "tunnel junction",
+      "Kerr effect",
+      "Faraday effect",
+      "compensation temperature",
+      "ferrimagnet",
+      "track pitch",
+      "coercivity",
+      "MRAM",
+      "write-once media (WORM)",
+      "phase change media",
+      "bit length"
+    ],
+    "references": [
+      "Braithwaite and Weaver, Electronic Materials, sections 3.8-10, 3.12 and 3.3",
+      "Jiles, Introduction to Magnetism and Magnetic Materials Chap. 14"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2241,
+    "output_tokens": 1481,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00100255,
+  "billed_cost_usd": null,
+  "latency_s": 6.490428299992345,
+  "n_pages": 2,
+  "image_pixels": 1641353,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":\"3.15\",\"institution\":\"MIT\",\"lecturers\":[\"C.A. Ross\"],\"lecture_number\":null,\"lecture_title\":\"Data Storage\",\"year\":null,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"handout\",\"topics\":[\"Magnetic recording: tape and hard disk systems\",\"Writing and reading by induction\",\"Head materials\",\"Hard disk media\",\"Tape media\",\"Magnetoresistive readback\",\"Giant magnetoresistance spin valves\",\"Magnetooptical media\",\"Optical media: CDs and DVDs\"],\"key_terms\":[\"magnetoresistance\",\"giant magnetoresistance (GMR)\",\"anisotropic magnetoresistance (AMR)\",\"spin-valve\",\"tunnel junction\",\"Kerr effect\",\"Faraday effect\",\"compensation temperature\",\"ferrimagnet\",\"track pitch\",\"coercivity\",\"MRAM\",\"write-once media (WORM)\",\"phase change media\",\"bit length\"],\"references\":[\"Braithwaite and Weaver, Electronic Materials, sections 3.8-10, 3.12 and 3.3\",\"Jiles, Introduction to Magnetism and Magnetic Materials Chap. 14\"]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2241,
+        "output_tokens": 1481,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.490428299992345,
+      "error": null,
+      "request_id": "req_011CgMTgvxEErPnioPH6qGJi",
+      "billed_cost_usd": null
+    }
+  ]
+}

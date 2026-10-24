@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-5-069-symm_handout2",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Crystal Structure Analysis",
+    "course_code": "5.069",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": 2008,
+    "term": "spring",
+    "discipline": "chemistry",
+    "doc_type": "slides",
+    "topics": [
+      "Crystal as a periodic three-dimensional lattice",
+      "The unit cell and its axes and angles",
+      "Crystallographic conventions for crystal systems",
+      "Unconventional lattices and Bravais lattices",
+      "41 and 43 screw axes",
+      "Space groups",
+      "Atomic coordinates and symmetry operations",
+      "Red modification of PbO example",
+      "Definitions of symmetry terms"
+    ],
+    "key_terms": [
+      "unit cell",
+      "asymmetric unit",
+      "lattice",
+      "symmetry operation",
+      "symmetry element",
+      "space group",
+      "inversion center",
+      "screw axis",
+      "translation",
+      "lattice centering",
+      "Bravais lattice",
+      "monoclinic angle",
+      "right-handed system",
+      "atomic coordinates",
+      "unit cell volume"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 1922,
+    "output_tokens": 1349,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0009046500000000001,
+  "billed_cost_usd": null,
+  "latency_s": 6.801431700005196,
+  "n_pages": 10,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Crystal Structure Analysis\",\"course_code\":\"5.069\",\"institution\":\"MIT OpenCourseWare\",\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":null,\"year\":2008,\"term\":\"spring\",\"discipline\":\"chemistry\",\"doc_type\":\"slides\",\"topics\":[\"Crystal as a periodic three-dimensional lattice\",\"The unit cell and its axes and angles\",\"Crystallographic conventions for crystal systems\",\"Unconventional lattices and Bravais lattices\",\"41 and 43 screw axes\",\"Space groups\",\"Atomic coordinates and symmetry operations\",\"Red modification of PbO example\",\"Definitions of symmetry terms\"],\"key_terms\":[\"unit cell\",\"asymmetric unit\",\"lattice\",\"symmetry operation\",\"symmetry element\",\"space group\",\"inversion center\",\"screw axis\",\"translation\",\"lattice centering\",\"Bravais lattice\",\"monoclinic angle\",\"right-handed system\",\"atomic coordinates\",\"unit cell volume\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 1922,
+        "output_tokens": 1349,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.801431700005196,
+      "error": null,
+      "request_id": "req_011CgM9rS8Jy9Ac2tCeg2jdb",
+      "billed_cost_usd": null
+    }
+  ]
+}

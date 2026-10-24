@@ -1,0 +1,80 @@
+{
+  "doc_id": "ocw-8-811-lec5",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 5,
+    "lecture_title": null,
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Helicity eigenstates of massive fermions",
+      "Lorentz transformation of the Dirac equation",
+      "Parity transformation and chirality",
+      "Gauge theories and local gauge invariance",
+      "Why gauge theory: finite QED cross sections",
+      "U(1) local gauge transformation in QED",
+      "Charge conjugation and the Majorana spinor",
+      "CP transformation of chiral spinors"
+    ],
+    "key_terms": [
+      "helicity",
+      "chirality",
+      "helicity eigenstate",
+      "wrong-sign helicity",
+      "Dirac equation",
+      "Lorentz transformation",
+      "spinor transformation matrix",
+      "scalar",
+      "vector",
+      "axial vector",
+      "parity",
+      "charge conjugation",
+      "CP transformation",
+      "Majorana spinor",
+      "local gauge invariance",
+      "U(1) gauge transformation",
+      "covariant derivative",
+      "gauge field",
+      "renormalizable gauge theory",
+      "spontaneously broken gauge invariance"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 24810,
+    "output_tokens": 1091,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00306445,
+  "billed_cost_usd": null,
+  "latency_s": 7.859563400037587,
+  "n_pages": 10,
+  "image_pixels": 19233088,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":5,\"lecture_title\":null,\"year\":null,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Helicity eigenstates of massive fermions\",\"Lorentz transformation of the Dirac equation\",\"Parity transformation and chirality\",\"Gauge theories and local gauge invariance\",\"Why gauge theory: finite QED cross sections\",\"U(1) local gauge transformation in QED\",\"Charge conjugation and the Majorana spinor\",\"CP transformation of chiral spinors\"],\"key_terms\":[\"helicity\",\"chirality\",\"helicity eigenstate\",\"wrong-sign helicity\",\"Dirac equation\",\"Lorentz transformation\",\"spinor transformation matrix\",\"scalar\",\"vector\",\"axial vector\",\"parity\",\"charge conjugation\",\"CP transformation\",\"Majorana spinor\",\"local gauge invariance\",\"U(1) gauge transformation\",\"covariant derivative\",\"gauge field\",\"renormalizable gauge theory\",\"spontaneously broken gauge invariance\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 24810,
+        "output_tokens": 1091,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 7.859563400037587,
+      "error": null,
+      "request_id": "req_011CgMTczP17cbUHNWrHj2CQ",
+      "billed_cost_usd": null
+    }
+  ]
+}

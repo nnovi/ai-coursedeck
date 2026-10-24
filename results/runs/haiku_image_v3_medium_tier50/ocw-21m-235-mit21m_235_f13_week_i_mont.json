@@ -1,0 +1,73 @@
+{
+  "doc_id": "ocw-21m-235-mit21m_235_f13_week_i_mont",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Monteverdi to Mozart: 1600-1800",
+    "course_code": "21M.235",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Claudio Monteverdi (1567-1643)",
+    "year": 2013,
+    "term": "fall",
+    "discipline": "humanities",
+    "doc_type": "outline",
+    "topics": [
+      "Monteverdi's life and career",
+      "Madrigals",
+      "Dramas and operas",
+      "Sacred music",
+      "Prima and seconda prattica",
+      "Works list",
+      "Orfeo and L'incoronazione di Poppea excerpts"
+    ],
+    "key_terms": [
+      "Madrigal",
+      "Prima prattica",
+      "Seconda prattica",
+      "Artusi",
+      "Monody",
+      "Basso continuo",
+      "Genere concitato",
+      "Florentine Camerata",
+      "Concertato style",
+      "Opera",
+      "Aria",
+      "Arioso",
+      "Recitative",
+      "Accademia degli Incogniti"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2180,
+    "output_tokens": 1168,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00083995,
+  "billed_cost_usd": null,
+  "latency_s": 5.50122650002595,
+  "n_pages": 2,
+  "image_pixels": 1612116,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Monteverdi to Mozart: 1600-1800\",\"course_code\":\"21M.235\",\"institution\":\"MIT OpenCourseWare\",\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Claudio Monteverdi (1567-1643)\",\"year\":2013,\"term\":\"fall\",\"discipline\":\"humanities\",\"doc_type\":\"outline\",\"topics\":[\"Monteverdi's life and career\",\"Madrigals\",\"Dramas and operas\",\"Sacred music\",\"Prima and seconda prattica\",\"Works list\",\"Orfeo and L'incoronazione di Poppea excerpts\"],\"key_terms\":[\"Madrigal\",\"Prima prattica\",\"Seconda prattica\",\"Artusi\",\"Monody\",\"Basso continuo\",\"Genere concitato\",\"Florentine Camerata\",\"Concertato style\",\"Opera\",\"Aria\",\"Arioso\",\"Recitative\",\"Accademia degli Incogniti\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2180,
+        "output_tokens": 1168,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.50122650002595,
+      "error": null,
+      "request_id": "req_011CgMTh3ep2xefi3bfBSikD",
+      "billed_cost_usd": null
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "doc_id": "zen-23470007-p002",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Філософія освіти",
+    "course_code": "null",
+    "institution": "Український державний університет імені Михайла Драгоманова",
+    "lecturers": [
+      "Сергій Терепищий"
+    ],
+    "lecture_number": 1,
+    "lecture_title": "Філософія освіти як галузь філософії та навчальна дисципліна",
+    "year": 2026,
+    "term": null,
+    "discipline": "humanities",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Дволикий Янус: що таке філософія освіти",
+      "П’ять запитань до будь-якого уроку",
+      "Учитель і учень: хто кого вчить",
+      "Освіта як «дух епохи»",
+      "Голос сучасності: Герт Біеста і три функції освіти",
+      "Карта курсу: десять тем"
+    ],
+    "key_terms": [
+      "філософія освіти",
+      "об’єкт і предмет",
+      "виміри освіти",
+      "суб’єкт-суб’єктна взаємодія",
+      "дух епохи",
+      "людиноцентризм",
+      "суб’єктіфікація",
+      "лерніфікація",
+      "освітній ландшафт",
+      "Загальний інститут",
+      "Педагогіка",
+      "Філософія",
+      "Політика",
+      "Етика",
+      "Соціологія",
+      "Психологія",
+      "Технології",
+      "Культура",
+      "Політика",
+      "Соціологія"
+    ],
+    "references": [
+      "Андрющенко В. П., Савельєв В. Л. Філософія освіти як галузь філософії та навчальна дисципліна // Філософія освіти: навч. посіб. / за наук. ред. В. П. Андрющенка. 2-ге вид. Київ : Вид-во НПУ імені М. П. Драгоманова, 2021. С. 8.",
+      "Терепищий С. Філософія освіти: переосмислення освітнього ландшафту : монографія. Київ : Видавництво Людмила, 2026. 504 с.",
+      "Biesta G. Beyond Learning: Democratic Education for a Human Future. Boulder : Paradigm Publishers, 2006.",
+      "Biesta G. Good education in an age of measurement: on the need to reconnect with the question of purpose in education // Educational Assessment, Evaluation and Accountability. 2009. Vol. 21, № 1. P. 33–46.",
+      "Biesta G. The Beautiful Risk of Education. Boulder : Paradigm Publishers, 2013.",
+      "Дьой Дж. Демократія і освіта / пер. з англ. Львів : Літопис, 2003.",
+      "Phillips D., Siegel H. Philosophy of Education // The Stanford Encyclopedia of Philosophy (Autumn 2013 Edition) / ed. E. N. Zalta. URL: https://plato.stanford.edu/entries/education-philosophy/",
+      "Robinson K., Aronica L. Creative Schools: The Grassroots Revolution That’s Transforming Education. New York : Viking, 2015.",
+      "Sandel M. J. What Money Can’t Buy: The Moral Limits of Markets. New York : Farrar, Straus and Giroux, 2012.",
+      "Сковорода Г. Повна академічна збірка творів / за ред. Л. Ушкалова. Харків ; Едмонтон ; Торонто : Майдан ; Вид-во Канад. ін-ту укр. студій, 2011."
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 33838,
+    "output_tokens": 1101,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 23.26283699995838,
+  "n_pages": 20,
+  "image_pixels": 32682398,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Філософія освіти\",\n  \"course_code\": \"null\",\n  \"institution\": \"Український державний університет імені Михайла Драгоманова\",\n  \"lecturers\": [\n    \"Сергій Терепищий\"\n  ],\n  \"lecture_number\": 1,\n  \"lecture_title\": \"Філософія освіти як галузь філософії та навчальна дисципліна\",\n  \"year\": 2026,\n  \"term\": null,\n  \"discipline\": \"humanities\",\n  \"doc_type\": \"textbook_chapter\",\n  \"topics\": [\n    \"Дволикий Янус: що таке філософія освіти\",\n    \"П’ять запитань до будь-якого уроку\",\n    \"Учитель і учень: хто кого вчить\",\n    \"Освіта як «дух епохи»\",\n    \"Голос сучасності: Герт Біеста і три функції освіти\",\n    \"Карта курсу: десять тем\"\n  ],\n  \"key_terms\": [\n    \"філософія освіти\",\n    \"об’єкт і предмет\",\n    \"виміри освіти\",\n    \"суб’єкт-суб’єктна взаємодія\",\n    \"дух епохи\",\n    \"людиноцентризм\",\n    \"суб’єктіфікація\",\n    \"лерніфікація\",\n    \"освітній ландшафт\",\n    \"Загальний інститут\",\n    \"Педагогіка\",\n    \"Філософія\",\n    \"Політика\",\n    \"Етика\",\n    \"Соціологія\",\n    \"Психологія\",\n    \"Технології\",\n    \"Культура\",\n    \"Політика\",\n    \"Соціологія\"\n  ],\n  \"references\": [\n    \"Андрющенко В. П., Савельєв В. Л. Філософія освіти як галузь філософії та навчальна дисципліна // Філософія освіти: навч. посіб. / за наук. ред. В. П. Андрющенка. 2-ге вид. Київ : Вид-во НПУ імені М. П. Драгоманова, 2021. С. 8.\",\n    \"Терепищий С. Філософія освіти: переосмислення освітнього ландшафту : монографія. Київ : Видавництво Людмила, 2026. 504 с.\",\n    \"Biesta G. Beyond Learning: Democratic Education for a Human Future. Boulder : Paradigm Publishers, 2006.\",\n    \"Biesta G. Good education in an age of measurement: on the need to reconnect with the question of purpose in education // Educational Assessment, Evaluation and Accountability. 2009. Vol. 21, № 1. P. 33–46.\",\n    \"Biesta G. The Beautiful Risk of Education. Boulder : Paradigm Publishers, 2013.\",\n    \"Дьой Дж. Демократія і освіта / пер. з англ. Львів : Літопис, 2003.\",\n    \"Phillips D., Siegel H. Philosophy of Education // The Stanford Encyclopedia of Philosophy (Autumn 2013 Edition) / ed. E. N. Zalta. URL: https://plato.stanford.edu/entries/education-philosophy/\",\n    \"Robinson K., Aronica L. Creative Schools: The Grassroots Revolution That’s Transforming Education. New York : Viking, 2015.\",\n    \"Sandel M. J. What Money Can’t Buy: The Moral Limits of Markets. New York : Farrar, Straus and Giroux, 2012.\",\n    \"Сковорода Г. Повна академічна збірка творів / за ред. Л. Ушкалова. Харків ; Едмонтон ; Торонто : Майдан ; Вид-во Канад. ін-ту укр. студій, 2011.\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 33838,
+        "output_tokens": 1101,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 23.26283699995838,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

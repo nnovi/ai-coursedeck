@@ -1,0 +1,49 @@
+{
+  "doc_id": "ocw-12-480-lecture_16",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 16,
+    "lecture_title": null,
+    "year": null,
+    "term": null,
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [],
+    "key_terms": [],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 96,
+    "output_tokens": 483,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00027152,
+  "billed_cost_usd": 0.000273845,
+  "latency_s": 6.1903637000359595,
+  "n_pages": 5,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":16,\"lecture_title\":null,\"year\":null,\"term\":null,\"discipline\":\"mathematics\",\"doc_type\":\"lecture_notes\",\"topics\":[],\"key_terms\":[],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 96,
+        "output_tokens": 483,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.1903637000359595,
+      "error": null,
+      "request_id": "gen-1792849385-qF9A87wNBYIFAEUkYOpR",
+      "billed_cost_usd": 0.000273845
+    }
+  ]
+}

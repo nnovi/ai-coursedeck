@@ -1,0 +1,73 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Modal Logic",
+    "course_code": "24.244",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [],
+    "lecture_number": 5,
+    "lecture_title": "Stronger Systems",
+    "year": 2015,
+    "term": "spring",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities",
+      "Systems S4 and S5",
+      "System B",
+      "Gödel's System G"
+    ],
+    "key_terms": [
+      "Modalities",
+      "S4",
+      "S5",
+      "System B",
+      "Gödel's System G",
+      "Modal Logic",
+      "Reduction Law",
+      "Modal Frame",
+      "Transitive Frame",
+      "Symmetric Frame",
+      "Intuitionistic Logic",
+      "Brouwer",
+      "Second Incompleteness Theorem",
+      "Provability",
+      "Provably Provability",
+      "Modal Operators",
+      "Modal Statuses",
+      "Modalities in S4",
+      "Modalities in S5",
+      "Modalities in B"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 12624,
+    "output_tokens": 269,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 4.414453500066884,
+  "n_pages": 5,
+  "image_pixels": 6943548,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Modal Logic\",\n  \"course_code\": \"24.244\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [],\n  \"lecture_number\": 5,\n  \"lecture_title\": \"Stronger Systems\",\n  \"year\": 2015,\n  \"term\": \"spring\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Modalities\",\n    \"Systems S4 and S5\",\n    \"System B\",\n    \"Gödel's System G\"\n  ],\n  \"key_terms\": [\n    \"Modalities\",\n    \"S4\",\n    \"S5\",\n    \"System B\",\n    \"Gödel's System G\",\n    \"Modal Logic\",\n    \"Reduction Law\",\n    \"Modal Frame\",\n    \"Transitive Frame\",\n    \"Symmetric Frame\",\n    \"Intuitionistic Logic\",\n    \"Brouwer\",\n    \"Second Incompleteness Theorem\",\n    \"Provability\",\n    \"Provably Provability\",\n    \"Modal Operators\",\n    \"Modal Statuses\",\n    \"Modalities in S4\",\n    \"Modalities in S5\",\n    \"Modalities in B\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 12624,
+        "output_tokens": 269,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.414453500066884,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

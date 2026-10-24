@@ -1,0 +1,66 @@
+{
+  "doc_id": "ocw-6-241j-mit6_241js11_lec03",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Dynamic Systems and Control",
+    "course_code": "6.241",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Emilio Frazzoli"
+    ],
+    "lecture_number": 3,
+    "lecture_title": "Least Square Solutions of Linear Problems",
+    "year": 2011,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "slides",
+    "topics": [
+      "Least squares control",
+      "Minimum-norm solutions",
+      "Constructing all possible solutions",
+      "Gram product formulation"
+    ],
+    "key_terms": [
+      "Least squares control",
+      "Euclidean norm",
+      "null space",
+      "homogeneous equation",
+      "Gram product",
+      "projection",
+      "orthogonal component"
+    ],
+    "references": [
+      "DDV, Chapter 3"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 6282,
+    "output_tokens": 539,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00091812,
+  "billed_cost_usd": 0.001075095,
+  "latency_s": 6.742993099964224,
+  "n_pages": 6,
+  "image_pixels": 4439345,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Dynamic Systems and Control\",\n  \"course_code\": \"6.241\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\"Emilio Frazzoli\"],\n  \"lecture_number\": 3,\n  \"lecture_title\": \"Least Square Solutions of Linear Problems\",\n  \"year\": 2011,\n  \"term\": \"spring\",\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"slides\",\n  \"topics\": [\n    \"Least squares control\",\n    \"Minimum-norm solutions\",\n    \"Constructing all possible solutions\",\n    \"Gram product formulation\"\n  ],\n  \"key_terms\": [\n    \"Least squares control\",\n    \"Euclidean norm\",\n    \"null space\",\n    \"homogeneous equation\",\n    \"Gram product\",\n    \"projection\",\n    \"orthogonal component\"\n  ],\n  \"references\": [\"DDV, Chapter 3\"]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 6282,
+        "output_tokens": 539,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.742993099964224,
+      "error": null,
+      "request_id": "gen-1792849909-5sttpm0PhARZEmj3nUFh",
+      "billed_cost_usd": 0.001075095
+    }
+  ]
+}

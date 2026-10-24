@@ -1,0 +1,78 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Quantum Computation",
+    "course_code": "18.435",
+    "institution": "MIT",
+    "lecturers": [
+      "P. Shor"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "State space of a quantum system",
+      "Kets, bras and unit complex factors",
+      "Unitary evolution of closed systems",
+      "Pauli matrices and Hadamard transform",
+      "Quantum measurements and completeness",
+      "Projectors and orthogonal subspaces",
+      "Composite systems and tensor products",
+      "Entangled states"
+    ],
+    "key_terms": [
+      "state space",
+      "unit vector",
+      "ket",
+      "bra",
+      "unitary operator",
+      "adjoint operator",
+      "Hermitian operator",
+      "Hamiltonian",
+      "Pauli matrices",
+      "Hadamard transform",
+      "measurement operators",
+      "completeness equation",
+      "projector",
+      "tensor product",
+      "Kronecker product",
+      "entangled",
+      "qubit"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 6155,
+    "output_tokens": 1322,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00131445,
+  "billed_cost_usd": null,
+  "latency_s": 6.245040799956769,
+  "n_pages": 3,
+  "image_pixels": 2477652,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Quantum Computation\",\"course_code\":\"18.435\",\"institution\":\"MIT\",\"lecturers\":[\"P. Shor\"],\"lecture_number\":2,\"lecture_title\":\"Basics of Quantum Mechanics\",\"year\":2003,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[\"State space of a quantum system\",\"Kets, bras and unit complex factors\",\"Unitary evolution of closed systems\",\"Pauli matrices and Hadamard transform\",\"Quantum measurements and completeness\",\"Projectors and orthogonal subspaces\",\"Composite systems and tensor products\",\"Entangled states\"],\"key_terms\":[\"state space\",\"unit vector\",\"ket\",\"bra\",\"unitary operator\",\"adjoint operator\",\"Hermitian operator\",\"Hamiltonian\",\"Pauli matrices\",\"Hadamard transform\",\"measurement operators\",\"completeness equation\",\"projector\",\"tensor product\",\"Kronecker product\",\"entangled\",\"qubit\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 6155,
+        "output_tokens": 1322,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.245040799956769,
+      "error": null,
+      "request_id": "req_011CgM9xaMabrsjatdxZWfrA",
+      "billed_cost_usd": null
+    }
+  ]
+}

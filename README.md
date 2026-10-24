@@ -8,25 +8,51 @@ Stages:
 3. **Agent**: builds a presentation draft from retrieved material.
 4. **Service**: FastAPI, batch processing of new documents.
 
-## Layout
+## Quick start
 
-```
-src/coursedeck/       package code
-  dataset/            manifests, PDF inspection, fetching by manifest
-data/manifests/       dataset manifests (CSV) and the golden-set list
-data/pdfs/            core documents (tier 50, committed)
-data/pdfs_extra/      larger tiers, fetched by manifest (not committed)
-data/golden/          hand-labelled golden set
-scripts/              dataset collection and selection
-tests/
-```
-
-## Setup
+Requires Python 3.11+. Optional: [Ollama](https://ollama.com) for the local model.
 
 ```bash
 python -m venv .venv
-.venv/Scripts/activate        # Windows; use .venv/bin/activate elsewhere
+.venv/Scripts/activate            # Windows; use `source .venv/bin/activate` elsewhere
 pip install -e ".[dev]"
+cp .env.example .env              # add ANTHROPIC_API_KEY and/or OPENROUTER_API_KEY
+
+python main.py                    # or: make run
+```
+
+`main.py` runs the experiment matrix from `configs/experiments.toml` and writes the
+comparison table to `results/comparison.md`. Results already in `results/runs/` are reused,
+so on a fresh clone it only recomputes the metrics (no API cost, no keys needed).
+
+- `python main.py --local` — also run local Qwen3-VL experiments
+  (`ollama pull qwen3-vl:4b-instruct` fits a laptop; `qwen3-vl:8b-instruct` needs ~16 GB VRAM).
+- `python main.py --only NAME --force` — rerun one experiment;
+  `--dry-run` shows what would run.
+- `python -m pytest -q` — tests.
+
+The comparison and the production choice are in [REPORT.md](REPORT.md).
+
+## Layout
+
+```
+main.py               one-command benchmark: run missing experiments, score, compare
+configs/              experiment matrix (models, input modes, prompt versions, sampling)
+prompts/extract/      versioned prompts v1..v3 + CHANGELOG.md
+src/coursedeck/
+  schema.py           LectureCard (Pydantic) and field groups
+  llm/                provider-neutral client + Anthropic, OpenRouter, Ollama adapters
+  extract/            page rendering, request building, validation + retry, run CLI
+  eval/               metrics against the golden set
+  golden/             golden-set store and review UI
+  dataset/            manifests, PDF inspection, fetching by manifest
+data/manifests/       dataset manifests (CSV) and the golden-set list
+data/pdfs/            core documents (tier 50, committed)
+data/golden/          hand-labelled golden set (+ annotation guide)
+results/runs/         model outputs per experiment (config, per-document JSON, summary)
+results/comparison.md metrics table: model x mode x prompt x sampling
+scripts/              dataset collection and selection
+tests/
 ```
 
 ## Dataset
@@ -76,28 +102,33 @@ by text fingerprint and lecture heading. Manual decisions live in
 
 ## Extraction
 
-Copy `.env.example` to `.env` and set `ANTHROPIC_API_KEY` for Claude models; local models
-run through [Ollama](https://ollama.com) (`ollama pull qwen3-vl:8b-instruct`).
+A single run outside the matrix:
 
 ```bash
-python -m coursedeck.extract.run --model haiku --mode text --prompt v2 --effort medium
-python -m coursedeck.extract.run --model qwen3-vl-8b --mode image --prompt v2 --temperature 0
+python -m coursedeck.extract.run --model haiku --mode image --prompt v3 --effort medium
+python -m coursedeck.extract.run --model qwen3-vl-8b --mode image --temperature 0 --top-p 0.9
 ```
 
-- Models (`coursedeck/llm/models.py`): `haiku`, `sonnet` (Anthropic API), `qwen3-vl-8b`,
-  `qwen3-vl-4b` (Ollama). Current Claude models reject non-default temperature, so their
-  sampling axis is `--effort`; local models use `--temperature`.
+- Models (`src/coursedeck/llm/models.py`): `haiku`, `sonnet` (Anthropic API),
+  `gpt-6-luna` (OpenRouter), `qwen3-vl-8b`, `qwen3-vl-4b` (Ollama), all behind one
+  `Adapter` interface. Current Claude models reject non-default temperature/top_p, so their
+  sampling knob is `effort`; the other models use `temperature`/`top_p`.
+- Every request has a timeout and transport retries (HTTP 429/5xx); both are set in
+  `configs/experiments.toml`.
 - Input modes: `text` (text layer), `image` (page images), `text+image`, `pdf` (native PDF
   input, Claude only). Page images are scaled so the smallest text on the page is ~14 px
   tall, capped at 1568 px on the long edge; scans get the full budget.
-- Prompts are versioned in `src/coursedeck/prompts/extract/` (see its `CHANGELOG.md`).
+- Prompts are versioned in `prompts/extract/` (see its `CHANGELOG.md`); from v3 the source
+  file name is sent as a fallback source of facts.
 - Every reply is validated against `LectureCard`; an invalid reply gets one retry with the
-  validation error. Results go to `runs/<run_id>/` (card, attempts, tokens, cost, latency).
+  validation error, then the document is marked `failed`. Each run directory logs the model,
+  prompt version and hash, sampling, timeout and git commit (`config.json`), and per
+  document the card, every attempt, tokens, cost and latency.
 
 ## Evaluation
 
 ```bash
-python -m coursedeck.eval.score runs/<run_a> runs/<run_b> [--include-drafts]
+python -m coursedeck.eval.score results/runs/<run_a> results/runs/<run_b>
 ```
 
 Scores each run against the reviewed golden cards (`--include-drafts` also uses unreviewed

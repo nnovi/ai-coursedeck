@@ -7,8 +7,10 @@ e.g. "1-3,30-37", so the document still shows its course, authors, institution a
 """
 
 import csv
+import re
 from dataclasses import asdict, dataclass, fields
 from pathlib import Path
+from urllib.parse import unquote, urlparse
 
 from coursedeck.dataset.pdf import PageRanges, parse_pages
 
@@ -41,6 +43,15 @@ class ManifestRow:
     @property
     def path(self) -> Path:
         return (PDF_DIR if self.in_repo else EXTRA_PDF_DIR) / f"{self.doc_id}.pdf"
+
+    @property
+    def source_file(self) -> str:
+        """File name of the source PDF as published (OCW .../x.pdf, Zenodo .../files/x/content)."""
+        path = urlparse(self.pdf_url).path
+        if "/files/" in path:
+            path = path.split("/files/", 1)[1].removesuffix("/content")
+        # OCW prefixes file names with a 32-hex content hash: "<hash>_lecture4.pdf"
+        return re.sub(r"^[0-9a-f]{32}_", "", unquote(path.rsplit("/", 1)[-1]))
 
     @property
     def page_ranges(self) -> PageRanges:

@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-22-105-lecture4",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 4,
+    "lecture_title": "Conformal Mapping and Green's Theorem",
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Solving electrostatic problems by separation of variables",
+      "Failure of separation of variables",
+      "Conformal mapping",
+      "Cauchy-Riemann equations and Laplacian transformation",
+      "Mapping function for shifted circle",
+      "Solution of the mapped problem",
+      "Green's theorem derivation",
+      "Free space spherical and cylindrical Green's functions",
+      "Infinite space problems using Green's theorem"
+    ],
+    "key_terms": [
+      "separation of variables",
+      "conformal mapping",
+      "Laplace's equation",
+      "Green's theorem",
+      "Green's function",
+      "Cauchy-Riemann equations",
+      "expansion functions",
+      "radius of convergence",
+      "mapping function",
+      "divergence theorem",
+      "delta function",
+      "free space Green's function",
+      "integral equation",
+      "Poisson's equation",
+      "line charge density"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 10058,
+    "output_tokens": 338,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00121275,
+  "billed_cost_usd": null,
+  "latency_s": 2.351526700076647,
+  "n_pages": 14,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":4,\"lecture_title\":\"Conformal Mapping and Green's Theorem\",\"year\":null,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Solving electrostatic problems by separation of variables\",\"Failure of separation of variables\",\"Conformal mapping\",\"Cauchy-Riemann equations and Laplacian transformation\",\"Mapping function for shifted circle\",\"Solution of the mapped problem\",\"Green's theorem derivation\",\"Free space spherical and cylindrical Green's functions\",\"Infinite space problems using Green's theorem\"],\"key_terms\":[\"separation of variables\",\"conformal mapping\",\"Laplace's equation\",\"Green's theorem\",\"Green's function\",\"Cauchy-Riemann equations\",\"expansion functions\",\"radius of convergence\",\"mapping function\",\"divergence theorem\",\"delta function\",\"free space Green's function\",\"integral equation\",\"Poisson's equation\",\"line charge density\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 10058,
+        "output_tokens": 338,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.351526700076647,
+      "error": null,
+      "request_id": "req_011CgM9rhqs9wHifvLSxxyrx",
+      "billed_cost_usd": null
+    }
+  ]
+}

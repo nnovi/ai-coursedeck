@@ -1,0 +1,73 @@
+{
+  "doc_id": "ocw-5-069-symm_handout2",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Crystal Structure Analysis",
+    "course_code": "5.069",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": 2008,
+    "term": "spring",
+    "discipline": "chemistry",
+    "doc_type": "slides",
+    "topics": [
+      "Three-dimensional crystal and unit cell",
+      "Unit cell definition and choice",
+      "Crystallographic conventions",
+      "Unconventional lattices",
+      "Screw axes",
+      "Space groups",
+      "Atomic coordinates",
+      "Red modification of PbO",
+      "Symmetry definitions"
+    ],
+    "key_terms": [
+      "unit cell",
+      "lattice",
+      "asymmetric unit",
+      "symmetry operation",
+      "symmetry element",
+      "space groups",
+      "screw axes",
+      "Bravais lattices",
+      "unique axis",
+      "monoclinic angle",
+      "inversion center",
+      "atomic coordinates",
+      "centrosymmetric"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 6894,
+    "output_tokens": 287,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.017417,
+  "billed_cost_usd": null,
+  "latency_s": 3.154946199967526,
+  "n_pages": 10,
+  "image_pixels": 3660317,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Crystal Structure Analysis\",\"course_code\":\"5.069\",\"institution\":\"MIT OpenCourseWare\",\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":null,\"year\":2008,\"term\":\"spring\",\"discipline\":\"chemistry\",\"doc_type\":\"slides\",\"topics\":[\"Three-dimensional crystal and unit cell\",\"Unit cell definition and choice\",\"Crystallographic conventions\",\"Unconventional lattices\",\"Screw axes\",\"Space groups\",\"Atomic coordinates\",\"Red modification of PbO\",\"Symmetry definitions\"],\"key_terms\":[\"unit cell\",\"lattice\",\"asymmetric unit\",\"symmetry operation\",\"symmetry element\",\"space groups\",\"screw axes\",\"Bravais lattices\",\"unique axis\",\"monoclinic angle\",\"inversion center\",\"atomic coordinates\",\"centrosymmetric\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 6894,
+        "output_tokens": 287,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.154946199967526,
+      "error": null,
+      "request_id": "req_011CgMA7BXepcPfZkaxvrcbx",
+      "billed_cost_usd": null
+    }
+  ]
+}

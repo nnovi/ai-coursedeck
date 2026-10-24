@@ -1,0 +1,78 @@
+{
+  "doc_id": "ocw-10-37-lec10_03092007_w",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Chemical and Biological Reaction Engineering",
+    "course_code": "10.37",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "K. Dane Wittrup"
+    ],
+    "lecture_number": 10,
+    "lecture_title": "Non-ideal Reactor Mixing Patterns",
+    "year": 2007,
+    "term": "spring",
+    "discipline": "engineering",
+    "doc_type": "slides",
+    "topics": [
+      "Non-ideal mixing",
+      "Residence time distribution",
+      "Experimental determination of RTD",
+      "Ideal PFR and CSTR",
+      "Non-ideal CSTR mixing",
+      "Non-ideal PFR and axial dispersion",
+      "Tanks in series and Taylor dispersion",
+      "Compartmental models of reactors"
+    ],
+    "key_terms": [
+      "residence time distribution (RTD)",
+      "residence time",
+      "probability density function",
+      "pulse input",
+      "step input",
+      "PFR",
+      "CSTR",
+      "bypassing",
+      "dead volumes",
+      "channeling",
+      "axial dispersion",
+      "tanks in a series",
+      "Taylor dispersion model",
+      "Peclet number",
+      "mean residence time",
+      "variance",
+      "recirculation"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2464,
+    "output_tokens": 558,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0005458199999999999,
+  "billed_cost_usd": 0.000607345,
+  "latency_s": 5.459598100045696,
+  "n_pages": 7,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Chemical and Biological Reaction Engineering\",\n  \"course_code\": \"10.37\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\"K. Dane Wittrup\"],\n  \"lecture_number\": 10,\n  \"lecture_title\": \"Non-ideal Reactor Mixing Patterns\",\n  \"year\": 2007,\n  \"term\": \"spring\",\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"slides\",\n  \"topics\": [\n    \"Non-ideal mixing\",\n    \"Residence time distribution\",\n    \"Experimental determination of RTD\",\n    \"Ideal PFR and CSTR\",\n    \"Non-ideal CSTR mixing\",\n    \"Non-ideal PFR and axial dispersion\",\n    \"Tanks in series and Taylor dispersion\",\n    \"Compartmental models of reactors\"\n  ],\n  \"key_terms\": [\n    \"residence time distribution (RTD)\",\n    \"residence time\",\n    \"probability density function\",\n    \"pulse input\",\n    \"step input\",\n    \"PFR\",\n    \"CSTR\",\n    \"bypassing\",\n    \"dead volumes\",\n    \"channeling\",\n    \"axial dispersion\",\n    \"tanks in a series\",\n    \"Taylor dispersion model\",\n    \"Peclet number\",\n    \"mean residence time\",\n    \"variance\",\n    \"recirculation\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2464,
+        "output_tokens": 558,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.459598100045696,
+      "error": null,
+      "request_id": "gen-1792849445-iq8q18icvYMs5aw726i3",
+      "billed_cost_usd": 0.000607345
+    }
+  ]
+}

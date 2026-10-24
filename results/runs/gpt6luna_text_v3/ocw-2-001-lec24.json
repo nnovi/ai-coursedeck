@@ -1,0 +1,70 @@
+{
+  "doc_id": "ocw-2-001-lec24",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Mechanics and Materials I",
+    "course_code": "2.001",
+    "institution": null,
+    "lecturers": [
+      "Carol Livermore"
+    ],
+    "lecture_number": 24,
+    "lecture_title": "Energy Methods",
+    "year": 2006,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "slides",
+    "topics": [
+      "Basic ingredients of mechanics",
+      "Conservative forces and potential energy",
+      "Strain and complementary energy",
+      "Castigliano’s theorem",
+      "Springs in series and fictitious loads",
+      "Truss displacement",
+      "Strain energy density",
+      "Beam strain energy and tip deflection"
+    ],
+    "key_terms": [
+      "Castigliano’s Theorem",
+      "Complementary Energy",
+      "Potential Energy",
+      "Conservative Forces",
+      "Strain Energy Density",
+      "Equilibrium",
+      "Constitutive Relations",
+      "Compatibility",
+      "Stored Energy"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 1206,
+    "output_tokens": 588,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00043502,
+  "billed_cost_usd": 0.000465095,
+  "latency_s": 5.614459099946544,
+  "n_pages": 8,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Mechanics and Materials I\",\n  \"course_code\": \"2.001\",\n  \"institution\": null,\n  \"lecturers\": [\n    \"Carol Livermore\"\n  ],\n  \"lecture_number\": 24,\n  \"lecture_title\": \"Energy Methods\",\n  \"year\": 2006,\n  \"term\": null,\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"slides\",\n  \"topics\": [\n    \"Basic ingredients of mechanics\",\n    \"Conservative forces and potential energy\",\n    \"Strain and complementary energy\",\n    \"Castigliano’s theorem\",\n    \"Springs in series and fictitious loads\",\n    \"Truss displacement\",\n    \"Strain energy density\",\n    \"Beam strain energy and tip deflection\"\n  ],\n  \"key_terms\": [\n    \"Castigliano’s Theorem\",\n    \"Complementary Energy\",\n    \"Potential Energy\",\n    \"Conservative Forces\",\n    \"Strain Energy Density\",\n    \"Equilibrium\",\n    \"Constitutive Relations\",\n    \"Compatibility\",\n    \"Stored Energy\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 1206,
+        "output_tokens": 588,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.614459099946544,
+      "error": null,
+      "request_id": "gen-1792849431-bw79Jb1ckA5UOslgMhMh",
+      "billed_cost_usd": 0.000465095
+    }
+  ]
+}

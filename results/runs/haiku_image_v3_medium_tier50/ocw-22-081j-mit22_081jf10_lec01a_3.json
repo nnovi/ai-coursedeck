@@ -1,0 +1,56 @@
+{
+  "doc_id": "ocw-22-081j-mit22_081jf10_lec01a_3",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Introduction to Sustainable Energy",
+    "course_code": "22.081J",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 1,
+    "lecture_title": "Energy Uses in Different Countries",
+    "year": 2010,
+    "term": "fall",
+    "discipline": "engineering",
+    "doc_type": "slides",
+    "topics": [
+      "Energy uses in different countries",
+      "Urban life and bicycles in China",
+      "Shanghai skyline and Huangpu River",
+      "Tokyo cityscape and streets",
+      "Construction and vehicles in Japan"
+    ],
+    "key_terms": [],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 26463,
+    "output_tokens": 834,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00310125,
+  "billed_cost_usd": null,
+  "latency_s": 8.0198385999538,
+  "n_pages": 12,
+  "image_pixels": 20229186,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Introduction to Sustainable Energy\",\"course_code\":\"22.081J\",\"institution\":\"MIT OpenCourseWare\",\"lecturers\":[],\"lecture_number\":1,\"lecture_title\":\"Energy Uses in Different Countries\",\"year\":2010,\"term\":\"fall\",\"discipline\":\"engineering\",\"doc_type\":\"slides\",\"topics\":[\"Energy uses in different countries\",\"Urban life and bicycles in China\",\"Shanghai skyline and Huangpu River\",\"Tokyo cityscape and streets\",\"Construction and vehicles in Japan\"],\"key_terms\":[],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 26463,
+        "output_tokens": 834,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.0198385999538,
+      "error": null,
+      "request_id": "req_011CgMTdcuwNGiW535qYA9kv",
+      "billed_cost_usd": null
+    }
+  ]
+}

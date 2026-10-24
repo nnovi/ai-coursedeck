@@ -1,0 +1,18 @@
+{
+  "run_id": "smoke_gpt-6-luna",
+  "model": "gpt-6-luna",
+  "model_id": "openai/gpt-6-luna",
+  "provider": "openrouter",
+  "mode": "text",
+  "prompt": "v3",
+  "prompt_sha": "aeef5684a879",
+  "effort": null,
+  "temperature": null,
+  "file_name_hint": true,
+  "manifest": "data\\manifests\\golden.csv",
+  "doc_ids": [
+    "ocw-18-435j-qc_lec02"
+  ],
+  "git_commit": "65f3988",
+  "started_at": "2026-10-24T16:33:04"
+}

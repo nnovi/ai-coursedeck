@@ -1,0 +1,74 @@
+{
+  "doc_id": "ocw-2-001-lec24",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "MECHANICS AND MATERIALS I",
+    "course_code": "2.001",
+    "institution": null,
+    "lecturers": [
+      "Carol Livermore"
+    ],
+    "lecture_number": 26,
+    "lecture_title": "Energy Methods",
+    "year": 2006,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Three basic ingredients of mechanics",
+      "Work and conservative forces",
+      "Stored energy in springs",
+      "Complementary energy",
+      "Castigliano's theorem",
+      "Springs in series",
+      "Truss example",
+      "Strain energy density and beam bending",
+      "Cantilever beam tip deflection"
+    ],
+    "key_terms": [
+      "Equilibrium",
+      "Constitutive Relations",
+      "Compatibility",
+      "Castigliano's Theorem",
+      "Work",
+      "Conservative Forces",
+      "Potential Energy",
+      "Stored Energy",
+      "Complementary Energy",
+      "Fictitious load",
+      "Strain Energy Density",
+      "Stored Energy in a Beam"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 12927,
+    "output_tokens": 310,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.029713,
+  "billed_cost_usd": null,
+  "latency_s": 3.2014720999868587,
+  "n_pages": 8,
+  "image_pixels": 8614494,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"MECHANICS AND MATERIALS I\",\"course_code\":\"2.001\",\"institution\":null,\"lecturers\":[\"Carol Livermore\"],\"lecture_number\":26,\"lecture_title\":\"Energy Methods\",\"year\":2006,\"term\":null,\"discipline\":\"engineering\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Three basic ingredients of mechanics\",\"Work and conservative forces\",\"Stored energy in springs\",\"Complementary energy\",\"Castigliano's theorem\",\"Springs in series\",\"Truss example\",\"Strain energy density and beam bending\",\"Cantilever beam tip deflection\"],\"key_terms\":[\"Equilibrium\",\"Constitutive Relations\",\"Compatibility\",\"Castigliano's Theorem\",\"Work\",\"Conservative Forces\",\"Potential Energy\",\"Stored Energy\",\"Complementary Energy\",\"Fictitious load\",\"Strain Energy Density\",\"Stored Energy in a Beam\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 12927,
+        "output_tokens": 310,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.2014720999868587,
+      "error": null,
+      "request_id": "req_011CgMA7Nauwnu3tdQf1g4bU",
+      "billed_cost_usd": null
+    }
+  ]
+}

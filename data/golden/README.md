@@ -17,9 +17,13 @@ ground truth. Review with `python -m coursedeck.golden.review`.
 ## General rules
 
 - **Only what the document shows.** Use every page of the document (title pages, headers,
-  footers, the OCW citation page) but nothing else: not the file name, not the manifest,
-  not the course web page, not your own knowledge. If it is not in the document, it is `null`
-  (or an empty list).
+  footers, the OCW citation page) but nothing else: not the manifest, not the course web
+  page, not your own knowledge. If it is not in the document, it is `null` (or an empty
+  list).
+- **The source file name is a fallback.** The content always wins; only a fact the content
+  does not state may be taken from the published file name (shown to the model as well),
+  e.g. `lecture_16.pdf` → lecture 16. A chapter or handout number in the name (`Ch3`,
+  `handout2`) is not a lecture number.
 - Ukrainian documents are one lecture cut out of a course book, preceded by the book's
   title pages (cover, title page, its reverse). The title pages are part of the document and
   are the usual source of the course name, authors, institution and year.
@@ -39,7 +43,7 @@ ground truth. Review with `python -m coursedeck.golden.review`.
 | `lecture_number` | Only a number labelled as a lecture/topic/session: `Lecture 17`, `Lec. 3`, `L3`, `Session 5`, `Лекція 3`, `Тема № 1`. Not chapter, section or part numbers (`Chapter 4`, `4.6`, `VIII`, `Розділ 1`, `Частина 2`), weeks, page or slide numbers, or the file name. |
 | `lecture_title` | The heading of this lecture/topic without its `Lecture N` / `Тема N` prefix or section number. If there is no labelled lecture heading: the main heading at the top of the first content page or title slide that names the subject of the whole document. Not a heading that covers only part of the document, and not the course or book title. Otherwise `null`. |
 | `year` | The first available of: (1) a date of the lecture/document on the content pages (`September 9, 2003`, `2/11/04`); (2) the term/year of the course offering in the header or title (`Spring 2005`); (3) the year of publication or approval on the book's title pages (`Харків – 2022`, `© 2022`); (4) the OCW citation page (`Spring 2012`). Never years of cited works or dates in the subject matter. |
-| `term` | Only a term stated together with the chosen year (same source): `Fall` → `fall`, `Spring` → `spring`, `IAP`/`January` → `winter`, `осінній семестр` → `fall`; otherwise `null`. |
+| `term` | A term stated anywhere in the document for the chosen year (e.g. lecture date 2011 and `Spring 2011` on the OCW citation page → `spring`): `Fall` → `fall`, `Spring` → `spring`, `IAP`/`January` → `winter`, `осінній семестр` → `fall`. Not inferred from a month, and `null` if the stated term belongs to another year. |
 
 ## Classification
 

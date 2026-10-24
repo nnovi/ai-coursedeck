@@ -1,0 +1,79 @@
+{
+  "doc_id": "ocw-22-105-lecture4",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 4,
+    "lecture_title": "Conformal Mapping and Green's Theorem",
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Solving electrostatic problems continued",
+      "The failure of separation of variables",
+      "Conformal mapping",
+      "Review of complex variables",
+      "The mapping function",
+      "The solution",
+      "Green's theorem",
+      "Derivation of Green's theorem",
+      "Free space spherical Green's function",
+      "Free space cylindrical Green's function"
+    ],
+    "key_terms": [
+      "separation of variables",
+      "conformal mapping",
+      "Laplace's equation",
+      "Green's function",
+      "Green's theorem",
+      "Cauchy-Riemann equations",
+      "mapping function",
+      "Poisson's equation",
+      "divergence theorem",
+      "Laplacian",
+      "radius of convergence",
+      "Fourier analysis",
+      "delta function",
+      "free space Green's function",
+      "boundary condition",
+      "expansion functions",
+      "complex variables",
+      "linear algebra matrix inversion"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 12261,
+    "output_tokens": 944,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0017360500000000003,
+  "billed_cost_usd": null,
+  "latency_s": 5.143209400004707,
+  "n_pages": 14,
+  "image_pixels": 9190231,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":4,\"lecture_title\":\"Conformal Mapping and Green's Theorem\",\"year\":null,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Solving electrostatic problems continued\",\"The failure of separation of variables\",\"Conformal mapping\",\"Review of complex variables\",\"The mapping function\",\"The solution\",\"Green's theorem\",\"Derivation of Green's theorem\",\"Free space spherical Green's function\",\"Free space cylindrical Green's function\"],\"key_terms\":[\"separation of variables\",\"conformal mapping\",\"Laplace's equation\",\"Green's function\",\"Green's theorem\",\"Cauchy-Riemann equations\",\"mapping function\",\"Poisson's equation\",\"divergence theorem\",\"Laplacian\",\"radius of convergence\",\"Fourier analysis\",\"delta function\",\"free space Green's function\",\"boundary condition\",\"expansion functions\",\"complex variables\",\"linear algebra matrix inversion\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 12261,
+        "output_tokens": 944,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.143209400004707,
+      "error": null,
+      "request_id": "req_011CgM9uUPLAP6T1sWnGJ99H",
+      "billed_cost_usd": null
+    }
+  ]
+}

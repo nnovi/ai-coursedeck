@@ -1,0 +1,67 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Philosophy 244: #5—Stronger Systems",
+    "course_code": "24.244 Modal Logic",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 5,
+    "lecture_title": "Stronger Systems",
+    "year": 2015,
+    "term": "spring",
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities",
+      "Systems stronger than T",
+      "Reduction laws",
+      "S4 system",
+      "S5 system",
+      "System B",
+      "Godel's system G"
+    ],
+    "key_terms": [
+      "Modalities",
+      "Iterated modalities",
+      "Reduction laws",
+      "S4",
+      "S5",
+      "System B",
+      "System G"
+    ],
+    "references": [
+      "Hughes and Cresswell",
+      "Arthur Pap (Semantics and Necessary Truth)",
+      "Proposition 2.2"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 11322,
+    "output_tokens": 245,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 6.269441399956122,
+  "n_pages": 5,
+  "image_pixels": 6943548,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Philosophy 244: #5—Stronger Systems\",\n  \"course_code\": \"24.244 Modal Logic\",\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [],\n  \"lecture_number\": 5,\n  \"lecture_title\": \"Stronger Systems\",\n  \"year\": 2015,\n  \"term\": \"spring\",\n  \"discipline\": \"physics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Modalities\",\n    \"Systems stronger than T\",\n    \"Reduction laws\",\n    \"S4 system\",\n    \"S5 system\",\n    \"System B\",\n    \"Godel's system G\"\n  ],\n  \"key_terms\": [\n    \"Modalities\",\n    \"Iterated modalities\",\n    \"Reduction laws\",\n    \"S4\",\n    \"S5\",\n    \"System B\",\n    \"System G\"\n  ],\n  \"references\": [\n    \"Hughes and Cresswell\",\n    \"Arthur Pap (Semantics and Necessary Truth)\",\n    \"Proposition 2.2\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 11322,
+        "output_tokens": 245,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.269441399956122,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

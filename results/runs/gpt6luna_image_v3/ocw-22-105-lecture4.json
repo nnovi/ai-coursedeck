@@ -1,0 +1,65 @@
+{
+  "doc_id": "ocw-22-105-lecture4",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 4,
+    "lecture_title": "Conformal Mapping and Green’s Theorem",
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Solving electrostatic problems",
+      "Failure of separation of variables",
+      "Conformal mapping",
+      "Green’s theorem"
+    ],
+    "key_terms": [
+      "conformal mapping",
+      "Cauchy-Riemann equations",
+      "Laplace’s equation",
+      "Green’s theorem",
+      "Green’s function",
+      "Poisson’s equation",
+      "separation of variables",
+      "mapping function",
+      "spherical Green’s function",
+      "cylindrical Green’s function"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 11314,
+    "output_tokens": 418,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0013608200000000002,
+  "billed_cost_usd": 0.001643595,
+  "latency_s": 6.512214999995194,
+  "n_pages": 14,
+  "image_pixels": 9190231,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": null,\n  \"course_code\": null,\n  \"institution\": null,\n  \"lecturers\": [],\n  \"lecture_number\": 4,\n  \"lecture_title\": \"Conformal Mapping and Green’s Theorem\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"physics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Solving electrostatic problems\",\n    \"Failure of separation of variables\",\n    \"Conformal mapping\",\n    \"Green’s theorem\"\n  ],\n  \"key_terms\": [\n    \"conformal mapping\",\n    \"Cauchy-Riemann equations\",\n    \"Laplace’s equation\",\n    \"Green’s theorem\",\n    \"Green’s function\",\n    \"Poisson’s equation\",\n    \"separation of variables\",\n    \"mapping function\",\n    \"spherical Green’s function\",\n    \"cylindrical Green’s function\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 11314,
+        "output_tokens": 418,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.512214999995194,
+      "error": null,
+      "request_id": "gen-1792849688-HJgi5OWO1FetXPP4mXMX",
+      "billed_cost_usd": 0.001643595
+    }
+  ]
+}

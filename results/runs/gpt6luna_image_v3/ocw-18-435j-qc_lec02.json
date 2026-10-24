@@ -1,0 +1,74 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Quantum Computation",
+    "course_code": "18.435",
+    "institution": "MIT",
+    "lecturers": [
+      "P. Shor"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Quantum states and state spaces",
+      "Unitary evolution and operators",
+      "Pauli matrices and Hadamard transform",
+      "Quantum measurement postulate",
+      "Projective measurements",
+      "Composite quantum systems",
+      "Tensor products and entanglement"
+    ],
+    "key_terms": [
+      "state space",
+      "unitary transformation",
+      "unitary operator",
+      "Hermitian operator",
+      "Pauli matrices",
+      "Hadamard transform",
+      "Hamiltonian",
+      "quantum measurement",
+      "measurement operators",
+      "completeness equation",
+      "projector",
+      "tensor product",
+      "Kronecker product",
+      "entangled"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2987,
+    "output_tokens": 772,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00070512,
+  "billed_cost_usd": 0.00077972,
+  "latency_s": 9.4421823999146,
+  "n_pages": 3,
+  "image_pixels": 2477652,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Quantum Computation\",\n  \"course_code\": \"18.435\",\n  \"institution\": \"MIT\",\n  \"lecturers\": [\"P. Shor\"],\n  \"lecture_number\": 2,\n  \"lecture_title\": \"Basics of Quantum Mechanics\",\n  \"year\": 2003,\n  \"term\": null,\n  \"discipline\": \"physics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Quantum states and state spaces\",\n    \"Unitary evolution and operators\",\n    \"Pauli matrices and Hadamard transform\",\n    \"Quantum measurement postulate\",\n    \"Projective measurements\",\n    \"Composite quantum systems\",\n    \"Tensor products and entanglement\"\n  ],\n  \"key_terms\": [\n    \"state space\",\n    \"unitary transformation\",\n    \"unitary operator\",\n    \"Hermitian operator\",\n    \"Pauli matrices\",\n    \"Hadamard transform\",\n    \"Hamiltonian\",\n    \"quantum measurement\",\n    \"measurement operators\",\n    \"completeness equation\",\n    \"projector\",\n    \"tensor product\",\n    \"Kronecker product\",\n    \"entangled\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2987,
+        "output_tokens": 772,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 9.4421823999146,
+      "error": null,
+      "request_id": "gen-1792849710-fyzIpVqPpFhyo1aBFjLp",
+      "billed_cost_usd": 0.00077972
+    }
+  ]
+}

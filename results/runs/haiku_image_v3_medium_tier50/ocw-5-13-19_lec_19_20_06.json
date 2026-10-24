@@ -1,0 +1,77 @@
+{
+  "doc_id": "ocw-5-13-19_lec_19_20_06",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Amines",
+    "year": null,
+    "term": null,
+    "discipline": "chemistry",
+    "doc_type": "slides",
+    "topics": [
+      "Structure, nomenclature, chirality and basicity of amines",
+      "Synthesis of amines by alkylation and reduction",
+      "Acylation-reduction and Hofmann rearrangement",
+      "Reactions of amines: eliminations and diazonium salts",
+      "Common names of cyclic amines and aniline",
+      "Classification of sp3 N by C-N connectivity",
+      "Summary of amine preparations and transformations"
+    ],
+    "key_terms": [
+      "amine",
+      "primary amine",
+      "secondary amine",
+      "tertiary amine",
+      "ammonium ion",
+      "alkylation",
+      "SN2",
+      "Gabriel synthesis",
+      "reductive amination",
+      "acylation-reduction",
+      "Hofmann rearrangement",
+      "Hofmann elimination",
+      "Cope elimination",
+      "diazonium salt",
+      "chirality",
+      "basicity",
+      "reduction of azides",
+      "reduction of nitriles"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3974,
+    "output_tokens": 1174,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00102235,
+  "billed_cost_usd": null,
+  "latency_s": 5.721530299982987,
+  "n_pages": 2,
+  "image_pixels": 3029600,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Amines\",\"year\":null,\"term\":null,\"discipline\":\"chemistry\",\"doc_type\":\"slides\",\"topics\":[\"Structure, nomenclature, chirality and basicity of amines\",\"Synthesis of amines by alkylation and reduction\",\"Acylation-reduction and Hofmann rearrangement\",\"Reactions of amines: eliminations and diazonium salts\",\"Common names of cyclic amines and aniline\",\"Classification of sp3 N by C-N connectivity\",\"Summary of amine preparations and transformations\"],\"key_terms\":[\"amine\",\"primary amine\",\"secondary amine\",\"tertiary amine\",\"ammonium ion\",\"alkylation\",\"SN2\",\"Gabriel synthesis\",\"reductive amination\",\"acylation-reduction\",\"Hofmann rearrangement\",\"Hofmann elimination\",\"Cope elimination\",\"diazonium salt\",\"chirality\",\"basicity\",\"reduction of azides\",\"reduction of nitriles\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3974,
+        "output_tokens": 1174,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.721530299982987,
+      "error": null,
+      "request_id": "req_011CgMTg6qGNfoSjpwbEW9ni",
+      "billed_cost_usd": null
+    }
+  ]
+}

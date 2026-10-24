@@ -1,0 +1,80 @@
+{
+  "doc_id": "ocw-wgs-640-mitwgs_640f07_4_1",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Studies in Women's Life Narratives: Interrogating Marriage: Case Studies in American Law and Culture",
+    "course_code": "WGS.640",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Allison Lakomski"
+    ],
+    "lecture_number": null,
+    "lecture_title": "Narratives of Seduction and Abandonment",
+    "year": 2007,
+    "term": "fall",
+    "discipline": "humanities",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Charlotte Temple and the marriage of the heart",
+      "Charlotte's departure with Montraville",
+      "Americanization of seduction and sentimental fiction",
+      "Status and illegitimacy in Anne Orthwood's Bastard",
+      "Race, indentured servitude and labor law in Virginia",
+      "Companionate marriage and the risks of love",
+      "Ascribed versus achieved status",
+      "Economic stability of marriage"
+    ],
+    "key_terms": [
+      "marriage of the heart",
+      "companionate marriage",
+      "seduction",
+      "abandonment",
+      "sentimental writing",
+      "illegitimacy",
+      "caveat venditor",
+      "caveat emptor",
+      "indentured servant",
+      "ascribed status",
+      "achieved status",
+      "legitimate bastards",
+      "fornication",
+      "racial categories",
+      "status",
+      "patriarchy",
+      "virtue",
+      "economic stability of marriage"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 11866,
+    "output_tokens": 1985,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0022170500000000004,
+  "billed_cost_usd": null,
+  "latency_s": 9.612879899912514,
+  "n_pages": 8,
+  "image_pixels": 9160461,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Studies in Women's Life Narratives: Interrogating Marriage: Case Studies in American Law and Culture\",\"course_code\":\"WGS.640\",\"institution\":\"Massachusetts Institute of Technology\",\"lecturers\":[\"Allison Lakomski\"],\"lecture_number\":null,\"lecture_title\":\"Narratives of Seduction and Abandonment\",\"year\":2007,\"term\":\"fall\",\"discipline\":\"humanities\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Charlotte Temple and the marriage of the heart\",\"Charlotte's departure with Montraville\",\"Americanization of seduction and sentimental fiction\",\"Status and illegitimacy in Anne Orthwood's Bastard\",\"Race, indentured servitude and labor law in Virginia\",\"Companionate marriage and the risks of love\",\"Ascribed versus achieved status\",\"Economic stability of marriage\"],\"key_terms\":[\"marriage of the heart\",\"companionate marriage\",\"seduction\",\"abandonment\",\"sentimental writing\",\"illegitimacy\",\"caveat venditor\",\"caveat emptor\",\"indentured servant\",\"ascribed status\",\"achieved status\",\"legitimate bastards\",\"fornication\",\"racial categories\",\"status\",\"patriarchy\",\"virtue\",\"economic stability of marriage\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 11866,
+        "output_tokens": 1985,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 9.612879899912514,
+      "error": null,
+      "request_id": "req_011CgMTfMdEWgyv7kjMUa2F4",
+      "billed_cost_usd": null
+    }
+  ]
+}

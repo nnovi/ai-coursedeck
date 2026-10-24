@@ -39,7 +39,8 @@ def save(doc_id: str, card: dict, notes: str, status: str) -> dict:
         "card": validated,
         "draft": prev.get("draft", prev.get("card")),
     }
-    path_for(doc_id).write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", "utf-8")
+    path_for(doc_id).write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", "utf-8",
+                                newline="\n")
     return record
 
 

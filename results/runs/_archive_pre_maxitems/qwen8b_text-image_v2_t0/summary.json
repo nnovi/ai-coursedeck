@@ -1,0 +1,17 @@
+{
+  "n_docs": 20,
+  "valid": 18,
+  "valid_rate": 0.9,
+  "first_attempt_valid_rate": 0.9,
+  "retried": 2,
+  "errors": {
+    "zen-17459347-p008": "the reply was cut off at max_tokens",
+    "zen-23470007-p002": "the reply was cut off at max_tokens"
+  },
+  "latency_p50_s": 9.925252849934623,
+  "latency_p95_s": 133.44792419998558,
+  "cost_usd": 0.0,
+  "cost_per_1000_docs_usd": 0.0,
+  "input_tokens": 514877,
+  "output_tokens": 24891
+}

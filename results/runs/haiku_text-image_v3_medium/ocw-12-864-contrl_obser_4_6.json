@@ -1,0 +1,72 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Matrix inverses and computational feasibility",
+      "Controllability of a scalar-control model",
+      "Solvability of the controllability system",
+      "Observability and recovery of initial conditions",
+      "Observability matrix rank test",
+      "Practical limits of observability in fluids"
+    ],
+    "key_terms": [
+      "controllable",
+      "controllability",
+      "observable",
+      "observability",
+      "observability matrix",
+      "nullspace",
+      "rank",
+      "nonsingular",
+      "steady-state solution",
+      "Riccati equations",
+      "stabilizability",
+      "reachability",
+      "reconstructability",
+      "detectability",
+      "geometrical spreading"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 6567,
+    "output_tokens": 968,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00117865,
+  "billed_cost_usd": null,
+  "latency_s": 5.1506952999625355,
+  "n_pages": 4,
+  "image_pixels": 3452020,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Controllability and Observability\",\"year\":null,\"term\":null,\"discipline\":\"engineering\",\"doc_type\":\"textbook_chapter\",\"topics\":[\"Matrix inverses and computational feasibility\",\"Controllability of a scalar-control model\",\"Solvability of the controllability system\",\"Observability and recovery of initial conditions\",\"Observability matrix rank test\",\"Practical limits of observability in fluids\"],\"key_terms\":[\"controllable\",\"controllability\",\"observable\",\"observability\",\"observability matrix\",\"nullspace\",\"rank\",\"nonsingular\",\"steady-state solution\",\"Riccati equations\",\"stabilizability\",\"reachability\",\"reconstructability\",\"detectability\",\"geometrical spreading\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 6567,
+        "output_tokens": 968,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.1506952999625355,
+      "error": null,
+      "request_id": "req_011CgM9xa6iQzJQxGYMWD8xe",
+      "billed_cost_usd": null
+    }
+  ]
+}

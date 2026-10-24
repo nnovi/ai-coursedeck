@@ -1,0 +1,73 @@
+{
+  "doc_id": "ocw-22-105-lecture4",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": 4,
+    "lecture_title": "Conformal Mapping and Green's Theorem",
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Solving electrostatic problems",
+      "Failure of separation of variables",
+      "Conformal mapping",
+      "Review of complex variables",
+      "The mapping function and the solution",
+      "Green's theorem",
+      "Free space spherical and cylindrical Green's functions",
+      "Green's theorem for infinite space problems"
+    ],
+    "key_terms": [
+      "separation of variables",
+      "conformal mapping",
+      "mapping function",
+      "Cauchy-Riemann equations",
+      "Laplace's equation",
+      "Green's theorem",
+      "Green's function",
+      "Poisson's equation",
+      "delta function",
+      "observation point",
+      "integration point",
+      "divergence theorem",
+      "integral equation",
+      "line charge density"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 22278,
+    "output_tokens": 289,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.048205,
+  "billed_cost_usd": null,
+  "latency_s": 5.244486100040376,
+  "n_pages": 14,
+  "image_pixels": 9190231,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":4,\"lecture_title\":\"Conformal Mapping and Green's Theorem\",\"year\":null,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Solving electrostatic problems\",\"Failure of separation of variables\",\"Conformal mapping\",\"Review of complex variables\",\"The mapping function and the solution\",\"Green's theorem\",\"Free space spherical and cylindrical Green's functions\",\"Green's theorem for infinite space problems\"],\"key_terms\":[\"separation of variables\",\"conformal mapping\",\"mapping function\",\"Cauchy-Riemann equations\",\"Laplace's equation\",\"Green's theorem\",\"Green's function\",\"Poisson's equation\",\"delta function\",\"observation point\",\"integration point\",\"divergence theorem\",\"integral equation\",\"line charge density\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 22278,
+        "output_tokens": 289,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.244486100040376,
+      "error": null,
+      "request_id": "req_011CgMA7Ruqs4CNSxkzY4pFS",
+      "billed_cost_usd": null
+    }
+  ]
+}

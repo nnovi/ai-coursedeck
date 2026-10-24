@@ -1,0 +1,78 @@
+{
+  "doc_id": "ocw-5-069-symm_handout2",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "5.069 Crystal Structure Analysis",
+    "course_code": "5.069",
+    "institution": "MIT",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": 2008,
+    "term": "spring",
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Crystal structure as a 3D periodic discontinuum",
+      "Unit cell definition and parameters (a, b, c, α, β, γ)",
+      "Volume calculation of unit cell",
+      "Symmetry and translation in crystal structures",
+      "Bravais lattices and conventional vs unconventional lattices",
+      "Screw axes (41, 43, nm)",
+      "Space groups (230 in 3D)",
+      "Atomic coordinates (0 ≤ x < 1, 0 ≤ y < 1, 0 ≤ z < 1)",
+      "Distance calculation between atoms in unit cell",
+      "Red modification of PbO as case study",
+      "Symmetry operations and elements",
+      "Asymmetric unit vs unit cell",
+      "Lattice definition"
+    ],
+    "key_terms": [
+      "unit cell",
+      "Bravais lattices",
+      "screw axes",
+      "space groups",
+      "atomic coordinates",
+      "symmetry operations",
+      "asymmetric unit",
+      "lattice",
+      "PbO red modification",
+      "monoclinic systems",
+      "tetragonal system",
+      "inversion center",
+      "right-handed system"
+    ],
+    "references": [
+      "George M. Sheldrick. Used with permission.",
+      "Volume A International Tables for Crystallography"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 1468,
+    "output_tokens": 389,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.763039299985394,
+  "n_pages": 10,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"5.069 Crystal Structure Analysis\",\n  \"course_code\": \"5.069\",\n  \"institution\": \"MIT\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": null,\n  \"year\": 2008,\n  \"term\": \"spring\",\n  \"discipline\": \"physics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Crystal structure as a 3D periodic discontinuum\",\n    \"Unit cell definition and parameters (a, b, c, α, β, γ)\",\n    \"Volume calculation of unit cell\",\n    \"Symmetry and translation in crystal structures\",\n    \"Bravais lattices and conventional vs unconventional lattices\",\n    \"Screw axes (41, 43, nm)\",\n    \"Space groups (230 in 3D)\",\n    \"Atomic coordinates (0 ≤ x < 1, 0 ≤ y < 1, 0 ≤ z < 1)\",\n    \"Distance calculation between atoms in unit cell\",\n    \"Red modification of PbO as case study\",\n    \"Symmetry operations and elements\",\n    \"Asymmetric unit vs unit cell\",\n    \"Lattice definition\"\n  ],\n  \"key_terms\": [\n    \"unit cell\",\n    \"Bravais lattices\",\n    \"screw axes\",\n    \"space groups\",\n    \"atomic coordinates\",\n    \"symmetry operations\",\n    \"asymmetric unit\",\n    \"lattice\",\n    \"PbO red modification\",\n    \"monoclinic systems\",\n    \"tetragonal system\",\n    \"inversion center\",\n    \"right-handed system\"\n  ],\n  \"references\": [\n    \"George M. Sheldrick. Used with permission.\",\n    \"Volume A International Tables for Crystallography\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 1468,
+        "output_tokens": 389,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.763039299985394,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

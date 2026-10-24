@@ -1,0 +1,78 @@
+{
+  "doc_id": "ocw-21g-031j-mit21g_031js03_lecture10",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Topics in the Avant-Garde in Literature and Cinema",
+    "course_code": "21G.031J",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 10,
+    "lecture_title": null,
+    "year": 2003,
+    "term": "spring",
+    "discipline": "humanities",
+    "doc_type": "outline",
+    "topics": [
+      "Peter Bürger, Theory of the Avant-garde",
+      "Historical avant-garde and its common features",
+      "Cubism and the historical avant-garde",
+      "Art as institution and autonomy",
+      "Aestheticism and the avant-garde",
+      "Walter Benjamin and the aura",
+      "Bertolt Brecht and early experiments",
+      "The Measures Taken"
+    ],
+    "key_terms": [
+      "historical avant-garde",
+      "avant-garde",
+      "institution of art",
+      "autonomy",
+      "aestheticism",
+      "aura",
+      "praxis of life",
+      "distribution apparatus",
+      "dada",
+      "surrealism",
+      "cubism",
+      "propaganda",
+      "Machiavellian cynicism",
+      "collective",
+      "commodification",
+      "authenticity",
+      "uniqueness",
+      "reproduction"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4789,
+    "output_tokens": 1415,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00122435,
+  "billed_cost_usd": null,
+  "latency_s": 7.201693199924193,
+  "n_pages": 5,
+  "image_pixels": 3591324,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Topics in the Avant-Garde in Literature and Cinema\",\"course_code\":\"21G.031J\",\"institution\":\"MIT OpenCourseWare\",\"lecturers\":[],\"lecture_number\":10,\"lecture_title\":null,\"year\":2003,\"term\":\"spring\",\"discipline\":\"humanities\",\"doc_type\":\"outline\",\"topics\":[\"Peter Bürger, Theory of the Avant-garde\",\"Historical avant-garde and its common features\",\"Cubism and the historical avant-garde\",\"Art as institution and autonomy\",\"Aestheticism and the avant-garde\",\"Walter Benjamin and the aura\",\"Bertolt Brecht and early experiments\",\"The Measures Taken\"],\"key_terms\":[\"historical avant-garde\",\"avant-garde\",\"institution of art\",\"autonomy\",\"aestheticism\",\"aura\",\"praxis of life\",\"distribution apparatus\",\"dada\",\"surrealism\",\"cubism\",\"propaganda\",\"Machiavellian cynicism\",\"collective\",\"commodification\",\"authenticity\",\"uniqueness\",\"reproduction\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4789,
+        "output_tokens": 1415,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 7.201693199924193,
+      "error": null,
+      "request_id": "req_011CgMTe32mqV51rVJxhaois",
+      "billed_cost_usd": null
+    }
+  ]
+}

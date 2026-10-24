@@ -1,0 +1,63 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Modal Logic",
+    "course_code": "24.244",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Stronger Systems",
+    "year": 2015,
+    "term": "spring",
+    "discipline": "humanities",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities and iterated modalities",
+      "Reduction laws in modal logic",
+      "Systems S4 and S5",
+      "Validity and frames for S4 and S5",
+      "System B and its relation to S4 and S5",
+      "System G and its relation to S5"
+    ],
+    "key_terms": [
+      "modalities",
+      "iterated modalities",
+      "reduction laws",
+      "systems S4 and S5",
+      "frames",
+      "validity",
+      "system B",
+      "system G"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 5517,
+    "output_tokens": 224,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 2.7013247000286356,
+  "n_pages": 5,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Modal Logic\",\n  \"course_code\": \"24.244\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Stronger Systems\",\n  \"year\": 2015,\n  \"term\": \"spring\",\n  \"discipline\": \"humanities\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Modalities and iterated modalities\",\n    \"Reduction laws in modal logic\",\n    \"Systems S4 and S5\",\n    \"Validity and frames for S4 and S5\",\n    \"System B and its relation to S4 and S5\",\n    \"System G and its relation to S5\"\n  ],\n  \"key_terms\": [\n    \"modalities\",\n    \"iterated modalities\",\n    \"reduction laws\",\n    \"systems S4 and S5\",\n    \"frames\",\n    \"validity\",\n    \"system B\",\n    \"system G\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 5517,
+        "output_tokens": 224,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.7013247000286356,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

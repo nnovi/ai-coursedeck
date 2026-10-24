@@ -1,0 +1,92 @@
+{
+  "doc_id": "ocw-8-08-the_fermi_gas",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "The Fermi gas",
+    "course_code": null,
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "The Fermi gas",
+    "year": null,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Free Fermions",
+      "Multi-particle states",
+      "Energy of state",
+      "Grand partition function",
+      "Thermopotential",
+      "Total number of particles",
+      "Number of particles in state",
+      "Equation of state",
+      "High temperature (classical) limit",
+      "Zero-temperature (quantum) limit",
+      "Quantum limit and classical limit",
+      "High temperature expansion - connection to ideal gas",
+      "Low temperature properties",
+      "Ground state energy",
+      "Compressibility of a metal",
+      "Spin susceptibility of metal",
+      "Low temperature specific heat",
+      "White dwarf & neutron star",
+      "Semi conductor",
+      "Diode (p-n junction)"
+    ],
+    "key_terms": [
+      "Free Fermions",
+      "Multi-particle states",
+      "Grand partition function",
+      "Thermopotential",
+      "Fermi-Dirac distribution",
+      "Equation of state",
+      "High temperature (classical) limit",
+      "Zero-temperature (quantum) limit",
+      "Quantum limit",
+      "Classical limit",
+      "High temperature expansion",
+      "Ideal gas",
+      "Low temperature properties",
+      "Density of states",
+      "Ground state energy",
+      "Compressibility",
+      "Spin susceptibility",
+      "Specific heat",
+      "White dwarf",
+      "Neutron star",
+      "Semi conductor",
+      "Diode",
+      "p-n junction"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 35135,
+    "output_tokens": 406,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 23.103688000002876,
+  "n_pages": 18,
+  "image_pixels": 34263936,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"The Fermi gas\",\n  \"course_code\": null,\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": \"The Fermi gas\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"physics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Free Fermions\",\n    \"Multi-particle states\",\n    \"Energy of state\",\n    \"Grand partition function\",\n    \"Thermopotential\",\n    \"Total number of particles\",\n    \"Number of particles in state\",\n    \"Equation of state\",\n    \"High temperature (classical) limit\",\n    \"Zero-temperature (quantum) limit\",\n    \"Quantum limit and classical limit\",\n    \"High temperature expansion - connection to ideal gas\",\n    \"Low temperature properties\",\n    \"Ground state energy\",\n    \"Compressibility of a metal\",\n    \"Spin susceptibility of metal\",\n    \"Low temperature specific heat\",\n    \"White dwarf & neutron star\",\n    \"Semi conductor\",\n    \"Diode (p-n junction)\"\n  ],\n  \"key_terms\": [\n    \"Free Fermions\",\n    \"Multi-particle states\",\n    \"Grand partition function\",\n    \"Thermopotential\",\n    \"Fermi-Dirac distribution\",\n    \"Equation of state\",\n    \"High temperature (classical) limit\",\n    \"Zero-temperature (quantum) limit\",\n    \"Quantum limit\",\n    \"Classical limit\",\n    \"High temperature expansion\",\n    \"Ideal gas\",\n    \"Low temperature properties\",\n    \"Density of states\",\n    \"Ground state energy\",\n    \"Compressibility\",\n    \"Spin susceptibility\",\n    \"Specific heat\",\n    \"White dwarf\",\n    \"Neutron star\",\n    \"Semi conductor\",\n    \"Diode\",\n    \"p-n junction\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 35135,
+        "output_tokens": 406,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 23.103688000002876,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "ocw-18-310-mit18_310f13_ch3",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Principles of Discrete Applied Mathematics",
+    "course_code": "18.310",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [
+      "Michel Goemans"
+    ],
+    "lecture_number": null,
+    "lecture_title": "Van der Waerden’s Theorem",
+    "year": 2013,
+    "term": "fall",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Arithmetic progressions",
+      "Colorings of subsets",
+      "Van der Waerden’s theorem",
+      "Random colorings",
+      "Indicator random variables",
+      "Linearity of expectation",
+      "Counting arithmetic progressions"
+    ],
+    "key_terms": [
+      "k-term arithmetic progression",
+      "2-coloring",
+      "Van der Waerden numbers",
+      "monochromatic k-term arithmetic progression",
+      "random coloring",
+      "random variable",
+      "indicator random variable",
+      "linearity of expectation",
+      "probabilistic method",
+      "lower bound"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4074,
+    "output_tokens": 466,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00066082,
+  "billed_cost_usd": 0.000762595,
+  "latency_s": 6.290928900009021,
+  "n_pages": 4,
+  "image_pixels": 3350466,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Principles of Discrete Applied Mathematics\",\n  \"course_code\": \"18.310\",\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [\"Michel Goemans\"],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Van der Waerden’s Theorem\",\n  \"year\": 2013,\n  \"term\": \"fall\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Arithmetic progressions\",\n    \"Colorings of subsets\",\n    \"Van der Waerden’s theorem\",\n    \"Random colorings\",\n    \"Indicator random variables\",\n    \"Linearity of expectation\",\n    \"Counting arithmetic progressions\"\n  ],\n  \"key_terms\": [\n    \"k-term arithmetic progression\",\n    \"2-coloring\",\n    \"Van der Waerden numbers\",\n    \"monochromatic k-term arithmetic progression\",\n    \"random coloring\",\n    \"random variable\",\n    \"indicator random variable\",\n    \"linearity of expectation\",\n    \"probabilistic method\",\n    \"lower bound\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4074,
+        "output_tokens": 466,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.290928900009021,
+      "error": null,
+      "request_id": "gen-1792863160-lkHdsInkSBQM9tfLYZVW",
+      "billed_cost_usd": 0.000762595
+    }
+  ]
+}

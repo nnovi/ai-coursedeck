@@ -1,0 +1,65 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Controllability of dynamic systems",
+      "Controllability matrix and rank test",
+      "Observability of state variables",
+      "Observability matrix and rank test",
+      "Practical observability limitations"
+    ],
+    "key_terms": [
+      "controllability",
+      "controllable",
+      "observability",
+      "observable",
+      "observability matrix",
+      "stabilizability",
+      "reachability",
+      "reconstructability",
+      "detectability"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4260,
+    "output_tokens": 548,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00072042,
+  "billed_cost_usd": 0.000826845,
+  "latency_s": 6.9001233000308275,
+  "n_pages": 4,
+  "image_pixels": 3452020,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": null,\n  \"course_code\": null,\n  \"institution\": null,\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Controllability and Observability\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"textbook_chapter\",\n  \"topics\": [\n    \"Controllability of dynamic systems\",\n    \"Controllability matrix and rank test\",\n    \"Observability of state variables\",\n    \"Observability matrix and rank test\",\n    \"Practical observability limitations\"\n  ],\n  \"key_terms\": [\n    \"controllability\",\n    \"controllable\",\n    \"observability\",\n    \"observable\",\n    \"observability matrix\",\n    \"stabilizability\",\n    \"reachability\",\n    \"reconstructability\",\n    \"detectability\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4260,
+        "output_tokens": 548,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.9001233000308275,
+      "error": null,
+      "request_id": "gen-1792849703-ikHjdLJCCmENaLixn0Cj",
+      "billed_cost_usd": 0.000826845
+    }
+  ]
+}

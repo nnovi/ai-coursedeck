@@ -1,0 +1,76 @@
+{
+  "doc_id": "ocw-7-29j-mit7_29js12_lecture3",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Cellular Neurobiology",
+    "course_code": "9.09J",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "William Quinn",
+      "Troy Littleton"
+    ],
+    "lecture_number": 3,
+    "lecture_title": null,
+    "year": 2004,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Acetylcholine receptor and voltage-gated Na+ channel structure",
+      "Ion channel selectivity and shell of hydration",
+      "Cloning membrane proteins",
+      "Toxins as tools for purifying channels",
+      "Ionic balance and Na+/K+ pump",
+      "Nernst equilibrium and Nernst equation",
+      "Resting potential of a K+-permeable cell"
+    ],
+    "key_terms": [
+      "acetylcholine receptor",
+      "voltage-gated Na+ channel",
+      "selectivity",
+      "shell of hydration",
+      "electroplaques",
+      "bungarotoxin",
+      "tetrodotoxin",
+      "Xenopus oocytes",
+      "patch clamp",
+      "Na+/K+ ATPase",
+      "ouabain",
+      "Nernst equilibrium",
+      "Nernst equation",
+      "Faraday constant",
+      "Gibbs free energy"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 8022,
+    "output_tokens": 381,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.020613,
+  "billed_cost_usd": null,
+  "latency_s": 3.946563499979675,
+  "n_pages": 5,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Cellular Neurobiology\",\"course_code\":\"9.09J\",\"institution\":\"Massachusetts Institute of Technology\",\"lecturers\":[\"William Quinn\",\"Troy Littleton\"],\"lecture_number\":3,\"lecture_title\":null,\"year\":2004,\"term\":null,\"discipline\":\"biology\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Acetylcholine receptor and voltage-gated Na+ channel structure\",\"Ion channel selectivity and shell of hydration\",\"Cloning membrane proteins\",\"Toxins as tools for purifying channels\",\"Ionic balance and Na+/K+ pump\",\"Nernst equilibrium and Nernst equation\",\"Resting potential of a K+-permeable cell\"],\"key_terms\":[\"acetylcholine receptor\",\"voltage-gated Na+ channel\",\"selectivity\",\"shell of hydration\",\"electroplaques\",\"bungarotoxin\",\"tetrodotoxin\",\"Xenopus oocytes\",\"patch clamp\",\"Na+/K+ ATPase\",\"ouabain\",\"Nernst equilibrium\",\"Nernst equation\",\"Faraday constant\",\"Gibbs free energy\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 8022,
+        "output_tokens": 381,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.946563499979675,
+      "error": null,
+      "request_id": "req_011CgMA9DsrCMPdDpPVhKRUy",
+      "billed_cost_usd": null
+    }
+  ]
+}

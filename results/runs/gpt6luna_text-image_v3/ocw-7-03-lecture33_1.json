@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-7-03-lecture33_1",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": "MIT OCW",
+    "lecturers": [],
+    "lecture_number": 33,
+    "lecture_title": "Most environmental causes of cancer are mutagens: mutagenic compounds, X-rays, uv",
+    "year": null,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "slides",
+    "topics": [
+      "Environmental mutagens",
+      "Cancer types by tissue",
+      "Mutations and uncontrolled growth",
+      "Stomach cancer incidence by age",
+      "Genetic basis of cancer",
+      "Transformation of 3T3 cells",
+      "Isolation of the Ras oncogene",
+      "Synergistic effects of myc and ras"
+    ],
+    "key_terms": [
+      "mutagens",
+      "Aflatoxin B",
+      "3,4-benzpyrene",
+      "carcinoma",
+      "lukemia",
+      "meyloma",
+      "lymphoma",
+      "sarcoma",
+      "mutations",
+      "somatic cells",
+      "tumor cell",
+      "metastasis",
+      "angiogenesis",
+      "Ras oncogene",
+      "myc",
+      "ras"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 6030,
+    "output_tokens": 1493,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0013699200000000002,
+  "billed_cost_usd": 0.001520595,
+  "latency_s": 16.377417599898763,
+  "n_pages": 8,
+  "image_pixels": 4381555,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": null,\n  \"course_code\": null,\n  \"institution\": \"MIT OCW\",\n  \"lecturers\": [],\n  \"lecture_number\": 33,\n  \"lecture_title\": \"Most environmental causes of cancer are mutagens: mutagenic compounds, X-rays, uv\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"biology\",\n  \"doc_type\": \"slides\",\n  \"topics\": [\n    \"Environmental mutagens\",\n    \"Cancer types by tissue\",\n    \"Mutations and uncontrolled growth\",\n    \"Stomach cancer incidence by age\",\n    \"Genetic basis of cancer\",\n    \"Transformation of 3T3 cells\",\n    \"Isolation of the Ras oncogene\",\n    \"Synergistic effects of myc and ras\"\n  ],\n  \"key_terms\": [\n    \"mutagens\",\n    \"Aflatoxin B\",\n    \"3,4-benzpyrene\",\n    \"carcinoma\",\n    \"lukemia\",\n    \"meyloma\",\n    \"lymphoma\",\n    \"sarcoma\",\n    \"mutations\",\n    \"somatic cells\",\n    \"tumor cell\",\n    \"metastasis\",\n    \"angiogenesis\",\n    \"Ras oncogene\",\n    \"myc\",\n    \"ras\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 6030,
+        "output_tokens": 1493,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 16.377417599898763,
+      "error": null,
+      "request_id": "gen-1792849916-52F5Rzb1xl3UsGvwCqmQ",
+      "billed_cost_usd": 0.001520595
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "n_docs": 20,
+  "valid": 20,
+  "valid_rate": 1.0,
+  "first_attempt_valid_rate": 1.0,
+  "retried": 0,
+  "errors": {},
+  "latency_p50_s": 12.448796900047455,
+  "latency_p95_s": 25.614480465010274,
+  "cost_usd": 0.04555290000000001,
+  "cost_per_1000_docs_usd": 2.2776450000000006,
+  "input_tokens": 359670,
+  "output_tokens": 18355
+}

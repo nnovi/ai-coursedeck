@@ -1,0 +1,73 @@
+{
+  "doc_id": "zen-14634397-p152",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Захист розподілених баз даних та інформаційних систем",
+    "course_code": null,
+    "institution": "Донецький національний технічний університет",
+    "lecturers": [
+      "Я.Ю. Дорогий"
+    ],
+    "lecture_number": 5,
+    "lecture_title": "Управління доступом",
+    "year": 2023,
+    "term": null,
+    "discipline": "computer_science",
+    "doc_type": "slides",
+    "topics": [
+      "Управління користувацьким доступом",
+      "Системні повноваження",
+      "Створення користувачів",
+      "Створення ролей і надання повноважень",
+      "Об'єктні повноваження",
+      "Передача повноважень",
+      "Скасування об'єктних повноважень"
+    ],
+    "key_terms": [
+      "Системні повноваження",
+      "Об'єктні повноваження",
+      "Схема",
+      "Роль",
+      "Адміністратор бази даних",
+      "CREATE USER",
+      "GRANT",
+      "CREATE ROLE",
+      "WITH GRANT OPTION",
+      "REVOKE",
+      "PUBLIC",
+      "Безпека бази даних"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 18496,
+    "output_tokens": 1142,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0024585500000000003,
+  "billed_cost_usd": null,
+  "latency_s": 5.881503000040539,
+  "n_pages": 21,
+  "image_pixels": 13894046,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Захист розподілених баз даних та інформаційних систем\",\"course_code\":null,\"institution\":\"Донецький національний технічний університет\",\"lecturers\":[\"Я.Ю. Дорогий\"],\"lecture_number\":5,\"lecture_title\":\"Управління доступом\",\"year\":2023,\"term\":null,\"discipline\":\"computer_science\",\"doc_type\":\"slides\",\"topics\":[\"Управління користувацьким доступом\",\"Системні повноваження\",\"Створення користувачів\",\"Створення ролей і надання повноважень\",\"Об'єктні повноваження\",\"Передача повноважень\",\"Скасування об'єктних повноважень\"],\"key_terms\":[\"Системні повноваження\",\"Об'єктні повноваження\",\"Схема\",\"Роль\",\"Адміністратор бази даних\",\"CREATE USER\",\"GRANT\",\"CREATE ROLE\",\"WITH GRANT OPTION\",\"REVOKE\",\"PUBLIC\",\"Безпека бази даних\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 18496,
+        "output_tokens": 1142,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.881503000040539,
+      "error": null,
+      "request_id": "req_011CgMTboS9kjBNPPeZV5jYM",
+      "billed_cost_usd": null
+    }
+  ]
+}

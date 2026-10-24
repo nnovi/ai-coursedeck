@@ -1,0 +1,78 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Philosophy 244: Modal Logic",
+    "course_code": "24.244",
+    "institution": "MIT",
+    "lecturers": [],
+    "lecture_number": 5,
+    "lecture_title": "Stronger Systems",
+    "year": 2015,
+    "term": "spring",
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities",
+      "Iterated modalities",
+      "Reduction laws",
+      "Systems stronger than T",
+      "S4 and S5 systems",
+      "Validity for S4 and S5",
+      "System B",
+      "System G",
+      "Modal logic and provability"
+    ],
+    "key_terms": [
+      "Modalities",
+      "Iterated modalities",
+      "Reduction laws",
+      "S4",
+      "S5",
+      "Brouwer",
+      "Godel",
+      "PA",
+      "T axiom",
+      "E axiom",
+      "B axiom",
+      "S4-frame",
+      "S5-frame",
+      "B-frame",
+      "G-frame"
+    ],
+    "references": [
+      "Hughes and Cresswell",
+      "Arthur Pap, Semantics and Necessary Truth",
+      "Proposition 2.2",
+      "MIT OpenCourseWare, 24.244 Modal Logic, Spring 2015"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4215,
+    "output_tokens": 320,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 3.603118099970743,
+  "n_pages": 5,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Philosophy 244: Modal Logic\",\n  \"course_code\": \"24.244\",\n  \"institution\": \"MIT\",\n  \"lecturers\": [],\n  \"lecture_number\": 5,\n  \"lecture_title\": \"Stronger Systems\",\n  \"year\": 2015,\n  \"term\": \"spring\",\n  \"discipline\": \"physics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Modalities\",\n    \"Iterated modalities\",\n    \"Reduction laws\",\n    \"Systems stronger than T\",\n    \"S4 and S5 systems\",\n    \"Validity for S4 and S5\",\n    \"System B\",\n    \"System G\",\n    \"Modal logic and provability\"\n  ],\n  \"key_terms\": [\n    \"Modalities\",\n    \"Iterated modalities\",\n    \"Reduction laws\",\n    \"S4\",\n    \"S5\",\n    \"Brouwer\",\n    \"Godel\",\n    \"PA\",\n    \"T axiom\",\n    \"E axiom\",\n    \"B axiom\",\n    \"S4-frame\",\n    \"S5-frame\",\n    \"B-frame\",\n    \"G-frame\"\n  ],\n  \"references\": [\n    \"Hughes and Cresswell\",\n    \"Arthur Pap, Semantics and Necessary Truth\",\n    \"Proposition 2.2\",\n    \"MIT OpenCourseWare, 24.244 Modal Logic, Spring 2015\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4215,
+        "output_tokens": 320,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.603118099970743,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

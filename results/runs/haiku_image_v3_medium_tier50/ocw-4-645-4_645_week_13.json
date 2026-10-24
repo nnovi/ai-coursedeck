@@ -1,0 +1,77 @@
+{
+  "doc_id": "ocw-4-645-4_645_week_13",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": null,
+    "term": null,
+    "discipline": "arts_architecture",
+    "doc_type": "outline",
+    "topics": [
+      "Village and house projects by James Sterling",
+      "Public buildings and university commissions",
+      "Palladio and Le Corbusier villas, Garches analysis",
+      "Peter Eisenman's House I to VI",
+      "Competition designs for Italian monuments and centres",
+      "San Cataldo cemetery, Italy",
+      "Kinked and disconnected buildings",
+      "Staircases, square and L-shaped ground plans",
+      "Rob Krier housing and public squares",
+      "Venturi and Rauch and the Las Vegas Strip study"
+    ],
+    "key_terms": [
+      "kinked buildings",
+      "disconnected buildings",
+      "dividing and breaking",
+      "semi-enclosed spaces",
+      "staircase studies",
+      "L-shaped ground plans",
+      "U-shaped ground plans",
+      "outside staircases",
+      "path shapes",
+      "intimacy gradient",
+      "competition design",
+      "pleasure zones",
+      "small public squares",
+      "Las Vegas Strip",
+      "analytical diagrams"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 19207,
+    "output_tokens": 1551,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0027341500000000003,
+  "billed_cost_usd": null,
+  "latency_s": 9.059782199910842,
+  "n_pages": 22,
+  "image_pixels": 14514192,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":null,\"year\":null,\"term\":null,\"discipline\":\"arts_architecture\",\"doc_type\":\"outline\",\"topics\":[\"Village and house projects by James Sterling\",\"Public buildings and university commissions\",\"Palladio and Le Corbusier villas, Garches analysis\",\"Peter Eisenman's House I to VI\",\"Competition designs for Italian monuments and centres\",\"San Cataldo cemetery, Italy\",\"Kinked and disconnected buildings\",\"Staircases, square and L-shaped ground plans\",\"Rob Krier housing and public squares\",\"Venturi and Rauch and the Las Vegas Strip study\"],\"key_terms\":[\"kinked buildings\",\"disconnected buildings\",\"dividing and breaking\",\"semi-enclosed spaces\",\"staircase studies\",\"L-shaped ground plans\",\"U-shaped ground plans\",\"outside staircases\",\"path shapes\",\"intimacy gradient\",\"competition design\",\"pleasure zones\",\"small public squares\",\"Las Vegas Strip\",\"analytical diagrams\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 19207,
+        "output_tokens": 1551,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 9.059782199910842,
+      "error": null,
+      "request_id": "req_011CgMTfWK7npzX2M92xjTWS",
+      "billed_cost_usd": null
+    }
+  ]
+}

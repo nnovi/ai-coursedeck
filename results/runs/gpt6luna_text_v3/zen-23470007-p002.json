@@ -1,0 +1,92 @@
+{
+  "doc_id": "zen-23470007-p002",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Філософія освіти",
+    "course_code": null,
+    "institution": "Український державний університет імені Михайла Драгоманова",
+    "lecturers": [
+      "Сергій Терепищий"
+    ],
+    "lecture_number": 1,
+    "lecture_title": "Філософія освіти як галузь філософії та навчальна дисципліна",
+    "year": 2026,
+    "term": null,
+    "discipline": "humanities",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Філософія освіти як галузь філософії",
+      "Міждисциплінарність і традиції філософії освіти",
+      "П’ять вимірів освіти",
+      "Учитель і учень як суб’єкти взаємодії",
+      "Освіта як дух епохи",
+      "Освітній ландшафт під час війни",
+      "Три функції освіти за Бієстою",
+      "Лерніфікація і мета освіти"
+    ],
+    "key_terms": [
+      "філософія освіти",
+      "об’єкт філософії освіти",
+      "предмет філософії освіти",
+      "суб’єкт-суб’єктна взаємодія",
+      "онтологічний вимір",
+      "епістемологічний вимір",
+      "антропологічний вимір",
+      "аксіологічний вимір",
+      "праксеологічний вимір",
+      "людиноцентризм",
+      "дух епохи (Zeitgeist)",
+      "освітній ландшафт",
+      "понтифік",
+      "кваліфікація",
+      "соціалізація",
+      "суб’єктифікація",
+      "лерніфікація",
+      "сродність",
+      "резонанс",
+      "прекрасний ризик освіти"
+    ],
+    "references": [
+      "Філософія освіти : навч. посіб. / за наук. ред. В. П. Андрущенка. 2-ге вид. Київ : Вид-во НПУ імені М. П. Драгоманова, 2021. 348 с.",
+      "Терепищий С. Філософія освіти: переосмислення освітнього ландшафту : монографія. Київ : Видавництво Людмила, 2026. 504 с.",
+      "Biesta G. Beyond Learning: Democratic Education for a Human Future. Boulder : Paradigm Publishers, 2006.",
+      "Biesta G. Good education in an age of measurement: on the need to reconnect with the question of purpose in education // Educational Assessment, Evaluation and Accountability. 2009. Vol. 21, № 1. P. 33–46.",
+      "Biesta G. The Beautiful Risk of Education. Boulder : Paradigm Publishers, 2013.",
+      "Дьюї Дж. Демократія і освіта / пер. з англ. Львів : Літопис, 2003.",
+      "Phillips D., Siegel H. Philosophy of Education // The Stanford Encyclopedia of Philosophy (Autumn 2013 Edition) / ed. E. N. Zalta. URL: https://plato.stanford.edu/entries/education-philosophy/",
+      "Robinson K., Aronica L. Creative Schools: The Grassroots Revolution That’s Transforming Education. New York : Viking, 2015.",
+      "Sandel M. J. What Money Can’t Buy: The Moral Limits of Markets. New York : Farrar, Straus and Giroux, 2012.",
+      "Сковорода Г. Повна академічна збірка творів / за ред. Л. Ушкалова. Харків ; Едмонтон ; Торонто : Майдан ; Вид-во Канад. ін-ту укр. студій, 2011."
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 15031,
+    "output_tokens": 1435,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0022410200000000003,
+  "billed_cost_usd": 0.00261672,
+  "latency_s": 11.51474400004372,
+  "n_pages": 20,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Філософія освіти\",\n  \"course_code\": null,\n  \"institution\": \"Український державний університет імені Михайла Драгоманова\",\n  \"lecturers\": [\n    \"Сергій Терепищий\"\n  ],\n  \"lecture_number\": 1,\n  \"lecture_title\": \"Філософія освіти як галузь філософії та навчальна дисципліна\",\n  \"year\": 2026,\n  \"term\": null,\n  \"discipline\": \"humanities\",\n  \"doc_type\": \"textbook_chapter\",\n  \"topics\": [\n    \"Філософія освіти як галузь філософії\",\n    \"Міждисциплінарність і традиції філософії освіти\",\n    \"П’ять вимірів освіти\",\n    \"Учитель і учень як суб’єкти взаємодії\",\n    \"Освіта як дух епохи\",\n    \"Освітній ландшафт під час війни\",\n    \"Три функції освіти за Бієстою\",\n    \"Лерніфікація і мета освіти\"\n  ],\n  \"key_terms\": [\n    \"філософія освіти\",\n    \"об’єкт філософії освіти\",\n    \"предмет філософії освіти\",\n    \"суб’єкт-суб’єктна взаємодія\",\n    \"онтологічний вимір\",\n    \"епістемологічний вимір\",\n    \"антропологічний вимір\",\n    \"аксіологічний вимір\",\n    \"праксеологічний вимір\",\n    \"людиноцентризм\",\n    \"дух епохи (Zeitgeist)\",\n    \"освітній ландшафт\",\n    \"понтифік\",\n    \"кваліфікація\",\n    \"соціалізація\",\n    \"суб’єктифікація\",\n    \"лерніфікація\",\n    \"сродність\",\n    \"резонанс\",\n    \"прекрасний ризик освіти\"\n  ],\n  \"references\": [\n    \"Філософія освіти : навч. посіб. / за наук. ред. В. П. Андрущенка. 2-ге вид. Київ : Вид-во НПУ імені М. П. Драгоманова, 2021. 348 с.\",\n    \"Терепищий С. Філософія освіти: переосмислення освітнього ландшафту : монографія. Київ : Видавництво Людмила, 2026. 504 с.\",\n    \"Biesta G. Beyond Learning: Democratic Education for a Human Future. Boulder : Paradigm Publishers, 2006.\",\n    \"Biesta G. Good education in an age of measurement: on the need to reconnect with the question of purpose in education // Educational Assessment, Evaluation and Accountability. 2009. Vol. 21, № 1. P. 33–46.\",\n    \"Biesta G. The Beautiful Risk of Education. Boulder : Paradigm Publishers, 2013.\",\n    \"Дьюї Дж. Демократія і освіта / пер. з англ. Львів : Літопис, 2003.\",\n    \"Phillips D., Siegel H. Philosophy of Education // The Stanford Encyclopedia of Philosophy (Autumn 2013 Edition) / ed. E. N. Zalta. URL: https://plato.stanford.edu/entries/education-philosophy/\",\n    \"Robinson K., Aronica L. Creative Schools: The Grassroots Revolution That’s Transforming Education. New York : Viking, 2015.\",\n    \"Sandel M. J. What Money Can’t Buy: The Moral Limits of Markets. New York : Farrar, Straus and Giroux, 2012.\",\n    \"Сковорода Г. Повна академічна збірка творів / за ред. Л. Ушкалова. Харків ; Едмонтон ; Торонто : Майдан ; Вид-во Канад. ін-ту укр. студій, 2011.\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 15031,
+        "output_tokens": 1435,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 11.51474400004372,
+      "error": null,
+      "request_id": "gen-1792849366-nKy5oFdQpc9UvvOmhrP5",
+      "billed_cost_usd": 0.00261672
+    }
+  ]
+}

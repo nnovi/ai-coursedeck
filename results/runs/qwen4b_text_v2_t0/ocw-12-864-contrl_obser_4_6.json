@@ -1,0 +1,64 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Controllability and Observability",
+    "course_code": "4.6",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Controllability of systems",
+      "Observability of systems",
+      "Matrix operations in control theory",
+      "State estimation and inverse problems"
+    ],
+    "key_terms": [
+      "Controllability",
+      "Observability",
+      "State vector",
+      "Observability matrix",
+      "Riccati equations",
+      "Matrix inverse",
+      "Nullspace",
+      "Stabilizability",
+      "Reachability",
+      "Reconstructability",
+      "Detectability"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2914,
+    "output_tokens": 207,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 1.480683899950236,
+  "n_pages": 4,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Controllability and Observability\",\n  \"course_code\": \"4.6\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Controllability and Observability\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Controllability of systems\",\n    \"Observability of systems\",\n    \"Matrix operations in control theory\",\n    \"State estimation and inverse problems\"\n  ],\n  \"key_terms\": [\n    \"Controllability\",\n    \"Observability\",\n    \"State vector\",\n    \"Observability matrix\",\n    \"Riccati equations\",\n    \"Matrix inverse\",\n    \"Nullspace\",\n    \"Stabilizability\",\n    \"Reachability\",\n    \"Reconstructability\",\n    \"Detectability\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2914,
+        "output_tokens": 207,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 1.480683899950236,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

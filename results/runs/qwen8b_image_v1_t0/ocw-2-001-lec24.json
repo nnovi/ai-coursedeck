@@ -1,0 +1,103 @@
+{
+  "doc_id": "ocw-2-001-lec24",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "2.001 - MECHANICS AND MATERIALS I",
+    "course_code": "2.001",
+    "institution": null,
+    "lecturers": [
+      "Prof. Carol Livermore"
+    ],
+    "lecture_number": 26,
+    "lecture_title": "Energy Methods",
+    "year": 2006,
+    "term": "fall",
+    "discipline": "medicine_health",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "3 Basic Ingredients of Mechanics",
+      "Castigliano's Theorem",
+      "Conservative Forces",
+      "Springs",
+      "Complementary Energy (U*)",
+      "Linear Elastic Material",
+      "Truss",
+      "Beam",
+      "Strain Energy Density"
+    ],
+    "key_terms": [
+      "Equilibrium",
+      "Constitutive Relations",
+      "Stress-Strain",
+      "Force-Deformation",
+      "Compatibility",
+      "Castigliano's Theorem",
+      "Conservative Forces",
+      "Potential Energy",
+      "Elastic Systems",
+      "Plastic Deformation",
+      "Stored Energy",
+      "Work Put In",
+      "Complementary Energy",
+      "Linear Elastic Material",
+      "Truss",
+      "Beam",
+      "Strain Energy Density"
+    ],
+    "references": [
+      "u = mgh => Potential Energy, Path Independent",
+      "W = ∫ F·ds = ∫ m g dz = mgh",
+      "Energy = 1/2 k δ²",
+      "U = W",
+      "dU = P dδ",
+      "P = dU / dδ",
+      "U* = ∫ δ dP",
+      "U = U* due to linearity",
+      "U ≠ U* if this is non-linear",
+      "δ = dU / dP",
+      "δ = U* / dP",
+      "U = Σ U_i = F₁² / 2k₁ + F₂² / 2k₂ = P² / 2k + P² / 2k₂",
+      "δ = U* / dP = P / k₁ + P / k₂",
+      "U = Σ U_i = F_AB² / 2k_AB + F_BC² / 2k_BC",
+      "U = (P tan θ)² / 2k_AB + (P / cos θ)² / 2k_BC",
+      "u = ∫ σ dε",
+      "U = ∫ dV ∫ σ_xx dε_xx",
+      "σ_xx = E ε_xx",
+      "σ_xx = -M y / I",
+      "U = ∫ dV ∫ σ_xx dε_xx = ∫ dV σ_xx² / 2E",
+      "U = ∫ M(x)² y² dV",
+      "U = 1 / 2EI ∫ M(x)² dx",
+      "M(x) = -P(L - x)",
+      "U = 1 / 2EI ∫₀ᴸ P² (L - x)² dx = P² L³ / 6EI",
+      "δ_tip = dU / dP = P L³ / 3EI"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 9600,
+    "output_tokens": 716,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 11.082941800006665,
+  "n_pages": 8,
+  "image_pixels": 8614494,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"2.001 - MECHANICS AND MATERIALS I\",\n  \"course_code\": \"2.001\",\n  \"institution\": null,\n  \"lecturers\": [\n    \"Prof. Carol Livermore\"\n  ],\n  \"lecture_number\": 26,\n  \"lecture_title\": \"Energy Methods\",\n  \"year\": 2006,\n  \"term\": \"fall\",\n  \"discipline\": \"medicine_health\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"3 Basic Ingredients of Mechanics\",\n    \"Castigliano's Theorem\",\n    \"Conservative Forces\",\n    \"Springs\",\n    \"Complementary Energy (U*)\",\n    \"Linear Elastic Material\",\n    \"Truss\",\n    \"Beam\",\n    \"Strain Energy Density\"\n  ],\n  \"key_terms\": [\n    \"Equilibrium\",\n    \"Constitutive Relations\",\n    \"Stress-Strain\",\n    \"Force-Deformation\",\n    \"Compatibility\",\n    \"Castigliano's Theorem\",\n    \"Conservative Forces\",\n    \"Potential Energy\",\n    \"Elastic Systems\",\n    \"Plastic Deformation\",\n    \"Stored Energy\",\n    \"Work Put In\",\n    \"Complementary Energy\",\n    \"Linear Elastic Material\",\n    \"Truss\",\n    \"Beam\",\n    \"Strain Energy Density\"\n  ],\n  \"references\": [\n    \"u = mgh => Potential Energy, Path Independent\",\n    \"W = ∫ F·ds = ∫ m g dz = mgh\",\n    \"Energy = 1/2 k δ²\",\n    \"U = W\",\n    \"dU = P dδ\",\n    \"P = dU / dδ\",\n    \"U* = ∫ δ dP\",\n    \"U = U* due to linearity\",\n    \"U ≠ U* if this is non-linear\",\n    \"δ = dU / dP\",\n    \"δ = U* / dP\",\n    \"U = Σ U_i = F₁² / 2k₁ + F₂² / 2k₂ = P² / 2k + P² / 2k₂\",\n    \"δ = U* / dP = P / k₁ + P / k₂\",\n    \"U = Σ U_i = F_AB² / 2k_AB + F_BC² / 2k_BC\",\n    \"U = (P tan θ)² / 2k_AB + (P / cos θ)² / 2k_BC\",\n    \"u = ∫ σ dε\",\n    \"U = ∫ dV ∫ σ_xx dε_xx\",\n    \"σ_xx = E ε_xx\",\n    \"σ_xx = -M y / I\",\n    \"U = ∫ dV ∫ σ_xx dε_xx = ∫ dV σ_xx² / 2E\",\n    \"U = ∫ M(x)² y² dV\",\n    \"U = 1 / 2EI ∫ M(x)² dx\",\n    \"M(x) = -P(L - x)\",\n    \"U = 1 / 2EI ∫₀ᴸ P² (L - x)² dx = P² L³ / 6EI\",\n    \"δ_tip = dU / dP = P L³ / 3EI\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 9600,
+        "output_tokens": 716,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 11.082941800006665,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

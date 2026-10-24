@@ -1,0 +1,71 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "Modal Logic",
+    "course_code": "24.244",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 5,
+    "lecture_title": "Stronger Systems",
+    "year": 2015,
+    "term": "spring",
+    "discipline": "humanities",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities and reduction laws",
+      "Modalities in S4",
+      "Validity for S4",
+      "System S5",
+      "Validity in S5",
+      "System B",
+      "Basic facts about B",
+      "Stronger systems and provability"
+    ],
+    "key_terms": [
+      "modality",
+      "iterated modality",
+      "reduction law",
+      "standard form",
+      "affirmative modality",
+      "S4-frame",
+      "S4-valid",
+      "S5-frame",
+      "equivalence relation",
+      "B-frame",
+      "B-validity",
+      "G-frames"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 12403,
+    "output_tokens": 526,
+    "cache_read_tokens": 2042,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0015237200000000003,
+  "billed_cost_usd": 0.00183372,
+  "latency_s": 8.540197200025432,
+  "n_pages": 5,
+  "image_pixels": 6943548,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Modal Logic\",\n  \"course_code\": \"24.244\",\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [],\n  \"lecture_number\": 5,\n  \"lecture_title\": \"Stronger Systems\",\n  \"year\": 2015,\n  \"term\": \"spring\",\n  \"discipline\": \"humanities\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Modalities and reduction laws\",\n    \"Modalities in S4\",\n    \"Validity for S4\",\n    \"System S5\",\n    \"Validity in S5\",\n    \"System B\",\n    \"Basic facts about B\",\n    \"Stronger systems and provability\"\n  ],\n  \"key_terms\": [\n    \"modality\",\n    \"iterated modality\",\n    \"reduction law\",\n    \"standard form\",\n    \"affirmative modality\",\n    \"S4-frame\",\n    \"S4-valid\",\n    \"S5-frame\",\n    \"equivalence relation\",\n    \"B-frame\",\n    \"B-validity\",\n    \"G-frames\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 12403,
+        "output_tokens": 526,
+        "cache_read_tokens": 2042,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.540197200025432,
+      "error": null,
+      "request_id": "gen-1792849942-EQRd59As46OBPHDLjrSk",
+      "billed_cost_usd": 0.00183372
+    }
+  ]
+}

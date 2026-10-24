@@ -1,0 +1,19 @@
+{
+  "run_id": "fixcheck_maxitems",
+  "model": "qwen3-vl-8b",
+  "model_id": "qwen3-vl:8b-instruct",
+  "provider": "ollama",
+  "mode": "text",
+  "prompt": "v2",
+  "prompt_sha": "1e1454b9a4b9",
+  "effort": null,
+  "temperature": 0.0,
+  "manifest": "data\\manifests\\golden.csv",
+  "doc_ids": [
+    "zen-17459347-p008",
+    "zen-13324134-p009",
+    "zen-23470007-p002"
+  ],
+  "git_commit": "7ae47bd",
+  "started_at": "2026-10-24T12:45:22"
+}

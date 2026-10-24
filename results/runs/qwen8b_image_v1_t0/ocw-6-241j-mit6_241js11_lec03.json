@@ -1,0 +1,61 @@
+{
+  "doc_id": "ocw-6-241j-mit6_241js11_lec03",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": "6.241 Dynamic Systems and Control",
+    "course_code": "6.241",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Emilio Frazzoli"
+    ],
+    "lecture_number": 3,
+    "lecture_title": "Least Square Solutions of Linear Problems",
+    "year": 2011,
+    "term": "spring",
+    "discipline": "arts_architecture",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Least Squares Control",
+      "Constructing all possible solutions",
+      "A general formulation"
+    ],
+    "key_terms": [
+      "Least Squares Control",
+      "Gram product",
+      "Null space",
+      "Projection",
+      "Orthogonal component"
+    ],
+    "references": [
+      "DDV, Chapter 3"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 6427,
+    "output_tokens": 202,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "latency_s": 4.490715300082229,
+  "n_pages": 6,
+  "image_pixels": 4439345,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"6.241 Dynamic Systems and Control\",\n  \"course_code\": \"6.241\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"Emilio Frazzoli\"\n  ],\n  \"lecture_number\": 3,\n  \"lecture_title\": \"Least Square Solutions of Linear Problems\",\n  \"year\": 2011,\n  \"term\": \"spring\",\n  \"discipline\": \"arts_architecture\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Least Squares Control\",\n    \"Constructing all possible solutions\",\n    \"A general formulation\"\n  ],\n  \"key_terms\": [\n    \"Least Squares Control\",\n    \"Gram product\",\n    \"Null space\",\n    \"Projection\",\n    \"Orthogonal component\"\n  ],\n  \"references\": [\n    \"DDV, Chapter 3\"\n  ]\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 6427,
+        "output_tokens": 202,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.490715300082229,
+      "error": null,
+      "request_id": null
+    }
+  ]
+}

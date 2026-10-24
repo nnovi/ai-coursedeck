@@ -1,0 +1,74 @@
+{
+  "doc_id": "ocw-7-03-lecture33_1",
+  "ok": true,
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 33,
+    "lecture_title": "Most environmental causes of cancer are mutagens: mutagenic compounds, X-rays, uv",
+    "year": null,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "slides",
+    "topics": [
+      "Environmental mutagens and cancer",
+      "Cancer arising in actively dividing cells",
+      "Cancer as a genetic disease of somatic cells",
+      "Incidence of stomach cancer by age",
+      "Complications in understanding the genetic basis of cancer",
+      "Transformed 3T3 cells",
+      "Isolation of the Ras oncogene from human tumor cells",
+      "Synergistic effect of myc and ras"
+    ],
+    "key_terms": [
+      "mutagen",
+      "aflatoxin B",
+      "3,4-benzpyrene",
+      "carcinoma",
+      "lukemia",
+      "meyloma",
+      "lymphoma",
+      "sarcoma",
+      "somatic cells",
+      "metastasis",
+      "angiogenesis",
+      "3T3 cells",
+      "Ras oncogene",
+      "myc",
+      "ras"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 6968,
+    "output_tokens": 354,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.018235,
+  "billed_cost_usd": null,
+  "latency_s": 3.393317300011404,
+  "n_pages": 8,
+  "image_pixels": 4381555,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":\"MIT OpenCourseWare\",\"lecturers\":[],\"lecture_number\":33,\"lecture_title\":\"Most environmental causes of cancer are mutagens: mutagenic compounds, X-rays, uv\",\"year\":null,\"term\":null,\"discipline\":\"biology\",\"doc_type\":\"slides\",\"topics\":[\"Environmental mutagens and cancer\",\"Cancer arising in actively dividing cells\",\"Cancer as a genetic disease of somatic cells\",\"Incidence of stomach cancer by age\",\"Complications in understanding the genetic basis of cancer\",\"Transformed 3T3 cells\",\"Isolation of the Ras oncogene from human tumor cells\",\"Synergistic effect of myc and ras\"],\"key_terms\":[\"mutagen\",\"aflatoxin B\",\"3,4-benzpyrene\",\"carcinoma\",\"lukemia\",\"meyloma\",\"lymphoma\",\"sarcoma\",\"somatic cells\",\"metastasis\",\"angiogenesis\",\"3T3 cells\",\"Ras oncogene\",\"myc\",\"ras\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 6968,
+        "output_tokens": 354,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.393317300011404,
+      "error": null,
+      "request_id": "req_011CgMA77NN1UowQsDruiUi7",
+      "billed_cost_usd": null
+    }
+  ]
+}
