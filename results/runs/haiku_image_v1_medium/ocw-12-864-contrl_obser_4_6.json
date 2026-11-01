@@ -1,0 +1,75 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "mathematics",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Existence of steady-state solutions to Riccati equations",
+      "Matrix inverses and their existence",
+      "Controllability of a system with B = 0 and scalar control",
+      "Solving for the control u(t) from the system Cu = x(t_f) - A^{t_f} x(0)",
+      "Rank condition for controllability",
+      "Observability from perfect observations",
+      "Observability matrix O and recovery of x(0)",
+      "Practical limitations of observability in fluid flows"
+    ],
+    "key_terms": [
+      "controllable",
+      "controllability",
+      "observable",
+      "observability",
+      "observability matrix",
+      "steady-state solution",
+      "algebraic Riccati equations",
+      "stabilizability",
+      "reachability",
+      "reconstructability",
+      "detectability",
+      "nullspace",
+      "rank",
+      "state vector",
+      "control"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4559,
+    "output_tokens": 716,
+    "cache_read_tokens": 1752,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00083142,
+  "billed_cost_usd": null,
+  "latency_s": 4.249230500019621,
+  "n_pages": 4,
+  "image_pixels": 3452020,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Controllability and Observability\",\"year\":null,\"term\":null,\"discipline\":\"mathematics\",\"doc_type\":\"textbook_chapter\",\"topics\":[\"Existence of steady-state solutions to Riccati equations\",\"Matrix inverses and their existence\",\"Controllability of a system with B = 0 and scalar control\",\"Solving for the control u(t) from the system Cu = x(t_f) - A^{t_f} x(0)\",\"Rank condition for controllability\",\"Observability from perfect observations\",\"Observability matrix O and recovery of x(0)\",\"Practical limitations of observability in fluid flows\"],\"key_terms\":[\"controllable\",\"controllability\",\"observable\",\"observability\",\"observability matrix\",\"steady-state solution\",\"algebraic Riccati equations\",\"stabilizability\",\"reachability\",\"reconstructability\",\"detectability\",\"nullspace\",\"rank\",\"state vector\",\"control\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4559,
+        "output_tokens": 716,
+        "cache_read_tokens": 1752,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.249230500019621,
+      "error": null,
+      "request_id": "req_011CgWxupqts1ytf2nFYig9d",
+      "billed_cost_usd": null
+    }
+  ]
+}

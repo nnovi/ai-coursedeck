@@ -63,15 +63,15 @@
       "discipline": 0.75,
       "doc_type": 0.85,
       "topics": 0.6736671451183835,
-      "key_terms": 0.5107690231031192,
+      "key_terms": 0.5132690231031193,
       "references": 0.8
     },
     "groups": {
       "fact": 0.81875,
       "classification": 0.8,
-      "content": 0.6614787227405009
+      "content": 0.6623120560738344
     },
-    "overall": 0.7600762409135003,
+    "overall": 0.7603540186912782,
     "hallucination_rate": 0.2413793103448276,
     "omission_rate": 0.0784313725490196,
     "confusions": [
@@ -189,15 +189,15 @@
         "discipline": 0.6666666666666666,
         "doc_type": 0.8333333333333334,
         "topics": 0.7176046176046177,
-        "key_terms": 0.40911680911680914,
+        "key_terms": 0.41745014245014245,
         "references": 0.6666666666666666
       },
       "groups": {
         "fact": 0.8333333333333334,
         "classification": 0.75,
-        "content": 0.5977960311293645
+        "content": 0.6005738089071423
       },
-      "overall": 0.7270431214875659,
+      "overall": 0.727969047413492,
       "hallucination_rate": 0.08333333333333333,
       "omission_rate": 0.1388888888888889,
       "confusions": [
@@ -602,9 +602,9 @@
           "f1": 0.26666666666666666
         },
         "key_terms": {
-          "precision": 0.1,
-          "recall": 0.1,
-          "f1": 0.10000000000000002
+          "precision": 0.15,
+          "recall": 0.15,
+          "f1": 0.15
         },
         "references": {
           "precision": 0.0,

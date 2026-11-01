@@ -1,0 +1,70 @@
+{
+  "doc_id": "ocw-7-29j-mit7_29js12_lecture3",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Cellular Neurobiology",
+    "course_code": "7.29J",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "William Quinn",
+      "Troy Littleton"
+    ],
+    "lecture_number": 3,
+    "lecture_title": "Ion Channels and Membrane Proteins",
+    "year": 2012,
+    "term": "spring",
+    "discipline": "biology",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Acetylcholine Receptor Structure",
+      "Voltage-Gated Sodium Channels",
+      "Ion Channel Selectivity",
+      "Cloning Membrane Proteins",
+      "Ion Gradients and Nernst Equation"
+    ],
+    "key_terms": [
+      "Acetylcholine Receptor",
+      "Voltage-Gated Na+ Channel",
+      "Ion Selectivity",
+      "Cloning",
+      "Nernst Equation",
+      "Ion Gradient",
+      "Membrane Potential",
+      "ATPase Pump",
+      "Bungarotoxin",
+      "Electrophorus Electricus"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 9392,
+    "output_tokens": 248,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "billed_cost_usd": null,
+  "latency_s": 3.184766100021079,
+  "n_pages": 5,
+  "image_pixels": 7663560,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Cellular Neurobiology\",\n  \"course_code\": \"7.29J\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"William Quinn\",\n    \"Troy Littleton\"\n  ],\n  \"lecture_number\": 3,\n  \"lecture_title\": \"Ion Channels and Membrane Proteins\",\n  \"year\": 2012,\n  \"term\": \"spring\",\n  \"discipline\": \"biology\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Acetylcholine Receptor Structure\",\n    \"Voltage-Gated Sodium Channels\",\n    \"Ion Channel Selectivity\",\n    \"Cloning Membrane Proteins\",\n    \"Ion Gradients and Nernst Equation\"\n  ],\n  \"key_terms\": [\n    \"Acetylcholine Receptor\",\n    \"Voltage-Gated Na+ Channel\",\n    \"Ion Selectivity\",\n    \"Cloning\",\n    \"Nernst Equation\",\n    \"Ion Gradient\",\n    \"Membrane Potential\",\n    \"ATPase Pump\",\n    \"Bungarotoxin\",\n    \"Electrophorus Electricus\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 9392,
+        "output_tokens": 248,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.184766100021079,
+      "error": null,
+      "request_id": null,
+      "billed_cost_usd": null
+    }
+  ]
+}

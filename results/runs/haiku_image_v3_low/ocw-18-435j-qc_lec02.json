@@ -1,0 +1,77 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Vitaly Feldman",
+      "P. Shor"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Postulates of quantum mechanics",
+      "Qubits and photon polarization",
+      "Unitary evolution of closed systems",
+      "Quantum measurements and projectors",
+      "Composite systems and tensor products",
+      "Entangled states"
+    ],
+    "key_terms": [
+      "unitary operator",
+      "Hermitian operator",
+      "ket",
+      "bra",
+      "adjoint operator",
+      "Pauli matrices",
+      "Hadamard transform",
+      "Hamiltonian",
+      "quantum measurement",
+      "projector",
+      "completeness equation",
+      "tensor product",
+      "Kronecker product",
+      "entangled state",
+      "state space",
+      "composite quantum system"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3358,
+    "output_tokens": 301,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00052425,
+  "billed_cost_usd": null,
+  "latency_s": 2.421424600004684,
+  "n_pages": 3,
+  "image_pixels": 2477652,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":\"Massachusetts Institute of Technology\",\"lecturers\":[\"Vitaly Feldman\",\"P. Shor\"],\"lecture_number\":2,\"lecture_title\":\"Basics of Quantum Mechanics\",\"year\":2003,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Postulates of quantum mechanics\",\"Qubits and photon polarization\",\"Unitary evolution of closed systems\",\"Quantum measurements and projectors\",\"Composite systems and tensor products\",\"Entangled states\"],\"key_terms\":[\"unitary operator\",\"Hermitian operator\",\"ket\",\"bra\",\"adjoint operator\",\"Pauli matrices\",\"Hadamard transform\",\"Hamiltonian\",\"quantum measurement\",\"projector\",\"completeness equation\",\"tensor product\",\"Kronecker product\",\"entangled state\",\"state space\",\"composite quantum system\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3358,
+        "output_tokens": 301,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.421424600004684,
+      "error": null,
+      "request_id": "req_011CgWxzpp3pTsSmwVxTWVb8",
+      "billed_cost_usd": null
+    }
+  ]
+}

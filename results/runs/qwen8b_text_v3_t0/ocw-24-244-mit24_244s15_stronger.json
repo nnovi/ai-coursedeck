@@ -1,0 +1,68 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Modal Logic",
+    "course_code": "24.244",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [],
+    "lecture_number": 5,
+    "lecture_title": "Stronger Systems",
+    "year": 2015,
+    "term": "spring",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities and iterated modalities",
+      "Reduction laws and systems S4 and S5",
+      "Modalities in S4 and S5",
+      "Validity for S4 and S5",
+      "System B and its relation to S4 and S5",
+      "System G and its relation to S5"
+    ],
+    "key_terms": [
+      "modalities",
+      "iterated modalities",
+      "reduction laws",
+      "systems S4 and S5",
+      "S4-frame",
+      "S5-frame",
+      "system B",
+      "system G",
+      "Brouwer",
+      "Godel"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 5674,
+    "output_tokens": 243,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "billed_cost_usd": null,
+  "latency_s": 2.2976390999974683,
+  "n_pages": 5,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Modal Logic\",\n  \"course_code\": \"24.244\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [],\n  \"lecture_number\": 5,\n  \"lecture_title\": \"Stronger Systems\",\n  \"year\": 2015,\n  \"term\": \"spring\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Modalities and iterated modalities\",\n    \"Reduction laws and systems S4 and S5\",\n    \"Modalities in S4 and S5\",\n    \"Validity for S4 and S5\",\n    \"System B and its relation to S4 and S5\",\n    \"System G and its relation to S5\"\n  ],\n  \"key_terms\": [\n    \"modalities\",\n    \"iterated modalities\",\n    \"reduction laws\",\n    \"systems S4 and S5\",\n    \"S4-frame\",\n    \"S5-frame\",\n    \"system B\",\n    \"system G\",\n    \"Brouwer\",\n    \"Godel\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 5674,
+        "output_tokens": 243,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.2976390999974683,
+      "error": null,
+      "request_id": null,
+      "billed_cost_usd": null
+    }
+  ]
+}

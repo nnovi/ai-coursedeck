@@ -1,0 +1,72 @@
+{
+  "doc_id": "ocw-7-29j-mit7_29js12_lecture3",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Cellular Neurobiology",
+    "course_code": "9.09J",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "William Quinn",
+      "Troy Littleton"
+    ],
+    "lecture_number": 3,
+    "lecture_title": null,
+    "year": 2012,
+    "term": "spring",
+    "discipline": "biology",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "acetylcholine receptor structure and function",
+      "voltage-gated Na+ channel structure and function",
+      "selective gating of ion channels",
+      "cloning membrane proteins",
+      "ion gradients and membrane potential",
+      "Nernst equilibrium and Nernst equation",
+      "calculation of membrane potential using Nernst equation"
+    ],
+    "key_terms": [
+      "acetylcholine receptor",
+      "voltage-gated Na+ channel",
+      "ion channel selectivity",
+      "cloning membrane proteins",
+      "Nernst equilibrium",
+      "Nernst equation",
+      "membrane potential",
+      "ion gradients",
+      "Gibbs free energy",
+      "Paraday constant"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 9392,
+    "output_tokens": 270,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "billed_cost_usd": null,
+  "latency_s": 5.192947099974845,
+  "n_pages": 5,
+  "image_pixels": 7663560,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Cellular Neurobiology\",\n  \"course_code\": \"9.09J\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"William Quinn\",\n    \"Troy Littleton\"\n  ],\n  \"lecture_number\": 3,\n  \"lecture_title\": null,\n  \"year\": 2012,\n  \"term\": \"spring\",\n  \"discipline\": \"biology\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"acetylcholine receptor structure and function\",\n    \"voltage-gated Na+ channel structure and function\",\n    \"selective gating of ion channels\",\n    \"cloning membrane proteins\",\n    \"ion gradients and membrane potential\",\n    \"Nernst equilibrium and Nernst equation\",\n    \"calculation of membrane potential using Nernst equation\"\n  ],\n  \"key_terms\": [\n    \"acetylcholine receptor\",\n    \"voltage-gated Na+ channel\",\n    \"ion channel selectivity\",\n    \"cloning membrane proteins\",\n    \"Nernst equilibrium\",\n    \"Nernst equation\",\n    \"membrane potential\",\n    \"ion gradients\",\n    \"Gibbs free energy\",\n    \"Paraday constant\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 9392,
+        "output_tokens": 270,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.192947099974845,
+      "error": null,
+      "request_id": null,
+      "billed_cost_usd": null
+    }
+  ]
+}

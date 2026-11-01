@@ -1,0 +1,53 @@
+{
+  "doc_id": "zen-14978718-p006",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "ВАРІАЦІЙНОГО ЧИСЛЕННЯ",
+    "course_code": null,
+    "institution": null,
+    "lecturers": [
+      "Наталія КУГАЙ",
+      "Микола КАЛІНІЧЕНКО"
+    ],
+    "lecture_number": null,
+    "lecture_title": null,
+    "year": null,
+    "term": null,
+    "discipline": "mathematics",
+    "doc_type": "textbook_chapter",
+    "topics": [],
+    "key_terms": [],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 2058,
+    "output_tokens": 139,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "billed_cost_usd": null,
+  "latency_s": 3.5753309999709018,
+  "n_pages": 27,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"ВАРІАЦІЙНОГО ЧИСЛЕННЯ\",\n  \"course_code\": null,\n  \"institution\": null,\n  \"lecturers\": [\n    \"Наталія КУГАЙ\",\n    \"Микола КАЛІНІЧЕНКО\"\n  ],\n  \"lecture_number\": null,\n  \"lecture_title\": null,\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"textbook_chapter\",\n  \"topics\": [],\n  \"key_terms\": [],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 2058,
+        "output_tokens": 139,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.5753309999709018,
+      "error": null,
+      "request_id": null,
+      "billed_cost_usd": null
+    }
+  ]
+}

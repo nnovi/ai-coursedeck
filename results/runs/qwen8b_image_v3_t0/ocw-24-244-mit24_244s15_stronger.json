@@ -1,0 +1,78 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Modal Logic",
+    "course_code": "24.244",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [],
+    "lecture_number": 5,
+    "lecture_title": "Stronger Systems",
+    "year": 2015,
+    "term": "spring",
+    "discipline": "humanities",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities and iterated modalities",
+      "Reduction laws for modal systems",
+      "S4 system and its modalities",
+      "Validity of S4",
+      "System S5 and its modalities",
+      "Validity in S5",
+      "System B and its properties",
+      "Stronger systems than S5"
+    ],
+    "key_terms": [
+      "modalities",
+      "iterated modalities",
+      "reduction laws",
+      "S4 system",
+      "S5 system",
+      "B system",
+      "modal operators",
+      "standard form",
+      "validity",
+      "frames",
+      "accessibility relation",
+      "reflexive",
+      "transitive",
+      "symmetric",
+      "equivalence relation",
+      "soundness",
+      "provability",
+      "Second Incompleteness Theorem"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 8719,
+    "output_tokens": 286,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "billed_cost_usd": null,
+  "latency_s": 5.057068200025242,
+  "n_pages": 5,
+  "image_pixels": 6943548,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Modal Logic\",\n  \"course_code\": \"24.244\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [],\n  \"lecture_number\": 5,\n  \"lecture_title\": \"Stronger Systems\",\n  \"year\": 2015,\n  \"term\": \"spring\",\n  \"discipline\": \"humanities\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Modalities and iterated modalities\",\n    \"Reduction laws for modal systems\",\n    \"S4 system and its modalities\",\n    \"Validity of S4\",\n    \"System S5 and its modalities\",\n    \"Validity in S5\",\n    \"System B and its properties\",\n    \"Stronger systems than S5\"\n  ],\n  \"key_terms\": [\n    \"modalities\",\n    \"iterated modalities\",\n    \"reduction laws\",\n    \"S4 system\",\n    \"S5 system\",\n    \"B system\",\n    \"modal operators\",\n    \"standard form\",\n    \"validity\",\n    \"frames\",\n    \"accessibility relation\",\n    \"reflexive\",\n    \"transitive\",\n    \"symmetric\",\n    \"equivalence relation\",\n    \"soundness\",\n    \"provability\",\n    \"Second Incompleteness Theorem\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 8719,
+        "output_tokens": 286,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.057068200025242,
+      "error": null,
+      "request_id": null,
+      "billed_cost_usd": null
+    }
+  ]
+}

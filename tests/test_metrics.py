@@ -19,6 +19,9 @@ def test_fact_normalization():
     assert same_fact("lecture_title", "Van der Waerden’s Theorem", "Van der Waerden's theorem")
     assert not same_fact("course_code", "6.241", "6.241J")
     assert same_fact("year", 2022, "2022")
+    # ґ/г spelling variant must not flip the token order of token_sort_ratio
+    assert same_fact("lecture_title", "Екологія ґрунтових тварин. Етапи розвитку ґрунтової біології",
+                     "Екологія грунтових тварин. Етапи розвитку грунтової біології")
 
 
 def test_names_match_by_surname_in_any_form():

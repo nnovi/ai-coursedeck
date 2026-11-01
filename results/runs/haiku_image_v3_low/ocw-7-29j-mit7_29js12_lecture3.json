@@ -1,0 +1,68 @@
+{
+  "doc_id": "ocw-7-29j-mit7_29js12_lecture3",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Cellular Neurobiology",
+    "course_code": "9.09J/7.29J",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [],
+    "lecture_number": 3,
+    "lecture_title": "Acetylcholine receptor",
+    "year": 2005,
+    "term": "spring",
+    "discipline": "biology",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Acetylcholine receptor structure and gating",
+      "Ion selectivity by size filtration and hydration shell",
+      "Cloning membrane proteins using electric organ and toxins",
+      "Ion gradients and Na+/K+ ATPase",
+      "Nernst equilibrium and membrane voltage",
+      "Calculating the potassium equilibrium potential"
+    ],
+    "key_terms": [
+      "acetylcholine receptor",
+      "voltage-gated Na+ channel",
+      "shell of hydration",
+      "alpha-bungarotoxin",
+      "tetrodotoxin",
+      "Nernst equilibrium",
+      "Nernst equation",
+      "Na+/K+ ATPase",
+      "Faraday constant",
+      "Gibbs free energy"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 10060,
+    "output_tokens": 343,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00121545,
+  "billed_cost_usd": null,
+  "latency_s": 3.9667950000148267,
+  "n_pages": 5,
+  "image_pixels": 7663560,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Cellular Neurobiology\",\"course_code\":\"9.09J/7.29J\",\"institution\":\"Massachusetts Institute of Technology\",\"lecturers\":[],\"lecture_number\":3,\"lecture_title\":\"Acetylcholine receptor\",\"year\":2005,\"term\":\"spring\",\"discipline\":\"biology\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Acetylcholine receptor structure and gating\",\"Ion selectivity by size filtration and hydration shell\",\"Cloning membrane proteins using electric organ and toxins\",\"Ion gradients and Na+/K+ ATPase\",\"Nernst equilibrium and membrane voltage\",\"Calculating the potassium equilibrium potential\"],\"key_terms\":[\"acetylcholine receptor\",\"voltage-gated Na+ channel\",\"shell of hydration\",\"alpha-bungarotoxin\",\"tetrodotoxin\",\"Nernst equilibrium\",\"Nernst equation\",\"Na+/K+ ATPase\",\"Faraday constant\",\"Gibbs free energy\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 10060,
+        "output_tokens": 343,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.9667950000148267,
+      "error": null,
+      "request_id": "req_011CgWxz2YisEdLYGcrL6Naq",
+      "billed_cost_usd": null
+    }
+  ]
+}

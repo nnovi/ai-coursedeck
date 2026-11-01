@@ -58,7 +58,7 @@
       "institution": 0.95,
       "lecturers": 1.0,
       "lecture_number": 0.9,
-      "lecture_title": 0.8,
+      "lecture_title": 0.85,
       "year": 1.0,
       "term": 1.0,
       "discipline": 1.0,
@@ -68,11 +68,11 @@
       "references": 0.9966666666666667
     },
     "groups": {
-      "fact": 0.9375,
+      "fact": 0.94375,
       "classification": 1.0,
       "content": 0.8331994858491695
     },
-    "overall": 0.9235664952830565,
+    "overall": 0.9256498286163898,
     "hallucination_rate": 0.06896551724137931,
     "omission_rate": 0.029411764705882353,
     "confusions": []
@@ -167,7 +167,7 @@
         "institution": 1.0,
         "lecturers": 1.0,
         "lecture_number": 0.8333333333333334,
-        "lecture_title": 0.6666666666666666,
+        "lecture_title": 0.8333333333333334,
         "year": 1.0,
         "term": 1.0,
         "discipline": 1.0,
@@ -177,11 +177,11 @@
         "references": 1.0
       },
       "groups": {
-        "fact": 0.9166666666666666,
+        "fact": 0.9375,
         "classification": 1.0,
         "content": 0.7994014594891787
       },
-      "overall": 0.9053560420519484,
+      "overall": 0.912300486496393,
       "hallucination_rate": 0.0,
       "omission_rate": 0.05555555555555555,
       "confusions": []
@@ -545,7 +545,7 @@
           "gold_empty": false
         },
         "lecture_title": {
-          "correct": false,
+          "correct": true,
           "hallucinated": false,
           "omitted": false,
           "gold_empty": false

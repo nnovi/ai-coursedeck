@@ -36,6 +36,34 @@ model = "haiku"
 mode = "pdf"
 sampling = { effort = "medium" }
 
+# Prompt-version axis on the provider model (same mode and sampling as the v3 run).
+[[experiments]]
+name = "haiku_image_v1_medium"
+model = "haiku"
+mode = "image"
+prompt = "v1"
+sampling = { effort = "medium" }
+
+[[experiments]]
+name = "haiku_image_v2_medium"
+model = "haiku"
+mode = "image"
+prompt = "v2"
+sampling = { effort = "medium" }
+
+# Sampling axis on the provider model: effort is the only generation knob Claude accepts.
+[[experiments]]
+name = "haiku_image_v3_low"
+model = "haiku"
+mode = "image"
+sampling = { effort = "low" }
+
+[[experiments]]
+name = "haiku_image_v3_high"
+model = "haiku"
+mode = "image"
+sampling = { effort = "high" }
+
 # All documents of the core tier (50 texts), production candidate configuration.
 [[experiments]]
 name = "haiku_image_v3_medium_tier50"

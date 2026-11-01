@@ -1,0 +1,70 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": null,
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Existence of steady-state solutions and matrix inverses",
+      "Controllability of the model state",
+      "Solving for the control sequence u(t)",
+      "Observability and the observability matrix",
+      "Practical limits of observability in fluid flows"
+    ],
+    "key_terms": [
+      "controllable",
+      "controllability",
+      "observable",
+      "observability",
+      "observability matrix",
+      "nullspace",
+      "rank",
+      "steady-state solution",
+      "Riccati equations",
+      "stabilizability",
+      "reachability",
+      "reconstructability",
+      "detectability"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 4579,
+    "output_tokens": 1279,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0011353499999999998,
+  "billed_cost_usd": null,
+  "latency_s": 6.830737999989651,
+  "n_pages": 4,
+  "image_pixels": 3452020,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":null,\"lecturers\":[],\"lecture_number\":null,\"lecture_title\":\"Controllability and Observability\",\"year\":null,\"term\":null,\"discipline\":\"engineering\",\"doc_type\":\"textbook_chapter\",\"topics\":[\"Existence of steady-state solutions and matrix inverses\",\"Controllability of the model state\",\"Solving for the control sequence u(t)\",\"Observability and the observability matrix\",\"Practical limits of observability in fluid flows\"],\"key_terms\":[\"controllable\",\"controllability\",\"observable\",\"observability\",\"observability matrix\",\"nullspace\",\"rank\",\"steady-state solution\",\"Riccati equations\",\"stabilizability\",\"reachability\",\"reconstructability\",\"detectability\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4579,
+        "output_tokens": 1279,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 6.830737999989651,
+      "error": null,
+      "request_id": "req_011CgWy4EZP7QRRmmQ6TqvM2",
+      "billed_cost_usd": null
+    }
+  ]
+}

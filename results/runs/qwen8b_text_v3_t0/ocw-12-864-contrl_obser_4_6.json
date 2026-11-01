@@ -1,0 +1,70 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Controllability and Observability",
+    "course_code": null,
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 4,
+    "lecture_title": "Controllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Controllability: driving system from initial state to arbitrary state",
+      "Matrix inverses and their existence in control computations",
+      "Observability: inferring initial conditions from observation sequences",
+      "Observability matrix and its rank condition for observability",
+      "Relationship between controllability, observability, and Riccati equations",
+      "Practical vs. mathematical observability in fluid systems"
+    ],
+    "key_terms": [
+      "controllability",
+      "observability",
+      "observability matrix",
+      "state vector",
+      "control",
+      "observation sequence",
+      "Riccati equations",
+      "nullspace",
+      "stabilizability",
+      "reachability",
+      "reconstructability",
+      "detectability"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3066,
+    "output_tokens": 259,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "billed_cost_usd": null,
+  "latency_s": 2.100087099999655,
+  "n_pages": 4,
+  "image_pixels": 0,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Controllability and Observability\",\n  \"course_code\": null,\n  \"institution\": \"MIT OpenCourseWare\",\n  \"lecturers\": [],\n  \"lecture_number\": 4,\n  \"lecture_title\": \"Controllability and Observability\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Controllability: driving system from initial state to arbitrary state\",\n    \"Matrix inverses and their existence in control computations\",\n    \"Observability: inferring initial conditions from observation sequences\",\n    \"Observability matrix and its rank condition for observability\",\n    \"Relationship between controllability, observability, and Riccati equations\",\n    \"Practical vs. mathematical observability in fluid systems\"\n  ],\n  \"key_terms\": [\n    \"controllability\",\n    \"observability\",\n    \"observability matrix\",\n    \"state vector\",\n    \"control\",\n    \"observation sequence\",\n    \"Riccati equations\",\n    \"nullspace\",\n    \"stabilizability\",\n    \"reachability\",\n    \"reconstructability\",\n    \"detectability\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3066,
+        "output_tokens": 259,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.100087099999655,
+      "error": null,
+      "request_id": null,
+      "billed_cost_usd": null
+    }
+  ]
+}

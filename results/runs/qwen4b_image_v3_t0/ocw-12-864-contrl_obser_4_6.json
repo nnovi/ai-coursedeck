@@ -1,0 +1,65 @@
+{
+  "doc_id": "ocw-12-864-contrl_obser_4_6",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Controlllability and Observability",
+    "course_code": "null",
+    "institution": "null",
+    "lecturers": [],
+    "lecture_number": null,
+    "lecture_title": "Controlllability and Observability",
+    "year": null,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "textbook_chapter",
+    "topics": [
+      "Controlllability and Observability",
+      "Controlllability Definition",
+      "Observability Definition",
+      "State Estimation and Observability"
+    ],
+    "key_terms": [
+      "Controlllability",
+      "Observability",
+      "State vector",
+      "Observation sequence",
+      "Observability matrix",
+      "Steady-state solution",
+      "Matrix inverse",
+      "Control input",
+      "State estimation"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 5861,
+    "output_tokens": 190,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "billed_cost_usd": null,
+  "latency_s": 2.068992199958302,
+  "n_pages": 4,
+  "image_pixels": 3452020,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Controlllability and Observability\",\n  \"course_code\": \"null\",\n  \"institution\": \"null\",\n  \"lecturers\": [],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Controlllability and Observability\",\n  \"year\": null,\n  \"term\": null,\n  \"discipline\": \"engineering\",\n  \"doc_type\": \"textbook_chapter\",\n  \"topics\": [\n    \"Controlllability and Observability\",\n    \"Controlllability Definition\",\n    \"Observability Definition\",\n    \"State Estimation and Observability\"\n  ],\n  \"key_terms\": [\n    \"Controlllability\",\n    \"Observability\",\n    \"State vector\",\n    \"Observation sequence\",\n    \"Observability matrix\",\n    \"Steady-state solution\",\n    \"Matrix inverse\",\n    \"Control input\",\n    \"State estimation\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 5861,
+        "output_tokens": 190,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.068992199958302,
+      "error": null,
+      "request_id": null,
+      "billed_cost_usd": null
+    }
+  ]
+}

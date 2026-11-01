@@ -1,0 +1,78 @@
+{
+  "doc_id": "ocw-7-03-lecture33_1",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": null,
+    "course_code": null,
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 33,
+    "lecture_title": null,
+    "year": null,
+    "term": null,
+    "discipline": "biology",
+    "doc_type": "slides",
+    "topics": [
+      "Environmental causes of cancer as mutagens",
+      "Cancer in actively dividing cells",
+      "Cancer types by tissue origin",
+      "Cancer as a genetic disease of somatic cells",
+      "Age incidence of stomach cancer",
+      "Complications in understanding the genetic basis of cancer",
+      "Transformed 3T3 cells in culture",
+      "Isolation of the Ras oncogene from human tumor cells",
+      "Synergistic effect of myc and ras oncogenes"
+    ],
+    "key_terms": [
+      "carcinoma",
+      "sarcoma",
+      "lymphoma",
+      "leukemia",
+      "myeloma",
+      "mutagens",
+      "oncogene",
+      "angiogenesis",
+      "metastasis",
+      "somatic cells",
+      "tumor cell",
+      "epoxide",
+      "phage library",
+      "Alu probe",
+      "transformed 3T3 cells",
+      "myc",
+      "ras"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 5971,
+    "output_tokens": 1801,
+    "cache_read_tokens": 3795,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0015355500000000001,
+  "billed_cost_usd": null,
+  "latency_s": 8.858516599982977,
+  "n_pages": 8,
+  "image_pixels": 4381555,
+  "attempts": [
+    {
+      "text": "{\"course_title\":null,\"course_code\":null,\"institution\":\"MIT OpenCourseWare\",\"lecturers\":[],\"lecture_number\":33,\"lecture_title\":null,\"year\":null,\"term\":null,\"discipline\":\"biology\",\"doc_type\":\"slides\",\"topics\":[\"Environmental causes of cancer as mutagens\",\"Cancer in actively dividing cells\",\"Cancer types by tissue origin\",\"Cancer as a genetic disease of somatic cells\",\"Age incidence of stomach cancer\",\"Complications in understanding the genetic basis of cancer\",\"Transformed 3T3 cells in culture\",\"Isolation of the Ras oncogene from human tumor cells\",\"Synergistic effect of myc and ras oncogenes\"],\"key_terms\":[\"carcinoma\",\"sarcoma\",\"lymphoma\",\"leukemia\",\"myeloma\",\"mutagens\",\"oncogene\",\"angiogenesis\",\"metastasis\",\"somatic cells\",\"tumor cell\",\"epoxide\",\"phage library\",\"Alu probe\",\"transformed 3T3 cells\",\"myc\",\"ras\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 5971,
+        "output_tokens": 1801,
+        "cache_read_tokens": 3795,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 8.858516599982977,
+      "error": null,
+      "request_id": "req_011CgWy375erm6yAzwEVmSuw",
+      "billed_cost_usd": null
+    }
+  ]
+}

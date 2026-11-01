@@ -88,6 +88,14 @@ def table(all_scores: list[dict]) -> str:
     for s in all_scores:
         cells = [fmt(s["by_stratum"].get(k, {}).get("overall")) for k in strata]
         lines.append(f"| {s['config']['run_id']} | " + " | ".join(cells) + " |")
+
+    fields = list(all_scores[0]["overall"]["fields"])
+    lines += ["", "Per-field score (facts and classification: accuracy; content lists: F1):", "",
+              "| run | " + " | ".join(fields) + " |",
+              "|---|" + "---|" * len(fields)]
+    for s in all_scores:
+        cells = [fmt(s["overall"]["fields"][f]) for f in fields]
+        lines.append(f"| {s['config']['run_id']} | " + " | ".join(cells) + " |")
     return "\n".join(lines)
 
 

@@ -1,0 +1,67 @@
+{
+  "doc_id": "ocw-6-241j-mit6_241js11_lec03",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Dynamic Systems and Control",
+    "course_code": "6.241",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Emilio Frazzoli"
+    ],
+    "lecture_number": 3,
+    "lecture_title": "Least Square Solutions of Linear Problems",
+    "year": 2011,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "slides",
+    "topics": [
+      "Least Squares Control",
+      "Constructing all possible solutions",
+      "A general formulation"
+    ],
+    "key_terms": [
+      "minimum norm",
+      "null space",
+      "homogeneous equation",
+      "orthogonal projection",
+      "Gram product",
+      "least squares solution",
+      "projection onto range",
+      "orthogonal component"
+    ],
+    "references": [
+      "DDV, Chapter 3"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 5998,
+    "output_tokens": 232,
+    "cache_read_tokens": 3624,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00075204,
+  "billed_cost_usd": null,
+  "latency_s": 2.2823565999860875,
+  "n_pages": 6,
+  "image_pixels": 4439345,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Dynamic Systems and Control\",\"course_code\":\"6.241\",\"institution\":\"Massachusetts Institute of Technology\",\"lecturers\":[\"Emilio Frazzoli\"],\"lecture_number\":3,\"lecture_title\":\"Least Square Solutions of Linear Problems\",\"year\":2011,\"term\":null,\"discipline\":\"engineering\",\"doc_type\":\"slides\",\"topics\":[\"Least Squares Control\",\"Constructing all possible solutions\",\"A general formulation\"],\"key_terms\":[\"minimum norm\",\"null space\",\"homogeneous equation\",\"orthogonal projection\",\"Gram product\",\"least squares solution\",\"projection onto range\",\"orthogonal component\"],\"references\":[\"DDV, Chapter 3\"]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 5998,
+        "output_tokens": 232,
+        "cache_read_tokens": 3624,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.2823565999860875,
+      "error": null,
+      "request_id": "req_011CgWxwnquTQgdP5Mx1tLxQ",
+      "billed_cost_usd": null
+    }
+  ]
+}

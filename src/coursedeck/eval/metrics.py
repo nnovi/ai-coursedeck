@@ -21,6 +21,9 @@ FACT_THRESHOLD = 85  # token_sort_ratio for titles and institution names
 CONTENT_THRESHOLDS = {"topics": 70, "key_terms": 85, "references": 80}
 
 QUOTES = str.maketrans({c: "'" for c in "’‘ʼ′`´“”«»\""}) | str.maketrans({"–": "-", "—": "-"})
+# Ukrainian ґ/г is a spelling variant (older texts and fonts lack ґ), not a content error;
+# without folding, token_sort_ratio also reorders words because ґ sorts after all Cyrillic.
+SPELLING = str.maketrans({"ґ": "г"})
 INSTITUTION_ALIASES = {  # normalized name -> canonical
     "mit": "mit",
     "mit opencourseware": "mit",
@@ -29,7 +32,7 @@ INSTITUTION_ALIASES = {  # normalized name -> canonical
 
 
 def norm(value) -> str:
-    s = unicodedata.normalize("NFKC", str(value)).casefold().translate(QUOTES)
+    s = unicodedata.normalize("NFKC", str(value)).casefold().translate(QUOTES).translate(SPELLING)
     s = re.sub(r"\s+", " ", s).strip()
     return s.strip(" .,;:")
 

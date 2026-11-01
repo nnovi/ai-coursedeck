@@ -1,0 +1,82 @@
+{
+  "doc_id": "ocw-24-244-mit24_244s15_stronger",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Modal Logic",
+    "course_code": "24.244",
+    "institution": "MIT OpenCourseWare",
+    "lecturers": [],
+    "lecture_number": 5,
+    "lecture_title": "Stronger Systems",
+    "year": 2015,
+    "term": "spring",
+    "discipline": "humanities",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Modalities and iterated modalities",
+      "Reduction laws R1-R4 and candidate axioms",
+      "Modalities in S4 and their count",
+      "Validity for S4 via transitive frames",
+      "System S5 and its six modalities",
+      "Validity in S5 via equivalence frames",
+      "System B and its relation to S4 and S5",
+      "Basic facts about B",
+      "Upward and onward: system G and provability"
+    ],
+    "key_terms": [
+      "modality",
+      "iterated modality",
+      "reduction law",
+      "standard form",
+      "S4",
+      "S5",
+      "B",
+      "G",
+      "reflexive frame",
+      "transitive frame",
+      "symmetric frame",
+      "equivalence relation",
+      "axiom T",
+      "axiom 4",
+      "provability"
+    ],
+    "references": [
+      "Hughes and Cresswell",
+      "Arthur Pap, Semantics and Necessary Truth",
+      "Brouwer",
+      "Gödel",
+      "Peano Arithmetic"
+    ]
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 9132,
+    "output_tokens": 367,
+    "cache_read_tokens": 1752,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00111422,
+  "billed_cost_usd": null,
+  "latency_s": 5.093108700006269,
+  "n_pages": 5,
+  "image_pixels": 6943548,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Modal Logic\",\"course_code\":\"24.244\",\"institution\":\"MIT OpenCourseWare\",\"lecturers\":[],\"lecture_number\":5,\"lecture_title\":\"Stronger Systems\",\"year\":2015,\"term\":\"spring\",\"discipline\":\"humanities\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Modalities and iterated modalities\",\"Reduction laws R1-R4 and candidate axioms\",\"Modalities in S4 and their count\",\"Validity for S4 via transitive frames\",\"System S5 and its six modalities\",\"Validity in S5 via equivalence frames\",\"System B and its relation to S4 and S5\",\"Basic facts about B\",\"Upward and onward: system G and provability\"],\"key_terms\":[\"modality\",\"iterated modality\",\"reduction law\",\"standard form\",\"S4\",\"S5\",\"B\",\"G\",\"reflexive frame\",\"transitive frame\",\"symmetric frame\",\"equivalence relation\",\"axiom T\",\"axiom 4\",\"provability\"],\"references\":[\"Hughes and Cresswell\",\"Arthur Pap, Semantics and Necessary Truth\",\"Brouwer\",\"Gödel\",\"Peano Arithmetic\"]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 9132,
+        "output_tokens": 367,
+        "cache_read_tokens": 1752,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 5.093108700006269,
+      "error": null,
+      "request_id": "req_011CgWxuSuYMYcHkNofpAr6T",
+      "billed_cost_usd": null
+    }
+  ]
+}

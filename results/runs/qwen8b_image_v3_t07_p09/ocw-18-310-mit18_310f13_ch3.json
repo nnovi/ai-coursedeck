@@ -1,0 +1,68 @@
+{
+  "doc_id": "ocw-18-310-mit18_310f13_ch3",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Principles of Discrete Applied Mathematics",
+    "course_code": "18.310",
+    "institution": "Massachusetts Institute of Technology",
+    "lecturers": [
+      "Michel Goemans"
+    ],
+    "lecture_number": null,
+    "lecture_title": "Van der Waerden's Theorem",
+    "year": 2013,
+    "term": "fall",
+    "discipline": "mathematics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Van der Waerden's Theorem",
+      "Arithmetic progression",
+      "2-coloring of a subset",
+      "Lower bound for W(k)",
+      "Probabilistic method",
+      "Expected value of f",
+      "Monochromatic k-term arithmetic progression"
+    ],
+    "key_terms": [
+      "Van der Waerden's Theorem",
+      "arithmetic progression",
+      "2-coloring",
+      "W(k)",
+      "probabilistic method",
+      "expected value",
+      "monochromatic k-term arithmetic progression"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 5945,
+    "output_tokens": 243,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "billed_cost_usd": null,
+  "latency_s": 3.441220299981069,
+  "n_pages": 4,
+  "image_pixels": 3350466,
+  "attempts": [
+    {
+      "text": "{\n  \"course_title\": \"Principles of Discrete Applied Mathematics\",\n  \"course_code\": \"18.310\",\n  \"institution\": \"Massachusetts Institute of Technology\",\n  \"lecturers\": [\n    \"Michel Goemans\"\n  ],\n  \"lecture_number\": null,\n  \"lecture_title\": \"Van der Waerden's Theorem\",\n  \"year\": 2013,\n  \"term\": \"fall\",\n  \"discipline\": \"mathematics\",\n  \"doc_type\": \"lecture_notes\",\n  \"topics\": [\n    \"Van der Waerden's Theorem\",\n    \"Arithmetic progression\",\n    \"2-coloring of a subset\",\n    \"Lower bound for W(k)\",\n    \"Probabilistic method\",\n    \"Expected value of f\",\n    \"Monochromatic k-term arithmetic progression\"\n  ],\n  \"key_terms\": [\n    \"Van der Waerden's Theorem\",\n    \"arithmetic progression\",\n    \"2-coloring\",\n    \"W(k)\",\n    \"probabilistic method\",\n    \"expected value\",\n    \"monochromatic k-term arithmetic progression\"\n  ],\n  \"references\": []\n}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 5945,
+        "output_tokens": 243,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 3.441220299981069,
+      "error": null,
+      "request_id": null,
+      "billed_cost_usd": null
+    }
+  ]
+}

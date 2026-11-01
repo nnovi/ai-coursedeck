@@ -1,0 +1,81 @@
+{
+  "doc_id": "ocw-18-435j-qc_lec02",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "Quantum Computation",
+    "course_code": "18.435/2.111",
+    "institution": "MIT",
+    "lecturers": [
+      "P. Shor"
+    ],
+    "lecture_number": 2,
+    "lecture_title": "Basics of Quantum Mechanics",
+    "year": 2003,
+    "term": null,
+    "discipline": "physics",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Postulates of state space as a unit vector in a complex inner product space",
+      "Unitary evolution of closed quantum systems",
+      "Pauli matrices and Hadamard transform on qubits",
+      "Quantum measurements and the completeness equation",
+      "Projective measurements onto orthogonal subspaces",
+      "Tensor product of state spaces for composite systems",
+      "Entangled states"
+    ],
+    "key_terms": [
+      "state space",
+      "unit vector",
+      "Hilbert space",
+      "ket",
+      "bra",
+      "conjugate transpose",
+      "unitary operator",
+      "adjoint operator",
+      "Hermitian operator",
+      "Pauli matrices",
+      "Hadamard transform",
+      "Schrödinger equation",
+      "Hamiltonian",
+      "measurement operator",
+      "completeness equation",
+      "projector",
+      "orthonormal basis",
+      "tensor product",
+      "Kronecker product",
+      "entangled state"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 3342,
+    "output_tokens": 947,
+    "cache_read_tokens": 1752,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00082522,
+  "billed_cost_usd": null,
+  "latency_s": 4.4842791999690235,
+  "n_pages": 3,
+  "image_pixels": 2477652,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"Quantum Computation\",\"course_code\":\"18.435/2.111\",\"institution\":\"MIT\",\"lecturers\":[\"P. Shor\"],\"lecture_number\":2,\"lecture_title\":\"Basics of Quantum Mechanics\",\"year\":2003,\"term\":null,\"discipline\":\"physics\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Postulates of state space as a unit vector in a complex inner product space\",\"Unitary evolution of closed quantum systems\",\"Pauli matrices and Hadamard transform on qubits\",\"Quantum measurements and the completeness equation\",\"Projective measurements onto orthogonal subspaces\",\"Tensor product of state spaces for composite systems\",\"Entangled states\"],\"key_terms\":[\"state space\",\"unit vector\",\"Hilbert space\",\"ket\",\"bra\",\"conjugate transpose\",\"unitary operator\",\"adjoint operator\",\"Hermitian operator\",\"Pauli matrices\",\"Hadamard transform\",\"Schrödinger equation\",\"Hamiltonian\",\"measurement operator\",\"completeness equation\",\"projector\",\"orthonormal basis\",\"tensor product\",\"Kronecker product\",\"entangled state\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3342,
+        "output_tokens": 947,
+        "cache_read_tokens": 1752,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 4.4842791999690235,
+      "error": null,
+      "request_id": "req_011CgWxuteqqu7fwY9uFrx3k",
+      "billed_cost_usd": null
+    }
+  ]
+}

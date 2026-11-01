@@ -1,0 +1,82 @@
+{
+  "doc_id": "ocw-2-001-lec24",
+  "ok": true,
+  "status": "ok",
+  "error": null,
+  "card": {
+    "course_title": "MECHANICS AND MATERIALS I",
+    "course_code": "2.001",
+    "institution": null,
+    "lecturers": [
+      "Prof. Carol Livermore"
+    ],
+    "lecture_number": 26,
+    "lecture_title": "Energy Methods",
+    "year": 2006,
+    "term": null,
+    "discipline": "engineering",
+    "doc_type": "lecture_notes",
+    "topics": [
+      "Three basic ingredients of mechanics: equilibrium, constitutive relations, compatibility",
+      "Castigliano's theorem",
+      "Conservative forces and potential energy (gravity)",
+      "Stored energy in springs",
+      "Complementary energy",
+      "Springs in series",
+      "Truss analysis by Castigliano's theorem",
+      "Strain energy density",
+      "Stored energy in a beam",
+      "Beam tip deflection example"
+    ],
+    "key_terms": [
+      "work",
+      "conservative force",
+      "potential energy",
+      "elastic deformation",
+      "plastic deformation",
+      "stored energy",
+      "complementary energy",
+      "linear elastic material",
+      "Castigliano's theorem",
+      "fictitious load",
+      "springs in series",
+      "truss",
+      "strain energy density",
+      "stress",
+      "strain",
+      "bending moment",
+      "moment of inertia",
+      "beam"
+    ],
+    "references": []
+  },
+  "n_attempts": 1,
+  "first_attempt_valid": true,
+  "usage": {
+    "input_tokens": 11275,
+    "output_tokens": 355,
+    "cache_read_tokens": 1752,
+    "cache_write_tokens": 0
+  },
+  "cost_usd": 0.00132252,
+  "billed_cost_usd": null,
+  "latency_s": 2.701784699980635,
+  "n_pages": 8,
+  "image_pixels": 8614494,
+  "attempts": [
+    {
+      "text": "{\"course_title\":\"MECHANICS AND MATERIALS I\",\"course_code\":\"2.001\",\"institution\":null,\"lecturers\":[\"Prof. Carol Livermore\"],\"lecture_number\":26,\"lecture_title\":\"Energy Methods\",\"year\":2006,\"term\":null,\"discipline\":\"engineering\",\"doc_type\":\"lecture_notes\",\"topics\":[\"Three basic ingredients of mechanics: equilibrium, constitutive relations, compatibility\",\"Castigliano's theorem\",\"Conservative forces and potential energy (gravity)\",\"Stored energy in springs\",\"Complementary energy\",\"Springs in series\",\"Truss analysis by Castigliano's theorem\",\"Strain energy density\",\"Stored energy in a beam\",\"Beam tip deflection example\"],\"key_terms\":[\"work\",\"conservative force\",\"potential energy\",\"elastic deformation\",\"plastic deformation\",\"stored energy\",\"complementary energy\",\"linear elastic material\",\"Castigliano's theorem\",\"fictitious load\",\"springs in series\",\"truss\",\"strain energy density\",\"stress\",\"strain\",\"bending moment\",\"moment of inertia\",\"beam\"],\"references\":[]}",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 11275,
+        "output_tokens": 355,
+        "cache_read_tokens": 1752,
+        "cache_write_tokens": 0
+      },
+      "latency_s": 2.701784699980635,
+      "error": null,
+      "request_id": "req_011CgWxud3jgfXffQxn4DgK3",
+      "billed_cost_usd": null
+    }
+  ]
+}
