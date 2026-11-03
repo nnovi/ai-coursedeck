@@ -1,4 +1,4 @@
-.PHONY: install run run-local score test
+.PHONY: install run run-local score test ingest
 
 install:
 	python -m venv .venv
@@ -12,6 +12,10 @@ run-local:    ## also run local Ollama experiments
 
 score:        ## recompute metrics from saved results only
 	python main.py --score-only
+
+ingest:       ## RAG corpus: fetch missing files, parse, clean, dedup, chunk
+	python -m coursedeck.rag.corpus fetch
+	python -m coursedeck.rag.ingest
 
 test:
 	python -m pytest -q

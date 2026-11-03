@@ -1,0 +1,2851 @@
+{
+ "summary": {
+  "documents": 131,
+  "formats": {
+   "pdf": 43,
+   "html": 55,
+   "docx": 8,
+   "pptx": 25
+  },
+  "dedup": {
+   "keep": 130,
+   "drop_near": 1
+  },
+  "params": {
+   "max_tokens": 400,
+   "min_tokens": 100,
+   "overlap": 50
+  }
+ },
+ "documents": {
+  "ocw-1-212j-lec10": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 8553,
+   "content_hash": "8299053445ff9fd3efb95816e027c263e37a1fc7cf19485cfb67f8e6e0b04f0f",
+   "blocks": {
+    "heading": 74,
+    "paragraph": 58,
+    "list_item": 2
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 18,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 7,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-10-37-lec10_03092007_w": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 7439,
+   "content_hash": "a59ee0ac636954cfe564fdea3e1772e078d1a228691a6339d387f2e6888f9a17",
+   "blocks": {
+    "paragraph": 146,
+    "heading": 60
+   },
+   "dropped": {
+    "running_header_footer": 14
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 15,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 6,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-12-864-contrl_obser_4_6": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 4867,
+   "content_hash": "6c26655ddd957251e8544e13cc2150a644ced83ae077151e4bc1feb8bc262410",
+   "blocks": {
+    "paragraph": 84,
+    "heading": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 4,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 4,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-18-310-mit18_310f13_ch3": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 6100,
+   "content_hash": "0fbe7d5dccc564737b2b5b749d45642eb01fb033d2036535fa74988b1d0e9d3f",
+   "blocks": {
+    "heading": 2,
+    "paragraph": 51,
+    "list_item": 3
+   },
+   "dropped": {
+    "license_page": 1
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 6,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 6,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-18-435j-qc_lec02": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 5700,
+   "content_hash": "bfd3fab273e33a4d7c30493b07f0fb20e54fc9dd4e9904c5eed4b2b001f103f7",
+   "blocks": {
+    "heading": 1,
+    "paragraph": 80,
+    "list_item": 2
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 6,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 6,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-2-001-lec24": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 2502,
+   "content_hash": "3b399fe2832d31b1adade38425c03e4f69482a7c3a6e4ef47fbfc2eb7968c4ad",
+   "blocks": {
+    "paragraph": 85,
+    "list_item": 3
+   },
+   "dropped": {
+    "page_number": 2
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 3,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-2-20-lecture12": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 7942,
+   "content_hash": "1e70714b44b48a4b1db7714fd84da7b593e0a9c94248de78a37fc3fb3149686c",
+   "blocks": {
+    "paragraph": 186,
+    "heading": 17,
+    "list_item": 10
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 12,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 8,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-20-180-20_180_devices": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 18542,
+   "content_hash": "59359e4e801b818eb7e1d482214b9798aafd68869802052ff12581112841d79c",
+   "blocks": {
+    "heading": 8,
+    "paragraph": 57,
+    "list_item": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 15,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 13,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-21a-219-lnf26civiljusticesystemoutline": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 3551,
+   "content_hash": "1d9ffba1f64102ab8b18c3c8d4e744fbaa9a2579df78a0311b67ada23e5772c3",
+   "blocks": {
+    "heading": 1,
+    "list_item": 9,
+    "paragraph": 23
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 3,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-21g-031j-mit21g_031js03_lecture10": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 3575,
+   "content_hash": "442c7037862d2e07b808c23e3ef8e00d5e303a1d647a7afc7b0732e46d1e1c71",
+   "blocks": {
+    "paragraph": 64,
+    "heading": 19,
+    "list_item": 1
+   },
+   "dropped": {
+    "license_page": 1,
+    "running_header_footer": 4
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 3,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-21g-228-mit21g-228s07_sent_variety": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 1036,
+   "content_hash": "5412ed07e54bcc15ba199f19007cdb665895ac0578b196d15a8898fec50fcece",
+   "blocks": {
+    "paragraph": 3
+   },
+   "dropped": {
+    "license_page": 1,
+    "page_number": 2
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 1,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-21h-343j-mit21h_343js16_philo": {
+   "format": "pdf",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 1918,
+   "content_hash": "2313092a4b7930fa14aa008e68aa43838630ee10c67817d064679371dc8764a2",
+   "blocks": {
+    "heading": 17,
+    "paragraph": 24
+   },
+   "dropped": {
+    "license_page": 1,
+    "running_header_footer": 21
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 3,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-21l-315-lect6": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 2559,
+   "content_hash": "ec910838e5f46bc6da9c0839503bef9a83e4ec14131f2bf8e42a2bda21a519e1",
+   "blocks": {
+    "paragraph": 6,
+    "heading": 4
+   },
+   "dropped": {
+    "page_number": 1
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-21l-995-questions_5_10": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 7580,
+   "content_hash": "6b2b08f55e9a9ce61413dba90bdac65f7c114b0096b555c76676078284cf42a2",
+   "blocks": {
+    "heading": 6,
+    "paragraph": 16
+   },
+   "dropped": {
+    "running_header_footer": 9
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 7,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 6,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-21m-220-mit21m_220f10_lst_estmpie": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 0,
+   "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "blocks": {},
+   "dropped": {
+    "license_page": 1
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 0,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 0,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-21m-235-mit21m_235_f13_week_i_mont": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 1406,
+   "content_hash": "51ea6e8885fc0ed51d1fe9be8aaa1d4998344faf956aeb6b61b893d710e60dae",
+   "blocks": {
+    "paragraph": 7
+   },
+   "dropped": {
+    "license_page": 1
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-22-105-lecture4": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 16387,
+   "content_hash": "76d2e83b72ccfa4e439e9685815d729cbce6d9a315bdb80a0645e0dcaa9a1def",
+   "blocks": {
+    "heading": 16,
+    "list_item": 106,
+    "paragraph": 401
+   },
+   "dropped": {
+    "running_header_footer": 25
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 20,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 16,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-24-244-mit24_244s15_stronger": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 11806,
+   "content_hash": "70f61de501ef2e0802dd7ed963cab36ba2ae2e193d7baa61c2dd10f46202cbd3",
+   "blocks": {
+    "heading": 9,
+    "paragraph": 53,
+    "list_item": 5
+   },
+   "dropped": {
+    "license_page": 1,
+    "running_header_footer": 4
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 14,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 11,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-3-15-lecture22_23_24": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 5669,
+   "content_hash": "eb01dba2b0b9d8eb543ecb3ecd9e34170e7f35acb4e14cbab3727f2d9e2adcaa",
+   "blocks": {
+    "paragraph": 26,
+    "heading": 1,
+    "list_item": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 6,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 5,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-3-986-lec1": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 1213,
+   "content_hash": "4d12ae53c39a528c2c582baa6db6af3a76c95ad1c72084c32130acd67994f75b",
+   "blocks": {
+    "heading": 2,
+    "paragraph": 27
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-4-645-4_645_week_13": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 10152,
+   "content_hash": "9d31e50a4362592807f585e0b692df02e4897a8681ccd5fa596b297dba227c33",
+   "blocks": {
+    "paragraph": 365
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 7,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 8,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-5-069-symm_handout2": {
+   "format": "pdf",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 3822,
+   "content_hash": "9cee9338588990f3c1e7ac7cd7dc81256d89390cfa4477bfce57876bf93a2ba1",
+   "blocks": {
+    "paragraph": 90,
+    "heading": 12,
+    "list_item": 2
+   },
+   "dropped": {
+    "license_page": 1
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 7,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 4,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-5-13-19_lec_19_20_06": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 1673,
+   "content_hash": "a807b72cc4c99256868e644397540a5fd990e70d1109be7a2f4c76e1c1a2eef9",
+   "blocks": {
+    "heading": 19,
+    "list_item": 29,
+    "paragraph": 43
+   },
+   "dropped": {
+    "page_number": 2
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 4,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-6-241j-mit6_241js11_lec03": {
+   "format": "pdf",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 2076,
+   "content_hash": "ccc24a89205f3ad9070115ec28a79a86af28205f4c908f1c56fc8b66f7e91445",
+   "blocks": {
+    "heading": 6,
+    "paragraph": 28
+   },
+   "dropped": {
+    "license_page": 1,
+    "running_header_footer": 20
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 3,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-6-334-content": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 7907,
+   "content_hash": "719aba8a11f757485a0b31372101a669a8a28805e4b67ff8d5b7f0714859b163",
+   "blocks": {
+    "heading": 4,
+    "paragraph": 13,
+    "table": 5
+   },
+   "dropped": {
+    "license_page": 1
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 22,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 17,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-7-02ci-methods_nl_sp05": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 11847,
+   "content_hash": "477fd9682e6c68dddc151b208a0ee7d29a33db224acbc528133680696af49ef7",
+   "blocks": {
+    "heading": 61,
+    "paragraph": 49,
+    "list_item": 20
+   },
+   "dropped": {
+    "running_header_footer": 14
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 9,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 9,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-7-03-lecture33_1": {
+   "format": "pdf",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 1929,
+   "content_hash": "5054369aad857fbcea61054c2f320469083460037dc4da8fdfe1adf0d41b0e8c",
+   "blocks": {
+    "paragraph": 66,
+    "heading": 4,
+    "list_item": 7
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-ec-721-mitec_721s09_lec01_part2": {
+   "format": "pdf",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 11671,
+   "content_hash": "7a62da69fa2f767d6a1ee7cb51f90dee77bed155df49a92316202db4a887d3b0",
+   "blocks": {
+    "paragraph": 151,
+    "heading": 123,
+    "list_item": 49
+   },
+   "dropped": {
+    "license_page": 1
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 13,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 8,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-ids-910-esd801session1notestranssept32002": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 4254,
+   "content_hash": "001610334c2d9665145dc1253948d4b91d8764c0fa45e00be4a5a380c5d65017",
+   "blocks": {
+    "heading": 2,
+    "list_item": 27
+   },
+   "dropped": {
+    "page_number": 2
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 3,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-pe-550-mitpe_550iap09_s09_lec02_iap07": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 16233,
+   "content_hash": "9d9b15b8341352100fc2aad772bd5479d084afb13d4f1593c53a0f86e9bc70c9",
+   "blocks": {
+    "paragraph": 35,
+    "heading": 2,
+    "list_item": 35
+   },
+   "dropped": {
+    "license_page": 1,
+    "running_header_footer": 20
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 12,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 12,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-sts-036-wk2_outline": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 1623,
+   "content_hash": "f6a0479f6bf7f0d84a5702f25aea4c49a62f81894de24c1f3a745e4f39791b4a",
+   "blocks": {
+    "heading": 2,
+    "paragraph": 4,
+    "list_item": 29
+   },
+   "dropped": {
+    "license_page": 1
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "ocw-wgs-640-mitwgs_640f07_4_1": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 15372,
+   "content_hash": "cee7bd84c1cac7a11ddd7820e4ab660995790937aba6d32d653ae84e5a13661b",
+   "blocks": {
+    "paragraph": 72,
+    "heading": 1,
+    "list_item": 69
+   },
+   "dropped": {
+    "license_page": 1,
+    "running_header_footer": 20
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 11,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 11,
+   "duplicate_chunks_fixed": 0
+  },
+  "zen-13324134-p009": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "uk",
+   "chars": 16543,
+   "content_hash": "4cb6a6897b93b2636187982f200cba4c87a8f22728b26601d8beb20c2a4287b1",
+   "blocks": {
+    "heading": 11,
+    "paragraph": 49,
+    "list_item": 18
+   },
+   "dropped": {
+    "running_header_footer": 5
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 14,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 12,
+   "duplicate_chunks_fixed": 0
+  },
+  "zen-14634123-p006": {
+   "format": "pdf",
+   "kind": "lecture_slides",
+   "lang": "uk",
+   "chars": 17249,
+   "content_hash": "2427f632872021888aab651275e764ba200f1e4c7aeae4510de855b2557b7bf6",
+   "blocks": {
+    "heading": 74,
+    "paragraph": 177,
+    "list_item": 58,
+    "table": 1
+   },
+   "dropped": {
+    "boilerplate": 1,
+    "running_header_footer": 57
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 21,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 13,
+   "duplicate_chunks_fixed": 0
+  },
+  "zen-14634148-p253": {
+   "format": "pdf",
+   "kind": "lecture_slides",
+   "lang": "uk",
+   "chars": 6989,
+   "content_hash": "a0ac70a289bf5d4d22109f34ef83b42cf074822de5f7aff0b6449f31eb47fb73",
+   "blocks": {
+    "heading": 64,
+    "paragraph": 39,
+    "list_item": 1,
+    "table": 3
+   },
+   "dropped": {
+    "boilerplate": 1,
+    "running_header_footer": 66
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 12,
+   "duplicate_chunks_structure": 1,
+   "chunks_fixed": 6,
+   "duplicate_chunks_fixed": 0
+  },
+  "zen-14634174-p007": {
+   "format": "pdf",
+   "kind": "lecture_slides",
+   "lang": "uk",
+   "chars": 8715,
+   "content_hash": "d3ff0bbfdeb9ed3a0ab5724c16b5b7c4dabffadc51062a1961a04dc57e3f454e",
+   "blocks": {
+    "heading": 37,
+    "paragraph": 58,
+    "list_item": 40
+   },
+   "dropped": {
+    "boilerplate": 1,
+    "running_header_footer": 21
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 8,
+   "duplicate_chunks_structure": 1,
+   "chunks_fixed": 6,
+   "duplicate_chunks_fixed": 0
+  },
+  "zen-14634397-p152": {
+   "format": "pdf",
+   "kind": "lecture_slides",
+   "lang": "uk",
+   "chars": 6976,
+   "content_hash": "8ac71a770d99e253dcf97ed4b431e8ebc7b8abc045212fd4de1efc7d02cb88dc",
+   "blocks": {
+    "heading": 25,
+    "paragraph": 88,
+    "list_item": 14,
+    "table": 3
+   },
+   "dropped": {
+    "boilerplate": 1,
+    "running_header_footer": 18
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 9,
+   "duplicate_chunks_structure": 1,
+   "chunks_fixed": 6,
+   "duplicate_chunks_fixed": 0
+  },
+  "zen-14789628-p007": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "uk",
+   "chars": 9107,
+   "content_hash": "10930753894bb1b30240fd24989523f3009f259f24b57439bcea2b75417916be",
+   "blocks": {
+    "paragraph": 22,
+    "list_item": 9,
+    "heading": 6
+   },
+   "dropped": {
+    "running_header_footer": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 10,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 8,
+   "duplicate_chunks_fixed": 0
+  },
+  "zen-16929475-p121": {
+   "format": "pdf",
+   "kind": "lecture_slides",
+   "lang": "uk",
+   "chars": 19626,
+   "content_hash": "c6462a7d2c8f19f74bc07c77fceed4d6ce7f2820cd1dc6c22c8c93140800cbbc",
+   "blocks": {
+    "heading": 20,
+    "paragraph": 52,
+    "list_item": 24
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 21,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 15,
+   "duplicate_chunks_fixed": 0
+  },
+  "zen-17442931-p006": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "uk",
+   "chars": 41055,
+   "content_hash": "eda40172eac4219426683f83cdd8f147df4a6f37cbcc23702f5abc3d874e92e1",
+   "blocks": {
+    "heading": 21,
+    "paragraph": 511,
+    "list_item": 31
+   },
+   "dropped": {
+    "running_header_footer": 23
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 32,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 31,
+   "duplicate_chunks_fixed": 0
+  },
+  "zen-17459347-p008": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "uk",
+   "chars": 25514,
+   "content_hash": "b964a714dd523e8a3ac8093172cb49e2a25b2b0a488b2847bb4bbb335ae9cccc",
+   "blocks": {
+    "heading": 17,
+    "paragraph": 57,
+    "list_item": 4
+   },
+   "dropped": {
+    "running_header_footer": 12
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 25,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 20,
+   "duplicate_chunks_fixed": 0
+  },
+  "zen-23470007-p002": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "uk",
+   "chars": 36032,
+   "content_hash": "ff36e2dc617ae33f0496a5881558147d935bbc4d4b16e60b271154a2749d6a0b",
+   "blocks": {
+    "heading": 76,
+    "paragraph": 397,
+    "list_item": 43,
+    "table": 4
+   },
+   "dropped": {
+    "running_header_footer": 54
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 43,
+   "duplicate_chunks_structure": 1,
+   "chunks_fixed": 32,
+   "duplicate_chunks_fixed": 0
+  },
+  "zen-6124599-p005": {
+   "format": "pdf",
+   "kind": "lecture_notes",
+   "lang": "uk",
+   "chars": 21743,
+   "content_hash": "938c052a10aed0495733b3c361933ccb26d6fd4ca342aa522dbf6a694a4a247a",
+   "blocks": {
+    "heading": 9,
+    "paragraph": 260,
+    "list_item": 48,
+    "table": 1
+   },
+   "dropped": {
+    "running_header_footer": 13
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 17,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 16,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-10-37-s07-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1733,
+   "content_hash": "b9781a95b7c0657dbcda5127820719f70d323dec6a191ba7566ca8b0275e9851",
+   "blocks": {
+    "heading": 6,
+    "paragraph": 3,
+    "list_item": 9
+   },
+   "dropped": {
+    "html_chrome_tag": 29,
+    "html_chrome_class": 9,
+    "repeated_section": 4
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-10-37-s07-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 8685,
+   "content_hash": "33f049dfab3f967cad2fb220e84f6eda4fdc2876dc44cd1b3b4329ab3f3ce72e",
+   "blocks": {
+    "heading": 11,
+    "paragraph": 17,
+    "table": 2
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 10,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 8,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-12-010-f11-calendar": {
+   "format": "html",
+   "kind": "calendar",
+   "lang": "en",
+   "chars": 2405,
+   "content_hash": "1a236f46dd72e46e15e391942f3067ac45dfa3e0349c45e99233248edad0037b",
+   "blocks": {
+    "heading": 1,
+    "paragraph": 2,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 3,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-12-010-f11-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 946,
+   "content_hash": "b69259d1e327c41787b65e2601657fb60adf01c05890c4e83fd4a45f5975cd49",
+   "blocks": {
+    "heading": 7,
+    "paragraph": 3,
+    "list_item": 15
+   },
+   "dropped": {
+    "html_chrome_tag": 27,
+    "html_chrome_class": 8,
+    "repeated_section": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-12-010-f11-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 2114,
+   "content_hash": "2a5c3baca9f21a2c4a8537a39d8bd790c6a58d7333f25fd8a95ac3b2681c188a",
+   "blocks": {
+    "heading": 6,
+    "paragraph": 5,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-12-010-f24-calendar": {
+   "format": "html",
+   "kind": "calendar",
+   "lang": "en",
+   "chars": 1055,
+   "content_hash": "0b225ff37e21aecfdb0d36291ee2966e96e19c9b4c3c3fd6a0e1afab3e541346",
+   "blocks": {
+    "paragraph": 29
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 1,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-12-010-f24-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1867,
+   "content_hash": "f456592769a9ec32896f99a8d58fc23b9ac6cda4200d0195c32cfd8a9c5a7243",
+   "blocks": {
+    "heading": 7,
+    "paragraph": 3,
+    "list_item": 15
+   },
+   "dropped": {
+    "html_chrome_tag": 29,
+    "html_chrome_class": 6,
+    "repeated_section": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-12-010-f24-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 2660,
+   "content_hash": "9f00457c66044a7e6c8e239c014f8199171812fa9f19b785a81dd4bc89c95e72",
+   "blocks": {
+    "heading": 8,
+    "paragraph": 7,
+    "list_item": 12
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 4,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-12-864-s05-calendar": {
+   "format": "html",
+   "kind": "calendar",
+   "lang": "en",
+   "chars": 1119,
+   "content_hash": "51872e1b4fb871c1bc1b5e3c4cc52640f92ea9c6c0cd1ae61337a8218d1b17df",
+   "blocks": {
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 1,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-12-864-s05-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 840,
+   "content_hash": "4c20b3b720813a5047ebe1f09bc3d24c50c01d0d80011c62055486f21e8472fd",
+   "blocks": {
+    "heading": 6,
+    "paragraph": 3,
+    "list_item": 12
+   },
+   "dropped": {
+    "html_chrome_tag": 31,
+    "html_chrome_class": 6,
+    "repeated_section": 4
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-12-864-s05-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 3169,
+   "content_hash": "8473f65fe1254095053f6e52690f47375485d987791f7315614e3d8da4813d2f",
+   "blocks": {
+    "heading": 6,
+    "paragraph": 17,
+    "list_item": 2,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 4,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-18-310-f13-calendar": {
+   "format": "html",
+   "kind": "calendar",
+   "lang": "en",
+   "chars": 2477,
+   "content_hash": "5716191140c7dc42b82420861ce72ea67610c1ae310dd43cfb20db0fd9ac1d51",
+   "blocks": {
+    "paragraph": 4,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 4,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-18-310-f13-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1220,
+   "content_hash": "8ded3c563f9d291dfe71da592726f24c2657d24638ebd6f3d30626be80aee419",
+   "blocks": {
+    "heading": 7,
+    "paragraph": 3,
+    "list_item": 15
+   },
+   "dropped": {
+    "html_chrome_tag": 29,
+    "html_chrome_class": 7,
+    "repeated_section": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-18-310-f13-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 4488,
+   "content_hash": "9f72820585b327ccbca18d2198eebc0c478f0c667dcfed372f27962bc0573a6f",
+   "blocks": {
+    "heading": 9,
+    "paragraph": 15,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 6,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-18-404j-f20-calendar": {
+   "format": "html",
+   "kind": "calendar",
+   "lang": "en",
+   "chars": 1268,
+   "content_hash": "793f58630faaff5e4e0f8dcdf837710e9979619ee9819054ef7f591118dacd18",
+   "blocks": {
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-18-404j-f20-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1278,
+   "content_hash": "5a10b6334c3bd47f79ddedd1ddcdbb7eef12ba9cbb850ca9aaaf57abb43ce2da",
+   "blocks": {
+    "heading": 7,
+    "paragraph": 3,
+    "list_item": 14
+   },
+   "dropped": {
+    "html_chrome_tag": 29,
+    "html_chrome_class": 9,
+    "repeated_section": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-18-404j-f20-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 3936,
+   "content_hash": "4f1666c039a26062b9d90e772f8ef2677463912cd756c6e63b3480aaa2535bda",
+   "blocks": {
+    "heading": 11,
+    "paragraph": 12,
+    "list_item": 8,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 5,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-18-435j-f03-calendar": {
+   "format": "html",
+   "kind": "calendar",
+   "lang": "en",
+   "chars": 1118,
+   "content_hash": "488fc40f0cbeca44ea03bcceb96bef14f2f8ac277174d48afdd151c01ab73a98",
+   "blocks": {
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-18-435j-f03-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1012,
+   "content_hash": "76cc534609a0aa12d72dceab3ec5598d9799623bb5ff354383180e45c05f7041",
+   "blocks": {
+    "heading": 7,
+    "paragraph": 3,
+    "list_item": 23
+   },
+   "dropped": {
+    "html_chrome_tag": 31,
+    "html_chrome_class": 8,
+    "repeated_section": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-18-435j-f03-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 1286,
+   "content_hash": "a95b57fc13f02d492c0ed1993a929a9b92d9bce466107a46314dc94c678d3da1",
+   "blocks": {
+    "heading": 6,
+    "paragraph": 7,
+    "list_item": 9,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 1,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-2-001-f06-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1286,
+   "content_hash": "ec73f002deb5144e7868fab259ee02b727447ab1d45794655e34824cefea29e0",
+   "blocks": {
+    "heading": 6,
+    "paragraph": 3,
+    "list_item": 9
+   },
+   "dropped": {
+    "html_chrome_tag": 25,
+    "html_chrome_class": 5,
+    "repeated_section": 4
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-2-001-f06-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 4691,
+   "content_hash": "1da259d7669d1c67cc1875238e9c383e15fda622d03eb64edbcba6951b9522fb",
+   "blocks": {
+    "heading": 13,
+    "paragraph": 11,
+    "list_item": 6,
+    "table": 2
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 7,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 4,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-2-20-s05-calendar": {
+   "format": "html",
+   "kind": "calendar",
+   "lang": "en",
+   "chars": 4049,
+   "content_hash": "d07ab9705e5e6aefbeb69bcb899642c7e4bd2b91c3e7a3bb531d2e63986f2303",
+   "blocks": {
+    "paragraph": 1,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 4,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 4,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-2-20-s05-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1682,
+   "content_hash": "6f7dd3935998e3c81ad41154d904e8e40f3a88858a3d77a390383561acbc7c10",
+   "blocks": {
+    "heading": 6,
+    "paragraph": 5,
+    "list_item": 7
+   },
+   "dropped": {
+    "html_chrome_tag": 27,
+    "html_chrome_class": 5,
+    "repeated_section": 4
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-2-20-s05-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 7702,
+   "content_hash": "926a02becd21bc842d9ccf890ab7687ef2e444cadeed970c70830220460e1f6b",
+   "blocks": {
+    "heading": 8,
+    "paragraph": 25,
+    "table": 1,
+    "list_item": 71
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 7,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 6,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-22-105-f05-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1452,
+   "content_hash": "ef3d2ddf4179decefc7f539be8b54d251a2a4d05a00d8b421f4f84dcd8d50c86",
+   "blocks": {
+    "heading": 7,
+    "paragraph": 5,
+    "list_item": 8
+   },
+   "dropped": {
+    "html_chrome_tag": 29,
+    "html_chrome_class": 5,
+    "repeated_section": 4
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-22-105-f05-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 4625,
+   "content_hash": "9aeb054bf5d698e7cea523e1de08ff1fcbb56967a57136babba8cf6c89f8b366",
+   "blocks": {
+    "heading": 9,
+    "paragraph": 14,
+    "table": 2
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 6,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 4,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-24-244-s15-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1417,
+   "content_hash": "be9131a0d96984a770a3dd4fa25874ad72cea7917711401bb20c3f4cbef01576",
+   "blocks": {
+    "heading": 6,
+    "paragraph": 3,
+    "list_item": 7
+   },
+   "dropped": {
+    "html_chrome_tag": 27,
+    "html_chrome_class": 6,
+    "repeated_section": 4
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-24-244-s15-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 1703,
+   "content_hash": "17a9588b2f793594a3c26508bb45dc470b47312f5c4de5f99eeed59ff00ffe86",
+   "blocks": {
+    "heading": 5,
+    "paragraph": 3,
+    "table": 2
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-5-069-s10-calendar": {
+   "format": "html",
+   "kind": "calendar",
+   "lang": "en",
+   "chars": 3737,
+   "content_hash": "8a76aae747b870fa85b1cfa42efa180b623d0cd88cdddc08e525195b0a793212",
+   "blocks": {
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 3,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-5-069-s10-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1250,
+   "content_hash": "8b021ba46cba1f6c6677b386c1fa6718a5ae2a1fc48f4ed120bd081df1faf425",
+   "blocks": {
+    "heading": 7,
+    "paragraph": 3,
+    "list_item": 10
+   },
+   "dropped": {
+    "html_chrome_tag": 27,
+    "html_chrome_class": 4,
+    "repeated_section": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-5-069-s10-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 5406,
+   "content_hash": "3dc8147c34c479fe55649b51be66697566408bc4db2827c275806ffdddd1a07e",
+   "blocks": {
+    "heading": 6,
+    "paragraph": 25,
+    "list_item": 4
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 6,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 4,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-5-13-f03-calendar": {
+   "format": "html",
+   "kind": "calendar",
+   "lang": "en",
+   "chars": 2280,
+   "content_hash": "ba39b2b503753211eede7db40d162ff3ecf60dcc5971d65da92524d3a71c7da9",
+   "blocks": {
+    "paragraph": 2,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 4,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-5-13-f03-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1086,
+   "content_hash": "9d8369beb0bd3289879fa0151ec21cec8427abd8ed6b1a6217fdd1f40655faa1",
+   "blocks": {
+    "heading": 7,
+    "paragraph": 3,
+    "list_item": 8
+   },
+   "dropped": {
+    "html_chrome_tag": 25,
+    "html_chrome_class": 8,
+    "repeated_section": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-5-13-f03-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 2581,
+   "content_hash": "5a3ec11876e82e3c3f1e27f8e2f35cbbcab7116d2cb5d8b354fff58135a994d2",
+   "blocks": {
+    "heading": 8,
+    "paragraph": 8,
+    "list_item": 3,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-5-13-f06-calendar": {
+   "format": "html",
+   "kind": "calendar",
+   "lang": "en",
+   "chars": 2079,
+   "content_hash": "7d3814939cc1658fcfcd83b3f7c5f1aa2de434958e09bda05ad46225c0cb97ce",
+   "blocks": {
+    "heading": 1,
+    "paragraph": 1,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 4,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-5-13-f06-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1069,
+   "content_hash": "403931155edaa50d2dace30e329a8c9fee47659a1e1b4766961ec5a0a37fc0e8",
+   "blocks": {
+    "heading": 7,
+    "paragraph": 3,
+    "list_item": 8
+   },
+   "dropped": {
+    "html_chrome_tag": 25,
+    "html_chrome_class": 8,
+    "repeated_section": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 1,
+   "duplicate_chunks_structure": 1,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-5-13-f06-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 5209,
+   "content_hash": "6ce555faf5b3863b67433bd6fb0caa52da39735bdfd0fb89770ec3a593ae42bf",
+   "blocks": {
+    "heading": 10,
+    "paragraph": 17,
+    "list_item": 12,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 5,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 4,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-6-007-s11-calendar": {
+   "format": "html",
+   "kind": "calendar",
+   "lang": "en",
+   "chars": 2887,
+   "content_hash": "8cb62da5483f8fe8cdd83bdafc58dffadebaf66305dc80a1e284c92ed90932e2",
+   "blocks": {
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 3,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-6-007-s11-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1706,
+   "content_hash": "6a0cb0b3000150401bc2a3e83ec102dc2cc8de51895c4d6cf70246067834f592",
+   "blocks": {
+    "heading": 7,
+    "paragraph": 5,
+    "list_item": 21
+   },
+   "dropped": {
+    "html_chrome_tag": 35,
+    "html_chrome_class": 7,
+    "repeated_section": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-6-007-s11-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 3276,
+   "content_hash": "1b2d10e543c5799185af310f1a0b143a5ad9d00afc44ef40372d05ecd98b83dc",
+   "blocks": {
+    "heading": 9,
+    "paragraph": 16,
+    "list_item": 3,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 5,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-6-241j-s11-calendar": {
+   "format": "html",
+   "kind": "calendar",
+   "lang": "en",
+   "chars": 1527,
+   "content_hash": "0a5254456c0a6ffd328e32a66b5b79bdbb9e0a0b8d301cabe9bd00aa556baaaf",
+   "blocks": {
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-6-241j-s11-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 2041,
+   "content_hash": "f322f8de70774b40b21bcc04f4091a8d020ca5dac3aa0292f39df738879ee2b5",
+   "blocks": {
+    "heading": 7,
+    "paragraph": 5,
+    "list_item": 23
+   },
+   "dropped": {
+    "html_chrome_tag": 37,
+    "html_chrome_class": 8,
+    "repeated_section": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-6-241j-s11-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 2591,
+   "content_hash": "3657a6166d294bb54c5ed788ac37f654541672cd1cb744d00986419a5e0d28e6",
+   "blocks": {
+    "heading": 8,
+    "paragraph": 15,
+    "list_item": 3
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 4,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-7-03-f04-calendar": {
+   "format": "html",
+   "kind": "calendar",
+   "lang": "en",
+   "chars": 1846,
+   "content_hash": "05629c53dde7b272d295beada10dba390689cc8c3ea93bd83e1ade99c96222a8",
+   "blocks": {
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-7-03-f04-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1260,
+   "content_hash": "bfea4b88df050ceeaef54f823d265b8df37ae9a1d0cbbaec1498dbffcf314608",
+   "blocks": {
+    "heading": 7,
+    "paragraph": 3,
+    "list_item": 12
+   },
+   "dropped": {
+    "html_chrome_tag": 25,
+    "html_chrome_class": 8,
+    "repeated_section": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-7-03-f04-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 1406,
+   "content_hash": "d688199a4f8416414db9876a687f79fa073f61ad59e8ed41ce1caaedd155cac3",
+   "blocks": {
+    "heading": 4,
+    "paragraph": 7,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-cms-595-s24-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1490,
+   "content_hash": "6edc5f98bb38ab3a5aa3fa8f366e42c29836b6ad9e6039b4ac80edf7c1a70931",
+   "blocks": {
+    "heading": 7,
+    "paragraph": 3,
+    "list_item": 6
+   },
+   "dropped": {
+    "html_chrome_tag": 25,
+    "html_chrome_class": 8,
+    "repeated_section": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-cms-595-s24-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 5337,
+   "content_hash": "d85e2e9f1adf0fb6abff23c60b0c0d03d5aa4fadd544b31d2f46b09be5cd7287",
+   "blocks": {
+    "heading": 6,
+    "paragraph": 15,
+    "list_item": 11
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 6,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 4,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-pe-550-iap07-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1811,
+   "content_hash": "dd19646adeb633871f95d210e34bb20f41fb119957f7953d5e0833ba66524f73",
+   "blocks": {
+    "heading": 8,
+    "paragraph": 6,
+    "list_item": 7
+   },
+   "dropped": {
+    "html_chrome_tag": 23,
+    "html_chrome_class": 5,
+    "repeated_section": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-pe-550-iap07-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 3355,
+   "content_hash": "bbb015f15ed04dee0f51f56b7944cfc2fbc24cb2b6b5fb9cefdd0b3b0aaa7b5f",
+   "blocks": {
+    "heading": 7,
+    "paragraph": 12,
+    "list_item": 31,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 3,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-pe-550-s09-calendar": {
+   "format": "html",
+   "kind": "calendar",
+   "lang": "en",
+   "chars": 559,
+   "content_hash": "460486d043a98491bd01bbacbff9ae349b0eb0e8060f4f7b4fdf21121dda6014",
+   "blocks": {
+    "paragraph": 1,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 1,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-pe-550-s09-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1795,
+   "content_hash": "ddda3b4159829b66921561cd0e9dbfa7c1f7797e7401436f280337a13e7d890d",
+   "blocks": {
+    "heading": 8,
+    "paragraph": 6,
+    "list_item": 7
+   },
+   "dropped": {
+    "html_chrome_tag": 23,
+    "html_chrome_class": 5,
+    "repeated_section": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 1,
+   "duplicate_chunks_structure": 1,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-pe-550-s09-syllabus": {
+   "format": "html",
+   "kind": "syllabus",
+   "lang": "en",
+   "chars": 2931,
+   "content_hash": "9c0245e48db46c7225ad3f90b40168a7596dcb09683eefc6cdddc2801c364f02",
+   "blocks": {
+    "heading": 6,
+    "paragraph": 14,
+    "list_item": 22
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "html-res-11-003-s25-course-home": {
+   "format": "html",
+   "kind": "course_home",
+   "lang": "en",
+   "chars": 1276,
+   "content_hash": "75c91dc5fee5bfba9162496faea231e2f4e782ae60c73e307e633fa899630c20",
+   "blocks": {
+    "heading": 7,
+    "paragraph": 6,
+    "list_item": 16
+   },
+   "dropped": {
+    "html_chrome_tag": 31,
+    "html_chrome_class": 6,
+    "repeated_section": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "docx-zen-13370817": {
+   "format": "docx",
+   "kind": "lecture_text",
+   "lang": "uk",
+   "chars": 21896,
+   "content_hash": "5faa7b08c041a3fb1ab2872d3d84c5d823bba5119ce2a8d3de181138fea8733e",
+   "blocks": {
+    "paragraph": 42
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 18,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 15,
+   "duplicate_chunks_fixed": 0
+  },
+  "docx-zen-13952149": {
+   "format": "docx",
+   "kind": "lecture_text",
+   "lang": "uk",
+   "chars": 15787,
+   "content_hash": "4137c5c6921c584b501567746e7c01e9374c8273d9bb0a9249d61849f3931225",
+   "blocks": {
+    "paragraph": 40
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 12,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 11,
+   "duplicate_chunks_fixed": 0
+  },
+  "docx-zen-14171838": {
+   "format": "docx",
+   "kind": "lecture_text",
+   "lang": "uk",
+   "chars": 19273,
+   "content_hash": "954ea11afe9c6ad62ea3c9e205322a88304ef6065ab26ae941b1bcba5d5dabf4",
+   "blocks": {
+    "heading": 3,
+    "paragraph": 46
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 15,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 14,
+   "duplicate_chunks_fixed": 0
+  },
+  "docx-zen-15370436-1": {
+   "format": "docx",
+   "kind": "workbook",
+   "lang": "en",
+   "chars": 16085,
+   "content_hash": "6570976d42e0dfc38b77f9c2e2af3d44e93a2fe8999e9c52088c23a68b670d28",
+   "blocks": {
+    "heading": 29,
+    "paragraph": 84,
+    "table": 10,
+    "list_item": 11
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 17,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 12,
+   "duplicate_chunks_fixed": 0
+  },
+  "docx-zen-15370436-2": {
+   "format": "docx",
+   "kind": "workbook",
+   "lang": "en",
+   "chars": 16064,
+   "content_hash": "266d6fab26c3fca9e69977842569ea533309ef513d6e6791dc42f2670eb42c79",
+   "blocks": {
+    "heading": 29,
+    "paragraph": 84,
+    "table": 10,
+    "list_item": 11
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "drop_near",
+    "other": "docx-zen-15370436-1",
+    "jaccard": 0.991,
+    "containment": 0.996
+   },
+   "chunks_structure": 0,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 0,
+   "duplicate_chunks_fixed": 0
+  },
+  "docx-zen-20835946": {
+   "format": "docx",
+   "kind": "lecture_notes",
+   "lang": "en",
+   "chars": 15946,
+   "content_hash": "02b8cde19a3e294cc5acdfdc27e1a42c4bea6fa58a69a51bd3c95b70876f8437",
+   "blocks": {
+    "heading": 10,
+    "paragraph": 26,
+    "list_item": 5
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 13,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 11,
+   "duplicate_chunks_fixed": 0
+  },
+  "docx-zen-22272798": {
+   "format": "docx",
+   "kind": "lecture_notes",
+   "lang": "uk",
+   "chars": 150686,
+   "content_hash": "8402c0d00b2b2dff9bdf164554628a3a4b0e708a8ea110bb19a2b941920d9171",
+   "blocks": {
+    "heading": 150,
+    "paragraph": 304,
+    "table": 73,
+    "list_item": 67
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 159,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 118,
+   "duplicate_chunks_fixed": 0
+  },
+  "docx-zen-3366923": {
+   "format": "docx",
+   "kind": "schedule",
+   "lang": "en",
+   "chars": 22864,
+   "content_hash": "8c4acd9b70d3676b4413bad561a8f2e2fed7894cbef4abd7494d6a55d604962c",
+   "blocks": {
+    "heading": 1,
+    "paragraph": 1,
+    "table": 1
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 22,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 20,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mit12_010_f24_lec01": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 3956,
+   "content_hash": "b20b03d07de20e8a6914d15722845706989d49e3bf89151651b27cb5fb4e3225",
+   "blocks": {
+    "heading": 8,
+    "list_item": 47,
+    "paragraph": 4
+   },
+   "dropped": {
+    "slide_footer_number_date": 21,
+    "boilerplate": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 5,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mit12_010_f24_lec02": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 8119,
+   "content_hash": "2131a00060ac4df7fb6f55b3e81696925860509cf886f50e882b2500bb3942f7",
+   "blocks": {
+    "heading": 20,
+    "list_item": 100,
+    "paragraph": 22,
+    "table": 2
+   },
+   "dropped": {
+    "slide_footer_number_date": 57,
+    "boilerplate": 8,
+    "diagram_label": 1
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 12,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 7,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mit12_010_f24_lec05": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 11449,
+   "content_hash": "9b2fc6802d678186a2048c2d96fee6a2d3d84b47452d56040ad35286b41841cd",
+   "blocks": {
+    "heading": 26,
+    "list_item": 134,
+    "paragraph": 7
+   },
+   "dropped": {
+    "slide_footer_number_date": 78,
+    "boilerplate": 2
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 14,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 9,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mit12_010_f24_lec10": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 2303,
+   "content_hash": "058b9f042b038ea10529ccd080d66f1653f09358f203a8830a6ba8557597558f",
+   "blocks": {
+    "heading": 16,
+    "paragraph": 11,
+    "list_item": 33
+   },
+   "dropped": {
+    "slide_footer_number_date": 45,
+    "diagram_label": 3,
+    "boilerplate": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 2,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mit18_404f20_lec1": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 2257,
+   "content_hash": "8701f5a0c7b2e0279abe8d7fc6c90c5bcc3ded13c801c10e146df2148e795518",
+   "blocks": {
+    "heading": 14,
+    "list_item": 42,
+    "paragraph": 9
+   },
+   "dropped": {
+    "boilerplate": 29,
+    "diagram_label": 2
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 3,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mit18_404f20_lec12": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 625,
+   "content_hash": "5a1bea5955c664d3034cbcac63d9357823a2857d7ec03637ce9777799d40c590",
+   "blocks": {
+    "heading": 13,
+    "table": 1,
+    "paragraph": 12,
+    "list_item": 1
+   },
+   "dropped": {
+    "boilerplate": 21,
+    "diagram_label": 82
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 1,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mit18_404f20_lec2": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 2249,
+   "content_hash": "44b4731bfa6f574b0461dc81ffa9c0d50abbf1c7a227d33c6cbe83139656ac16",
+   "blocks": {
+    "heading": 12,
+    "list_item": 32,
+    "paragraph": 16
+   },
+   "dropped": {
+    "boilerplate": 14,
+    "diagram_label": 16
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 4,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mit18_404f20_lec3": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 1431,
+   "content_hash": "1b1592ac6939a2cfc33b6f215349eba49a26710e037161c933428d74787e798b",
+   "blocks": {
+    "heading": 13,
+    "paragraph": 11,
+    "list_item": 19
+   },
+   "dropped": {
+    "boilerplate": 16,
+    "diagram_label": 12
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 1,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mit18_404f20_lec4": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 2197,
+   "content_hash": "4903ef09c14d1a3fd9cd43714f692edba9165bbb62670f194501f6a08878fc0e",
+   "blocks": {
+    "heading": 13,
+    "list_item": 56,
+    "paragraph": 24,
+    "table": 1
+   },
+   "dropped": {
+    "boilerplate": 24,
+    "diagram_label": 62
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 3,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 2,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mit18_404f20_lec8": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 679,
+   "content_hash": "ca94d45eb4c5cebdcd19fcc7c61e231beca79f52c6708bfa12bf89814fa61841",
+   "blocks": {
+    "heading": 12,
+    "paragraph": 10,
+    "list_item": 8
+   },
+   "dropped": {
+    "boilerplate": 22,
+    "diagram_label": 7
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 1,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 1,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mit6_007s11_lec01": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 7033,
+   "content_hash": "c4a1c7ceffe2a58081a0c6d3a1a05ba4b5e551276c2c946a34430fda5818a127",
+   "blocks": {
+    "heading": 31,
+    "list_item": 64,
+    "paragraph": 62,
+    "table": 2
+   },
+   "dropped": {
+    "diagram_label": 5,
+    "boilerplate": 6
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 7,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 6,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mit6_007s11_lec02": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 13995,
+   "content_hash": "e12f71384120394abe6911e4589926d1d41a92f00cc4e4a408afda0a45a8d33e",
+   "blocks": {
+    "heading": 28,
+    "list_item": 106,
+    "paragraph": 44
+   },
+   "dropped": {
+    "boilerplate": 4,
+    "diagram_label": 2
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 17,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 10,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mitcms_595_s24_ses1": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 7393,
+   "content_hash": "2e4633f437f40f552b1efdfef3636d05cc65c719362d7bfda1415bd09b549ef0",
+   "blocks": {
+    "heading": 23,
+    "list_item": 59,
+    "paragraph": 24
+   },
+   "dropped": {
+    "boilerplate": 7
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 10,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 6,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mitcms_595_s24_ses2": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 3653,
+   "content_hash": "80becd5c9f3151b2ad8fcd1623e2b5074b5c35f3aaaa17a687f38915b9c3616b",
+   "blocks": {
+    "heading": 15,
+    "paragraph": 9,
+    "list_item": 37
+   },
+   "dropped": {
+    "boilerplate": 10
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 4,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 3,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mitcms_595_s24_ses3": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 4425,
+   "content_hash": "7251a45eece3b9a1872512b4e5817c0f24b67516eb2f107bbad54cb72fd69312",
+   "blocks": {
+    "heading": 27,
+    "paragraph": 19,
+    "list_item": 32
+   },
+   "dropped": {
+    "boilerplate": 17
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 5,
+   "duplicate_chunks_structure": 1,
+   "chunks_fixed": 4,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mitres_11_003_s25_engineering_climate_justice": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 10620,
+   "content_hash": "5c88fcb72020ca5dd45140039d1687f7a451e3b0892a6cfb2597c09865c4d6ff",
+   "blocks": {
+    "heading": 24,
+    "paragraph": 69,
+    "list_item": 55
+   },
+   "dropped": {
+    "boilerplate": 9
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 10,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 7,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mitres_11_003_s25_engineering_climate_justice2": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 14586,
+   "content_hash": "ac34cf4e7fa1bc780072cfd01bd296a6e0c749119b8f42c2e20c05e4e074f858",
+   "blocks": {
+    "heading": 27,
+    "paragraph": 78,
+    "list_item": 89
+   },
+   "dropped": {
+    "boilerplate": 11
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 17,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 11,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mitres_11_003_s25_mapping_environmental_justice": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 12157,
+   "content_hash": "ca7544eb6a033808faf41982fb5a44e0f1e24005967adaacebf4c1f8e82d89cd",
+   "blocks": {
+    "heading": 27,
+    "paragraph": 89,
+    "list_item": 78
+   },
+   "dropped": {
+    "boilerplate": 13,
+    "diagram_label": 1
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 13,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 9,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-ocw-mitres_11_003_s25_mapping_environmental_justice2": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 27399,
+   "content_hash": "cd115cc90e2b7799865f51e129c0649f378241cde5af922f1dd1eafe850d605a",
+   "blocks": {
+    "heading": 29,
+    "paragraph": 112,
+    "list_item": 190,
+    "table": 2
+   },
+   "dropped": {
+    "diagram_label": 16,
+    "boilerplate": 7
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 21,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 20,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-zen-19944360-1": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 11569,
+   "content_hash": "1cd3380e638cbdb6969d63cddb4fad897416e81f3f4e94d5b2a3a956b33249cf",
+   "blocks": {
+    "heading": 21,
+    "paragraph": 77,
+    "list_item": 125
+   },
+   "dropped": {
+    "slide_footer_number_date": 57
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 11,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 8,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-zen-19944360-2": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "en",
+   "chars": 10525,
+   "content_hash": "f5c3f077af88287e3feb538c86838154ffd02701b7bbea25fcb82f2dda1f471e",
+   "blocks": {
+    "heading": 19,
+    "paragraph": 58,
+    "list_item": 94,
+    "table": 1
+   },
+   "dropped": {
+    "slide_footer_number_date": 51,
+    "diagram_label": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 12,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 8,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-zen-21074760": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "uk",
+   "chars": 15111,
+   "content_hash": "983723a8f2f950a1a74e949fc1ebcf5415b870882b062309c145726b360e7ed3",
+   "blocks": {
+    "heading": 55,
+    "list_item": 97,
+    "paragraph": 72
+   },
+   "dropped": {
+    "diagram_label": 3
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 13,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 11,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-zen-21157343": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "uk",
+   "chars": 21685,
+   "content_hash": "80bd735e6e595fd0fe928decbaff92da641d0240f917c2fd554556a8f383b3e0",
+   "blocks": {
+    "heading": 35,
+    "list_item": 131,
+    "paragraph": 94
+   },
+   "dropped": {
+    "diagram_label": 5,
+    "boilerplate": 17
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 22,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 16,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-zen-21332548": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "uk",
+   "chars": 18852,
+   "content_hash": "3ee98184e4b15a26675966674dff384e269d7c48303efd92404cc37ed1811fdc",
+   "blocks": {
+    "heading": 40,
+    "list_item": 152,
+    "paragraph": 105,
+    "table": 1
+   },
+   "dropped": {
+    "boilerplate": 6,
+    "diagram_label": 2
+   },
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 19,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 14,
+   "duplicate_chunks_fixed": 0
+  },
+  "pptx-zen-21952908": {
+   "format": "pptx",
+   "kind": "lecture_slides",
+   "lang": "uk",
+   "chars": 28478,
+   "content_hash": "13b75f14293f71fd6783b7a5c7158914efe23ec1222e00533e6fe473eb538682",
+   "blocks": {
+    "heading": 35,
+    "list_item": 49,
+    "paragraph": 100
+   },
+   "dropped": {},
+   "dedup": {
+    "action": "keep"
+   },
+   "chunks_structure": 24,
+   "duplicate_chunks_structure": 0,
+   "chunks_fixed": 20,
+   "duplicate_chunks_fixed": 0
+  }
+ }
+}

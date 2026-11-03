@@ -48,7 +48,11 @@ src/coursedeck/
   eval/               metrics against the golden set
   golden/             golden-set store and review UI
   dataset/            manifests, PDF inspection, fetching by manifest
+  rag/                RAG corpus manifest, parsers (PDF/HTML/DOCX/PPTX), cleaning,
+                      deduplication, chunking, ingestion CLI
 data/manifests/       dataset manifests (CSV) and the golden-set list
+data/rag/             RAG corpus manifest, raw HTML/DOCX, chunks.jsonl, ingest report
+results/rag/          chunking comparison (structure vs fixed)
 data/pdfs/            core documents (tier 50, committed)
 data/golden/          hand-labelled golden set (+ annotation guide)
 results/runs/         model outputs per experiment (config, per-document JSON, summary)
@@ -144,6 +148,108 @@ ones), per field group:
 
 Results are also broken down by stratum (Ukrainian, English scans, slides, notes) to show
 where page images help.
+
+## RAG corpus and chunking
+
+```bash
+make ingest        # = python -m coursedeck.rag.corpus fetch && python -m coursedeck.rag.ingest
+```
+
+### Corpus
+
+131 documents in four formats, centred on courses so that one question can need a lecture,
+its slides and the course syllabus (`data/rag/corpus.csv`, built by
+`scripts/build_rag_corpus.py`):
+
+| Format | Docs | What | Source |
+|---|---|---|---|
+| PDF | 43 (32 EN, 11 UK) | lecture notes and slides with a text layer (tier 50 above) | OCW, Zenodo |
+| HTML | 55 | course home, syllabus and calendar pages of 21 OCW course runs | OCW |
+| PPTX | 25 (21 EN, 4 UK) | lecture slides (18.404J, 12.010, CMS.595, 6.007, RES.11-003, Zenodo) | OCW, Zenodo |
+| DOCX | 8 (4 EN, 4 UK) | lecture texts, a workbook, a course schedule | Zenodo |
+
+- Older runs of some courses (12.010 Fall 2011 vs Fall 2024, 5.13 Fall 2003 vs Fall 2006,
+  PE.550 IAP 2007 vs Spring 2009) and "X" vs "X 2.0" decks of RES.11-003 are kept on
+  purpose: they are the "similar document / outdated version" distractors for the eval
+  set. Chunks carry `version`, `year` and `is_latest`, so retrieval can filter or prefer
+  the current run.
+- Scanned PDFs (7 of the 50) are left out: they have no text layer to index.
+- HTML and DOCX files are committed in `data/rag/raw/`; PPTX decks (~100 MB) are
+  downloaded by `python -m coursedeck.rag.corpus fetch` and checked against the manifest's
+  SHA-256. PDFs are the committed `data/pdfs/`.
+
+### Ingestion (`src/coursedeck/rag/`)
+
+1. **Parse to structure** (`parse.py`): every format becomes a list of blocks (heading with
+   level, paragraph, list item with depth, table as Markdown) with page/slide numbers.
+   - PDF (PyMuPDF): heading levels from font sizes relative to the body text, bold
+     stand-alone lines and "Lecture 3 / Тема 1" patterns; bullets and numbered items;
+     ruled tables via `find_tables`.
+   - HTML (BeautifulSoup): only the content root (`<main>`), `h1–h6`, `p`, nested lists,
+     tables with header rows.
+   - DOCX (python-docx): heading styles, list numbering, tables in document order.
+   - PPTX (python-pptx): one section per slide (title placeholder, else the first short
+     line), bullet levels, tables, speaker notes.
+2. **Clean** (`clean.py`): Unicode NFC, ligatures, soft hyphens, zero-width and
+   non-breaking spaces, CP1252 mojibake; end-of-line hyphenation undone ("transfor-" +
+   "mation"), paragraphs re-joined across page breaks; running headers/footers (lines in
+   the page margins repeated on ≥ 50% of pages), page numbers and the OCW license page
+   removed; HTML navigation, cookie banners, icons and duplicated mobile/desktop blocks
+   removed; slide footers, numbers, dates and 1–2 character diagram labels removed. Counts
+   per document are in `data/rag/ingest_report.json`.
+3. **Deduplicate** (`dedup.py`): documents by a SHA-256 of the normalized text (same
+   content in another file or format) and by word 5-gram shingles (Jaccard ≥ 0.8 or
+   containment ≥ 0.9). Near duplicates of the same course run are copies: the more complete
+   one is kept (here: a workbook and the same workbook with answers, Jaccard 0.99). Near
+   duplicates from different runs are kept and linked as versions. Chunks are deduplicated
+   by the hash of their normalized text (repeated title slides, cover pages).
+4. **Chunk** (`chunk.py`) and write `data/rag/chunks.jsonl` (1121 chunks).
+
+Each chunk carries `chunk_id`, `doc_id`, `text`, `context` (course | document | section,
+prepended for embedding and shown with citations), `section` (heading path), `pages`
+(PDF pages or slide numbers), `n_tokens`, `format`, `kind`, `lang`, `source`, `course_id`,
+`course_title`, `title`, `version`, `year`, `is_latest`, `url` and `doc_sha256`.
+
+### Chunking strategy and why
+
+**Structure-aware chunks of at most 400 tokens**: a chunk never crosses a section
+boundary, except that sections smaller than 100 tokens are merged with their siblings
+(consecutive slides, short subsections), each keeping its `## heading` line. A block is
+split only when it alone exceeds 400 tokens: paragraphs at sentence boundaries, tables by
+rows with the header row repeated in every part.
+
+- **Why by structure.** Lecture material is already organized into units that answer one
+  question: a definition under a subsection, a slide, a syllabus section ("Grading",
+  "Prerequisites"), a calendar table. A chunk that follows them can be cited by document
+  and section, which the RAG step needs for its citations.
+- **Why 400 tokens.** Measured with the bge-m3 tokenizer (the planned embedding model,
+  multilingual EN/UK), the median non-empty section is 78 tokens, and 90% of sections fit
+  in 400 tokens (76% in 200). So 400 keeps almost every section whole. It also keeps chunks
+  focused enough for embedding similarity, and 6–8 retrieved chunks fit a ~3K-token
+  context budget.
+- **Why merge below 100 tokens.** Slides and short syllabus sections alone are too short
+  to embed well ("Outline", a title slide). Without merging, 40% of chunks are under
+  50 tokens; with it, 4%.
+- **Tokens, not characters.** In this tokenizer Ukrainian text takes 2.0 tokens per word
+  and English 1.6, so a character or word limit would give the two languages different
+  real chunk sizes.
+
+**Compared with fixed-size chunks** (400 tokens, 50-token overlap) on the whole corpus
+(details and side-by-side examples: [results/rag/chunking.md](results/rag/chunking.md)):
+
+| strategy | chunks | tokens p50 | cut mid-block | mixed sections | table rows without header |
+|---|---|---|---|---|---|
+| structure | 1128 | 272 | 2% | 32%¹ | 0% |
+| fixed | 855 | 400 | 95% | 63% | 9% |
+
+¹ structure chunks mix sections only when merging small siblings, and they keep each
+heading as a line; fixed chunks mix arbitrary text without markers, so for them the
+`section` label is only partly right.
+
+Fixed windows start and end mid-sentence in 95% of chunks. They split syllabus and
+calendar tables so that 21% of HTML chunks hold rows without the header, and 91% of slide
+chunks span several slides. Whether this also lowers retrieval quality is measured in step 2
+(recall@k on both chunk files; `data/rag/chunks_fixed.jsonl` is kept for that).
 
 ## Attribution
 
